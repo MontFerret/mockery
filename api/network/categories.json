@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "resource": "categories",
+  "items": [
+    {
+      "id": "laptops",
+      "title": "Laptops",
+      "count": 1
+    },
+    {
+      "id": "accessories",
+      "title": "Accessories",
+      "count": 1
+    },
+    {
+      "id": "networking",
+      "title": "Networking",
+      "count": 1
+    }
+  ]
+}

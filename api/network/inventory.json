@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "resource": "inventory",
+  "items": [
+    {
+      "productId": "net-product-001",
+      "quantity": 12,
+      "warehouse": "primary"
+    },
+    {
+      "productId": "net-product-002",
+      "quantity": 7,
+      "warehouse": "primary"
+    },
+    {
+      "productId": "net-product-003",
+      "quantity": 0,
+      "warehouse": "secondary"
+    }
+  ]
+}

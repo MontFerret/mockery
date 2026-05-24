@@ -1,156 +1,33 @@
 {
   "ok": true,
+  "resource": "products",
   "items": [
     {
-      "id": "laptop-pro-14",
-      "slug": "laptop-pro-14",
-      "sku": "MCK-LAP-001",
-      "title": "Laptop Pro 14",
-      "brand": "Northwind",
+      "id": "net-product-001",
+      "sku": "NET-PRD-001",
+      "title": "Network Laptop Pro 14",
       "category": "laptops",
       "price": 1299,
-      "oldPrice": 1499,
       "currency": "USD",
-      "rating": 4.7,
-      "reviewCount": 128,
-      "inStock": true,
-      "stockCount": 14,
-      "description": "A lightweight laptop for developers and creators.",
-      "tags": [
-        "portable",
-        "developer",
-        "work",
-        "classic"
-      ],
-      "specs": {
-        "Memory": "16 GB",
-        "Storage": "512 GB SSD",
-        "Display": "14 inch"
-      },
-      "image": "/assets/images/products/laptop-pro-14.svg",
-      "url": "/scenarios/ecommerce/products/laptop-pro-14/"
+      "inStock": true
     },
     {
-      "id": "laptop-pro-14-refurbished",
-      "slug": "laptop-pro-14-refurbished",
-      "sku": "MCK-LAP-002",
-      "title": "Laptop Pro 14 Refurbished",
-      "brand": "Contoso",
-      "category": "laptops",
-      "price": 990.97,
-      "oldPrice": null,
+      "id": "net-product-002",
+      "sku": "NET-PRD-002",
+      "title": "Network Dock Station",
+      "category": "accessories",
+      "price": 219,
       "currency": "USD",
-      "rating": 3.6,
-      "reviewCount": 40,
-      "inStock": true,
-      "stockCount": 17,
-      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 2 in laptops uses fake but stable data.",
-      "tags": [
-        "portable",
-        "developer",
-        "work",
-        "featured"
-      ],
-      "specs": {
-        "Memory": "32 GB",
-        "Storage": "1 TB SSD",
-        "Display": "16 inch",
-        "Processor": "8-core",
-        "SKUFamily": "LAP"
-      },
-      "image": "/assets/images/products/laptop-pro-14-refurbished.svg",
-      "url": "/scenarios/ecommerce/products/laptop-pro-14-refurbished/"
+      "inStock": true
     },
     {
-      "id": "laptop-air-13",
-      "slug": "laptop-air-13",
-      "sku": "MCK-LAP-003",
-      "title": "Laptop Air 13",
-      "brand": "Fabrikam",
-      "category": "laptops",
-      "price": 1036.46,
-      "oldPrice": 1236.46,
+      "id": "net-product-003",
+      "sku": "NET-PRD-003",
+      "title": "Network Travel Router",
+      "category": "networking",
+      "price": 89,
       "currency": "USD",
-      "rating": null,
-      "reviewCount": 0,
-      "inStock": true,
-      "stockCount": 24,
-      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 3 in laptops uses fake but stable data.",
-      "tags": [
-        "portable",
-        "developer",
-        "work",
-        "classic"
-      ],
-      "specs": {
-        "Memory": "8 GB",
-        "Storage": "256 GB SSD",
-        "Weight": "1.3 kg",
-        "SKUFamily": "LAP"
-      },
-      "image": "/assets/images/products/laptop-air-13.svg",
-      "url": "/scenarios/ecommerce/products/laptop-air-13/"
-    },
-    {
-      "id": "laptop-studio-16",
-      "slug": "laptop-studio-16",
-      "sku": "MCK-LAP-004",
-      "title": "Laptop Studio 16",
-      "brand": "Blue Yonder",
-      "category": "laptops",
-      "price": 1081.95,
-      "oldPrice": null,
-      "currency": "USD",
-      "rating": 3.8,
-      "reviewCount": 62,
-      "inStock": true,
-      "stockCount": 31,
-      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 4 in laptops uses fake but stable data.",
-      "tags": [
-        "portable",
-        "developer",
-        "work",
-        "featured"
-      ],
-      "specs": {
-        "Memory": "16 GB",
-        "Storage": "512 GB SSD",
-        "Display": "14 inch",
-        "SKUFamily": "LAP"
-      },
-      "image": "/assets/images/products/laptop-studio-16.svg",
-      "url": "/scenarios/ecommerce/products/laptop-studio-16/"
-    },
-    {
-      "id": "laptop-mini-11",
-      "slug": "laptop-mini-11",
-      "sku": "MCK-LAP-005",
-      "title": "Laptop Mini 11",
-      "brand": "Tailspin",
-      "category": "laptops",
-      "price": 1084.99,
-      "oldPrice": null,
-      "currency": "USD",
-      "rating": 3.9,
-      "reviewCount": 73,
-      "inStock": true,
-      "stockCount": 38,
-      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 5 in laptops uses fake but stable data.",
-      "tags": [
-        "portable",
-        "developer",
-        "work",
-        "classic"
-      ],
-      "specs": {
-        "Memory": "32 GB",
-        "Storage": "1 TB SSD",
-        "Display": "16 inch",
-        "Processor": "8-core",
-        "SKUFamily": "LAP"
-      },
-      "image": "/assets/images/products/laptop-mini-11.svg",
-      "url": "/scenarios/ecommerce/products/laptop-mini-11/"
+      "inStock": false
     }
   ]
 }

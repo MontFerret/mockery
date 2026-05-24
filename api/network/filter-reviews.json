@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "resource": "reviews",
+  "filterKey": "filter-reviews",
+  "items": [
+    {
+      "id": "net-review-001",
+      "productId": "net-product-001",
+      "author": "Alice Reed",
+      "stars": 5,
+      "body": "Loaded through the network scenario."
+    },
+    {
+      "id": "net-review-002",
+      "productId": "net-product-002",
+      "author": "Jordan Lee",
+      "stars": 4,
+      "body": "Useful fixture data for request observation."
+    }
+  ]
+}

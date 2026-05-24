@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "resource": "pricing",
+  "items": [
+    {
+      "productId": "net-product-001",
+      "price": 1299,
+      "currency": "USD",
+      "discountCode": null
+    },
+    {
+      "productId": "net-product-002",
+      "price": 219,
+      "currency": "USD",
+      "discountCode": "NETWORK-BUNDLE"
+    },
+    {
+      "productId": "net-product-003",
+      "price": 89,
+      "currency": "USD",
+      "discountCode": null
+    }
+  ]
+}

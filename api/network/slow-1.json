@@ -1,4 +1,17 @@
 {
   "ok": true,
-  "step": 1
+  "resource": "slow-1",
+  "step": 1,
+  "message": "First delayed response complete.",
+  "items": [
+    {
+      "id": "net-product-001",
+      "sku": "NET-PRD-001",
+      "title": "Network Laptop Pro 14",
+      "category": "laptops",
+      "price": 1299,
+      "currency": "USD",
+      "inStock": true
+    }
+  ]
 }

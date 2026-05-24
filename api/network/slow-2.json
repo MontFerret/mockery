@@ -1,4 +1,17 @@
 {
   "ok": true,
-  "step": 2
+  "resource": "slow-2",
+  "step": 2,
+  "message": "Second delayed response complete.",
+  "items": [
+    {
+      "id": "net-product-002",
+      "sku": "NET-PRD-002",
+      "title": "Network Dock Station",
+      "category": "accessories",
+      "price": 219,
+      "currency": "USD",
+      "inStock": true
+    }
+  ]
 }

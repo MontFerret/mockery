@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "resource": "settings",
+  "settings": {
+    "locale": "en-US",
+    "currency": "USD",
+    "notifications": false
+  },
+  "items": []
+}

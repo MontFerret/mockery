@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "resource": "simulated-error",
+  "error": {
+    "code": "MOCK_UPSTREAM_FAILURE",
+    "message": "Simulated upstream failure."
+  },
+  "items": []
+}

@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "resource": "analytics",
+  "filterKey": "filter-analytics",
+  "items": [
+    {
+      "id": "net-analytics-001",
+      "event": "scenario-view",
+      "value": 1
+    }
+  ]
+}

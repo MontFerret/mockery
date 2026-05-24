@@ -1,4 +1,17 @@
 {
   "ok": true,
-  "step": 3
+  "resource": "slow-3",
+  "step": 3,
+  "message": "Third delayed response complete.",
+  "items": [
+    {
+      "id": "net-product-003",
+      "sku": "NET-PRD-003",
+      "title": "Network Travel Router",
+      "category": "networking",
+      "price": 89,
+      "currency": "USD",
+      "inStock": false
+    }
+  ]
 }

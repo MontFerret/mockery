@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "resource": "mixed-products",
+  "items": [
+    {
+      "id": "net-product-001",
+      "sku": "NET-PRD-001",
+      "title": "Network Laptop Pro 14",
+      "category": "laptops",
+      "price": 1299,
+      "currency": "USD",
+      "inStock": true
+    },
+    {
+      "id": "net-product-002",
+      "sku": "NET-PRD-002",
+      "title": "Network Dock Station",
+      "category": "accessories",
+      "price": 219,
+      "currency": "USD",
+      "inStock": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "resource": "profile",
+  "profile": {
+    "id": "net-profile-001",
+    "name": "Demo Network Shopper",
+    "tier": "test"
+  },
+  "items": []
+}

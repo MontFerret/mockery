@@ -1,5 +1,0 @@
-{
-  "ok": false,
-  "error": "Simulated upstream failure",
-  "code": "MOCK_UPSTREAM_FAILURE"
-}

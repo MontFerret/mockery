@@ -1,30 +1,24 @@
 {
   "ok": true,
-  "recommendations": [
+  "resource": "recommendations",
+  "items": [
     {
-      "id": "laptop-developer-workstation-with-ultra-wide-dock-bundle",
-      "title": "Laptop Developer Workstation with Ultra-Wide Dock Bundle",
-      "url": "/scenarios/ecommerce/products/laptop-developer-workstation-with-ultra-wide-dock-bundle/"
+      "id": "net-rec-001",
+      "productId": "net-product-001",
+      "title": "Pair with Network Dock Station",
+      "rank": 1
     },
     {
-      "id": "laptop-pro-14-plus",
-      "title": "Laptop Pro 14 Plus",
-      "url": "/scenarios/ecommerce/products/laptop-pro-14-plus/"
+      "id": "net-rec-002",
+      "productId": "net-product-002",
+      "title": "Add a spare USB-C cable",
+      "rank": 2
     },
     {
-      "id": "laptop-flex-2-in-1",
-      "title": "Laptop Flex 2-in-1",
-      "url": "/scenarios/ecommerce/products/laptop-flex-2-in-1/"
-    },
-    {
-      "id": "laptop-juniper-09-series",
-      "title": "Laptop Juniper 09 Series",
-      "url": "/scenarios/ecommerce/products/laptop-juniper-09-series/"
-    },
-    {
-      "id": "laptop-keystone-10-edition",
-      "title": "Laptop Keystone 10 Edition",
-      "url": "/scenarios/ecommerce/products/laptop-keystone-10-edition/"
+      "id": "net-rec-003",
+      "productId": "net-product-003",
+      "title": "Review travel networking accessories",
+      "rank": 3
     }
   ]
 }
