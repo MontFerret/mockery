@@ -62,7 +62,8 @@ npm run preview
 ## Static deployment
 
 Mockery output is fully static and can be deployed as-is from `dist/` to any
-static host.
+static host. Generated output includes a GitHub Pages `CNAME` file for
+`mockery.montferret.dev`.
 
 The default build targets the domain root:
 

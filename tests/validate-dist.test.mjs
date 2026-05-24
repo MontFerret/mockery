@@ -39,6 +39,7 @@ const scenarioSlugs = [
 const productPageSize = 24;
 const categoryPageSize = 24;
 const dynamicProductPageSize = 12;
+const customDomain = 'mockery.montferret.dev';
 const expectedProductPageCount = Math.ceil(products.length / productPageSize);
 const expectedDynamicProductPageCount = Math.ceil(dynamicProducts.length / dynamicProductPageSize);
 
@@ -102,6 +103,7 @@ const requiredFiles = [
   'api/network/slow-1.json',
   'api/network/slow-2.json',
   'api/network/slow-3.json',
+  'CNAME',
   'feeds/products.json',
   'robots.txt',
   'sitemap.xml',
@@ -334,6 +336,8 @@ const validateOutput = async (outDir, basePath) => {
   for (const rel of requiredFiles) {
     await exists(path.join(outDir, rel));
   }
+
+  assert.equal((await fs.readFile(path.join(outDir, 'CNAME'), 'utf8')).trim(), customDomain);
 
   for (const product of products) {
     await exists(path.join(outDir, productPageFile(product)));
