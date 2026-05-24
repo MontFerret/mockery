@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "items": [
+    {
+      "id": "dyn-laptop-pro-14",
+      "slug": "dyn-laptop-pro-14",
+      "sku": "DYN-LAP-001",
+      "title": "Dynamic Laptop Pro 14",
+      "brand": "Northwind",
+      "category": "laptops",
+      "price": 1299,
+      "oldPrice": 1499,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 128,
+      "inStock": true,
+      "stockCount": 14,
+      "description": "A dynamically rendered laptop for testing browser extraction.",
+      "tags": [
+        "dynamic",
+        "portable",
+        "developer"
+      ],
+      "image": "/assets/images/products/dyn-laptop-pro-14.svg",
+      "url": "/scenarios/dynamic-products/#dyn-laptop-pro-14"
+    },
+    {
+      "id": "dyn-phone-x1",
+      "slug": "dyn-phone-x1",
+      "sku": "DYN-PHN-005",
+      "title": "Dynamic Phone X1",
+      "brand": "Tailspin",
+      "category": "phones",
+      "price": 799,
+      "oldPrice": 899,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 94,
+      "inStock": true,
+      "stockCount": 18,
+      "description": "A phone fixture rendered only after client-side JSON loading.",
+      "tags": [
+        "dynamic",
+        "mobile",
+        "featured"
+      ],
+      "image": "/assets/images/products/dyn-phone-x1.svg",
+      "url": "/scenarios/dynamic-products/#dyn-phone-x1"
+    },
+    {
+      "id": "dyn-tablet-studio-12",
+      "slug": "dyn-tablet-studio-12",
+      "sku": "DYN-TAB-009",
+      "title": "Dynamic Tablet Studio 12",
+      "brand": "Northwind",
+      "category": "tablets",
+      "price": 849,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviewCount": 61,
+      "inStock": true,
+      "stockCount": 16,
+      "description": "A tablet fixture for category filtering and rendering checks.",
+      "tags": [
+        "dynamic",
+        "tablet",
+        "creative"
+      ],
+      "image": "/assets/images/products/dyn-tablet-studio-12.svg",
+      "url": "/scenarios/dynamic-products/#dyn-tablet-studio-12"
+    },
+    {
+      "id": "dyn-camera-mirrorless",
+      "slug": "dyn-camera-mirrorless",
+      "sku": "DYN-CAM-017",
+      "title": "Dynamic Camera Mirrorless",
+      "brand": "Northwind",
+      "category": "cameras",
+      "price": 1199,
+      "oldPrice": 1399,
+      "currency": "USD",
+      "rating": 4.9,
+      "reviewCount": 112,
+      "inStock": true,
+      "stockCount": 7,
+      "description": "A camera fixture for high-rating sorting examples.",
+      "tags": [
+        "dynamic",
+        "camera",
+        "featured"
+      ],
+      "image": "/assets/images/products/dyn-camera-mirrorless.svg",
+      "url": "/scenarios/dynamic-products/#dyn-camera-mirrorless"
+    },
+    {
+      "id": "dyn-book-data-pipelines-scraping",
+      "slug": "dyn-book-data-pipelines-scraping",
+      "sku": "DYN-BOK-029",
+      "title": "Dynamic Book: Data Pipelines & Scraping + Testing",
+      "brand": "Tailspin",
+      "category": "books",
+      "price": 39.99,
+      "oldPrice": 49.99,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviewCount": 91,
+      "inStock": true,
+      "stockCount": 52,
+      "description": "A book fixture with punctuation and ampersand characters.",
+      "tags": [
+        "dynamic",
+        "book",
+        "scraping",
+        "testing"
+      ],
+      "image": "/assets/images/products/dyn-book-data-pipelines-scraping.svg",
+      "url": "/scenarios/dynamic-products/#dyn-book-data-pipelines-scraping"
+    },
+    {
+      "id": "dyn-sticker-pack",
+      "slug": "dyn-sticker-pack",
+      "sku": "DYN-ACC-036",
+      "title": "Dynamic Sticker Pack",
+      "brand": "Blue Yonder",
+      "category": "accessories",
+      "price": 4.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 200,
+      "description": "A final small accessory fixture with no reviews yet.",
+      "tags": [
+        "dynamic",
+        "accessory",
+        "sticker"
+      ],
+      "image": "/assets/images/products/dyn-sticker-pack.svg",
+      "url": "/scenarios/dynamic-products/#dyn-sticker-pack"
+    }
+  ]
+}

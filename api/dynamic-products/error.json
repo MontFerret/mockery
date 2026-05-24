@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "error": {
+    "code": "MOCK_DYNAMIC_PRODUCTS_FAILURE",
+    "message": "Simulated dynamic products failure."
+  },
+  "items": []
+}
