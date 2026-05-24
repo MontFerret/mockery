@@ -1,0 +1,14 @@
+{
+  "productId": "game-storage-tower",
+  "items": [
+    {
+      "id": "review-game-storage-tower-001",
+      "productId": "game-storage-tower",
+      "title": "Solid choice",
+      "author": "Alice Reed",
+      "date": "2026-02-10",
+      "stars": 3,
+      "body": "The metadata was easy to compare across the catalog."
+    }
+  ]
+}

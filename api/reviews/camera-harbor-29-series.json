@@ -1,0 +1,14 @@
+{
+  "productId": "camera-harbor-29-series",
+  "items": [
+    {
+      "id": "review-camera-harbor-29-series-001",
+      "productId": "camera-harbor-29-series",
+      "title": "Stable and predictable",
+      "author": "Priya Stone",
+      "date": "2026-04-20",
+      "stars": 4,
+      "body": "A good deterministic item for examples and tests."
+    }
+  ]
+}

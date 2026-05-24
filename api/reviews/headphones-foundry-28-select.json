@@ -1,0 +1,23 @@
+{
+  "productId": "headphones-foundry-28-select",
+  "items": [
+    {
+      "id": "review-headphones-foundry-28-select-001",
+      "productId": "headphones-foundry-28-select",
+      "title": "Useful for demos",
+      "author": "Leo Grant",
+      "date": "2026-03-25",
+      "stars": 3,
+      "body": "Worked exactly as expected in this fake storefront."
+    },
+    {
+      "id": "review-headphones-foundry-28-select-002",
+      "productId": "headphones-foundry-28-select",
+      "title": "Stable and predictable",
+      "author": "Alice Reed",
+      "date": "2026-04-10",
+      "stars": 4,
+      "body": "A good deterministic item for examples and tests."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "productId": "laptop-studio-16",
+  "items": [
+    {
+      "id": "review-laptop-studio-16-001",
+      "productId": "laptop-studio-16",
+      "title": "Stable and predictable",
+      "author": "Jon Bell",
+      "date": "2026-04-13",
+      "stars": 3,
+      "body": "A good deterministic item for examples and tests."
+    },
+    {
+      "id": "review-laptop-studio-16-002",
+      "productId": "laptop-studio-16",
+      "title": "Matched the description",
+      "author": "Sofia Chen",
+      "date": "2026-05-16",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

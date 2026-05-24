@@ -1,0 +1,14 @@
+{
+  "productId": "practical-web-scraping",
+  "items": [
+    {
+      "id": "review-practical-web-scraping-001",
+      "productId": "practical-web-scraping",
+      "title": "Great product",
+      "author": "Priya Stone",
+      "date": "2026-01-16",
+      "stars": 3,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

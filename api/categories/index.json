@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": "laptops",
+      "name": "Laptops",
+      "description": "Portable computers for work and entertainment.",
+      "count": 30,
+      "url": "/scenarios/ecommerce/categories/laptops/"
+    },
+    {
+      "id": "phones",
+      "name": "Phones",
+      "description": "Mobile devices with stable fake plans and accessories.",
+      "count": 30,
+      "url": "/scenarios/ecommerce/categories/phones/"
+    },
+    {
+      "id": "headphones",
+      "name": "Headphones",
+      "description": "Audio gear for travel, work, and gaming setups.",
+      "count": 30,
+      "url": "/scenarios/ecommerce/categories/headphones/"
+    },
+    {
+      "id": "cameras",
+      "name": "Cameras",
+      "description": "Photo and video equipment with varied specs.",
+      "count": 30,
+      "url": "/scenarios/ecommerce/categories/cameras/"
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "description": "Countertop appliances and cooking tools.",
+      "count": 30,
+      "url": "/scenarios/ecommerce/categories/kitchen/"
+    },
+    {
+      "id": "books",
+      "name": "Books",
+      "description": "Fictional books for metadata and text extraction examples.",
+      "count": 30,
+      "url": "/scenarios/ecommerce/categories/books/"
+    },
+    {
+      "id": "office",
+      "name": "Office",
+      "description": "Desk accessories, printers, and productivity hardware.",
+      "count": 30,
+      "url": "/scenarios/ecommerce/categories/office/"
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "description": "Consoles, controllers, and streaming accessories.",
+      "count": 30,
+      "url": "/scenarios/ecommerce/categories/gaming/"
+    },
+    {
+      "id": "smart-home",
+      "name": "Smart Home",
+      "description": "Connected devices for fake home automation demos.",
+      "count": 30,
+      "url": "/scenarios/ecommerce/categories/smart-home/"
+    },
+    {
+      "id": "fitness",
+      "name": "Fitness",
+      "description": "Wearables and home training equipment.",
+      "count": 30,
+      "url": "/scenarios/ecommerce/categories/fitness/"
+    }
+  ]
+}

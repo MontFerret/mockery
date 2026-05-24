@@ -1,0 +1,14 @@
+{
+  "productId": "camera-lumina-11-bundle",
+  "items": [
+    {
+      "id": "review-camera-lumina-11-bundle-001",
+      "productId": "camera-lumina-11-bundle",
+      "title": "Great product",
+      "author": "Sofia Chen",
+      "date": "2026-01-20",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

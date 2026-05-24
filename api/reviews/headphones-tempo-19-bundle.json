@@ -1,0 +1,14 @@
+{
+  "productId": "headphones-tempo-19-bundle",
+  "items": [
+    {
+      "id": "review-headphones-tempo-19-bundle-001",
+      "productId": "headphones-tempo-19-bundle",
+      "title": "Stable and predictable",
+      "author": "Priya Stone",
+      "date": "2026-04-16",
+      "stars": 3,
+      "body": "A good deterministic item for examples and tests."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "productId": "phone-max-6-case-bundle",
+  "items": [
+    {
+      "id": "review-phone-max-6-case-bundle-001",
+      "productId": "phone-max-6-case-bundle",
+      "title": "Stable and predictable",
+      "author": "Noah Patel",
+      "date": "2026-04-25",
+      "stars": 3,
+      "body": "A good deterministic item for examples and tests."
+    },
+    {
+      "id": "review-phone-max-6-case-bundle-002",
+      "productId": "phone-max-6-case-bundle",
+      "title": "Matched the description",
+      "author": "Mina Carter",
+      "date": "2026-05-10",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

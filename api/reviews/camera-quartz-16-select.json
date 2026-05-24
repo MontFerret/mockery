@@ -1,0 +1,23 @@
+{
+  "productId": "camera-quartz-16-select",
+  "items": [
+    {
+      "id": "review-camera-quartz-16-select-001",
+      "productId": "camera-quartz-16-select",
+      "title": "Great product",
+      "author": "Noah Patel",
+      "date": "2026-01-25",
+      "stars": 3,
+      "body": "Fast, quiet, and lightweight."
+    },
+    {
+      "id": "review-camera-quartz-16-select-002",
+      "productId": "camera-quartz-16-select",
+      "title": "Solid choice",
+      "author": "Mina Carter",
+      "date": "2026-02-10",
+      "stars": 4,
+      "body": "The metadata was easy to compare across the catalog."
+    }
+  ]
+}

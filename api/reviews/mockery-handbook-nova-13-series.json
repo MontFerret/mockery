@@ -1,0 +1,14 @@
+{
+  "productId": "mockery-handbook-nova-13-series",
+  "items": [
+    {
+      "id": "review-mockery-handbook-nova-13-series-001",
+      "productId": "mockery-handbook-nova-13-series",
+      "title": "Useful for demos",
+      "author": "Mina Carter",
+      "date": "2026-03-10",
+      "stars": 3,
+      "body": "Worked exactly as expected in this fake storefront."
+    }
+  ]
+}

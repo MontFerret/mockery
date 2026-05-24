@@ -1,0 +1,23 @@
+{
+  "productId": "mockery-handbook-keystone-10-edition",
+  "items": [
+    {
+      "id": "review-mockery-handbook-keystone-10-edition-001",
+      "productId": "mockery-handbook-keystone-10-edition",
+      "title": "Matched the description",
+      "author": "Leo Grant",
+      "date": "2026-05-25",
+      "stars": 3,
+      "body": "The specs and price were clear on the detail page."
+    },
+    {
+      "id": "review-mockery-handbook-keystone-10-edition-002",
+      "productId": "mockery-handbook-keystone-10-edition",
+      "title": "Great product",
+      "author": "Alice Reed",
+      "date": "2026-01-10",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

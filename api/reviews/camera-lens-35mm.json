@@ -1,0 +1,23 @@
+{
+  "productId": "camera-lens-35mm",
+  "items": [
+    {
+      "id": "review-camera-lens-35mm-001",
+      "productId": "camera-lens-35mm",
+      "title": "Stable and predictable",
+      "author": "Evan Brooks",
+      "date": "2026-04-13",
+      "stars": 3,
+      "body": "A good deterministic item for examples and tests."
+    },
+    {
+      "id": "review-camera-lens-35mm-002",
+      "productId": "camera-lens-35mm",
+      "title": "Matched the description",
+      "author": "Priya Stone",
+      "date": "2026-05-16",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

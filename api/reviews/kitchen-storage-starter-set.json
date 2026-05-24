@@ -1,0 +1,14 @@
+{
+  "productId": "kitchen-storage-starter-set",
+  "items": [
+    {
+      "id": "review-kitchen-storage-starter-set-001",
+      "productId": "kitchen-storage-starter-set",
+      "title": "Solid choice",
+      "author": "Priya Stone",
+      "date": "2026-02-10",
+      "stars": 3,
+      "body": "The metadata was easy to compare across the catalog."
+    }
+  ]
+}

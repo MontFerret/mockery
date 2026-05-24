@@ -1,0 +1,14 @@
+{
+  "productId": "laptop-mini-11",
+  "items": [
+    {
+      "id": "review-laptop-mini-11-001",
+      "productId": "laptop-mini-11",
+      "title": "Matched the description",
+      "author": "Sofia Chen",
+      "date": "2026-05-14",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

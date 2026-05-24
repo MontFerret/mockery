@@ -1,0 +1,727 @@
+{
+  "page": 11,
+  "pageSize": 24,
+  "total": 300,
+  "items": [
+    {
+      "id": "smart-bulb-pack",
+      "slug": "smart-bulb-pack",
+      "sku": "MCK-SMH-241",
+      "title": "Smart Bulb Pack",
+      "brand": "Northwind",
+      "category": "smart-home",
+      "price": 80.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.7,
+      "reviewCount": 149,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fake connected-home device for stable static web playground examples. Item 1 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Matter",
+        "Power": "Battery",
+        "HubRequired": "No",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-bulb-pack.svg",
+      "url": "/scenarios/ecommerce/products/smart-bulb-pack/"
+    },
+    {
+      "id": "door-sensor",
+      "slug": "door-sensor",
+      "sku": "MCK-SMH-242",
+      "title": "Door Sensor",
+      "brand": "Contoso",
+      "category": "smart-home",
+      "price": 125.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.8,
+      "reviewCount": 160,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fake connected-home device for stable static web playground examples. Item 2 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Wi-Fi",
+        "VoiceControl": "Yes",
+        "Zones": "4",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/door-sensor.svg",
+      "url": "/scenarios/ecommerce/products/door-sensor/"
+    },
+    {
+      "id": "thermostat-mini",
+      "slug": "thermostat-mini",
+      "sku": "MCK-SMH-243",
+      "title": "Thermostat Mini",
+      "brand": "Fabrikam",
+      "category": "smart-home",
+      "price": 171.46,
+      "oldPrice": 371.46,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A fake connected-home device for stable static web playground examples. Item 3 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Zigbee",
+        "Range": "30 m",
+        "Sensors": "Temperature",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/thermostat-mini.svg",
+      "url": "/scenarios/ecommerce/products/thermostat-mini/"
+    },
+    {
+      "id": "security-camera-indoor",
+      "slug": "security-camera-indoor",
+      "sku": "MCK-SMH-244",
+      "title": "Security Camera Indoor",
+      "brand": "Blue Yonder",
+      "category": "smart-home",
+      "price": 216.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4,
+      "reviewCount": 182,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fake connected-home device for stable static web playground examples. Item 4 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Matter",
+        "Power": "Battery",
+        "HubRequired": "No",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/security-camera-indoor.svg",
+      "url": "/scenarios/ecommerce/products/security-camera-indoor/"
+    },
+    {
+      "id": "voice-remote",
+      "slug": "voice-remote",
+      "sku": "MCK-SMH-245",
+      "title": "Voice Remote",
+      "brand": "Tailspin",
+      "category": "smart-home",
+      "price": 219.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fake connected-home device for stable static web playground examples. Item 5 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Wi-Fi",
+        "VoiceControl": "Yes",
+        "Zones": "4",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/voice-remote.svg",
+      "url": "/scenarios/ecommerce/products/voice-remote/"
+    },
+    {
+      "id": "smart-plug-duo",
+      "slug": "smart-plug-duo",
+      "sku": "MCK-SMH-246",
+      "title": "Smart Plug Duo",
+      "brand": "Adventure Works",
+      "category": "smart-home",
+      "price": 265.48,
+      "oldPrice": 425.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A fake connected-home device for stable static web playground examples. Item 6 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Zigbee",
+        "Range": "30 m",
+        "Sensors": "Temperature",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-plug-duo.svg",
+      "url": "/scenarios/ecommerce/products/smart-plug-duo/"
+    },
+    {
+      "id": "water-leak-sensor",
+      "slug": "water-leak-sensor",
+      "sku": "MCK-SMH-247",
+      "title": "Water Leak Sensor",
+      "brand": "Litware",
+      "category": "smart-home",
+      "price": 310.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.3,
+      "reviewCount": 35,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fake connected-home device for stable static web playground examples. Item 7 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Matter",
+        "Power": "Battery",
+        "HubRequired": "No",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/water-leak-sensor.svg",
+      "url": "/scenarios/ecommerce/products/water-leak-sensor/"
+    },
+    {
+      "id": "smart-home-device-ion-08-select",
+      "slug": "smart-home-device-ion-08-select",
+      "sku": "MCK-SMH-248",
+      "title": "Smart Home Device Ion 08 Select",
+      "brand": "Alpine Goods",
+      "category": "smart-home",
+      "price": 356.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviewCount": 46,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fake connected-home device for stable static web playground examples. Item 8 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Wi-Fi",
+        "VoiceControl": "Yes",
+        "Zones": "4",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-ion-08-select.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-ion-08-select/"
+    },
+    {
+      "id": "smart-home-device-juniper-09-series",
+      "slug": "smart-home-device-juniper-09-series",
+      "sku": "MCK-SMH-249",
+      "title": "Smart Home Device Juniper 09 Series",
+      "brand": "Pixel Forge",
+      "category": "smart-home",
+      "price": 401.95,
+      "oldPrice": 521.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A fake connected-home device for stable static web playground examples. Item 9 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Zigbee",
+        "Range": "30 m",
+        "Sensors": "Temperature",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-juniper-09-series.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-juniper-09-series/"
+    },
+    {
+      "id": "smart-home-device-keystone-10-edition",
+      "slug": "smart-home-device-keystone-10-edition",
+      "sku": "MCK-SMH-250",
+      "title": "Smart Home Device Keystone 10 Edition",
+      "brand": "Cedar & Co.",
+      "category": "smart-home",
+      "price": 404.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 68,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fake connected-home device for stable static web playground examples. Item 10 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Matter",
+        "Power": "Battery",
+        "HubRequired": "No",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-keystone-10-edition.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-keystone-10-edition/"
+    },
+    {
+      "id": "smart-home-device-lumina-11-bundle",
+      "slug": "smart-home-device-lumina-11-bundle",
+      "sku": "MCK-SMH-251",
+      "title": "Smart Home Device Lumina 11 Bundle",
+      "brand": "Northwind",
+      "category": "smart-home",
+      "price": 450.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 79,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fake connected-home device for stable static web playground examples. Item 11 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Wi-Fi",
+        "VoiceControl": "Yes",
+        "Zones": "4",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-lumina-11-bundle.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-lumina-11-bundle/"
+    },
+    {
+      "id": "smart-home-device-metro-12-select",
+      "slug": "smart-home-device-metro-12-select",
+      "sku": "MCK-SMH-252",
+      "title": "Smart Home Device Metro 12 Select",
+      "brand": "Contoso",
+      "category": "smart-home",
+      "price": 495.97,
+      "oldPrice": 575.97,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A fake connected-home device for stable static web playground examples. Item 12 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Zigbee",
+        "Range": "30 m",
+        "Sensors": "Temperature",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-metro-12-select.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-metro-12-select/"
+    },
+    {
+      "id": "smart-home-device-nova-13-series",
+      "slug": "smart-home-device-nova-13-series",
+      "sku": "MCK-SMH-253",
+      "title": "Smart Home Device Nova 13 Series",
+      "brand": "Fabrikam",
+      "category": "smart-home",
+      "price": 541.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.5,
+      "reviewCount": 101,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fake connected-home device for stable static web playground examples. Item 13 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Matter",
+        "Power": "Battery",
+        "HubRequired": "No",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-nova-13-series.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-nova-13-series/"
+    },
+    {
+      "id": "smart-home-device-orbit-14-edition",
+      "slug": "smart-home-device-orbit-14-edition",
+      "sku": "MCK-SMH-254",
+      "title": "Smart Home Device Orbit 14 Edition",
+      "brand": "Blue Yonder",
+      "category": "smart-home",
+      "price": 586.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.6,
+      "reviewCount": 112,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fake connected-home device for stable static web playground examples. Item 14 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Wi-Fi",
+        "VoiceControl": "Yes",
+        "Zones": "4",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-orbit-14-edition.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-orbit-14-edition/"
+    },
+    {
+      "id": "smart-home-device-pilot-15-bundle",
+      "slug": "smart-home-device-pilot-15-bundle",
+      "sku": "MCK-SMH-255",
+      "title": "Smart Home Device Pilot 15 Bundle",
+      "brand": "Tailspin",
+      "category": "smart-home",
+      "price": 589.99,
+      "oldPrice": 789.99,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A fake connected-home device for stable static web playground examples. Item 15 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Zigbee",
+        "Range": "30 m",
+        "Sensors": "Temperature",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-pilot-15-bundle.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-pilot-15-bundle/"
+    },
+    {
+      "id": "smart-home-device-quartz-16-select",
+      "slug": "smart-home-device-quartz-16-select",
+      "sku": "MCK-SMH-256",
+      "title": "Smart Home Device Quartz 16 Select",
+      "brand": "Adventure Works",
+      "category": "smart-home",
+      "price": 635.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.8,
+      "reviewCount": 134,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fake connected-home device for stable static web playground examples. Item 16 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Matter",
+        "Power": "Battery",
+        "HubRequired": "No",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-quartz-16-select.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-quartz-16-select/"
+    },
+    {
+      "id": "smart-home-device-relay-17-series",
+      "slug": "smart-home-device-relay-17-series",
+      "sku": "MCK-SMH-257",
+      "title": "Smart Home Device Relay 17 Series",
+      "brand": "Litware",
+      "category": "smart-home",
+      "price": 680.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.9,
+      "reviewCount": 145,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fake connected-home device for stable static web playground examples. Item 17 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Wi-Fi",
+        "VoiceControl": "Yes",
+        "Zones": "4",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-relay-17-series.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-relay-17-series/"
+    },
+    {
+      "id": "smart-home-device-summit-18-edition",
+      "slug": "smart-home-device-summit-18-edition",
+      "sku": "MCK-SMH-258",
+      "title": "Smart Home Device Summit 18 Edition",
+      "brand": "Alpine Goods",
+      "category": "smart-home",
+      "price": 726.46,
+      "oldPrice": 886.46,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A fake connected-home device for stable static web playground examples. Item 18 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Zigbee",
+        "Range": "30 m",
+        "Sensors": "Temperature",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-summit-18-edition.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-summit-18-edition/"
+    },
+    {
+      "id": "smart-home-device-tempo-19-bundle",
+      "slug": "smart-home-device-tempo-19-bundle",
+      "sku": "MCK-SMH-259",
+      "title": "Smart Home Device Tempo 19 Bundle",
+      "brand": "Pixel Forge",
+      "category": "smart-home",
+      "price": 771.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fake connected-home device for stable static web playground examples. Item 19 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Matter",
+        "Power": "Battery",
+        "HubRequired": "No",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-tempo-19-bundle.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-tempo-19-bundle/"
+    },
+    {
+      "id": "smart-home-device-vector-20-select",
+      "slug": "smart-home-device-vector-20-select",
+      "sku": "MCK-SMH-260",
+      "title": "Smart Home Device Vector 20 Select",
+      "brand": "Cedar & Co.",
+      "category": "smart-home",
+      "price": 774.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.2,
+      "reviewCount": 178,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fake connected-home device for stable static web playground examples. Item 20 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Wi-Fi",
+        "VoiceControl": "Yes",
+        "Zones": "4",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-vector-20-select.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-vector-20-select/"
+    },
+    {
+      "id": "smart-home-device-willow-21-series",
+      "slug": "smart-home-device-willow-21-series",
+      "sku": "MCK-SMH-261",
+      "title": "Smart Home Device Willow 21 Series",
+      "brand": "Northwind",
+      "category": "smart-home",
+      "price": 820.48,
+      "oldPrice": 940.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A fake connected-home device for stable static web playground examples. Item 21 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Zigbee",
+        "Range": "30 m",
+        "Sensors": "Temperature",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-willow-21-series.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-willow-21-series/"
+    },
+    {
+      "id": "smart-home-device-zenith-22-edition",
+      "slug": "smart-home-device-zenith-22-edition",
+      "sku": "MCK-SMH-262",
+      "title": "Smart Home Device Zenith 22 Edition",
+      "brand": "Contoso",
+      "category": "smart-home",
+      "price": 865.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviewCount": 20,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fake connected-home device for stable static web playground examples. Item 22 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Matter",
+        "Power": "Battery",
+        "HubRequired": "No",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-zenith-22-edition.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-zenith-22-edition/"
+    },
+    {
+      "id": "smart-home-device-atlas-23-bundle",
+      "slug": "smart-home-device-atlas-23-bundle",
+      "sku": "MCK-SMH-263",
+      "title": "Smart Home Device Atlas 23 Bundle",
+      "brand": "Fabrikam",
+      "category": "smart-home",
+      "price": 911.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 31,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fake connected-home device for stable static web playground examples. Item 23 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Wi-Fi",
+        "VoiceControl": "Yes",
+        "Zones": "4",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-atlas-23-bundle.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-atlas-23-bundle/"
+    },
+    {
+      "id": "smart-home-device-beacon-24-select",
+      "slug": "smart-home-device-beacon-24-select",
+      "sku": "MCK-SMH-264",
+      "title": "Smart Home Device Beacon 24 Select",
+      "brand": "Blue Yonder",
+      "category": "smart-home",
+      "price": 956.95,
+      "oldPrice": 1036.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A fake connected-home device for stable static web playground examples. Item 24 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Zigbee",
+        "Range": "30 m",
+        "Sensors": "Temperature",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-beacon-24-select.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-beacon-24-select/"
+    }
+  ]
+}

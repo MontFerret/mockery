@@ -1,0 +1,23 @@
+{
+  "productId": "phone-zenith-22-edition",
+  "items": [
+    {
+      "id": "review-phone-zenith-22-edition-001",
+      "productId": "phone-zenith-22-edition",
+      "title": "Solid choice",
+      "author": "Jon Bell",
+      "date": "2026-02-25",
+      "stars": 3,
+      "body": "The metadata was easy to compare across the catalog."
+    },
+    {
+      "id": "review-phone-zenith-22-edition-002",
+      "productId": "phone-zenith-22-edition",
+      "title": "Useful for demos",
+      "author": "Sofia Chen",
+      "date": "2026-03-10",
+      "stars": 4,
+      "body": "Worked exactly as expected in this fake storefront."
+    }
+  ]
+}

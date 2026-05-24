@@ -1,0 +1,23 @@
+{
+  "productId": "gaming-headset",
+  "items": [
+    {
+      "id": "review-gaming-headset-001",
+      "productId": "gaming-headset",
+      "title": "Stable and predictable",
+      "author": "Leo Grant",
+      "date": "2026-04-19",
+      "stars": 3,
+      "body": "A good deterministic item for examples and tests."
+    },
+    {
+      "id": "review-gaming-headset-002",
+      "productId": "gaming-headset",
+      "title": "Matched the description",
+      "author": "Alice Reed",
+      "date": "2026-05-22",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

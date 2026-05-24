@@ -1,0 +1,14 @@
+{
+  "productId": "fitness-kit-lumina-11-bundle",
+  "items": [
+    {
+      "id": "review-fitness-kit-lumina-11-bundle-001",
+      "productId": "fitness-kit-lumina-11-bundle",
+      "title": "Great product",
+      "author": "Alice Reed",
+      "date": "2026-01-20",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

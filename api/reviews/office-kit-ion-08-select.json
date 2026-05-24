@@ -1,0 +1,23 @@
+{
+  "productId": "office-kit-ion-08-select",
+  "items": [
+    {
+      "id": "review-office-kit-ion-08-select-001",
+      "productId": "office-kit-ion-08-select",
+      "title": "Useful for demos",
+      "author": "Jon Bell",
+      "date": "2026-03-17",
+      "stars": 4,
+      "body": "Worked exactly as expected in this fake storefront."
+    },
+    {
+      "id": "review-office-kit-ion-08-select-002",
+      "productId": "office-kit-ion-08-select",
+      "title": "Stable and predictable",
+      "author": "Sofia Chen",
+      "date": "2026-04-20",
+      "stars": 5,
+      "body": "A good deterministic item for examples and tests."
+    }
+  ]
+}

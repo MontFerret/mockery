@@ -1,0 +1,14 @@
+{
+  "productId": "noise-canceling-headphones",
+  "items": [
+    {
+      "id": "review-noise-canceling-headphones-001",
+      "productId": "noise-canceling-headphones",
+      "title": "Great product",
+      "author": "Sofia Chen",
+      "date": "2026-01-16",
+      "stars": 3,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

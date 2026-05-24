@@ -1,0 +1,367 @@
+{
+  "page": 13,
+  "pageSize": 24,
+  "total": 300,
+  "items": [
+    {
+      "id": "fitness-kit-tempo-19-bundle",
+      "slug": "fitness-kit-tempo-19-bundle",
+      "sku": "MCK-FIT-289",
+      "title": "Fitness Kit Tempo 19 Bundle",
+      "brand": "Pixel Forge",
+      "category": "fitness",
+      "price": 761.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.3,
+      "reviewCount": 137,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 19 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Size": "Medium",
+        "Material": "Silicone",
+        "WaterResistance": "5 ATM",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-tempo-19-bundle.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-tempo-19-bundle/"
+    },
+    {
+      "id": "fitness-kit-vector-20-select",
+      "slug": "fitness-kit-vector-20-select",
+      "sku": "MCK-FIT-290",
+      "title": "Fitness Kit Vector 20 Select",
+      "brand": "Cedar & Co.",
+      "category": "fitness",
+      "price": 764.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviewCount": 148,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 20 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Weight": "12 kg",
+        "Material": "Rubber",
+        "Pair": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-vector-20-select.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-vector-20-select/"
+    },
+    {
+      "id": "fitness-kit-willow-21-series",
+      "slug": "fitness-kit-willow-21-series",
+      "sku": "MCK-FIT-291",
+      "title": "Fitness Kit Willow 21 Series",
+      "brand": "Northwind",
+      "category": "fitness",
+      "price": 810.48,
+      "oldPrice": 930.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 21 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Resistance": "Adjustable",
+        "Levels": "16",
+        "Foldable": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-willow-21-series.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-willow-21-series/"
+    },
+    {
+      "id": "fitness-kit-zenith-22-edition",
+      "slug": "fitness-kit-zenith-22-edition",
+      "sku": "MCK-FIT-292",
+      "title": "Fitness Kit Zenith 22 Edition",
+      "brand": "Contoso",
+      "category": "fitness",
+      "price": 855.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 170,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 22 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Size": "Medium",
+        "Material": "Silicone",
+        "WaterResistance": "5 ATM",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-zenith-22-edition.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-zenith-22-edition/"
+    },
+    {
+      "id": "fitness-kit-atlas-23-bundle",
+      "slug": "fitness-kit-atlas-23-bundle",
+      "sku": "MCK-FIT-293",
+      "title": "Fitness Kit Atlas 23 Bundle",
+      "brand": "Fabrikam",
+      "category": "fitness",
+      "price": 901.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 181,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 23 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Weight": "12 kg",
+        "Material": "Rubber",
+        "Pair": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-atlas-23-bundle.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-atlas-23-bundle/"
+    },
+    {
+      "id": "fitness-kit-beacon-24-select",
+      "slug": "fitness-kit-beacon-24-select",
+      "sku": "MCK-FIT-294",
+      "title": "Fitness Kit Beacon 24 Select",
+      "brand": "Blue Yonder",
+      "category": "fitness",
+      "price": 946.95,
+      "oldPrice": 1026.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 24 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Resistance": "Adjustable",
+        "Levels": "16",
+        "Foldable": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-beacon-24-select.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-beacon-24-select/"
+    },
+    {
+      "id": "fitness-kit-circuit-25-series",
+      "slug": "fitness-kit-circuit-25-series",
+      "sku": "MCK-FIT-295",
+      "title": "Fitness Kit Circuit 25 Series",
+      "brand": "Tailspin",
+      "category": "fitness",
+      "price": 949.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.5,
+      "reviewCount": 23,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 25 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Size": "Medium",
+        "Material": "Silicone",
+        "WaterResistance": "5 ATM",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-circuit-25-series.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-circuit-25-series/"
+    },
+    {
+      "id": "fitness-kit-delta-26-edition",
+      "slug": "fitness-kit-delta-26-edition",
+      "sku": "MCK-FIT-296",
+      "title": "Fitness Kit Delta 26 Edition",
+      "brand": "Adventure Works",
+      "category": "fitness",
+      "price": 995.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.6,
+      "reviewCount": 34,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 26 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Weight": "12 kg",
+        "Material": "Rubber",
+        "Pair": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-delta-26-edition.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-delta-26-edition/"
+    },
+    {
+      "id": "fitness-kit-ember-27-bundle",
+      "slug": "fitness-kit-ember-27-bundle",
+      "sku": "MCK-FIT-297",
+      "title": "Fitness Kit Ember 27 Bundle",
+      "brand": "Litware",
+      "category": "fitness",
+      "price": 1040.97,
+      "oldPrice": 1240.97,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 27 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Resistance": "Adjustable",
+        "Levels": "16",
+        "Foldable": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-ember-27-bundle.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-ember-27-bundle/"
+    },
+    {
+      "id": "fitness-kit-foundry-28-select",
+      "slug": "fitness-kit-foundry-28-select",
+      "sku": "MCK-FIT-298",
+      "title": "Fitness Kit Foundry 28 Select",
+      "brand": "Alpine Goods",
+      "category": "fitness",
+      "price": 1086.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.8,
+      "reviewCount": 56,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 28 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Size": "Medium",
+        "Material": "Silicone",
+        "WaterResistance": "5 ATM",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-foundry-28-select.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-foundry-28-select/"
+    },
+    {
+      "id": "fitness-kit-harbor-29-series",
+      "slug": "fitness-kit-harbor-29-series",
+      "sku": "MCK-FIT-299",
+      "title": "Fitness Kit Harbor 29 Series",
+      "brand": "Pixel Forge",
+      "category": "fitness",
+      "price": 1131.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.9,
+      "reviewCount": 67,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 29 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Weight": "12 kg",
+        "Material": "Rubber",
+        "Pair": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-harbor-29-series.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-harbor-29-series/"
+    },
+    {
+      "id": "fitness-kit-ion-30-edition",
+      "slug": "fitness-kit-ion-30-edition",
+      "sku": "MCK-FIT-300",
+      "title": "Fitness Kit Ion 30 Edition",
+      "brand": "Cedar & Co.",
+      "category": "fitness",
+      "price": 1134.99,
+      "oldPrice": 1294.99,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 30 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Resistance": "Adjustable",
+        "Levels": "16",
+        "Foldable": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-ion-30-edition.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-ion-30-edition/"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "productId": "kitchen-tool-foundry-28-select",
+  "items": [
+    {
+      "id": "review-kitchen-tool-foundry-28-select-001",
+      "productId": "kitchen-tool-foundry-28-select",
+      "title": "Useful for demos",
+      "author": "Jon Bell",
+      "date": "2026-03-13",
+      "stars": 3,
+      "body": "Worked exactly as expected in this fake storefront."
+    },
+    {
+      "id": "review-kitchen-tool-foundry-28-select-002",
+      "productId": "kitchen-tool-foundry-28-select",
+      "title": "Stable and predictable",
+      "author": "Sofia Chen",
+      "date": "2026-04-16",
+      "stars": 4,
+      "body": "A good deterministic item for examples and tests."
+    }
+  ]
+}

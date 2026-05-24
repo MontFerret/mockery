@@ -1,0 +1,727 @@
+{
+  "page": 9,
+  "pageSize": 24,
+  "total": 300,
+  "items": [
+    {
+      "id": "office-kit-nova-13-series",
+      "slug": "office-kit-nova-13-series",
+      "sku": "MCK-OFF-193",
+      "title": "Office Kit Nova 13 Series",
+      "brand": "Fabrikam",
+      "category": "office",
+      "price": 536.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 161,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 13 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Material": "Aluminum",
+        "Dimensions": "60 x 30 cm",
+        "Color": "Silver",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-nova-13-series.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-nova-13-series/"
+    },
+    {
+      "id": "office-kit-orbit-14-edition",
+      "slug": "office-kit-orbit-14-edition",
+      "sku": "MCK-OFF-194",
+      "title": "Office Kit Orbit 14 Edition",
+      "brand": "Blue Yonder",
+      "category": "office",
+      "price": 581.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 172,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 14 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Connectivity": "USB-C",
+        "Ports": "7",
+        "CableLength": "1 m",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-orbit-14-edition.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-orbit-14-edition/"
+    },
+    {
+      "id": "office-kit-pilot-15-bundle",
+      "slug": "office-kit-pilot-15-bundle",
+      "sku": "MCK-OFF-195",
+      "title": "Office Kit Pilot 15 Bundle",
+      "brand": "Tailspin",
+      "category": "office",
+      "price": 584.99,
+      "oldPrice": 784.99,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 15 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "PaperSize": "A4",
+        "TrayCapacity": "250 sheets",
+        "Duplex": "Manual",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-pilot-15-bundle.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-pilot-15-bundle/"
+    },
+    {
+      "id": "office-kit-quartz-16-select",
+      "slug": "office-kit-quartz-16-select",
+      "sku": "MCK-OFF-196",
+      "title": "Office Kit Quartz 16 Select",
+      "brand": "Adventure Works",
+      "category": "office",
+      "price": 630.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 16 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Material": "Aluminum",
+        "Dimensions": "60 x 30 cm",
+        "Color": "Silver",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-quartz-16-select.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-quartz-16-select/"
+    },
+    {
+      "id": "office-kit-relay-17-series",
+      "slug": "office-kit-relay-17-series",
+      "sku": "MCK-OFF-197",
+      "title": "Office Kit Relay 17 Series",
+      "brand": "Litware",
+      "category": "office",
+      "price": 675.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.5,
+      "reviewCount": 25,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 17 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Connectivity": "USB-C",
+        "Ports": "7",
+        "CableLength": "1 m",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-relay-17-series.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-relay-17-series/"
+    },
+    {
+      "id": "office-kit-summit-18-edition",
+      "slug": "office-kit-summit-18-edition",
+      "sku": "MCK-OFF-198",
+      "title": "Office Kit Summit 18 Edition",
+      "brand": "Alpine Goods",
+      "category": "office",
+      "price": 721.46,
+      "oldPrice": 881.46,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 18 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "PaperSize": "A4",
+        "TrayCapacity": "250 sheets",
+        "Duplex": "Manual",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-summit-18-edition.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-summit-18-edition/"
+    },
+    {
+      "id": "office-kit-tempo-19-bundle",
+      "slug": "office-kit-tempo-19-bundle",
+      "sku": "MCK-OFF-199",
+      "title": "Office Kit Tempo 19 Bundle",
+      "brand": "Pixel Forge",
+      "category": "office",
+      "price": 766.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.7,
+      "reviewCount": 47,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 19 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Material": "Aluminum",
+        "Dimensions": "60 x 30 cm",
+        "Color": "Silver",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-tempo-19-bundle.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-tempo-19-bundle/"
+    },
+    {
+      "id": "office-kit-vector-20-select",
+      "slug": "office-kit-vector-20-select",
+      "sku": "MCK-OFF-200",
+      "title": "Office Kit Vector 20 Select",
+      "brand": "Cedar & Co.",
+      "category": "office",
+      "price": 769.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.8,
+      "reviewCount": 58,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 20 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Connectivity": "USB-C",
+        "Ports": "7",
+        "CableLength": "1 m",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-vector-20-select.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-vector-20-select/"
+    },
+    {
+      "id": "office-kit-willow-21-series",
+      "slug": "office-kit-willow-21-series",
+      "sku": "MCK-OFF-201",
+      "title": "Office Kit Willow 21 Series",
+      "brand": "Northwind",
+      "category": "office",
+      "price": 815.48,
+      "oldPrice": 935.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 21 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "PaperSize": "A4",
+        "TrayCapacity": "250 sheets",
+        "Duplex": "Manual",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-willow-21-series.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-willow-21-series/"
+    },
+    {
+      "id": "office-kit-zenith-22-edition",
+      "slug": "office-kit-zenith-22-edition",
+      "sku": "MCK-OFF-202",
+      "title": "Office Kit Zenith 22 Edition",
+      "brand": "Contoso",
+      "category": "office",
+      "price": 860.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4,
+      "reviewCount": 80,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 22 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Material": "Aluminum",
+        "Dimensions": "60 x 30 cm",
+        "Color": "Silver",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-zenith-22-edition.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-zenith-22-edition/"
+    },
+    {
+      "id": "office-kit-atlas-23-bundle",
+      "slug": "office-kit-atlas-23-bundle",
+      "sku": "MCK-OFF-203",
+      "title": "Office Kit Atlas 23 Bundle",
+      "brand": "Fabrikam",
+      "category": "office",
+      "price": 906.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 23 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Connectivity": "USB-C",
+        "Ports": "7",
+        "CableLength": "1 m",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-atlas-23-bundle.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-atlas-23-bundle/"
+    },
+    {
+      "id": "office-kit-beacon-24-select",
+      "slug": "office-kit-beacon-24-select",
+      "sku": "MCK-OFF-204",
+      "title": "Office Kit Beacon 24 Select",
+      "brand": "Blue Yonder",
+      "category": "office",
+      "price": 951.95,
+      "oldPrice": 1031.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 24 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "PaperSize": "A4",
+        "TrayCapacity": "250 sheets",
+        "Duplex": "Manual",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-beacon-24-select.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-beacon-24-select/"
+    },
+    {
+      "id": "office-kit-circuit-25-series",
+      "slug": "office-kit-circuit-25-series",
+      "sku": "MCK-OFF-205",
+      "title": "Office Kit Circuit 25 Series",
+      "brand": "Tailspin",
+      "category": "office",
+      "price": 954.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.3,
+      "reviewCount": 113,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 25 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Material": "Aluminum",
+        "Dimensions": "60 x 30 cm",
+        "Color": "Silver",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-circuit-25-series.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-circuit-25-series/"
+    },
+    {
+      "id": "office-kit-delta-26-edition",
+      "slug": "office-kit-delta-26-edition",
+      "sku": "MCK-OFF-206",
+      "title": "Office Kit Delta 26 Edition",
+      "brand": "Adventure Works",
+      "category": "office",
+      "price": 1000.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviewCount": 124,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 26 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Connectivity": "USB-C",
+        "Ports": "7",
+        "CableLength": "1 m",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-delta-26-edition.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-delta-26-edition/"
+    },
+    {
+      "id": "office-kit-ember-27-bundle",
+      "slug": "office-kit-ember-27-bundle",
+      "sku": "MCK-OFF-207",
+      "title": "Office Kit Ember 27 Bundle",
+      "brand": "Litware",
+      "category": "office",
+      "price": 1045.97,
+      "oldPrice": 1245.97,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 27 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "PaperSize": "A4",
+        "TrayCapacity": "250 sheets",
+        "Duplex": "Manual",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-ember-27-bundle.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-ember-27-bundle/"
+    },
+    {
+      "id": "office-kit-foundry-28-select",
+      "slug": "office-kit-foundry-28-select",
+      "sku": "MCK-OFF-208",
+      "title": "Office Kit Foundry 28 Select",
+      "brand": "Alpine Goods",
+      "category": "office",
+      "price": 1091.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 146,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 28 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Material": "Aluminum",
+        "Dimensions": "60 x 30 cm",
+        "Color": "Silver",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-foundry-28-select.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-foundry-28-select/"
+    },
+    {
+      "id": "office-kit-harbor-29-series",
+      "slug": "office-kit-harbor-29-series",
+      "sku": "MCK-OFF-209",
+      "title": "Office Kit Harbor 29 Series",
+      "brand": "Pixel Forge",
+      "category": "office",
+      "price": 1136.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 157,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 29 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Connectivity": "USB-C",
+        "Ports": "7",
+        "CableLength": "1 m",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-harbor-29-series.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-harbor-29-series/"
+    },
+    {
+      "id": "office-kit-ion-30-edition",
+      "slug": "office-kit-ion-30-edition",
+      "sku": "MCK-OFF-210",
+      "title": "Office Kit Ion 30 Edition",
+      "brand": "Cedar & Co.",
+      "category": "office",
+      "price": 1139.99,
+      "oldPrice": 1299.99,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 30 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "PaperSize": "A4",
+        "TrayCapacity": "250 sheets",
+        "Duplex": "Manual",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-ion-30-edition.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-ion-30-edition/"
+    },
+    {
+      "id": "mechanical-keyboard",
+      "slug": "mechanical-keyboard",
+      "sku": "MCK-GMG-211",
+      "title": "Mechanical Keyboard",
+      "brand": "Northwind",
+      "category": "gaming",
+      "price": 105.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.5,
+      "reviewCount": 179,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 1 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Platform": "PC",
+        "PollingRate": "1000 Hz",
+        "Lighting": "RGB",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/mechanical-keyboard.svg",
+      "url": "/scenarios/ecommerce/products/mechanical-keyboard/"
+    },
+    {
+      "id": "wireless-controller",
+      "slug": "wireless-controller",
+      "sku": "MCK-GMG-212",
+      "title": "Wireless Controller",
+      "brand": "Contoso",
+      "category": "gaming",
+      "price": 150.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.6,
+      "reviewCount": 190,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 2 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Platform": "Console",
+        "Storage": "1 TB",
+        "Controllers": "2",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/wireless-controller.svg",
+      "url": "/scenarios/ecommerce/products/wireless-controller/"
+    },
+    {
+      "id": "gaming-console-plus-plus-tournament-ready",
+      "slug": "gaming-console-plus-plus-tournament-ready",
+      "sku": "MCK-GMG-213",
+      "title": "Gaming Console ++ Tournament Ready",
+      "brand": "Fabrikam",
+      "category": "gaming",
+      "price": 196.46,
+      "oldPrice": 396.46,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 3 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Capture": "1080p60",
+        "Interface": "USB-C",
+        "Latency": "Low",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-console-plus-plus-tournament-ready.svg",
+      "url": "/scenarios/ecommerce/products/gaming-console-plus-plus-tournament-ready/"
+    },
+    {
+      "id": "streaming-capture-card",
+      "slug": "streaming-capture-card",
+      "sku": "MCK-GMG-214",
+      "title": "Streaming Capture Card",
+      "brand": "Blue Yonder",
+      "category": "gaming",
+      "price": 241.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.8,
+      "reviewCount": 32,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 4 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Platform": "PC",
+        "PollingRate": "1000 Hz",
+        "Lighting": "RGB",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/streaming-capture-card.svg",
+      "url": "/scenarios/ecommerce/products/streaming-capture-card/"
+    },
+    {
+      "id": "rgb-mouse-pad-xl",
+      "slug": "rgb-mouse-pad-xl",
+      "sku": "MCK-GMG-215",
+      "title": "RGB Mouse Pad XL",
+      "brand": "Tailspin",
+      "category": "gaming",
+      "price": 244.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.9,
+      "reviewCount": 43,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 5 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Platform": "Console",
+        "Storage": "1 TB",
+        "Controllers": "2",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/rgb-mouse-pad-xl.svg",
+      "url": "/scenarios/ecommerce/products/rgb-mouse-pad-xl/"
+    },
+    {
+      "id": "arcade-stick-pro",
+      "slug": "arcade-stick-pro",
+      "sku": "MCK-GMG-216",
+      "title": "Arcade Stick Pro",
+      "brand": "Adventure Works",
+      "category": "gaming",
+      "price": 290.48,
+      "oldPrice": 450.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 6 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Capture": "1080p60",
+        "Interface": "USB-C",
+        "Latency": "Low",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/arcade-stick-pro.svg",
+      "url": "/scenarios/ecommerce/products/arcade-stick-pro/"
+    }
+  ]
+}

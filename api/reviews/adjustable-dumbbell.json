@@ -1,0 +1,23 @@
+{
+  "productId": "adjustable-dumbbell",
+  "items": [
+    {
+      "id": "review-adjustable-dumbbell-001",
+      "productId": "adjustable-dumbbell",
+      "title": "Solid choice",
+      "author": "Leo Grant",
+      "date": "2026-02-11",
+      "stars": 4,
+      "body": "The metadata was easy to compare across the catalog."
+    },
+    {
+      "id": "review-adjustable-dumbbell-002",
+      "productId": "adjustable-dumbbell",
+      "title": "Useful for demos",
+      "author": "Alice Reed",
+      "date": "2026-03-14",
+      "stars": 5,
+      "body": "Worked exactly as expected in this fake storefront."
+    }
+  ]
+}

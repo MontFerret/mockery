@@ -1,0 +1,23 @@
+{
+  "productId": "mockery-handbook-quartz-16-select",
+  "items": [
+    {
+      "id": "review-mockery-handbook-quartz-16-select-001",
+      "productId": "mockery-handbook-quartz-16-select",
+      "title": "Great product",
+      "author": "Evan Brooks",
+      "date": "2026-01-13",
+      "stars": 3,
+      "body": "Fast, quiet, and lightweight."
+    },
+    {
+      "id": "review-mockery-handbook-quartz-16-select-002",
+      "productId": "mockery-handbook-quartz-16-select",
+      "title": "Solid choice",
+      "author": "Priya Stone",
+      "date": "2026-02-16",
+      "stars": 4,
+      "body": "The metadata was easy to compare across the catalog."
+    }
+  ]
+}

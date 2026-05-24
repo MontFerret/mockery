@@ -1,0 +1,4113 @@
+{
+  "total": 300,
+  "items": [
+    {
+      "productId": "laptop-pro-14",
+      "items": [
+        {
+          "id": "review-laptop-pro-14-001",
+          "productId": "laptop-pro-14",
+          "title": "Great laptop",
+          "author": "Alice Reed",
+          "date": "2026-04-12",
+          "stars": 5,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-laptop-pro-14-002",
+          "productId": "laptop-pro-14",
+          "title": "Solid choice",
+          "author": "Noah Patel",
+          "date": "2026-02-13",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-laptop-pro-14-003",
+          "productId": "laptop-pro-14",
+          "title": "Useful for demos",
+          "author": "Mina Carter",
+          "date": "2026-03-16",
+          "stars": 5,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-pro-14-refurbished",
+      "items": [
+        {
+          "id": "review-laptop-pro-14-refurbished-001",
+          "productId": "laptop-pro-14-refurbished",
+          "title": "Solid choice",
+          "author": "Noah Patel",
+          "date": "2026-02-11",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-laptop-pro-14-refurbished-002",
+          "productId": "laptop-pro-14-refurbished",
+          "title": "Useful for demos",
+          "author": "Mina Carter",
+          "date": "2026-03-14",
+          "stars": 5,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-air-13",
+      "items": []
+    },
+    {
+      "productId": "laptop-studio-16",
+      "items": [
+        {
+          "id": "review-laptop-studio-16-001",
+          "productId": "laptop-studio-16",
+          "title": "Stable and predictable",
+          "author": "Jon Bell",
+          "date": "2026-04-13",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-laptop-studio-16-002",
+          "productId": "laptop-studio-16",
+          "title": "Matched the description",
+          "author": "Sofia Chen",
+          "date": "2026-05-16",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-mini-11",
+      "items": [
+        {
+          "id": "review-laptop-mini-11-001",
+          "productId": "laptop-mini-11",
+          "title": "Matched the description",
+          "author": "Sofia Chen",
+          "date": "2026-05-14",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-developer-workstation-with-ultra-wide-dock-bundle",
+      "items": []
+    },
+    {
+      "productId": "laptop-pro-14-plus",
+      "items": [
+        {
+          "id": "review-laptop-pro-14-plus-001",
+          "productId": "laptop-pro-14-plus",
+          "title": "Solid choice",
+          "author": "Priya Stone",
+          "date": "2026-02-16",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-flex-2-in-1",
+      "items": [
+        {
+          "id": "review-laptop-flex-2-in-1-001",
+          "productId": "laptop-flex-2-in-1",
+          "title": "Useful for demos",
+          "author": "Leo Grant",
+          "date": "2026-03-17",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-laptop-flex-2-in-1-002",
+          "productId": "laptop-flex-2-in-1",
+          "title": "Stable and predictable",
+          "author": "Alice Reed",
+          "date": "2026-04-20",
+          "stars": 5,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-juniper-09-series",
+      "items": []
+    },
+    {
+      "productId": "laptop-keystone-10-edition",
+      "items": [
+        {
+          "id": "review-laptop-keystone-10-edition-001",
+          "productId": "laptop-keystone-10-edition",
+          "title": "Matched the description",
+          "author": "Noah Patel",
+          "date": "2026-05-19",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-laptop-keystone-10-edition-002",
+          "productId": "laptop-keystone-10-edition",
+          "title": "Great product",
+          "author": "Mina Carter",
+          "date": "2026-01-22",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-lumina-11-bundle",
+      "items": [
+        {
+          "id": "review-laptop-lumina-11-bundle-001",
+          "productId": "laptop-lumina-11-bundle",
+          "title": "Great product",
+          "author": "Mina Carter",
+          "date": "2026-01-20",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-metro-12-select",
+      "items": []
+    },
+    {
+      "productId": "laptop-nova-13-series",
+      "items": [
+        {
+          "id": "review-laptop-nova-13-series-001",
+          "productId": "laptop-nova-13-series",
+          "title": "Useful for demos",
+          "author": "Sofia Chen",
+          "date": "2026-03-22",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-orbit-14-edition",
+      "items": [
+        {
+          "id": "review-laptop-orbit-14-edition-001",
+          "productId": "laptop-orbit-14-edition",
+          "title": "Stable and predictable",
+          "author": "Evan Brooks",
+          "date": "2026-04-23",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-laptop-orbit-14-edition-002",
+          "productId": "laptop-orbit-14-edition",
+          "title": "Matched the description",
+          "author": "Priya Stone",
+          "date": "2026-05-26",
+          "stars": 5,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-pilot-15-bundle",
+      "items": []
+    },
+    {
+      "productId": "laptop-quartz-16-select",
+      "items": [
+        {
+          "id": "review-laptop-quartz-16-select-001",
+          "productId": "laptop-quartz-16-select",
+          "title": "Great product",
+          "author": "Leo Grant",
+          "date": "2026-01-25",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-laptop-quartz-16-select-002",
+          "productId": "laptop-quartz-16-select",
+          "title": "Solid choice",
+          "author": "Alice Reed",
+          "date": "2026-02-10",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-relay-17-series",
+      "items": [
+        {
+          "id": "review-laptop-relay-17-series-001",
+          "productId": "laptop-relay-17-series",
+          "title": "Solid choice",
+          "author": "Alice Reed",
+          "date": "2026-02-26",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-summit-18-edition",
+      "items": []
+    },
+    {
+      "productId": "laptop-tempo-19-bundle",
+      "items": [
+        {
+          "id": "review-laptop-tempo-19-bundle-001",
+          "productId": "laptop-tempo-19-bundle",
+          "title": "Stable and predictable",
+          "author": "Mina Carter",
+          "date": "2026-04-10",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-vector-20-select",
+      "items": [
+        {
+          "id": "review-laptop-vector-20-select-001",
+          "productId": "laptop-vector-20-select",
+          "title": "Matched the description",
+          "author": "Jon Bell",
+          "date": "2026-05-11",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-laptop-vector-20-select-002",
+          "productId": "laptop-vector-20-select",
+          "title": "Great product",
+          "author": "Sofia Chen",
+          "date": "2026-01-14",
+          "stars": 5,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-willow-21-series",
+      "items": []
+    },
+    {
+      "productId": "laptop-zenith-22-edition",
+      "items": [
+        {
+          "id": "review-laptop-zenith-22-edition-001",
+          "productId": "laptop-zenith-22-edition",
+          "title": "Solid choice",
+          "author": "Evan Brooks",
+          "date": "2026-02-13",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-laptop-zenith-22-edition-002",
+          "productId": "laptop-zenith-22-edition",
+          "title": "Useful for demos",
+          "author": "Priya Stone",
+          "date": "2026-03-16",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-atlas-23-bundle",
+      "items": [
+        {
+          "id": "review-laptop-atlas-23-bundle-001",
+          "productId": "laptop-atlas-23-bundle",
+          "title": "Useful for demos",
+          "author": "Priya Stone",
+          "date": "2026-03-14",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-beacon-24-select",
+      "items": []
+    },
+    {
+      "productId": "laptop-circuit-25-series",
+      "items": [
+        {
+          "id": "review-laptop-circuit-25-series-001",
+          "productId": "laptop-circuit-25-series",
+          "title": "Matched the description",
+          "author": "Alice Reed",
+          "date": "2026-05-16",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-delta-26-edition",
+      "items": [
+        {
+          "id": "review-laptop-delta-26-edition-001",
+          "productId": "laptop-delta-26-edition",
+          "title": "Great product",
+          "author": "Noah Patel",
+          "date": "2026-01-17",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-laptop-delta-26-edition-002",
+          "productId": "laptop-delta-26-edition",
+          "title": "Solid choice",
+          "author": "Mina Carter",
+          "date": "2026-02-20",
+          "stars": 5,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-ember-27-bundle",
+      "items": []
+    },
+    {
+      "productId": "laptop-foundry-28-select",
+      "items": [
+        {
+          "id": "review-laptop-foundry-28-select-001",
+          "productId": "laptop-foundry-28-select",
+          "title": "Useful for demos",
+          "author": "Jon Bell",
+          "date": "2026-03-19",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-laptop-foundry-28-select-002",
+          "productId": "laptop-foundry-28-select",
+          "title": "Stable and predictable",
+          "author": "Sofia Chen",
+          "date": "2026-04-22",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-harbor-29-series",
+      "items": [
+        {
+          "id": "review-laptop-harbor-29-series-001",
+          "productId": "laptop-harbor-29-series",
+          "title": "Stable and predictable",
+          "author": "Sofia Chen",
+          "date": "2026-04-20",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "laptop-ion-30-edition",
+      "items": []
+    },
+    {
+      "productId": "phone-x1",
+      "items": [
+        {
+          "id": "review-phone-x1-001",
+          "productId": "phone-x1",
+          "title": "Great product",
+          "author": "Priya Stone",
+          "date": "2026-01-22",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "phone-x1-mini",
+      "items": [
+        {
+          "id": "review-phone-x1-mini-001",
+          "productId": "phone-x1-mini",
+          "title": "Solid choice",
+          "author": "Leo Grant",
+          "date": "2026-02-23",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-phone-x1-mini-002",
+          "productId": "phone-x1-mini",
+          "title": "Useful for demos",
+          "author": "Alice Reed",
+          "date": "2026-03-26",
+          "stars": 5,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "phone-max-6",
+      "items": []
+    },
+    {
+      "productId": "phone-max-6-case-bundle",
+      "items": [
+        {
+          "id": "review-phone-max-6-case-bundle-001",
+          "productId": "phone-max-6-case-bundle",
+          "title": "Stable and predictable",
+          "author": "Noah Patel",
+          "date": "2026-04-25",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-phone-max-6-case-bundle-002",
+          "productId": "phone-max-6-case-bundle",
+          "title": "Matched the description",
+          "author": "Mina Carter",
+          "date": "2026-05-10",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "phone-lite-5g",
+      "items": [
+        {
+          "id": "review-phone-lite-5g-001",
+          "productId": "phone-lite-5g",
+          "title": "Matched the description",
+          "author": "Mina Carter",
+          "date": "2026-05-26",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "phone-camera-edition",
+      "items": []
+    },
+    {
+      "productId": "phone-se-duplicate-name",
+      "items": [
+        {
+          "id": "review-phone-se-duplicate-name-001",
+          "productId": "phone-se-duplicate-name",
+          "title": "Solid choice",
+          "author": "Sofia Chen",
+          "date": "2026-02-10",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "phone-se-duplicate-name-plus",
+      "items": [
+        {
+          "id": "review-phone-se-duplicate-name-plus-001",
+          "productId": "phone-se-duplicate-name-plus",
+          "title": "Useful for demos",
+          "author": "Evan Brooks",
+          "date": "2026-03-11",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-phone-se-duplicate-name-plus-002",
+          "productId": "phone-se-duplicate-name-plus",
+          "title": "Stable and predictable",
+          "author": "Priya Stone",
+          "date": "2026-04-14",
+          "stars": 5,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "phone-juniper-09-series",
+      "items": []
+    },
+    {
+      "productId": "phone-keystone-10-edition",
+      "items": [
+        {
+          "id": "review-phone-keystone-10-edition-001",
+          "productId": "phone-keystone-10-edition",
+          "title": "Matched the description",
+          "author": "Leo Grant",
+          "date": "2026-05-13",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-phone-keystone-10-edition-002",
+          "productId": "phone-keystone-10-edition",
+          "title": "Great product",
+          "author": "Alice Reed",
+          "date": "2026-01-16",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "phone-lumina-11-bundle",
+      "items": [
+        {
+          "id": "review-phone-lumina-11-bundle-001",
+          "productId": "phone-lumina-11-bundle",
+          "title": "Great product",
+          "author": "Alice Reed",
+          "date": "2026-01-14",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "phone-metro-12-select",
+      "items": []
+    },
+    {
+      "productId": "phone-nova-13-series",
+      "items": [
+        {
+          "id": "review-phone-nova-13-series-001",
+          "productId": "phone-nova-13-series",
+          "title": "Useful for demos",
+          "author": "Mina Carter",
+          "date": "2026-03-16",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "phone-orbit-14-edition",
+      "items": [
+        {
+          "id": "review-phone-orbit-14-edition-001",
+          "productId": "phone-orbit-14-edition",
+          "title": "Stable and predictable",
+          "author": "Jon Bell",
+          "date": "2026-04-17",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-phone-orbit-14-edition-002",
+          "productId": "phone-orbit-14-edition",
+          "title": "Matched the description",
+          "author": "Sofia Chen",
+          "date": "2026-05-20",
+          "stars": 5,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "phone-pilot-15-bundle",
+      "items": []
+    },
+    {
+      "productId": "phone-quartz-16-select",
+      "items": [
+        {
+          "id": "review-phone-quartz-16-select-001",
+          "productId": "phone-quartz-16-select",
+          "title": "Great product",
+          "author": "Evan Brooks",
+          "date": "2026-01-19",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-phone-quartz-16-select-002",
+          "productId": "phone-quartz-16-select",
+          "title": "Solid choice",
+          "author": "Priya Stone",
+          "date": "2026-02-22",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "phone-relay-17-series",
+      "items": [
+        {
+          "id": "review-phone-relay-17-series-001",
+          "productId": "phone-relay-17-series",
+          "title": "Solid choice",
+          "author": "Priya Stone",
+          "date": "2026-02-20",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "phone-summit-18-edition",
+      "items": []
+    },
+    {
+      "productId": "phone-tempo-19-bundle",
+      "items": [
+        {
+          "id": "review-phone-tempo-19-bundle-001",
+          "productId": "phone-tempo-19-bundle",
+          "title": "Stable and predictable",
+          "author": "Alice Reed",
+          "date": "2026-04-22",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "phone-vector-20-select",
+      "items": [
+        {
+          "id": "review-phone-vector-20-select-001",
+          "productId": "phone-vector-20-select",
+          "title": "Matched the description",
+          "author": "Noah Patel",
+          "date": "2026-05-23",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-phone-vector-20-select-002",
+          "productId": "phone-vector-20-select",
+          "title": "Great product",
+          "author": "Mina Carter",
+          "date": "2026-01-26",
+          "stars": 5,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "phone-willow-21-series",
+      "items": []
+    },
+    {
+      "productId": "phone-zenith-22-edition",
+      "items": [
+        {
+          "id": "review-phone-zenith-22-edition-001",
+          "productId": "phone-zenith-22-edition",
+          "title": "Solid choice",
+          "author": "Jon Bell",
+          "date": "2026-02-25",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-phone-zenith-22-edition-002",
+          "productId": "phone-zenith-22-edition",
+          "title": "Useful for demos",
+          "author": "Sofia Chen",
+          "date": "2026-03-10",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "phone-atlas-23-bundle",
+      "items": [
+        {
+          "id": "review-phone-atlas-23-bundle-001",
+          "productId": "phone-atlas-23-bundle",
+          "title": "Useful for demos",
+          "author": "Sofia Chen",
+          "date": "2026-03-26",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "phone-beacon-24-select",
+      "items": []
+    },
+    {
+      "productId": "phone-circuit-25-series",
+      "items": [
+        {
+          "id": "review-phone-circuit-25-series-001",
+          "productId": "phone-circuit-25-series",
+          "title": "Matched the description",
+          "author": "Priya Stone",
+          "date": "2026-05-10",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "phone-delta-26-edition",
+      "items": [
+        {
+          "id": "review-phone-delta-26-edition-001",
+          "productId": "phone-delta-26-edition",
+          "title": "Great product",
+          "author": "Leo Grant",
+          "date": "2026-01-11",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-phone-delta-26-edition-002",
+          "productId": "phone-delta-26-edition",
+          "title": "Solid choice",
+          "author": "Alice Reed",
+          "date": "2026-02-14",
+          "stars": 5,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "phone-ember-27-bundle",
+      "items": []
+    },
+    {
+      "productId": "phone-foundry-28-select",
+      "items": [
+        {
+          "id": "review-phone-foundry-28-select-001",
+          "productId": "phone-foundry-28-select",
+          "title": "Useful for demos",
+          "author": "Noah Patel",
+          "date": "2026-03-13",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-phone-foundry-28-select-002",
+          "productId": "phone-foundry-28-select",
+          "title": "Stable and predictable",
+          "author": "Mina Carter",
+          "date": "2026-04-16",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "phone-harbor-29-series",
+      "items": [
+        {
+          "id": "review-phone-harbor-29-series-001",
+          "productId": "phone-harbor-29-series",
+          "title": "Stable and predictable",
+          "author": "Mina Carter",
+          "date": "2026-04-14",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "phone-ion-30-edition",
+      "items": []
+    },
+    {
+      "productId": "noise-canceling-headphones",
+      "items": [
+        {
+          "id": "review-noise-canceling-headphones-001",
+          "productId": "noise-canceling-headphones",
+          "title": "Great product",
+          "author": "Sofia Chen",
+          "date": "2026-01-16",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "studio-headphones",
+      "items": [
+        {
+          "id": "review-studio-headphones-001",
+          "productId": "studio-headphones",
+          "title": "Solid choice",
+          "author": "Evan Brooks",
+          "date": "2026-02-17",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-studio-headphones-002",
+          "productId": "studio-headphones",
+          "title": "Useful for demos",
+          "author": "Priya Stone",
+          "date": "2026-03-20",
+          "stars": 5,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "travel-earbuds",
+      "items": []
+    },
+    {
+      "productId": "gaming-headset",
+      "items": [
+        {
+          "id": "review-gaming-headset-001",
+          "productId": "gaming-headset",
+          "title": "Stable and predictable",
+          "author": "Leo Grant",
+          "date": "2026-04-19",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-gaming-headset-002",
+          "productId": "gaming-headset",
+          "title": "Matched the description",
+          "author": "Alice Reed",
+          "date": "2026-05-22",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "open-back-monitor-headphones",
+      "items": [
+        {
+          "id": "review-open-back-monitor-headphones-001",
+          "productId": "open-back-monitor-headphones",
+          "title": "Matched the description",
+          "author": "Alice Reed",
+          "date": "2026-05-20",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "kids-volume-limited-headphones",
+      "items": []
+    },
+    {
+      "productId": "headphones-usb-c-edition",
+      "items": [
+        {
+          "id": "review-headphones-usb-c-edition-001",
+          "productId": "headphones-usb-c-edition",
+          "title": "Solid choice",
+          "author": "Mina Carter",
+          "date": "2026-02-22",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-ion-08-select",
+      "items": [
+        {
+          "id": "review-headphones-ion-08-select-001",
+          "productId": "headphones-ion-08-select",
+          "title": "Useful for demos",
+          "author": "Jon Bell",
+          "date": "2026-03-23",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-headphones-ion-08-select-002",
+          "productId": "headphones-ion-08-select",
+          "title": "Stable and predictable",
+          "author": "Sofia Chen",
+          "date": "2026-04-26",
+          "stars": 5,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-juniper-09-series",
+      "items": []
+    },
+    {
+      "productId": "headphones-keystone-10-edition",
+      "items": [
+        {
+          "id": "review-headphones-keystone-10-edition-001",
+          "productId": "headphones-keystone-10-edition",
+          "title": "Matched the description",
+          "author": "Evan Brooks",
+          "date": "2026-05-25",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-headphones-keystone-10-edition-002",
+          "productId": "headphones-keystone-10-edition",
+          "title": "Great product",
+          "author": "Priya Stone",
+          "date": "2026-01-10",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-lumina-11-bundle",
+      "items": [
+        {
+          "id": "review-headphones-lumina-11-bundle-001",
+          "productId": "headphones-lumina-11-bundle",
+          "title": "Great product",
+          "author": "Priya Stone",
+          "date": "2026-01-26",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-metro-12-select",
+      "items": []
+    },
+    {
+      "productId": "headphones-nova-13-series",
+      "items": [
+        {
+          "id": "review-headphones-nova-13-series-001",
+          "productId": "headphones-nova-13-series",
+          "title": "Useful for demos",
+          "author": "Alice Reed",
+          "date": "2026-03-10",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-orbit-14-edition",
+      "items": [
+        {
+          "id": "review-headphones-orbit-14-edition-001",
+          "productId": "headphones-orbit-14-edition",
+          "title": "Stable and predictable",
+          "author": "Noah Patel",
+          "date": "2026-04-11",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-headphones-orbit-14-edition-002",
+          "productId": "headphones-orbit-14-edition",
+          "title": "Matched the description",
+          "author": "Mina Carter",
+          "date": "2026-05-14",
+          "stars": 5,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-pilot-15-bundle",
+      "items": []
+    },
+    {
+      "productId": "headphones-quartz-16-select",
+      "items": [
+        {
+          "id": "review-headphones-quartz-16-select-001",
+          "productId": "headphones-quartz-16-select",
+          "title": "Great product",
+          "author": "Jon Bell",
+          "date": "2026-01-13",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-headphones-quartz-16-select-002",
+          "productId": "headphones-quartz-16-select",
+          "title": "Solid choice",
+          "author": "Sofia Chen",
+          "date": "2026-02-16",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-relay-17-series",
+      "items": [
+        {
+          "id": "review-headphones-relay-17-series-001",
+          "productId": "headphones-relay-17-series",
+          "title": "Solid choice",
+          "author": "Sofia Chen",
+          "date": "2026-02-14",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-summit-18-edition",
+      "items": []
+    },
+    {
+      "productId": "headphones-tempo-19-bundle",
+      "items": [
+        {
+          "id": "review-headphones-tempo-19-bundle-001",
+          "productId": "headphones-tempo-19-bundle",
+          "title": "Stable and predictable",
+          "author": "Priya Stone",
+          "date": "2026-04-16",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-vector-20-select",
+      "items": [
+        {
+          "id": "review-headphones-vector-20-select-001",
+          "productId": "headphones-vector-20-select",
+          "title": "Matched the description",
+          "author": "Leo Grant",
+          "date": "2026-05-17",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-headphones-vector-20-select-002",
+          "productId": "headphones-vector-20-select",
+          "title": "Great product",
+          "author": "Alice Reed",
+          "date": "2026-01-20",
+          "stars": 5,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-willow-21-series",
+      "items": []
+    },
+    {
+      "productId": "headphones-zenith-22-edition",
+      "items": [
+        {
+          "id": "review-headphones-zenith-22-edition-001",
+          "productId": "headphones-zenith-22-edition",
+          "title": "Solid choice",
+          "author": "Noah Patel",
+          "date": "2026-02-19",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-headphones-zenith-22-edition-002",
+          "productId": "headphones-zenith-22-edition",
+          "title": "Useful for demos",
+          "author": "Mina Carter",
+          "date": "2026-03-22",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-atlas-23-bundle",
+      "items": [
+        {
+          "id": "review-headphones-atlas-23-bundle-001",
+          "productId": "headphones-atlas-23-bundle",
+          "title": "Useful for demos",
+          "author": "Mina Carter",
+          "date": "2026-03-20",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-beacon-24-select",
+      "items": []
+    },
+    {
+      "productId": "headphones-circuit-25-series",
+      "items": [
+        {
+          "id": "review-headphones-circuit-25-series-001",
+          "productId": "headphones-circuit-25-series",
+          "title": "Matched the description",
+          "author": "Sofia Chen",
+          "date": "2026-05-22",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-delta-26-edition",
+      "items": [
+        {
+          "id": "review-headphones-delta-26-edition-001",
+          "productId": "headphones-delta-26-edition",
+          "title": "Great product",
+          "author": "Evan Brooks",
+          "date": "2026-01-23",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-headphones-delta-26-edition-002",
+          "productId": "headphones-delta-26-edition",
+          "title": "Solid choice",
+          "author": "Priya Stone",
+          "date": "2026-02-26",
+          "stars": 5,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-ember-27-bundle",
+      "items": []
+    },
+    {
+      "productId": "headphones-foundry-28-select",
+      "items": [
+        {
+          "id": "review-headphones-foundry-28-select-001",
+          "productId": "headphones-foundry-28-select",
+          "title": "Useful for demos",
+          "author": "Leo Grant",
+          "date": "2026-03-25",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-headphones-foundry-28-select-002",
+          "productId": "headphones-foundry-28-select",
+          "title": "Stable and predictable",
+          "author": "Alice Reed",
+          "date": "2026-04-10",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-harbor-29-series",
+      "items": [
+        {
+          "id": "review-headphones-harbor-29-series-001",
+          "productId": "headphones-harbor-29-series",
+          "title": "Stable and predictable",
+          "author": "Alice Reed",
+          "date": "2026-04-26",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "headphones-ion-30-edition",
+      "items": []
+    },
+    {
+      "productId": "mirrorless-camera-kit",
+      "items": [
+        {
+          "id": "review-mirrorless-camera-kit-001",
+          "productId": "mirrorless-camera-kit",
+          "title": "Great product",
+          "author": "Mina Carter",
+          "date": "2026-01-10",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "pocket-camera-12x",
+      "items": [
+        {
+          "id": "review-pocket-camera-12x-001",
+          "productId": "pocket-camera-12x",
+          "title": "Solid choice",
+          "author": "Jon Bell",
+          "date": "2026-02-11",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-pocket-camera-12x-002",
+          "productId": "pocket-camera-12x",
+          "title": "Useful for demos",
+          "author": "Sofia Chen",
+          "date": "2026-03-14",
+          "stars": 5,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "action-camera-waterproof",
+      "items": []
+    },
+    {
+      "productId": "camera-lens-35mm",
+      "items": [
+        {
+          "id": "review-camera-lens-35mm-001",
+          "productId": "camera-lens-35mm",
+          "title": "Stable and predictable",
+          "author": "Evan Brooks",
+          "date": "2026-04-13",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-camera-lens-35mm-002",
+          "productId": "camera-lens-35mm",
+          "title": "Matched the description",
+          "author": "Priya Stone",
+          "date": "2026-05-16",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "video-creator-camera",
+      "items": [
+        {
+          "id": "review-video-creator-camera-001",
+          "productId": "video-creator-camera",
+          "title": "Matched the description",
+          "author": "Priya Stone",
+          "date": "2026-05-14",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "instant-camera-classic",
+      "items": []
+    },
+    {
+      "productId": "camera-tripod-bundle",
+      "items": [
+        {
+          "id": "review-camera-tripod-bundle-001",
+          "productId": "camera-tripod-bundle",
+          "title": "Solid choice",
+          "author": "Alice Reed",
+          "date": "2026-02-16",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "camera-ion-08-select",
+      "items": [
+        {
+          "id": "review-camera-ion-08-select-001",
+          "productId": "camera-ion-08-select",
+          "title": "Useful for demos",
+          "author": "Noah Patel",
+          "date": "2026-03-17",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-camera-ion-08-select-002",
+          "productId": "camera-ion-08-select",
+          "title": "Stable and predictable",
+          "author": "Mina Carter",
+          "date": "2026-04-20",
+          "stars": 5,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "camera-juniper-09-series",
+      "items": []
+    },
+    {
+      "productId": "camera-keystone-10-edition",
+      "items": [
+        {
+          "id": "review-camera-keystone-10-edition-001",
+          "productId": "camera-keystone-10-edition",
+          "title": "Matched the description",
+          "author": "Jon Bell",
+          "date": "2026-05-19",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-camera-keystone-10-edition-002",
+          "productId": "camera-keystone-10-edition",
+          "title": "Great product",
+          "author": "Sofia Chen",
+          "date": "2026-01-22",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "camera-lumina-11-bundle",
+      "items": [
+        {
+          "id": "review-camera-lumina-11-bundle-001",
+          "productId": "camera-lumina-11-bundle",
+          "title": "Great product",
+          "author": "Sofia Chen",
+          "date": "2026-01-20",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "camera-metro-12-select",
+      "items": []
+    },
+    {
+      "productId": "camera-nova-13-series",
+      "items": [
+        {
+          "id": "review-camera-nova-13-series-001",
+          "productId": "camera-nova-13-series",
+          "title": "Useful for demos",
+          "author": "Priya Stone",
+          "date": "2026-03-22",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "camera-orbit-14-edition",
+      "items": [
+        {
+          "id": "review-camera-orbit-14-edition-001",
+          "productId": "camera-orbit-14-edition",
+          "title": "Stable and predictable",
+          "author": "Leo Grant",
+          "date": "2026-04-23",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-camera-orbit-14-edition-002",
+          "productId": "camera-orbit-14-edition",
+          "title": "Matched the description",
+          "author": "Alice Reed",
+          "date": "2026-05-26",
+          "stars": 5,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "camera-pilot-15-bundle",
+      "items": []
+    },
+    {
+      "productId": "camera-quartz-16-select",
+      "items": [
+        {
+          "id": "review-camera-quartz-16-select-001",
+          "productId": "camera-quartz-16-select",
+          "title": "Great product",
+          "author": "Noah Patel",
+          "date": "2026-01-25",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-camera-quartz-16-select-002",
+          "productId": "camera-quartz-16-select",
+          "title": "Solid choice",
+          "author": "Mina Carter",
+          "date": "2026-02-10",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "camera-relay-17-series",
+      "items": [
+        {
+          "id": "review-camera-relay-17-series-001",
+          "productId": "camera-relay-17-series",
+          "title": "Solid choice",
+          "author": "Mina Carter",
+          "date": "2026-02-26",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "camera-summit-18-edition",
+      "items": []
+    },
+    {
+      "productId": "camera-tempo-19-bundle",
+      "items": [
+        {
+          "id": "review-camera-tempo-19-bundle-001",
+          "productId": "camera-tempo-19-bundle",
+          "title": "Stable and predictable",
+          "author": "Sofia Chen",
+          "date": "2026-04-10",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "camera-vector-20-select",
+      "items": [
+        {
+          "id": "review-camera-vector-20-select-001",
+          "productId": "camera-vector-20-select",
+          "title": "Matched the description",
+          "author": "Evan Brooks",
+          "date": "2026-05-11",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-camera-vector-20-select-002",
+          "productId": "camera-vector-20-select",
+          "title": "Great product",
+          "author": "Priya Stone",
+          "date": "2026-01-14",
+          "stars": 5,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "camera-willow-21-series",
+      "items": []
+    },
+    {
+      "productId": "camera-zenith-22-edition",
+      "items": [
+        {
+          "id": "review-camera-zenith-22-edition-001",
+          "productId": "camera-zenith-22-edition",
+          "title": "Solid choice",
+          "author": "Leo Grant",
+          "date": "2026-02-13",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-camera-zenith-22-edition-002",
+          "productId": "camera-zenith-22-edition",
+          "title": "Useful for demos",
+          "author": "Alice Reed",
+          "date": "2026-03-16",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "camera-atlas-23-bundle",
+      "items": [
+        {
+          "id": "review-camera-atlas-23-bundle-001",
+          "productId": "camera-atlas-23-bundle",
+          "title": "Useful for demos",
+          "author": "Alice Reed",
+          "date": "2026-03-14",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "camera-beacon-24-select",
+      "items": []
+    },
+    {
+      "productId": "camera-circuit-25-series",
+      "items": [
+        {
+          "id": "review-camera-circuit-25-series-001",
+          "productId": "camera-circuit-25-series",
+          "title": "Matched the description",
+          "author": "Mina Carter",
+          "date": "2026-05-16",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "camera-delta-26-edition",
+      "items": [
+        {
+          "id": "review-camera-delta-26-edition-001",
+          "productId": "camera-delta-26-edition",
+          "title": "Great product",
+          "author": "Jon Bell",
+          "date": "2026-01-17",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-camera-delta-26-edition-002",
+          "productId": "camera-delta-26-edition",
+          "title": "Solid choice",
+          "author": "Sofia Chen",
+          "date": "2026-02-20",
+          "stars": 5,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "camera-ember-27-bundle",
+      "items": []
+    },
+    {
+      "productId": "camera-foundry-28-select",
+      "items": [
+        {
+          "id": "review-camera-foundry-28-select-001",
+          "productId": "camera-foundry-28-select",
+          "title": "Useful for demos",
+          "author": "Evan Brooks",
+          "date": "2026-03-19",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-camera-foundry-28-select-002",
+          "productId": "camera-foundry-28-select",
+          "title": "Stable and predictable",
+          "author": "Priya Stone",
+          "date": "2026-04-22",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "camera-harbor-29-series",
+      "items": [
+        {
+          "id": "review-camera-harbor-29-series-001",
+          "productId": "camera-harbor-29-series",
+          "title": "Stable and predictable",
+          "author": "Priya Stone",
+          "date": "2026-04-20",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "camera-ion-30-edition",
+      "items": []
+    },
+    {
+      "productId": "smart-kettle",
+      "items": [
+        {
+          "id": "review-smart-kettle-001",
+          "productId": "smart-kettle",
+          "title": "Great product",
+          "author": "Alice Reed",
+          "date": "2026-01-22",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "countertop-blender",
+      "items": [
+        {
+          "id": "review-countertop-blender-001",
+          "productId": "countertop-blender",
+          "title": "Solid choice",
+          "author": "Noah Patel",
+          "date": "2026-02-23",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-countertop-blender-002",
+          "productId": "countertop-blender",
+          "title": "Useful for demos",
+          "author": "Mina Carter",
+          "date": "2026-03-26",
+          "stars": 5,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "ceramic-cookware-set",
+      "items": []
+    },
+    {
+      "productId": "pour-over-coffee-scale",
+      "items": [
+        {
+          "id": "review-pour-over-coffee-scale-001",
+          "productId": "pour-over-coffee-scale",
+          "title": "Stable and predictable",
+          "author": "Jon Bell",
+          "date": "2026-04-25",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-pour-over-coffee-scale-002",
+          "productId": "pour-over-coffee-scale",
+          "title": "Matched the description",
+          "author": "Sofia Chen",
+          "date": "2026-05-10",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "compact-air-fryer",
+      "items": [
+        {
+          "id": "review-compact-air-fryer-001",
+          "productId": "compact-air-fryer",
+          "title": "Matched the description",
+          "author": "Sofia Chen",
+          "date": "2026-05-26",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "chef-knife-8-inch",
+      "items": []
+    },
+    {
+      "productId": "kitchen-storage-starter-set",
+      "items": [
+        {
+          "id": "review-kitchen-storage-starter-set-001",
+          "productId": "kitchen-storage-starter-set",
+          "title": "Solid choice",
+          "author": "Priya Stone",
+          "date": "2026-02-10",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-ion-08-select",
+      "items": [
+        {
+          "id": "review-kitchen-tool-ion-08-select-001",
+          "productId": "kitchen-tool-ion-08-select",
+          "title": "Useful for demos",
+          "author": "Leo Grant",
+          "date": "2026-03-11",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-kitchen-tool-ion-08-select-002",
+          "productId": "kitchen-tool-ion-08-select",
+          "title": "Stable and predictable",
+          "author": "Alice Reed",
+          "date": "2026-04-14",
+          "stars": 5,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-juniper-09-series",
+      "items": []
+    },
+    {
+      "productId": "kitchen-tool-keystone-10-edition",
+      "items": [
+        {
+          "id": "review-kitchen-tool-keystone-10-edition-001",
+          "productId": "kitchen-tool-keystone-10-edition",
+          "title": "Matched the description",
+          "author": "Noah Patel",
+          "date": "2026-05-13",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-kitchen-tool-keystone-10-edition-002",
+          "productId": "kitchen-tool-keystone-10-edition",
+          "title": "Great product",
+          "author": "Mina Carter",
+          "date": "2026-01-16",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-lumina-11-bundle",
+      "items": [
+        {
+          "id": "review-kitchen-tool-lumina-11-bundle-001",
+          "productId": "kitchen-tool-lumina-11-bundle",
+          "title": "Great product",
+          "author": "Mina Carter",
+          "date": "2026-01-14",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-metro-12-select",
+      "items": []
+    },
+    {
+      "productId": "kitchen-tool-nova-13-series",
+      "items": [
+        {
+          "id": "review-kitchen-tool-nova-13-series-001",
+          "productId": "kitchen-tool-nova-13-series",
+          "title": "Useful for demos",
+          "author": "Sofia Chen",
+          "date": "2026-03-16",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-orbit-14-edition",
+      "items": [
+        {
+          "id": "review-kitchen-tool-orbit-14-edition-001",
+          "productId": "kitchen-tool-orbit-14-edition",
+          "title": "Stable and predictable",
+          "author": "Evan Brooks",
+          "date": "2026-04-17",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-kitchen-tool-orbit-14-edition-002",
+          "productId": "kitchen-tool-orbit-14-edition",
+          "title": "Matched the description",
+          "author": "Priya Stone",
+          "date": "2026-05-20",
+          "stars": 5,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-pilot-15-bundle",
+      "items": []
+    },
+    {
+      "productId": "kitchen-tool-quartz-16-select",
+      "items": [
+        {
+          "id": "review-kitchen-tool-quartz-16-select-001",
+          "productId": "kitchen-tool-quartz-16-select",
+          "title": "Great product",
+          "author": "Leo Grant",
+          "date": "2026-01-19",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-kitchen-tool-quartz-16-select-002",
+          "productId": "kitchen-tool-quartz-16-select",
+          "title": "Solid choice",
+          "author": "Alice Reed",
+          "date": "2026-02-22",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-relay-17-series",
+      "items": [
+        {
+          "id": "review-kitchen-tool-relay-17-series-001",
+          "productId": "kitchen-tool-relay-17-series",
+          "title": "Solid choice",
+          "author": "Alice Reed",
+          "date": "2026-02-20",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-summit-18-edition",
+      "items": []
+    },
+    {
+      "productId": "kitchen-tool-tempo-19-bundle",
+      "items": [
+        {
+          "id": "review-kitchen-tool-tempo-19-bundle-001",
+          "productId": "kitchen-tool-tempo-19-bundle",
+          "title": "Stable and predictable",
+          "author": "Mina Carter",
+          "date": "2026-04-22",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-vector-20-select",
+      "items": [
+        {
+          "id": "review-kitchen-tool-vector-20-select-001",
+          "productId": "kitchen-tool-vector-20-select",
+          "title": "Matched the description",
+          "author": "Jon Bell",
+          "date": "2026-05-23",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-kitchen-tool-vector-20-select-002",
+          "productId": "kitchen-tool-vector-20-select",
+          "title": "Great product",
+          "author": "Sofia Chen",
+          "date": "2026-01-26",
+          "stars": 5,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-willow-21-series",
+      "items": []
+    },
+    {
+      "productId": "kitchen-tool-zenith-22-edition",
+      "items": [
+        {
+          "id": "review-kitchen-tool-zenith-22-edition-001",
+          "productId": "kitchen-tool-zenith-22-edition",
+          "title": "Solid choice",
+          "author": "Evan Brooks",
+          "date": "2026-02-25",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-kitchen-tool-zenith-22-edition-002",
+          "productId": "kitchen-tool-zenith-22-edition",
+          "title": "Useful for demos",
+          "author": "Priya Stone",
+          "date": "2026-03-10",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-atlas-23-bundle",
+      "items": [
+        {
+          "id": "review-kitchen-tool-atlas-23-bundle-001",
+          "productId": "kitchen-tool-atlas-23-bundle",
+          "title": "Useful for demos",
+          "author": "Priya Stone",
+          "date": "2026-03-26",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-beacon-24-select",
+      "items": []
+    },
+    {
+      "productId": "kitchen-tool-circuit-25-series",
+      "items": [
+        {
+          "id": "review-kitchen-tool-circuit-25-series-001",
+          "productId": "kitchen-tool-circuit-25-series",
+          "title": "Matched the description",
+          "author": "Alice Reed",
+          "date": "2026-05-10",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-delta-26-edition",
+      "items": [
+        {
+          "id": "review-kitchen-tool-delta-26-edition-001",
+          "productId": "kitchen-tool-delta-26-edition",
+          "title": "Great product",
+          "author": "Noah Patel",
+          "date": "2026-01-11",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-kitchen-tool-delta-26-edition-002",
+          "productId": "kitchen-tool-delta-26-edition",
+          "title": "Solid choice",
+          "author": "Mina Carter",
+          "date": "2026-02-14",
+          "stars": 5,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-ember-27-bundle",
+      "items": []
+    },
+    {
+      "productId": "kitchen-tool-foundry-28-select",
+      "items": [
+        {
+          "id": "review-kitchen-tool-foundry-28-select-001",
+          "productId": "kitchen-tool-foundry-28-select",
+          "title": "Useful for demos",
+          "author": "Jon Bell",
+          "date": "2026-03-13",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-kitchen-tool-foundry-28-select-002",
+          "productId": "kitchen-tool-foundry-28-select",
+          "title": "Stable and predictable",
+          "author": "Sofia Chen",
+          "date": "2026-04-16",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-harbor-29-series",
+      "items": [
+        {
+          "id": "review-kitchen-tool-harbor-29-series-001",
+          "productId": "kitchen-tool-harbor-29-series",
+          "title": "Stable and predictable",
+          "author": "Sofia Chen",
+          "date": "2026-04-14",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "kitchen-tool-ion-30-edition",
+      "items": []
+    },
+    {
+      "productId": "practical-web-scraping",
+      "items": [
+        {
+          "id": "review-practical-web-scraping-001",
+          "productId": "practical-web-scraping",
+          "title": "Great product",
+          "author": "Priya Stone",
+          "date": "2026-01-16",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "book-data-pipelines-and-scraping-special-edition",
+      "items": [
+        {
+          "id": "review-book-data-pipelines-and-scraping-special-edition-001",
+          "productId": "book-data-pipelines-and-scraping-special-edition",
+          "title": "Solid choice",
+          "author": "Leo Grant",
+          "date": "2026-02-17",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-book-data-pipelines-and-scraping-special-edition-002",
+          "productId": "book-data-pipelines-and-scraping-special-edition",
+          "title": "Useful for demos",
+          "author": "Alice Reed",
+          "date": "2026-03-20",
+          "stars": 5,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "the-static-site-handbook",
+      "items": []
+    },
+    {
+      "productId": "pagination-patterns",
+      "items": [
+        {
+          "id": "review-pagination-patterns-001",
+          "productId": "pagination-patterns",
+          "title": "Stable and predictable",
+          "author": "Noah Patel",
+          "date": "2026-04-19",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-pagination-patterns-002",
+          "productId": "pagination-patterns",
+          "title": "Matched the description",
+          "author": "Mina Carter",
+          "date": "2026-05-22",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "reliable-selectors-guide",
+      "items": []
+    },
+    {
+      "productId": "json-apis-for-test-fixtures",
+      "items": []
+    },
+    {
+      "productId": "long-tail-catalog-design",
+      "items": [
+        {
+          "id": "review-long-tail-catalog-design-001",
+          "productId": "long-tail-catalog-design",
+          "title": "Solid choice",
+          "author": "Sofia Chen",
+          "date": "2026-02-22",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-ion-08-select",
+      "items": [
+        {
+          "id": "review-mockery-handbook-ion-08-select-001",
+          "productId": "mockery-handbook-ion-08-select",
+          "title": "Useful for demos",
+          "author": "Evan Brooks",
+          "date": "2026-03-23",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-mockery-handbook-ion-08-select-002",
+          "productId": "mockery-handbook-ion-08-select",
+          "title": "Stable and predictable",
+          "author": "Priya Stone",
+          "date": "2026-04-26",
+          "stars": 5,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-juniper-09-series",
+      "items": []
+    },
+    {
+      "productId": "mockery-handbook-keystone-10-edition",
+      "items": [
+        {
+          "id": "review-mockery-handbook-keystone-10-edition-001",
+          "productId": "mockery-handbook-keystone-10-edition",
+          "title": "Matched the description",
+          "author": "Leo Grant",
+          "date": "2026-05-25",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-mockery-handbook-keystone-10-edition-002",
+          "productId": "mockery-handbook-keystone-10-edition",
+          "title": "Great product",
+          "author": "Alice Reed",
+          "date": "2026-01-10",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-lumina-11-bundle",
+      "items": [
+        {
+          "id": "review-mockery-handbook-lumina-11-bundle-001",
+          "productId": "mockery-handbook-lumina-11-bundle",
+          "title": "Great product",
+          "author": "Alice Reed",
+          "date": "2026-01-26",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-metro-12-select",
+      "items": []
+    },
+    {
+      "productId": "mockery-handbook-nova-13-series",
+      "items": [
+        {
+          "id": "review-mockery-handbook-nova-13-series-001",
+          "productId": "mockery-handbook-nova-13-series",
+          "title": "Useful for demos",
+          "author": "Mina Carter",
+          "date": "2026-03-10",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-orbit-14-edition",
+      "items": [
+        {
+          "id": "review-mockery-handbook-orbit-14-edition-001",
+          "productId": "mockery-handbook-orbit-14-edition",
+          "title": "Stable and predictable",
+          "author": "Jon Bell",
+          "date": "2026-04-11",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-mockery-handbook-orbit-14-edition-002",
+          "productId": "mockery-handbook-orbit-14-edition",
+          "title": "Matched the description",
+          "author": "Sofia Chen",
+          "date": "2026-05-14",
+          "stars": 5,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-pilot-15-bundle",
+      "items": []
+    },
+    {
+      "productId": "mockery-handbook-quartz-16-select",
+      "items": [
+        {
+          "id": "review-mockery-handbook-quartz-16-select-001",
+          "productId": "mockery-handbook-quartz-16-select",
+          "title": "Great product",
+          "author": "Evan Brooks",
+          "date": "2026-01-13",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-mockery-handbook-quartz-16-select-002",
+          "productId": "mockery-handbook-quartz-16-select",
+          "title": "Solid choice",
+          "author": "Priya Stone",
+          "date": "2026-02-16",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-relay-17-series",
+      "items": [
+        {
+          "id": "review-mockery-handbook-relay-17-series-001",
+          "productId": "mockery-handbook-relay-17-series",
+          "title": "Solid choice",
+          "author": "Priya Stone",
+          "date": "2026-02-14",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-summit-18-edition",
+      "items": []
+    },
+    {
+      "productId": "mockery-handbook-tempo-19-bundle",
+      "items": [
+        {
+          "id": "review-mockery-handbook-tempo-19-bundle-001",
+          "productId": "mockery-handbook-tempo-19-bundle",
+          "title": "Stable and predictable",
+          "author": "Alice Reed",
+          "date": "2026-04-16",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-vector-20-select",
+      "items": [
+        {
+          "id": "review-mockery-handbook-vector-20-select-001",
+          "productId": "mockery-handbook-vector-20-select",
+          "title": "Matched the description",
+          "author": "Noah Patel",
+          "date": "2026-05-17",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-mockery-handbook-vector-20-select-002",
+          "productId": "mockery-handbook-vector-20-select",
+          "title": "Great product",
+          "author": "Mina Carter",
+          "date": "2026-01-20",
+          "stars": 5,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-willow-21-series",
+      "items": []
+    },
+    {
+      "productId": "mockery-handbook-zenith-22-edition",
+      "items": [
+        {
+          "id": "review-mockery-handbook-zenith-22-edition-001",
+          "productId": "mockery-handbook-zenith-22-edition",
+          "title": "Solid choice",
+          "author": "Jon Bell",
+          "date": "2026-02-19",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-mockery-handbook-zenith-22-edition-002",
+          "productId": "mockery-handbook-zenith-22-edition",
+          "title": "Useful for demos",
+          "author": "Sofia Chen",
+          "date": "2026-03-22",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-atlas-23-bundle",
+      "items": [
+        {
+          "id": "review-mockery-handbook-atlas-23-bundle-001",
+          "productId": "mockery-handbook-atlas-23-bundle",
+          "title": "Useful for demos",
+          "author": "Sofia Chen",
+          "date": "2026-03-20",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-beacon-24-select",
+      "items": []
+    },
+    {
+      "productId": "mockery-handbook-circuit-25-series",
+      "items": [
+        {
+          "id": "review-mockery-handbook-circuit-25-series-001",
+          "productId": "mockery-handbook-circuit-25-series",
+          "title": "Matched the description",
+          "author": "Priya Stone",
+          "date": "2026-05-22",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-delta-26-edition",
+      "items": [
+        {
+          "id": "review-mockery-handbook-delta-26-edition-001",
+          "productId": "mockery-handbook-delta-26-edition",
+          "title": "Great product",
+          "author": "Leo Grant",
+          "date": "2026-01-23",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-mockery-handbook-delta-26-edition-002",
+          "productId": "mockery-handbook-delta-26-edition",
+          "title": "Solid choice",
+          "author": "Alice Reed",
+          "date": "2026-02-26",
+          "stars": 5,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-ember-27-bundle",
+      "items": []
+    },
+    {
+      "productId": "mockery-handbook-foundry-28-select",
+      "items": [
+        {
+          "id": "review-mockery-handbook-foundry-28-select-001",
+          "productId": "mockery-handbook-foundry-28-select",
+          "title": "Useful for demos",
+          "author": "Noah Patel",
+          "date": "2026-03-25",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-mockery-handbook-foundry-28-select-002",
+          "productId": "mockery-handbook-foundry-28-select",
+          "title": "Stable and predictable",
+          "author": "Mina Carter",
+          "date": "2026-04-10",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-harbor-29-series",
+      "items": [
+        {
+          "id": "review-mockery-handbook-harbor-29-series-001",
+          "productId": "mockery-handbook-harbor-29-series",
+          "title": "Stable and predictable",
+          "author": "Mina Carter",
+          "date": "2026-04-26",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "mockery-handbook-ion-30-edition",
+      "items": []
+    },
+    {
+      "productId": "desk-lamp",
+      "items": [
+        {
+          "id": "review-desk-lamp-001",
+          "productId": "desk-lamp",
+          "title": "Great product",
+          "author": "Sofia Chen",
+          "date": "2026-01-10",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "usb-c-dock",
+      "items": [
+        {
+          "id": "review-usb-c-dock-001",
+          "productId": "usb-c-dock",
+          "title": "Solid choice",
+          "author": "Evan Brooks",
+          "date": "2026-02-11",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-usb-c-dock-002",
+          "productId": "usb-c-dock",
+          "title": "Useful for demos",
+          "author": "Priya Stone",
+          "date": "2026-03-14",
+          "stars": 5,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "thermal-label-printer",
+      "items": []
+    },
+    {
+      "productId": "notebook-set",
+      "items": [
+        {
+          "id": "review-notebook-set-001",
+          "productId": "notebook-set",
+          "title": "Stable and predictable",
+          "author": "Leo Grant",
+          "date": "2026-04-13",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-notebook-set-002",
+          "productId": "notebook-set",
+          "title": "Matched the description",
+          "author": "Alice Reed",
+          "date": "2026-05-16",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "ergonomic-mouse",
+      "items": [
+        {
+          "id": "review-ergonomic-mouse-001",
+          "productId": "ergonomic-mouse",
+          "title": "Matched the description",
+          "author": "Alice Reed",
+          "date": "2026-05-14",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "office-chair-with-adjustable-lumbar-support-and-breathable-mesh-back",
+      "items": []
+    },
+    {
+      "productId": "cable-organizer-kit",
+      "items": [
+        {
+          "id": "review-cable-organizer-kit-001",
+          "productId": "cable-organizer-kit",
+          "title": "Solid choice",
+          "author": "Mina Carter",
+          "date": "2026-02-16",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-ion-08-select",
+      "items": [
+        {
+          "id": "review-office-kit-ion-08-select-001",
+          "productId": "office-kit-ion-08-select",
+          "title": "Useful for demos",
+          "author": "Jon Bell",
+          "date": "2026-03-17",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-office-kit-ion-08-select-002",
+          "productId": "office-kit-ion-08-select",
+          "title": "Stable and predictable",
+          "author": "Sofia Chen",
+          "date": "2026-04-20",
+          "stars": 5,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-juniper-09-series",
+      "items": []
+    },
+    {
+      "productId": "office-kit-keystone-10-edition",
+      "items": [
+        {
+          "id": "review-office-kit-keystone-10-edition-001",
+          "productId": "office-kit-keystone-10-edition",
+          "title": "Matched the description",
+          "author": "Evan Brooks",
+          "date": "2026-05-19",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-office-kit-keystone-10-edition-002",
+          "productId": "office-kit-keystone-10-edition",
+          "title": "Great product",
+          "author": "Priya Stone",
+          "date": "2026-01-22",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-lumina-11-bundle",
+      "items": [
+        {
+          "id": "review-office-kit-lumina-11-bundle-001",
+          "productId": "office-kit-lumina-11-bundle",
+          "title": "Great product",
+          "author": "Priya Stone",
+          "date": "2026-01-20",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-metro-12-select",
+      "items": []
+    },
+    {
+      "productId": "office-kit-nova-13-series",
+      "items": [
+        {
+          "id": "review-office-kit-nova-13-series-001",
+          "productId": "office-kit-nova-13-series",
+          "title": "Useful for demos",
+          "author": "Alice Reed",
+          "date": "2026-03-22",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-orbit-14-edition",
+      "items": [
+        {
+          "id": "review-office-kit-orbit-14-edition-001",
+          "productId": "office-kit-orbit-14-edition",
+          "title": "Stable and predictable",
+          "author": "Noah Patel",
+          "date": "2026-04-23",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-office-kit-orbit-14-edition-002",
+          "productId": "office-kit-orbit-14-edition",
+          "title": "Matched the description",
+          "author": "Mina Carter",
+          "date": "2026-05-26",
+          "stars": 5,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-pilot-15-bundle",
+      "items": []
+    },
+    {
+      "productId": "office-kit-quartz-16-select",
+      "items": [
+        {
+          "id": "review-office-kit-quartz-16-select-001",
+          "productId": "office-kit-quartz-16-select",
+          "title": "Great product",
+          "author": "Jon Bell",
+          "date": "2026-01-25",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-office-kit-quartz-16-select-002",
+          "productId": "office-kit-quartz-16-select",
+          "title": "Solid choice",
+          "author": "Sofia Chen",
+          "date": "2026-02-10",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-relay-17-series",
+      "items": [
+        {
+          "id": "review-office-kit-relay-17-series-001",
+          "productId": "office-kit-relay-17-series",
+          "title": "Solid choice",
+          "author": "Sofia Chen",
+          "date": "2026-02-26",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-summit-18-edition",
+      "items": []
+    },
+    {
+      "productId": "office-kit-tempo-19-bundle",
+      "items": [
+        {
+          "id": "review-office-kit-tempo-19-bundle-001",
+          "productId": "office-kit-tempo-19-bundle",
+          "title": "Stable and predictable",
+          "author": "Priya Stone",
+          "date": "2026-04-10",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-vector-20-select",
+      "items": [
+        {
+          "id": "review-office-kit-vector-20-select-001",
+          "productId": "office-kit-vector-20-select",
+          "title": "Matched the description",
+          "author": "Leo Grant",
+          "date": "2026-05-11",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-office-kit-vector-20-select-002",
+          "productId": "office-kit-vector-20-select",
+          "title": "Great product",
+          "author": "Alice Reed",
+          "date": "2026-01-14",
+          "stars": 5,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-willow-21-series",
+      "items": []
+    },
+    {
+      "productId": "office-kit-zenith-22-edition",
+      "items": [
+        {
+          "id": "review-office-kit-zenith-22-edition-001",
+          "productId": "office-kit-zenith-22-edition",
+          "title": "Solid choice",
+          "author": "Noah Patel",
+          "date": "2026-02-13",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-office-kit-zenith-22-edition-002",
+          "productId": "office-kit-zenith-22-edition",
+          "title": "Useful for demos",
+          "author": "Mina Carter",
+          "date": "2026-03-16",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-atlas-23-bundle",
+      "items": [
+        {
+          "id": "review-office-kit-atlas-23-bundle-001",
+          "productId": "office-kit-atlas-23-bundle",
+          "title": "Useful for demos",
+          "author": "Mina Carter",
+          "date": "2026-03-14",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-beacon-24-select",
+      "items": []
+    },
+    {
+      "productId": "office-kit-circuit-25-series",
+      "items": [
+        {
+          "id": "review-office-kit-circuit-25-series-001",
+          "productId": "office-kit-circuit-25-series",
+          "title": "Matched the description",
+          "author": "Sofia Chen",
+          "date": "2026-05-16",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-delta-26-edition",
+      "items": [
+        {
+          "id": "review-office-kit-delta-26-edition-001",
+          "productId": "office-kit-delta-26-edition",
+          "title": "Great product",
+          "author": "Evan Brooks",
+          "date": "2026-01-17",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-office-kit-delta-26-edition-002",
+          "productId": "office-kit-delta-26-edition",
+          "title": "Solid choice",
+          "author": "Priya Stone",
+          "date": "2026-02-20",
+          "stars": 5,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-ember-27-bundle",
+      "items": []
+    },
+    {
+      "productId": "office-kit-foundry-28-select",
+      "items": [
+        {
+          "id": "review-office-kit-foundry-28-select-001",
+          "productId": "office-kit-foundry-28-select",
+          "title": "Useful for demos",
+          "author": "Leo Grant",
+          "date": "2026-03-19",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-office-kit-foundry-28-select-002",
+          "productId": "office-kit-foundry-28-select",
+          "title": "Stable and predictable",
+          "author": "Alice Reed",
+          "date": "2026-04-22",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-harbor-29-series",
+      "items": [
+        {
+          "id": "review-office-kit-harbor-29-series-001",
+          "productId": "office-kit-harbor-29-series",
+          "title": "Stable and predictable",
+          "author": "Alice Reed",
+          "date": "2026-04-20",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "office-kit-ion-30-edition",
+      "items": []
+    },
+    {
+      "productId": "mechanical-keyboard",
+      "items": [
+        {
+          "id": "review-mechanical-keyboard-001",
+          "productId": "mechanical-keyboard",
+          "title": "Great product",
+          "author": "Mina Carter",
+          "date": "2026-01-22",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "wireless-controller",
+      "items": [
+        {
+          "id": "review-wireless-controller-001",
+          "productId": "wireless-controller",
+          "title": "Solid choice",
+          "author": "Jon Bell",
+          "date": "2026-02-23",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-wireless-controller-002",
+          "productId": "wireless-controller",
+          "title": "Useful for demos",
+          "author": "Sofia Chen",
+          "date": "2026-03-26",
+          "stars": 5,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-console-plus-plus-tournament-ready",
+      "items": []
+    },
+    {
+      "productId": "streaming-capture-card",
+      "items": [
+        {
+          "id": "review-streaming-capture-card-001",
+          "productId": "streaming-capture-card",
+          "title": "Stable and predictable",
+          "author": "Evan Brooks",
+          "date": "2026-04-25",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-streaming-capture-card-002",
+          "productId": "streaming-capture-card",
+          "title": "Matched the description",
+          "author": "Priya Stone",
+          "date": "2026-05-10",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "rgb-mouse-pad-xl",
+      "items": [
+        {
+          "id": "review-rgb-mouse-pad-xl-001",
+          "productId": "rgb-mouse-pad-xl",
+          "title": "Matched the description",
+          "author": "Priya Stone",
+          "date": "2026-05-26",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "arcade-stick-pro",
+      "items": []
+    },
+    {
+      "productId": "game-storage-tower",
+      "items": [
+        {
+          "id": "review-game-storage-tower-001",
+          "productId": "game-storage-tower",
+          "title": "Solid choice",
+          "author": "Alice Reed",
+          "date": "2026-02-10",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-ion-08-select",
+      "items": [
+        {
+          "id": "review-gaming-gear-ion-08-select-001",
+          "productId": "gaming-gear-ion-08-select",
+          "title": "Useful for demos",
+          "author": "Noah Patel",
+          "date": "2026-03-11",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-gaming-gear-ion-08-select-002",
+          "productId": "gaming-gear-ion-08-select",
+          "title": "Stable and predictable",
+          "author": "Mina Carter",
+          "date": "2026-04-14",
+          "stars": 5,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-juniper-09-series",
+      "items": []
+    },
+    {
+      "productId": "gaming-gear-keystone-10-edition",
+      "items": [
+        {
+          "id": "review-gaming-gear-keystone-10-edition-001",
+          "productId": "gaming-gear-keystone-10-edition",
+          "title": "Matched the description",
+          "author": "Jon Bell",
+          "date": "2026-05-13",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-gaming-gear-keystone-10-edition-002",
+          "productId": "gaming-gear-keystone-10-edition",
+          "title": "Great product",
+          "author": "Sofia Chen",
+          "date": "2026-01-16",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-lumina-11-bundle",
+      "items": [
+        {
+          "id": "review-gaming-gear-lumina-11-bundle-001",
+          "productId": "gaming-gear-lumina-11-bundle",
+          "title": "Great product",
+          "author": "Sofia Chen",
+          "date": "2026-01-14",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-metro-12-select",
+      "items": []
+    },
+    {
+      "productId": "gaming-gear-nova-13-series",
+      "items": [
+        {
+          "id": "review-gaming-gear-nova-13-series-001",
+          "productId": "gaming-gear-nova-13-series",
+          "title": "Useful for demos",
+          "author": "Priya Stone",
+          "date": "2026-03-16",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-orbit-14-edition",
+      "items": [
+        {
+          "id": "review-gaming-gear-orbit-14-edition-001",
+          "productId": "gaming-gear-orbit-14-edition",
+          "title": "Stable and predictable",
+          "author": "Leo Grant",
+          "date": "2026-04-17",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-gaming-gear-orbit-14-edition-002",
+          "productId": "gaming-gear-orbit-14-edition",
+          "title": "Matched the description",
+          "author": "Alice Reed",
+          "date": "2026-05-20",
+          "stars": 5,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-pilot-15-bundle",
+      "items": []
+    },
+    {
+      "productId": "gaming-gear-quartz-16-select",
+      "items": [
+        {
+          "id": "review-gaming-gear-quartz-16-select-001",
+          "productId": "gaming-gear-quartz-16-select",
+          "title": "Great product",
+          "author": "Noah Patel",
+          "date": "2026-01-19",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-gaming-gear-quartz-16-select-002",
+          "productId": "gaming-gear-quartz-16-select",
+          "title": "Solid choice",
+          "author": "Mina Carter",
+          "date": "2026-02-22",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-relay-17-series",
+      "items": [
+        {
+          "id": "review-gaming-gear-relay-17-series-001",
+          "productId": "gaming-gear-relay-17-series",
+          "title": "Solid choice",
+          "author": "Mina Carter",
+          "date": "2026-02-20",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-summit-18-edition",
+      "items": []
+    },
+    {
+      "productId": "gaming-gear-tempo-19-bundle",
+      "items": [
+        {
+          "id": "review-gaming-gear-tempo-19-bundle-001",
+          "productId": "gaming-gear-tempo-19-bundle",
+          "title": "Stable and predictable",
+          "author": "Sofia Chen",
+          "date": "2026-04-22",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-vector-20-select",
+      "items": [
+        {
+          "id": "review-gaming-gear-vector-20-select-001",
+          "productId": "gaming-gear-vector-20-select",
+          "title": "Matched the description",
+          "author": "Evan Brooks",
+          "date": "2026-05-23",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-gaming-gear-vector-20-select-002",
+          "productId": "gaming-gear-vector-20-select",
+          "title": "Great product",
+          "author": "Priya Stone",
+          "date": "2026-01-26",
+          "stars": 5,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-willow-21-series",
+      "items": []
+    },
+    {
+      "productId": "gaming-gear-zenith-22-edition",
+      "items": [
+        {
+          "id": "review-gaming-gear-zenith-22-edition-001",
+          "productId": "gaming-gear-zenith-22-edition",
+          "title": "Solid choice",
+          "author": "Leo Grant",
+          "date": "2026-02-25",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-gaming-gear-zenith-22-edition-002",
+          "productId": "gaming-gear-zenith-22-edition",
+          "title": "Useful for demos",
+          "author": "Alice Reed",
+          "date": "2026-03-10",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-atlas-23-bundle",
+      "items": [
+        {
+          "id": "review-gaming-gear-atlas-23-bundle-001",
+          "productId": "gaming-gear-atlas-23-bundle",
+          "title": "Useful for demos",
+          "author": "Alice Reed",
+          "date": "2026-03-26",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-beacon-24-select",
+      "items": []
+    },
+    {
+      "productId": "gaming-gear-circuit-25-series",
+      "items": [
+        {
+          "id": "review-gaming-gear-circuit-25-series-001",
+          "productId": "gaming-gear-circuit-25-series",
+          "title": "Matched the description",
+          "author": "Mina Carter",
+          "date": "2026-05-10",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-delta-26-edition",
+      "items": [
+        {
+          "id": "review-gaming-gear-delta-26-edition-001",
+          "productId": "gaming-gear-delta-26-edition",
+          "title": "Great product",
+          "author": "Jon Bell",
+          "date": "2026-01-11",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-gaming-gear-delta-26-edition-002",
+          "productId": "gaming-gear-delta-26-edition",
+          "title": "Solid choice",
+          "author": "Sofia Chen",
+          "date": "2026-02-14",
+          "stars": 5,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-ember-27-bundle",
+      "items": []
+    },
+    {
+      "productId": "gaming-gear-foundry-28-select",
+      "items": [
+        {
+          "id": "review-gaming-gear-foundry-28-select-001",
+          "productId": "gaming-gear-foundry-28-select",
+          "title": "Useful for demos",
+          "author": "Evan Brooks",
+          "date": "2026-03-13",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-gaming-gear-foundry-28-select-002",
+          "productId": "gaming-gear-foundry-28-select",
+          "title": "Stable and predictable",
+          "author": "Priya Stone",
+          "date": "2026-04-16",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-harbor-29-series",
+      "items": [
+        {
+          "id": "review-gaming-gear-harbor-29-series-001",
+          "productId": "gaming-gear-harbor-29-series",
+          "title": "Stable and predictable",
+          "author": "Priya Stone",
+          "date": "2026-04-14",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "gaming-gear-ion-30-edition",
+      "items": []
+    },
+    {
+      "productId": "smart-bulb-pack",
+      "items": [
+        {
+          "id": "review-smart-bulb-pack-001",
+          "productId": "smart-bulb-pack",
+          "title": "Great product",
+          "author": "Alice Reed",
+          "date": "2026-01-16",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "door-sensor",
+      "items": [
+        {
+          "id": "review-door-sensor-001",
+          "productId": "door-sensor",
+          "title": "Solid choice",
+          "author": "Noah Patel",
+          "date": "2026-02-17",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-door-sensor-002",
+          "productId": "door-sensor",
+          "title": "Useful for demos",
+          "author": "Mina Carter",
+          "date": "2026-03-20",
+          "stars": 5,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "thermostat-mini",
+      "items": []
+    },
+    {
+      "productId": "security-camera-indoor",
+      "items": [
+        {
+          "id": "review-security-camera-indoor-001",
+          "productId": "security-camera-indoor",
+          "title": "Stable and predictable",
+          "author": "Jon Bell",
+          "date": "2026-04-19",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-security-camera-indoor-002",
+          "productId": "security-camera-indoor",
+          "title": "Matched the description",
+          "author": "Sofia Chen",
+          "date": "2026-05-22",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "voice-remote",
+      "items": [
+        {
+          "id": "review-voice-remote-001",
+          "productId": "voice-remote",
+          "title": "Matched the description",
+          "author": "Sofia Chen",
+          "date": "2026-05-20",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "smart-plug-duo",
+      "items": []
+    },
+    {
+      "productId": "water-leak-sensor",
+      "items": [
+        {
+          "id": "review-water-leak-sensor-001",
+          "productId": "water-leak-sensor",
+          "title": "Solid choice",
+          "author": "Priya Stone",
+          "date": "2026-02-22",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-ion-08-select",
+      "items": [
+        {
+          "id": "review-smart-home-device-ion-08-select-001",
+          "productId": "smart-home-device-ion-08-select",
+          "title": "Useful for demos",
+          "author": "Leo Grant",
+          "date": "2026-03-23",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-smart-home-device-ion-08-select-002",
+          "productId": "smart-home-device-ion-08-select",
+          "title": "Stable and predictable",
+          "author": "Alice Reed",
+          "date": "2026-04-26",
+          "stars": 5,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-juniper-09-series",
+      "items": []
+    },
+    {
+      "productId": "smart-home-device-keystone-10-edition",
+      "items": [
+        {
+          "id": "review-smart-home-device-keystone-10-edition-001",
+          "productId": "smart-home-device-keystone-10-edition",
+          "title": "Matched the description",
+          "author": "Noah Patel",
+          "date": "2026-05-25",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-smart-home-device-keystone-10-edition-002",
+          "productId": "smart-home-device-keystone-10-edition",
+          "title": "Great product",
+          "author": "Mina Carter",
+          "date": "2026-01-10",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-lumina-11-bundle",
+      "items": [
+        {
+          "id": "review-smart-home-device-lumina-11-bundle-001",
+          "productId": "smart-home-device-lumina-11-bundle",
+          "title": "Great product",
+          "author": "Mina Carter",
+          "date": "2026-01-26",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-metro-12-select",
+      "items": []
+    },
+    {
+      "productId": "smart-home-device-nova-13-series",
+      "items": [
+        {
+          "id": "review-smart-home-device-nova-13-series-001",
+          "productId": "smart-home-device-nova-13-series",
+          "title": "Useful for demos",
+          "author": "Sofia Chen",
+          "date": "2026-03-10",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-orbit-14-edition",
+      "items": [
+        {
+          "id": "review-smart-home-device-orbit-14-edition-001",
+          "productId": "smart-home-device-orbit-14-edition",
+          "title": "Stable and predictable",
+          "author": "Evan Brooks",
+          "date": "2026-04-11",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-smart-home-device-orbit-14-edition-002",
+          "productId": "smart-home-device-orbit-14-edition",
+          "title": "Matched the description",
+          "author": "Priya Stone",
+          "date": "2026-05-14",
+          "stars": 5,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-pilot-15-bundle",
+      "items": []
+    },
+    {
+      "productId": "smart-home-device-quartz-16-select",
+      "items": [
+        {
+          "id": "review-smart-home-device-quartz-16-select-001",
+          "productId": "smart-home-device-quartz-16-select",
+          "title": "Great product",
+          "author": "Leo Grant",
+          "date": "2026-01-13",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-smart-home-device-quartz-16-select-002",
+          "productId": "smart-home-device-quartz-16-select",
+          "title": "Solid choice",
+          "author": "Alice Reed",
+          "date": "2026-02-16",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-relay-17-series",
+      "items": [
+        {
+          "id": "review-smart-home-device-relay-17-series-001",
+          "productId": "smart-home-device-relay-17-series",
+          "title": "Solid choice",
+          "author": "Alice Reed",
+          "date": "2026-02-14",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-summit-18-edition",
+      "items": []
+    },
+    {
+      "productId": "smart-home-device-tempo-19-bundle",
+      "items": [
+        {
+          "id": "review-smart-home-device-tempo-19-bundle-001",
+          "productId": "smart-home-device-tempo-19-bundle",
+          "title": "Stable and predictable",
+          "author": "Mina Carter",
+          "date": "2026-04-16",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-vector-20-select",
+      "items": [
+        {
+          "id": "review-smart-home-device-vector-20-select-001",
+          "productId": "smart-home-device-vector-20-select",
+          "title": "Matched the description",
+          "author": "Jon Bell",
+          "date": "2026-05-17",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-smart-home-device-vector-20-select-002",
+          "productId": "smart-home-device-vector-20-select",
+          "title": "Great product",
+          "author": "Sofia Chen",
+          "date": "2026-01-20",
+          "stars": 5,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-willow-21-series",
+      "items": []
+    },
+    {
+      "productId": "smart-home-device-zenith-22-edition",
+      "items": [
+        {
+          "id": "review-smart-home-device-zenith-22-edition-001",
+          "productId": "smart-home-device-zenith-22-edition",
+          "title": "Solid choice",
+          "author": "Evan Brooks",
+          "date": "2026-02-19",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-smart-home-device-zenith-22-edition-002",
+          "productId": "smart-home-device-zenith-22-edition",
+          "title": "Useful for demos",
+          "author": "Priya Stone",
+          "date": "2026-03-22",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-atlas-23-bundle",
+      "items": [
+        {
+          "id": "review-smart-home-device-atlas-23-bundle-001",
+          "productId": "smart-home-device-atlas-23-bundle",
+          "title": "Useful for demos",
+          "author": "Priya Stone",
+          "date": "2026-03-20",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-beacon-24-select",
+      "items": []
+    },
+    {
+      "productId": "smart-home-device-circuit-25-series",
+      "items": [
+        {
+          "id": "review-smart-home-device-circuit-25-series-001",
+          "productId": "smart-home-device-circuit-25-series",
+          "title": "Matched the description",
+          "author": "Alice Reed",
+          "date": "2026-05-22",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-delta-26-edition",
+      "items": [
+        {
+          "id": "review-smart-home-device-delta-26-edition-001",
+          "productId": "smart-home-device-delta-26-edition",
+          "title": "Great product",
+          "author": "Noah Patel",
+          "date": "2026-01-23",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-smart-home-device-delta-26-edition-002",
+          "productId": "smart-home-device-delta-26-edition",
+          "title": "Solid choice",
+          "author": "Mina Carter",
+          "date": "2026-02-26",
+          "stars": 5,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-ember-27-bundle",
+      "items": []
+    },
+    {
+      "productId": "smart-home-device-foundry-28-select",
+      "items": [
+        {
+          "id": "review-smart-home-device-foundry-28-select-001",
+          "productId": "smart-home-device-foundry-28-select",
+          "title": "Useful for demos",
+          "author": "Jon Bell",
+          "date": "2026-03-25",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-smart-home-device-foundry-28-select-002",
+          "productId": "smart-home-device-foundry-28-select",
+          "title": "Stable and predictable",
+          "author": "Sofia Chen",
+          "date": "2026-04-10",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-harbor-29-series",
+      "items": [
+        {
+          "id": "review-smart-home-device-harbor-29-series-001",
+          "productId": "smart-home-device-harbor-29-series",
+          "title": "Stable and predictable",
+          "author": "Sofia Chen",
+          "date": "2026-04-26",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "smart-home-device-ion-30-edition",
+      "items": []
+    },
+    {
+      "productId": "fitness-tracker",
+      "items": [
+        {
+          "id": "review-fitness-tracker-001",
+          "productId": "fitness-tracker",
+          "title": "Great product",
+          "author": "Priya Stone",
+          "date": "2026-01-10",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "adjustable-dumbbell",
+      "items": [
+        {
+          "id": "review-adjustable-dumbbell-001",
+          "productId": "adjustable-dumbbell",
+          "title": "Solid choice",
+          "author": "Leo Grant",
+          "date": "2026-02-11",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-adjustable-dumbbell-002",
+          "productId": "adjustable-dumbbell",
+          "title": "Useful for demos",
+          "author": "Alice Reed",
+          "date": "2026-03-14",
+          "stars": 5,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "yoga-mat-pro",
+      "items": []
+    },
+    {
+      "productId": "resistance-band-set",
+      "items": [
+        {
+          "id": "review-resistance-band-set-001",
+          "productId": "resistance-band-set",
+          "title": "Stable and predictable",
+          "author": "Noah Patel",
+          "date": "2026-04-13",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-resistance-band-set-002",
+          "productId": "resistance-band-set",
+          "title": "Matched the description",
+          "author": "Mina Carter",
+          "date": "2026-05-16",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "folding-exercise-bike",
+      "items": [
+        {
+          "id": "review-folding-exercise-bike-001",
+          "productId": "folding-exercise-bike",
+          "title": "Matched the description",
+          "author": "Mina Carter",
+          "date": "2026-05-14",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "smart-scale",
+      "items": []
+    },
+    {
+      "productId": "recovery-massage-roller",
+      "items": [
+        {
+          "id": "review-recovery-massage-roller-001",
+          "productId": "recovery-massage-roller",
+          "title": "Solid choice",
+          "author": "Sofia Chen",
+          "date": "2026-02-16",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-ion-08-select",
+      "items": [
+        {
+          "id": "review-fitness-kit-ion-08-select-001",
+          "productId": "fitness-kit-ion-08-select",
+          "title": "Useful for demos",
+          "author": "Evan Brooks",
+          "date": "2026-03-17",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-fitness-kit-ion-08-select-002",
+          "productId": "fitness-kit-ion-08-select",
+          "title": "Stable and predictable",
+          "author": "Priya Stone",
+          "date": "2026-04-20",
+          "stars": 5,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-juniper-09-series",
+      "items": []
+    },
+    {
+      "productId": "fitness-kit-keystone-10-edition",
+      "items": [
+        {
+          "id": "review-fitness-kit-keystone-10-edition-001",
+          "productId": "fitness-kit-keystone-10-edition",
+          "title": "Matched the description",
+          "author": "Leo Grant",
+          "date": "2026-05-19",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-fitness-kit-keystone-10-edition-002",
+          "productId": "fitness-kit-keystone-10-edition",
+          "title": "Great product",
+          "author": "Alice Reed",
+          "date": "2026-01-22",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-lumina-11-bundle",
+      "items": [
+        {
+          "id": "review-fitness-kit-lumina-11-bundle-001",
+          "productId": "fitness-kit-lumina-11-bundle",
+          "title": "Great product",
+          "author": "Alice Reed",
+          "date": "2026-01-20",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-metro-12-select",
+      "items": []
+    },
+    {
+      "productId": "fitness-kit-nova-13-series",
+      "items": [
+        {
+          "id": "review-fitness-kit-nova-13-series-001",
+          "productId": "fitness-kit-nova-13-series",
+          "title": "Useful for demos",
+          "author": "Mina Carter",
+          "date": "2026-03-22",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-orbit-14-edition",
+      "items": [
+        {
+          "id": "review-fitness-kit-orbit-14-edition-001",
+          "productId": "fitness-kit-orbit-14-edition",
+          "title": "Stable and predictable",
+          "author": "Jon Bell",
+          "date": "2026-04-23",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        },
+        {
+          "id": "review-fitness-kit-orbit-14-edition-002",
+          "productId": "fitness-kit-orbit-14-edition",
+          "title": "Matched the description",
+          "author": "Sofia Chen",
+          "date": "2026-05-26",
+          "stars": 5,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-pilot-15-bundle",
+      "items": []
+    },
+    {
+      "productId": "fitness-kit-quartz-16-select",
+      "items": [
+        {
+          "id": "review-fitness-kit-quartz-16-select-001",
+          "productId": "fitness-kit-quartz-16-select",
+          "title": "Great product",
+          "author": "Evan Brooks",
+          "date": "2026-01-25",
+          "stars": 3,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-fitness-kit-quartz-16-select-002",
+          "productId": "fitness-kit-quartz-16-select",
+          "title": "Solid choice",
+          "author": "Priya Stone",
+          "date": "2026-02-10",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-relay-17-series",
+      "items": [
+        {
+          "id": "review-fitness-kit-relay-17-series-001",
+          "productId": "fitness-kit-relay-17-series",
+          "title": "Solid choice",
+          "author": "Priya Stone",
+          "date": "2026-02-26",
+          "stars": 4,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-summit-18-edition",
+      "items": []
+    },
+    {
+      "productId": "fitness-kit-tempo-19-bundle",
+      "items": [
+        {
+          "id": "review-fitness-kit-tempo-19-bundle-001",
+          "productId": "fitness-kit-tempo-19-bundle",
+          "title": "Stable and predictable",
+          "author": "Alice Reed",
+          "date": "2026-04-10",
+          "stars": 3,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-vector-20-select",
+      "items": [
+        {
+          "id": "review-fitness-kit-vector-20-select-001",
+          "productId": "fitness-kit-vector-20-select",
+          "title": "Matched the description",
+          "author": "Noah Patel",
+          "date": "2026-05-11",
+          "stars": 4,
+          "body": "The specs and price were clear on the detail page."
+        },
+        {
+          "id": "review-fitness-kit-vector-20-select-002",
+          "productId": "fitness-kit-vector-20-select",
+          "title": "Great product",
+          "author": "Mina Carter",
+          "date": "2026-01-14",
+          "stars": 5,
+          "body": "Fast, quiet, and lightweight."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-willow-21-series",
+      "items": []
+    },
+    {
+      "productId": "fitness-kit-zenith-22-edition",
+      "items": [
+        {
+          "id": "review-fitness-kit-zenith-22-edition-001",
+          "productId": "fitness-kit-zenith-22-edition",
+          "title": "Solid choice",
+          "author": "Jon Bell",
+          "date": "2026-02-13",
+          "stars": 3,
+          "body": "The metadata was easy to compare across the catalog."
+        },
+        {
+          "id": "review-fitness-kit-zenith-22-edition-002",
+          "productId": "fitness-kit-zenith-22-edition",
+          "title": "Useful for demos",
+          "author": "Sofia Chen",
+          "date": "2026-03-16",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-atlas-23-bundle",
+      "items": [
+        {
+          "id": "review-fitness-kit-atlas-23-bundle-001",
+          "productId": "fitness-kit-atlas-23-bundle",
+          "title": "Useful for demos",
+          "author": "Sofia Chen",
+          "date": "2026-03-14",
+          "stars": 4,
+          "body": "Worked exactly as expected in this fake storefront."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-beacon-24-select",
+      "items": []
+    },
+    {
+      "productId": "fitness-kit-circuit-25-series",
+      "items": [
+        {
+          "id": "review-fitness-kit-circuit-25-series-001",
+          "productId": "fitness-kit-circuit-25-series",
+          "title": "Matched the description",
+          "author": "Priya Stone",
+          "date": "2026-05-16",
+          "stars": 3,
+          "body": "The specs and price were clear on the detail page."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-delta-26-edition",
+      "items": [
+        {
+          "id": "review-fitness-kit-delta-26-edition-001",
+          "productId": "fitness-kit-delta-26-edition",
+          "title": "Great product",
+          "author": "Leo Grant",
+          "date": "2026-01-17",
+          "stars": 4,
+          "body": "Fast, quiet, and lightweight."
+        },
+        {
+          "id": "review-fitness-kit-delta-26-edition-002",
+          "productId": "fitness-kit-delta-26-edition",
+          "title": "Solid choice",
+          "author": "Alice Reed",
+          "date": "2026-02-20",
+          "stars": 5,
+          "body": "The metadata was easy to compare across the catalog."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-ember-27-bundle",
+      "items": []
+    },
+    {
+      "productId": "fitness-kit-foundry-28-select",
+      "items": [
+        {
+          "id": "review-fitness-kit-foundry-28-select-001",
+          "productId": "fitness-kit-foundry-28-select",
+          "title": "Useful for demos",
+          "author": "Noah Patel",
+          "date": "2026-03-19",
+          "stars": 3,
+          "body": "Worked exactly as expected in this fake storefront."
+        },
+        {
+          "id": "review-fitness-kit-foundry-28-select-002",
+          "productId": "fitness-kit-foundry-28-select",
+          "title": "Stable and predictable",
+          "author": "Mina Carter",
+          "date": "2026-04-22",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-harbor-29-series",
+      "items": [
+        {
+          "id": "review-fitness-kit-harbor-29-series-001",
+          "productId": "fitness-kit-harbor-29-series",
+          "title": "Stable and predictable",
+          "author": "Mina Carter",
+          "date": "2026-04-20",
+          "stars": 4,
+          "body": "A good deterministic item for examples and tests."
+        }
+      ]
+    },
+    {
+      "productId": "fitness-kit-ion-30-edition",
+      "items": []
+    }
+  ]
+}

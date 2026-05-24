@@ -1,0 +1,14 @@
+{
+  "productId": "ergonomic-mouse",
+  "items": [
+    {
+      "id": "review-ergonomic-mouse-001",
+      "productId": "ergonomic-mouse",
+      "title": "Matched the description",
+      "author": "Alice Reed",
+      "date": "2026-05-14",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

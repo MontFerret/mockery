@@ -1,0 +1,14 @@
+{
+  "productId": "headphones-lumina-11-bundle",
+  "items": [
+    {
+      "id": "review-headphones-lumina-11-bundle-001",
+      "productId": "headphones-lumina-11-bundle",
+      "title": "Great product",
+      "author": "Priya Stone",
+      "date": "2026-01-26",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

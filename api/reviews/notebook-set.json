@@ -1,0 +1,23 @@
+{
+  "productId": "notebook-set",
+  "items": [
+    {
+      "id": "review-notebook-set-001",
+      "productId": "notebook-set",
+      "title": "Stable and predictable",
+      "author": "Leo Grant",
+      "date": "2026-04-13",
+      "stars": 3,
+      "body": "A good deterministic item for examples and tests."
+    },
+    {
+      "id": "review-notebook-set-002",
+      "productId": "notebook-set",
+      "title": "Matched the description",
+      "author": "Alice Reed",
+      "date": "2026-05-16",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

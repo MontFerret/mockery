@@ -1,0 +1,23 @@
+{
+  "productId": "phone-orbit-14-edition",
+  "items": [
+    {
+      "id": "review-phone-orbit-14-edition-001",
+      "productId": "phone-orbit-14-edition",
+      "title": "Stable and predictable",
+      "author": "Jon Bell",
+      "date": "2026-04-17",
+      "stars": 4,
+      "body": "A good deterministic item for examples and tests."
+    },
+    {
+      "id": "review-phone-orbit-14-edition-002",
+      "productId": "phone-orbit-14-edition",
+      "title": "Matched the description",
+      "author": "Sofia Chen",
+      "date": "2026-05-20",
+      "stars": 5,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

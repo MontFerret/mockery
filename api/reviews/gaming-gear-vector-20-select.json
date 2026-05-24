@@ -1,0 +1,23 @@
+{
+  "productId": "gaming-gear-vector-20-select",
+  "items": [
+    {
+      "id": "review-gaming-gear-vector-20-select-001",
+      "productId": "gaming-gear-vector-20-select",
+      "title": "Matched the description",
+      "author": "Evan Brooks",
+      "date": "2026-05-23",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    },
+    {
+      "id": "review-gaming-gear-vector-20-select-002",
+      "productId": "gaming-gear-vector-20-select",
+      "title": "Great product",
+      "author": "Priya Stone",
+      "date": "2026-01-26",
+      "stars": 5,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "productId": "headphones-orbit-14-edition",
+  "items": [
+    {
+      "id": "review-headphones-orbit-14-edition-001",
+      "productId": "headphones-orbit-14-edition",
+      "title": "Stable and predictable",
+      "author": "Noah Patel",
+      "date": "2026-04-11",
+      "stars": 4,
+      "body": "A good deterministic item for examples and tests."
+    },
+    {
+      "id": "review-headphones-orbit-14-edition-002",
+      "productId": "headphones-orbit-14-edition",
+      "title": "Matched the description",
+      "author": "Mina Carter",
+      "date": "2026-05-14",
+      "stars": 5,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

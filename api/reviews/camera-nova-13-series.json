@@ -1,0 +1,14 @@
+{
+  "productId": "camera-nova-13-series",
+  "items": [
+    {
+      "id": "review-camera-nova-13-series-001",
+      "productId": "camera-nova-13-series",
+      "title": "Useful for demos",
+      "author": "Priya Stone",
+      "date": "2026-03-22",
+      "stars": 3,
+      "body": "Worked exactly as expected in this fake storefront."
+    }
+  ]
+}

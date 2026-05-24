@@ -1,0 +1,14 @@
+{
+  "productId": "phone-lite-5g",
+  "items": [
+    {
+      "id": "review-phone-lite-5g-001",
+      "productId": "phone-lite-5g",
+      "title": "Matched the description",
+      "author": "Mina Carter",
+      "date": "2026-05-26",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

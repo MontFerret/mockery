@@ -1,0 +1,14 @@
+{
+  "productId": "smart-bulb-pack",
+  "items": [
+    {
+      "id": "review-smart-bulb-pack-001",
+      "productId": "smart-bulb-pack",
+      "title": "Great product",
+      "author": "Alice Reed",
+      "date": "2026-01-16",
+      "stars": 3,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

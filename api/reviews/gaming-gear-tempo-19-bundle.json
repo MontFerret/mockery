@@ -1,0 +1,14 @@
+{
+  "productId": "gaming-gear-tempo-19-bundle",
+  "items": [
+    {
+      "id": "review-gaming-gear-tempo-19-bundle-001",
+      "productId": "gaming-gear-tempo-19-bundle",
+      "title": "Stable and predictable",
+      "author": "Sofia Chen",
+      "date": "2026-04-22",
+      "stars": 3,
+      "body": "A good deterministic item for examples and tests."
+    }
+  ]
+}

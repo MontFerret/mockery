@@ -1,0 +1,727 @@
+{
+  "page": 10,
+  "pageSize": 24,
+  "total": 300,
+  "items": [
+    {
+      "id": "game-storage-tower",
+      "slug": "game-storage-tower",
+      "sku": "MCK-GMG-217",
+      "title": "Game Storage Tower",
+      "brand": "Litware",
+      "category": "gaming",
+      "price": 335.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 7 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Platform": "PC",
+        "PollingRate": "1000 Hz",
+        "Lighting": "RGB",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/game-storage-tower.svg",
+      "url": "/scenarios/ecommerce/products/game-storage-tower/"
+    },
+    {
+      "id": "gaming-gear-ion-08-select",
+      "slug": "gaming-gear-ion-08-select",
+      "sku": "MCK-GMG-218",
+      "title": "Gaming Gear Ion 08 Select",
+      "brand": "Alpine Goods",
+      "category": "gaming",
+      "price": 381.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.2,
+      "reviewCount": 76,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 8 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Platform": "Console",
+        "Storage": "1 TB",
+        "Controllers": "2",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-ion-08-select.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-ion-08-select/"
+    },
+    {
+      "id": "gaming-gear-juniper-09-series",
+      "slug": "gaming-gear-juniper-09-series",
+      "sku": "MCK-GMG-219",
+      "title": "Gaming Gear Juniper 09 Series",
+      "brand": "Pixel Forge",
+      "category": "gaming",
+      "price": 426.95,
+      "oldPrice": 546.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 9 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Capture": "1080p60",
+        "Interface": "USB-C",
+        "Latency": "Low",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-juniper-09-series.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-juniper-09-series/"
+    },
+    {
+      "id": "gaming-gear-keystone-10-edition",
+      "slug": "gaming-gear-keystone-10-edition",
+      "sku": "MCK-GMG-220",
+      "title": "Gaming Gear Keystone 10 Edition",
+      "brand": "Cedar & Co.",
+      "category": "gaming",
+      "price": 429.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviewCount": 98,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 10 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Platform": "PC",
+        "PollingRate": "1000 Hz",
+        "Lighting": "RGB",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-keystone-10-edition.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-keystone-10-edition/"
+    },
+    {
+      "id": "gaming-gear-lumina-11-bundle",
+      "slug": "gaming-gear-lumina-11-bundle",
+      "sku": "MCK-GMG-221",
+      "title": "Gaming Gear Lumina 11 Bundle",
+      "brand": "Northwind",
+      "category": "gaming",
+      "price": 475.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 109,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 11 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Platform": "Console",
+        "Storage": "1 TB",
+        "Controllers": "2",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-lumina-11-bundle.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-lumina-11-bundle/"
+    },
+    {
+      "id": "gaming-gear-metro-12-select",
+      "slug": "gaming-gear-metro-12-select",
+      "sku": "MCK-GMG-222",
+      "title": "Gaming Gear Metro 12 Select",
+      "brand": "Contoso",
+      "category": "gaming",
+      "price": 520.97,
+      "oldPrice": 600.97,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 12 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Capture": "1080p60",
+        "Interface": "USB-C",
+        "Latency": "Low",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-metro-12-select.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-metro-12-select/"
+    },
+    {
+      "id": "gaming-gear-nova-13-series",
+      "slug": "gaming-gear-nova-13-series",
+      "sku": "MCK-GMG-223",
+      "title": "Gaming Gear Nova 13 Series",
+      "brand": "Fabrikam",
+      "category": "gaming",
+      "price": 566.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 131,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 13 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Platform": "PC",
+        "PollingRate": "1000 Hz",
+        "Lighting": "RGB",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-nova-13-series.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-nova-13-series/"
+    },
+    {
+      "id": "gaming-gear-orbit-14-edition",
+      "slug": "gaming-gear-orbit-14-edition",
+      "sku": "MCK-GMG-224",
+      "title": "Gaming Gear Orbit 14 Edition",
+      "brand": "Blue Yonder",
+      "category": "gaming",
+      "price": 611.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 14 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Platform": "Console",
+        "Storage": "1 TB",
+        "Controllers": "2",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-orbit-14-edition.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-orbit-14-edition/"
+    },
+    {
+      "id": "gaming-gear-pilot-15-bundle",
+      "slug": "gaming-gear-pilot-15-bundle",
+      "sku": "MCK-GMG-225",
+      "title": "Gaming Gear Pilot 15 Bundle",
+      "brand": "Tailspin",
+      "category": "gaming",
+      "price": 614.99,
+      "oldPrice": 814.99,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 15 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Capture": "1080p60",
+        "Interface": "USB-C",
+        "Latency": "Low",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-pilot-15-bundle.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-pilot-15-bundle/"
+    },
+    {
+      "id": "gaming-gear-quartz-16-select",
+      "slug": "gaming-gear-quartz-16-select",
+      "sku": "MCK-GMG-226",
+      "title": "Gaming Gear Quartz 16 Select",
+      "brand": "Adventure Works",
+      "category": "gaming",
+      "price": 660.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.6,
+      "reviewCount": 164,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 16 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Platform": "PC",
+        "PollingRate": "1000 Hz",
+        "Lighting": "RGB",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-quartz-16-select.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-quartz-16-select/"
+    },
+    {
+      "id": "gaming-gear-relay-17-series",
+      "slug": "gaming-gear-relay-17-series",
+      "sku": "MCK-GMG-227",
+      "title": "Gaming Gear Relay 17 Series",
+      "brand": "Litware",
+      "category": "gaming",
+      "price": 705.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.7,
+      "reviewCount": 175,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 17 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Platform": "Console",
+        "Storage": "1 TB",
+        "Controllers": "2",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-relay-17-series.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-relay-17-series/"
+    },
+    {
+      "id": "gaming-gear-summit-18-edition",
+      "slug": "gaming-gear-summit-18-edition",
+      "sku": "MCK-GMG-228",
+      "title": "Gaming Gear Summit 18 Edition",
+      "brand": "Alpine Goods",
+      "category": "gaming",
+      "price": 751.46,
+      "oldPrice": 911.46,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 18 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Capture": "1080p60",
+        "Interface": "USB-C",
+        "Latency": "Low",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-summit-18-edition.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-summit-18-edition/"
+    },
+    {
+      "id": "gaming-gear-tempo-19-bundle",
+      "slug": "gaming-gear-tempo-19-bundle",
+      "sku": "MCK-GMG-229",
+      "title": "Gaming Gear Tempo 19 Bundle",
+      "brand": "Pixel Forge",
+      "category": "gaming",
+      "price": 796.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.9,
+      "reviewCount": 197,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 19 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Platform": "PC",
+        "PollingRate": "1000 Hz",
+        "Lighting": "RGB",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-tempo-19-bundle.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-tempo-19-bundle/"
+    },
+    {
+      "id": "gaming-gear-vector-20-select",
+      "slug": "gaming-gear-vector-20-select",
+      "sku": "MCK-GMG-230",
+      "title": "Gaming Gear Vector 20 Select",
+      "brand": "Cedar & Co.",
+      "category": "gaming",
+      "price": 799.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4,
+      "reviewCount": 28,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 20 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Platform": "Console",
+        "Storage": "1 TB",
+        "Controllers": "2",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-vector-20-select.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-vector-20-select/"
+    },
+    {
+      "id": "gaming-gear-willow-21-series",
+      "slug": "gaming-gear-willow-21-series",
+      "sku": "MCK-GMG-231",
+      "title": "Gaming Gear Willow 21 Series",
+      "brand": "Northwind",
+      "category": "gaming",
+      "price": 845.48,
+      "oldPrice": 965.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 21 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Capture": "1080p60",
+        "Interface": "USB-C",
+        "Latency": "Low",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-willow-21-series.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-willow-21-series/"
+    },
+    {
+      "id": "gaming-gear-zenith-22-edition",
+      "slug": "gaming-gear-zenith-22-edition",
+      "sku": "MCK-GMG-232",
+      "title": "Gaming Gear Zenith 22 Edition",
+      "brand": "Contoso",
+      "category": "gaming",
+      "price": 890.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.2,
+      "reviewCount": 50,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 22 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Platform": "PC",
+        "PollingRate": "1000 Hz",
+        "Lighting": "RGB",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-zenith-22-edition.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-zenith-22-edition/"
+    },
+    {
+      "id": "gaming-gear-atlas-23-bundle",
+      "slug": "gaming-gear-atlas-23-bundle",
+      "sku": "MCK-GMG-233",
+      "title": "Gaming Gear Atlas 23 Bundle",
+      "brand": "Fabrikam",
+      "category": "gaming",
+      "price": 936.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.3,
+      "reviewCount": 61,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 23 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Platform": "Console",
+        "Storage": "1 TB",
+        "Controllers": "2",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-atlas-23-bundle.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-atlas-23-bundle/"
+    },
+    {
+      "id": "gaming-gear-beacon-24-select",
+      "slug": "gaming-gear-beacon-24-select",
+      "sku": "MCK-GMG-234",
+      "title": "Gaming Gear Beacon 24 Select",
+      "brand": "Blue Yonder",
+      "category": "gaming",
+      "price": 981.95,
+      "oldPrice": 1061.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 24 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Capture": "1080p60",
+        "Interface": "USB-C",
+        "Latency": "Low",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-beacon-24-select.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-beacon-24-select/"
+    },
+    {
+      "id": "gaming-gear-circuit-25-series",
+      "slug": "gaming-gear-circuit-25-series",
+      "sku": "MCK-GMG-235",
+      "title": "Gaming Gear Circuit 25 Series",
+      "brand": "Tailspin",
+      "category": "gaming",
+      "price": 984.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 83,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 25 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Platform": "PC",
+        "PollingRate": "1000 Hz",
+        "Lighting": "RGB",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-circuit-25-series.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-circuit-25-series/"
+    },
+    {
+      "id": "gaming-gear-delta-26-edition",
+      "slug": "gaming-gear-delta-26-edition",
+      "sku": "MCK-GMG-236",
+      "title": "Gaming Gear Delta 26 Edition",
+      "brand": "Adventure Works",
+      "category": "gaming",
+      "price": 1030.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 94,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 26 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Platform": "Console",
+        "Storage": "1 TB",
+        "Controllers": "2",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-delta-26-edition.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-delta-26-edition/"
+    },
+    {
+      "id": "gaming-gear-ember-27-bundle",
+      "slug": "gaming-gear-ember-27-bundle",
+      "sku": "MCK-GMG-237",
+      "title": "Gaming Gear Ember 27 Bundle",
+      "brand": "Litware",
+      "category": "gaming",
+      "price": 1075.97,
+      "oldPrice": 1275.97,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 27 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Capture": "1080p60",
+        "Interface": "USB-C",
+        "Latency": "Low",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-ember-27-bundle.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-ember-27-bundle/"
+    },
+    {
+      "id": "gaming-gear-foundry-28-select",
+      "slug": "gaming-gear-foundry-28-select",
+      "sku": "MCK-GMG-238",
+      "title": "Gaming Gear Foundry 28 Select",
+      "brand": "Alpine Goods",
+      "category": "gaming",
+      "price": 1121.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 28 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Platform": "PC",
+        "PollingRate": "1000 Hz",
+        "Lighting": "RGB",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-foundry-28-select.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-foundry-28-select/"
+    },
+    {
+      "id": "gaming-gear-harbor-29-series",
+      "slug": "gaming-gear-harbor-29-series",
+      "sku": "MCK-GMG-239",
+      "title": "Gaming Gear Harbor 29 Series",
+      "brand": "Pixel Forge",
+      "category": "gaming",
+      "price": 1166.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.5,
+      "reviewCount": 127,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 29 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "classic"
+      ],
+      "specs": {
+        "Platform": "Console",
+        "Storage": "1 TB",
+        "Controllers": "2",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-harbor-29-series.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-harbor-29-series/"
+    },
+    {
+      "id": "gaming-gear-ion-30-edition",
+      "slug": "gaming-gear-ion-30-edition",
+      "sku": "MCK-GMG-240",
+      "title": "Gaming Gear Ion 30 Edition",
+      "brand": "Cedar & Co.",
+      "category": "gaming",
+      "price": 1169.99,
+      "oldPrice": 1329.99,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A mock gaming accessory with varied labels, tags, and product metadata. Item 30 in gaming uses fake but stable data.",
+      "tags": [
+        "gaming",
+        "streaming",
+        "rgb",
+        "featured"
+      ],
+      "specs": {
+        "Capture": "1080p60",
+        "Interface": "USB-C",
+        "Latency": "Low",
+        "SKUFamily": "GMG"
+      },
+      "image": "/assets/images/products/gaming-gear-ion-30-edition.svg",
+      "url": "/scenarios/ecommerce/products/gaming-gear-ion-30-edition/"
+    }
+  ]
+}

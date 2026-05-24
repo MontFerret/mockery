@@ -1,0 +1,14 @@
+{
+  "productId": "phone-x1",
+  "items": [
+    {
+      "id": "review-phone-x1-001",
+      "productId": "phone-x1",
+      "title": "Great product",
+      "author": "Priya Stone",
+      "date": "2026-01-22",
+      "stars": 3,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

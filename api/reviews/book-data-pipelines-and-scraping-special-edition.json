@@ -1,0 +1,23 @@
+{
+  "productId": "book-data-pipelines-and-scraping-special-edition",
+  "items": [
+    {
+      "id": "review-book-data-pipelines-and-scraping-special-edition-001",
+      "productId": "book-data-pipelines-and-scraping-special-edition",
+      "title": "Solid choice",
+      "author": "Leo Grant",
+      "date": "2026-02-17",
+      "stars": 4,
+      "body": "The metadata was easy to compare across the catalog."
+    },
+    {
+      "id": "review-book-data-pipelines-and-scraping-special-edition-002",
+      "productId": "book-data-pipelines-and-scraping-special-edition",
+      "title": "Useful for demos",
+      "author": "Alice Reed",
+      "date": "2026-03-20",
+      "stars": 5,
+      "body": "Worked exactly as expected in this fake storefront."
+    }
+  ]
+}

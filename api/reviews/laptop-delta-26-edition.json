@@ -1,0 +1,23 @@
+{
+  "productId": "laptop-delta-26-edition",
+  "items": [
+    {
+      "id": "review-laptop-delta-26-edition-001",
+      "productId": "laptop-delta-26-edition",
+      "title": "Great product",
+      "author": "Noah Patel",
+      "date": "2026-01-17",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    },
+    {
+      "id": "review-laptop-delta-26-edition-002",
+      "productId": "laptop-delta-26-edition",
+      "title": "Solid choice",
+      "author": "Mina Carter",
+      "date": "2026-02-20",
+      "stars": 5,
+      "body": "The metadata was easy to compare across the catalog."
+    }
+  ]
+}

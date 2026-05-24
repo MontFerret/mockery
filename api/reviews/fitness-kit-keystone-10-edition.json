@@ -1,0 +1,23 @@
+{
+  "productId": "fitness-kit-keystone-10-edition",
+  "items": [
+    {
+      "id": "review-fitness-kit-keystone-10-edition-001",
+      "productId": "fitness-kit-keystone-10-edition",
+      "title": "Matched the description",
+      "author": "Leo Grant",
+      "date": "2026-05-19",
+      "stars": 3,
+      "body": "The specs and price were clear on the detail page."
+    },
+    {
+      "id": "review-fitness-kit-keystone-10-edition-002",
+      "productId": "fitness-kit-keystone-10-edition",
+      "title": "Great product",
+      "author": "Alice Reed",
+      "date": "2026-01-22",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

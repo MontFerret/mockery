@@ -1,0 +1,14 @@
+{
+  "productId": "laptop-pro-14-plus",
+  "items": [
+    {
+      "id": "review-laptop-pro-14-plus-001",
+      "productId": "laptop-pro-14-plus",
+      "title": "Solid choice",
+      "author": "Priya Stone",
+      "date": "2026-02-16",
+      "stars": 3,
+      "body": "The metadata was easy to compare across the catalog."
+    }
+  ]
+}

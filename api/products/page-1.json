@@ -1,0 +1,732 @@
+{
+  "page": 1,
+  "pageSize": 24,
+  "total": 300,
+  "items": [
+    {
+      "id": "laptop-pro-14",
+      "slug": "laptop-pro-14",
+      "sku": "MCK-LAP-001",
+      "title": "Laptop Pro 14",
+      "brand": "Northwind",
+      "category": "laptops",
+      "price": 1299,
+      "oldPrice": 1499,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 128,
+      "inStock": true,
+      "stockCount": 14,
+      "description": "A lightweight laptop for developers and creators.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Memory": "16 GB",
+        "Storage": "512 GB SSD",
+        "Display": "14 inch"
+      },
+      "image": "/assets/images/products/laptop-pro-14.svg",
+      "url": "/scenarios/ecommerce/products/laptop-pro-14/"
+    },
+    {
+      "id": "laptop-pro-14-refurbished",
+      "slug": "laptop-pro-14-refurbished",
+      "sku": "MCK-LAP-002",
+      "title": "Laptop Pro 14 Refurbished",
+      "brand": "Contoso",
+      "category": "laptops",
+      "price": 990.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.6,
+      "reviewCount": 40,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 2 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Memory": "32 GB",
+        "Storage": "1 TB SSD",
+        "Display": "16 inch",
+        "Processor": "8-core",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-pro-14-refurbished.svg",
+      "url": "/scenarios/ecommerce/products/laptop-pro-14-refurbished/"
+    },
+    {
+      "id": "laptop-air-13",
+      "slug": "laptop-air-13",
+      "sku": "MCK-LAP-003",
+      "title": "Laptop Air 13",
+      "brand": "Fabrikam",
+      "category": "laptops",
+      "price": 1036.46,
+      "oldPrice": 1236.46,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 3 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Memory": "8 GB",
+        "Storage": "256 GB SSD",
+        "Weight": "1.3 kg",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-air-13.svg",
+      "url": "/scenarios/ecommerce/products/laptop-air-13/"
+    },
+    {
+      "id": "laptop-studio-16",
+      "slug": "laptop-studio-16",
+      "sku": "MCK-LAP-004",
+      "title": "Laptop Studio 16",
+      "brand": "Blue Yonder",
+      "category": "laptops",
+      "price": 1081.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.8,
+      "reviewCount": 62,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 4 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Memory": "16 GB",
+        "Storage": "512 GB SSD",
+        "Display": "14 inch",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-studio-16.svg",
+      "url": "/scenarios/ecommerce/products/laptop-studio-16/"
+    },
+    {
+      "id": "laptop-mini-11",
+      "slug": "laptop-mini-11",
+      "sku": "MCK-LAP-005",
+      "title": "Laptop Mini 11",
+      "brand": "Tailspin",
+      "category": "laptops",
+      "price": 1084.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.9,
+      "reviewCount": 73,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 5 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Memory": "32 GB",
+        "Storage": "1 TB SSD",
+        "Display": "16 inch",
+        "Processor": "8-core",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-mini-11.svg",
+      "url": "/scenarios/ecommerce/products/laptop-mini-11/"
+    },
+    {
+      "id": "laptop-developer-workstation-with-ultra-wide-dock-bundle",
+      "slug": "laptop-developer-workstation-with-ultra-wide-dock-bundle",
+      "sku": "MCK-LAP-006",
+      "title": "Laptop Developer Workstation with Ultra-Wide Dock Bundle",
+      "brand": "Adventure Works",
+      "category": "laptops",
+      "price": 1130.48,
+      "oldPrice": 1290.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 6 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "dock",
+        "bundle",
+        "creator",
+        "long-title"
+      ],
+      "specs": {
+        "Memory": "8 GB",
+        "Storage": "256 GB SSD",
+        "Weight": "1.3 kg",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-developer-workstation-with-ultra-wide-dock-bundle.svg",
+      "url": "/scenarios/ecommerce/products/laptop-developer-workstation-with-ultra-wide-dock-bundle/"
+    },
+    {
+      "id": "laptop-pro-14-plus",
+      "slug": "laptop-pro-14-plus",
+      "sku": "MCK-LAP-007",
+      "title": "Laptop Pro 14 Plus",
+      "brand": "Litware",
+      "category": "laptops",
+      "price": 1175.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 7 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Memory": "16 GB",
+        "Storage": "512 GB SSD",
+        "Display": "14 inch",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-pro-14-plus.svg",
+      "url": "/scenarios/ecommerce/products/laptop-pro-14-plus/"
+    },
+    {
+      "id": "laptop-flex-2-in-1",
+      "slug": "laptop-flex-2-in-1",
+      "sku": "MCK-LAP-008",
+      "title": "Laptop Flex 2-in-1",
+      "brand": "Alpine Goods",
+      "category": "laptops",
+      "price": 1221.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.2,
+      "reviewCount": 106,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 8 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Memory": "32 GB",
+        "Storage": "1 TB SSD",
+        "Display": "16 inch",
+        "Processor": "8-core",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-flex-2-in-1.svg",
+      "url": "/scenarios/ecommerce/products/laptop-flex-2-in-1/"
+    },
+    {
+      "id": "laptop-juniper-09-series",
+      "slug": "laptop-juniper-09-series",
+      "sku": "MCK-LAP-009",
+      "title": "Laptop Juniper 09 Series",
+      "brand": "Pixel Forge",
+      "category": "laptops",
+      "price": 1266.95,
+      "oldPrice": 1386.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 9 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Memory": "8 GB",
+        "Storage": "256 GB SSD",
+        "Weight": "1.3 kg",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-juniper-09-series.svg",
+      "url": "/scenarios/ecommerce/products/laptop-juniper-09-series/"
+    },
+    {
+      "id": "laptop-keystone-10-edition",
+      "slug": "laptop-keystone-10-edition",
+      "sku": "MCK-LAP-010",
+      "title": "Laptop Keystone 10 Edition",
+      "brand": "Cedar & Co.",
+      "category": "laptops",
+      "price": 1269.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviewCount": 128,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 10 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Memory": "16 GB",
+        "Storage": "512 GB SSD",
+        "Display": "14 inch",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-keystone-10-edition.svg",
+      "url": "/scenarios/ecommerce/products/laptop-keystone-10-edition/"
+    },
+    {
+      "id": "laptop-lumina-11-bundle",
+      "slug": "laptop-lumina-11-bundle",
+      "sku": "MCK-LAP-011",
+      "title": "Laptop Lumina 11 Bundle",
+      "brand": "Northwind",
+      "category": "laptops",
+      "price": 1315.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 139,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 11 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Memory": "32 GB",
+        "Storage": "1 TB SSD",
+        "Display": "16 inch",
+        "Processor": "8-core",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-lumina-11-bundle.svg",
+      "url": "/scenarios/ecommerce/products/laptop-lumina-11-bundle/"
+    },
+    {
+      "id": "laptop-metro-12-select",
+      "slug": "laptop-metro-12-select",
+      "sku": "MCK-LAP-012",
+      "title": "Laptop Metro 12 Select",
+      "brand": "Contoso",
+      "category": "laptops",
+      "price": 1360.97,
+      "oldPrice": 1440.97,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 12 in laptops uses fake but stable data.",
+      "tags": [],
+      "specs": {
+        "Memory": "8 GB",
+        "Storage": "256 GB SSD",
+        "Weight": "1.3 kg",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-metro-12-select.svg",
+      "url": "/scenarios/ecommerce/products/laptop-metro-12-select/"
+    },
+    {
+      "id": "laptop-nova-13-series",
+      "slug": "laptop-nova-13-series",
+      "sku": "MCK-LAP-013",
+      "title": "Laptop Nova 13 Series",
+      "brand": "Fabrikam",
+      "category": "laptops",
+      "price": 1406.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 161,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 13 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Memory": "16 GB",
+        "Storage": "512 GB SSD",
+        "Display": "14 inch",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-nova-13-series.svg",
+      "url": "/scenarios/ecommerce/products/laptop-nova-13-series/"
+    },
+    {
+      "id": "laptop-orbit-14-edition",
+      "slug": "laptop-orbit-14-edition",
+      "sku": "MCK-LAP-014",
+      "title": "Laptop Orbit 14 Edition",
+      "brand": "Blue Yonder",
+      "category": "laptops",
+      "price": 1451.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 14 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Memory": "32 GB",
+        "Storage": "1 TB SSD",
+        "Display": "16 inch",
+        "Processor": "8-core",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-orbit-14-edition.svg",
+      "url": "/scenarios/ecommerce/products/laptop-orbit-14-edition/"
+    },
+    {
+      "id": "laptop-pilot-15-bundle",
+      "slug": "laptop-pilot-15-bundle",
+      "sku": "MCK-LAP-015",
+      "title": "Laptop Pilot 15 Bundle",
+      "brand": "Tailspin",
+      "category": "laptops",
+      "price": 1454.99,
+      "oldPrice": 1654.99,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 15 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Memory": "8 GB",
+        "Storage": "256 GB SSD",
+        "Weight": "1.3 kg",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-pilot-15-bundle.svg",
+      "url": "/scenarios/ecommerce/products/laptop-pilot-15-bundle/"
+    },
+    {
+      "id": "laptop-quartz-16-select",
+      "slug": "laptop-quartz-16-select",
+      "sku": "MCK-LAP-016",
+      "title": "Laptop Quartz 16 Select",
+      "brand": "Adventure Works",
+      "category": "laptops",
+      "price": 1500.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.6,
+      "reviewCount": 194,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 16 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Memory": "16 GB",
+        "Storage": "512 GB SSD",
+        "Display": "14 inch",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-quartz-16-select.svg",
+      "url": "/scenarios/ecommerce/products/laptop-quartz-16-select/"
+    },
+    {
+      "id": "laptop-relay-17-series",
+      "slug": "laptop-relay-17-series",
+      "sku": "MCK-LAP-017",
+      "title": "Laptop Relay 17 Series",
+      "brand": "Litware",
+      "category": "laptops",
+      "price": 1545.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.7,
+      "reviewCount": 25,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 17 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Memory": "32 GB",
+        "Storage": "1 TB SSD",
+        "Display": "16 inch",
+        "Processor": "8-core",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-relay-17-series.svg",
+      "url": "/scenarios/ecommerce/products/laptop-relay-17-series/"
+    },
+    {
+      "id": "laptop-summit-18-edition",
+      "slug": "laptop-summit-18-edition",
+      "sku": "MCK-LAP-018",
+      "title": "Laptop Summit 18 Edition",
+      "brand": "Alpine Goods",
+      "category": "laptops",
+      "price": 1591.46,
+      "oldPrice": 1751.46,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 18 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Memory": "8 GB",
+        "Storage": "256 GB SSD",
+        "Weight": "1.3 kg",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-summit-18-edition.svg",
+      "url": "/scenarios/ecommerce/products/laptop-summit-18-edition/"
+    },
+    {
+      "id": "laptop-tempo-19-bundle",
+      "slug": "laptop-tempo-19-bundle",
+      "sku": "MCK-LAP-019",
+      "title": "Laptop Tempo 19 Bundle",
+      "brand": "Pixel Forge",
+      "category": "laptops",
+      "price": 1636.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.9,
+      "reviewCount": 47,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 19 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Memory": "16 GB",
+        "Storage": "512 GB SSD",
+        "Display": "14 inch",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-tempo-19-bundle.svg",
+      "url": "/scenarios/ecommerce/products/laptop-tempo-19-bundle/"
+    },
+    {
+      "id": "laptop-vector-20-select",
+      "slug": "laptop-vector-20-select",
+      "sku": "MCK-LAP-020",
+      "title": "Laptop Vector 20 Select",
+      "brand": "Cedar & Co.",
+      "category": "laptops",
+      "price": 1639.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4,
+      "reviewCount": 58,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 20 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Memory": "32 GB",
+        "Storage": "1 TB SSD",
+        "Display": "16 inch",
+        "Processor": "8-core",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-vector-20-select.svg",
+      "url": "/scenarios/ecommerce/products/laptop-vector-20-select/"
+    },
+    {
+      "id": "laptop-willow-21-series",
+      "slug": "laptop-willow-21-series",
+      "sku": "MCK-LAP-021",
+      "title": "Laptop Willow 21 Series",
+      "brand": "Northwind",
+      "category": "laptops",
+      "price": 1685.48,
+      "oldPrice": 1805.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 21 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Memory": "8 GB",
+        "Storage": "256 GB SSD",
+        "Weight": "1.3 kg",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-willow-21-series.svg",
+      "url": "/scenarios/ecommerce/products/laptop-willow-21-series/"
+    },
+    {
+      "id": "laptop-zenith-22-edition",
+      "slug": "laptop-zenith-22-edition",
+      "sku": "MCK-LAP-022",
+      "title": "Laptop Zenith 22 Edition",
+      "brand": "Contoso",
+      "category": "laptops",
+      "price": 1730.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.2,
+      "reviewCount": 80,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 22 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Memory": "16 GB",
+        "Storage": "512 GB SSD",
+        "Display": "14 inch",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-zenith-22-edition.svg",
+      "url": "/scenarios/ecommerce/products/laptop-zenith-22-edition/"
+    },
+    {
+      "id": "laptop-atlas-23-bundle",
+      "slug": "laptop-atlas-23-bundle",
+      "sku": "MCK-LAP-023",
+      "title": "Laptop Atlas 23 Bundle",
+      "brand": "Fabrikam",
+      "category": "laptops",
+      "price": 1776.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.3,
+      "reviewCount": 91,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 23 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Memory": "32 GB",
+        "Storage": "1 TB SSD",
+        "Display": "16 inch",
+        "Processor": "8-core",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-atlas-23-bundle.svg",
+      "url": "/scenarios/ecommerce/products/laptop-atlas-23-bundle/"
+    },
+    {
+      "id": "laptop-beacon-24-select",
+      "slug": "laptop-beacon-24-select",
+      "sku": "MCK-LAP-024",
+      "title": "Laptop Beacon 24 Select",
+      "brand": "Blue Yonder",
+      "category": "laptops",
+      "price": 1821.95,
+      "oldPrice": 1901.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A deterministic fake laptop for scraping product titles, prices, and specifications. Item 24 in laptops uses fake but stable data.",
+      "tags": [
+        "portable",
+        "developer",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Memory": "8 GB",
+        "Storage": "256 GB SSD",
+        "Weight": "1.3 kg",
+        "SKUFamily": "LAP"
+      },
+      "image": "/assets/images/products/laptop-beacon-24-select.svg",
+      "url": "/scenarios/ecommerce/products/laptop-beacon-24-select/"
+    }
+  ]
+}

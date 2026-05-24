@@ -1,0 +1,14 @@
+{
+  "productId": "mechanical-keyboard",
+  "items": [
+    {
+      "id": "review-mechanical-keyboard-001",
+      "productId": "mechanical-keyboard",
+      "title": "Great product",
+      "author": "Mina Carter",
+      "date": "2026-01-22",
+      "stars": 3,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

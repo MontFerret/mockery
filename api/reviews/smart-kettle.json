@@ -1,0 +1,14 @@
+{
+  "productId": "smart-kettle",
+  "items": [
+    {
+      "id": "review-smart-kettle-001",
+      "productId": "smart-kettle",
+      "title": "Great product",
+      "author": "Alice Reed",
+      "date": "2026-01-22",
+      "stars": 3,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

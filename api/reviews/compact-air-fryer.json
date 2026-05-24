@@ -1,0 +1,14 @@
+{
+  "productId": "compact-air-fryer",
+  "items": [
+    {
+      "id": "review-compact-air-fryer-001",
+      "productId": "compact-air-fryer",
+      "title": "Matched the description",
+      "author": "Sofia Chen",
+      "date": "2026-05-26",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

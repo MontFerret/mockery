@@ -1,0 +1,14 @@
+{
+  "productId": "phone-atlas-23-bundle",
+  "items": [
+    {
+      "id": "review-phone-atlas-23-bundle-001",
+      "productId": "phone-atlas-23-bundle",
+      "title": "Useful for demos",
+      "author": "Sofia Chen",
+      "date": "2026-03-26",
+      "stars": 4,
+      "body": "Worked exactly as expected in this fake storefront."
+    }
+  ]
+}

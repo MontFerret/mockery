@@ -1,0 +1,23 @@
+{
+  "productId": "fitness-kit-foundry-28-select",
+  "items": [
+    {
+      "id": "review-fitness-kit-foundry-28-select-001",
+      "productId": "fitness-kit-foundry-28-select",
+      "title": "Useful for demos",
+      "author": "Noah Patel",
+      "date": "2026-03-19",
+      "stars": 3,
+      "body": "Worked exactly as expected in this fake storefront."
+    },
+    {
+      "id": "review-fitness-kit-foundry-28-select-002",
+      "productId": "fitness-kit-foundry-28-select",
+      "title": "Stable and predictable",
+      "author": "Mina Carter",
+      "date": "2026-04-22",
+      "stars": 4,
+      "body": "A good deterministic item for examples and tests."
+    }
+  ]
+}

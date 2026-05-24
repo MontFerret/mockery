@@ -1,0 +1,14 @@
+{
+  "productId": "kitchen-tool-lumina-11-bundle",
+  "items": [
+    {
+      "id": "review-kitchen-tool-lumina-11-bundle-001",
+      "productId": "kitchen-tool-lumina-11-bundle",
+      "title": "Great product",
+      "author": "Mina Carter",
+      "date": "2026-01-14",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

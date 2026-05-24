@@ -1,0 +1,23 @@
+{
+  "productId": "phone-vector-20-select",
+  "items": [
+    {
+      "id": "review-phone-vector-20-select-001",
+      "productId": "phone-vector-20-select",
+      "title": "Matched the description",
+      "author": "Noah Patel",
+      "date": "2026-05-23",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    },
+    {
+      "id": "review-phone-vector-20-select-002",
+      "productId": "phone-vector-20-select",
+      "title": "Great product",
+      "author": "Mina Carter",
+      "date": "2026-01-26",
+      "stars": 5,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

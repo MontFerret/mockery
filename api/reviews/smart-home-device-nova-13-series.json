@@ -1,0 +1,14 @@
+{
+  "productId": "smart-home-device-nova-13-series",
+  "items": [
+    {
+      "id": "review-smart-home-device-nova-13-series-001",
+      "productId": "smart-home-device-nova-13-series",
+      "title": "Useful for demos",
+      "author": "Sofia Chen",
+      "date": "2026-03-10",
+      "stars": 3,
+      "body": "Worked exactly as expected in this fake storefront."
+    }
+  ]
+}

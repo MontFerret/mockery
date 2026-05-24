@@ -1,0 +1,727 @@
+{
+  "page": 12,
+  "pageSize": 24,
+  "total": 300,
+  "items": [
+    {
+      "id": "smart-home-device-circuit-25-series",
+      "slug": "smart-home-device-circuit-25-series",
+      "sku": "MCK-SMH-265",
+      "title": "Smart Home Device Circuit 25 Series",
+      "brand": "Tailspin",
+      "category": "smart-home",
+      "price": 959.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 53,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fake connected-home device for stable static web playground examples. Item 25 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Matter",
+        "Power": "Battery",
+        "HubRequired": "No",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-circuit-25-series.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-circuit-25-series/"
+    },
+    {
+      "id": "smart-home-device-delta-26-edition",
+      "slug": "smart-home-device-delta-26-edition",
+      "sku": "MCK-SMH-266",
+      "title": "Smart Home Device Delta 26 Edition",
+      "brand": "Adventure Works",
+      "category": "smart-home",
+      "price": 1005.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fake connected-home device for stable static web playground examples. Item 26 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Wi-Fi",
+        "VoiceControl": "Yes",
+        "Zones": "4",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-delta-26-edition.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-delta-26-edition/"
+    },
+    {
+      "id": "smart-home-device-ember-27-bundle",
+      "slug": "smart-home-device-ember-27-bundle",
+      "sku": "MCK-SMH-267",
+      "title": "Smart Home Device Ember 27 Bundle",
+      "brand": "Litware",
+      "category": "smart-home",
+      "price": 1050.97,
+      "oldPrice": 1250.97,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A fake connected-home device for stable static web playground examples. Item 27 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Zigbee",
+        "Range": "30 m",
+        "Sensors": "Temperature",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-ember-27-bundle.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-ember-27-bundle/"
+    },
+    {
+      "id": "smart-home-device-foundry-28-select",
+      "slug": "smart-home-device-foundry-28-select",
+      "sku": "MCK-SMH-268",
+      "title": "Smart Home Device Foundry 28 Select",
+      "brand": "Alpine Goods",
+      "category": "smart-home",
+      "price": 1096.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.6,
+      "reviewCount": 86,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fake connected-home device for stable static web playground examples. Item 28 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Matter",
+        "Power": "Battery",
+        "HubRequired": "No",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-foundry-28-select.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-foundry-28-select/"
+    },
+    {
+      "id": "smart-home-device-harbor-29-series",
+      "slug": "smart-home-device-harbor-29-series",
+      "sku": "MCK-SMH-269",
+      "title": "Smart Home Device Harbor 29 Series",
+      "brand": "Pixel Forge",
+      "category": "smart-home",
+      "price": 1141.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.7,
+      "reviewCount": 97,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fake connected-home device for stable static web playground examples. Item 29 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "classic"
+      ],
+      "specs": {
+        "Protocol": "Wi-Fi",
+        "VoiceControl": "Yes",
+        "Zones": "4",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-harbor-29-series.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-harbor-29-series/"
+    },
+    {
+      "id": "smart-home-device-ion-30-edition",
+      "slug": "smart-home-device-ion-30-edition",
+      "sku": "MCK-SMH-270",
+      "title": "Smart Home Device Ion 30 Edition",
+      "brand": "Cedar & Co.",
+      "category": "smart-home",
+      "price": 1144.99,
+      "oldPrice": 1304.99,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A fake connected-home device for stable static web playground examples. Item 30 in smart home uses fake but stable data.",
+      "tags": [
+        "automation",
+        "sensor",
+        "connected",
+        "featured"
+      ],
+      "specs": {
+        "Protocol": "Zigbee",
+        "Range": "30 m",
+        "Sensors": "Temperature",
+        "SKUFamily": "SMH"
+      },
+      "image": "/assets/images/products/smart-home-device-ion-30-edition.svg",
+      "url": "/scenarios/ecommerce/products/smart-home-device-ion-30-edition/"
+    },
+    {
+      "id": "fitness-tracker",
+      "slug": "fitness-tracker",
+      "sku": "MCK-FIT-271",
+      "title": "Fitness Tracker",
+      "brand": "Northwind",
+      "category": "fitness",
+      "price": 70.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.9,
+      "reviewCount": 119,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 1 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Size": "Medium",
+        "Material": "Silicone",
+        "WaterResistance": "5 ATM",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-tracker.svg",
+      "url": "/scenarios/ecommerce/products/fitness-tracker/"
+    },
+    {
+      "id": "adjustable-dumbbell",
+      "slug": "adjustable-dumbbell",
+      "sku": "MCK-FIT-272",
+      "title": "Adjustable Dumbbell",
+      "brand": "Contoso",
+      "category": "fitness",
+      "price": 115.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4,
+      "reviewCount": 130,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 2 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Weight": "12 kg",
+        "Material": "Rubber",
+        "Pair": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/adjustable-dumbbell.svg",
+      "url": "/scenarios/ecommerce/products/adjustable-dumbbell/"
+    },
+    {
+      "id": "yoga-mat-pro",
+      "slug": "yoga-mat-pro",
+      "sku": "MCK-FIT-273",
+      "title": "Yoga Mat Pro",
+      "brand": "Fabrikam",
+      "category": "fitness",
+      "price": 161.46,
+      "oldPrice": 361.46,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 3 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Resistance": "Adjustable",
+        "Levels": "16",
+        "Foldable": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/yoga-mat-pro.svg",
+      "url": "/scenarios/ecommerce/products/yoga-mat-pro/"
+    },
+    {
+      "id": "resistance-band-set",
+      "slug": "resistance-band-set",
+      "sku": "MCK-FIT-274",
+      "title": "Resistance Band Set",
+      "brand": "Blue Yonder",
+      "category": "fitness",
+      "price": 206.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.2,
+      "reviewCount": 152,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 4 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Size": "Medium",
+        "Material": "Silicone",
+        "WaterResistance": "5 ATM",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/resistance-band-set.svg",
+      "url": "/scenarios/ecommerce/products/resistance-band-set/"
+    },
+    {
+      "id": "folding-exercise-bike",
+      "slug": "folding-exercise-bike",
+      "sku": "MCK-FIT-275",
+      "title": "Folding Exercise Bike",
+      "brand": "Tailspin",
+      "category": "fitness",
+      "price": 209.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.3,
+      "reviewCount": 163,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 5 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Weight": "12 kg",
+        "Material": "Rubber",
+        "Pair": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/folding-exercise-bike.svg",
+      "url": "/scenarios/ecommerce/products/folding-exercise-bike/"
+    },
+    {
+      "id": "smart-scale",
+      "slug": "smart-scale",
+      "sku": "MCK-FIT-276",
+      "title": "Smart Scale",
+      "brand": "Adventure Works",
+      "category": "fitness",
+      "price": 255.48,
+      "oldPrice": 415.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 6 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Resistance": "Adjustable",
+        "Levels": "16",
+        "Foldable": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/smart-scale.svg",
+      "url": "/scenarios/ecommerce/products/smart-scale/"
+    },
+    {
+      "id": "recovery-massage-roller",
+      "slug": "recovery-massage-roller",
+      "sku": "MCK-FIT-277",
+      "title": "Recovery Massage Roller",
+      "brand": "Litware",
+      "category": "fitness",
+      "price": 300.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 185,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 7 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Size": "Medium",
+        "Material": "Silicone",
+        "WaterResistance": "5 ATM",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/recovery-massage-roller.svg",
+      "url": "/scenarios/ecommerce/products/recovery-massage-roller/"
+    },
+    {
+      "id": "fitness-kit-ion-08-select",
+      "slug": "fitness-kit-ion-08-select",
+      "sku": "MCK-FIT-278",
+      "title": "Fitness Kit Ion 08 Select",
+      "brand": "Alpine Goods",
+      "category": "fitness",
+      "price": 346.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 196,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 8 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Weight": "12 kg",
+        "Material": "Rubber",
+        "Pair": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-ion-08-select.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-ion-08-select/"
+    },
+    {
+      "id": "fitness-kit-juniper-09-series",
+      "slug": "fitness-kit-juniper-09-series",
+      "sku": "MCK-FIT-279",
+      "title": "Fitness Kit Juniper 09 Series",
+      "brand": "Pixel Forge",
+      "category": "fitness",
+      "price": 391.95,
+      "oldPrice": 511.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 9 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Resistance": "Adjustable",
+        "Levels": "16",
+        "Foldable": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-juniper-09-series.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-juniper-09-series/"
+    },
+    {
+      "id": "fitness-kit-keystone-10-edition",
+      "slug": "fitness-kit-keystone-10-edition",
+      "sku": "MCK-FIT-280",
+      "title": "Fitness Kit Keystone 10 Edition",
+      "brand": "Cedar & Co.",
+      "category": "fitness",
+      "price": 394.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 10 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Size": "Medium",
+        "Material": "Silicone",
+        "WaterResistance": "5 ATM",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-keystone-10-edition.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-keystone-10-edition/"
+    },
+    {
+      "id": "fitness-kit-lumina-11-bundle",
+      "slug": "fitness-kit-lumina-11-bundle",
+      "sku": "MCK-FIT-281",
+      "title": "Fitness Kit Lumina 11 Bundle",
+      "brand": "Northwind",
+      "category": "fitness",
+      "price": 440.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.5,
+      "reviewCount": 49,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 11 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Weight": "12 kg",
+        "Material": "Rubber",
+        "Pair": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-lumina-11-bundle.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-lumina-11-bundle/"
+    },
+    {
+      "id": "fitness-kit-metro-12-select",
+      "slug": "fitness-kit-metro-12-select",
+      "sku": "MCK-FIT-282",
+      "title": "Fitness Kit Metro 12 Select",
+      "brand": "Contoso",
+      "category": "fitness",
+      "price": 485.97,
+      "oldPrice": 565.97,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 12 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Resistance": "Adjustable",
+        "Levels": "16",
+        "Foldable": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-metro-12-select.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-metro-12-select/"
+    },
+    {
+      "id": "fitness-kit-nova-13-series",
+      "slug": "fitness-kit-nova-13-series",
+      "sku": "MCK-FIT-283",
+      "title": "Fitness Kit Nova 13 Series",
+      "brand": "Fabrikam",
+      "category": "fitness",
+      "price": 531.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.7,
+      "reviewCount": 71,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 13 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Size": "Medium",
+        "Material": "Silicone",
+        "WaterResistance": "5 ATM",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-nova-13-series.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-nova-13-series/"
+    },
+    {
+      "id": "fitness-kit-orbit-14-edition",
+      "slug": "fitness-kit-orbit-14-edition",
+      "sku": "MCK-FIT-284",
+      "title": "Fitness Kit Orbit 14 Edition",
+      "brand": "Blue Yonder",
+      "category": "fitness",
+      "price": 576.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.8,
+      "reviewCount": 82,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 14 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Weight": "12 kg",
+        "Material": "Rubber",
+        "Pair": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-orbit-14-edition.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-orbit-14-edition/"
+    },
+    {
+      "id": "fitness-kit-pilot-15-bundle",
+      "slug": "fitness-kit-pilot-15-bundle",
+      "sku": "MCK-FIT-285",
+      "title": "Fitness Kit Pilot 15 Bundle",
+      "brand": "Tailspin",
+      "category": "fitness",
+      "price": 579.99,
+      "oldPrice": 779.99,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 15 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Resistance": "Adjustable",
+        "Levels": "16",
+        "Foldable": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-pilot-15-bundle.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-pilot-15-bundle/"
+    },
+    {
+      "id": "fitness-kit-quartz-16-select",
+      "slug": "fitness-kit-quartz-16-select",
+      "sku": "MCK-FIT-286",
+      "title": "Fitness Kit Quartz 16 Select",
+      "brand": "Adventure Works",
+      "category": "fitness",
+      "price": 625.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4,
+      "reviewCount": 104,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 16 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Size": "Medium",
+        "Material": "Silicone",
+        "WaterResistance": "5 ATM",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-quartz-16-select.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-quartz-16-select/"
+    },
+    {
+      "id": "fitness-kit-relay-17-series",
+      "slug": "fitness-kit-relay-17-series",
+      "sku": "MCK-FIT-287",
+      "title": "Fitness Kit Relay 17 Series",
+      "brand": "Litware",
+      "category": "fitness",
+      "price": 670.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 17 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "classic"
+      ],
+      "specs": {
+        "Weight": "12 kg",
+        "Material": "Rubber",
+        "Pair": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-relay-17-series.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-relay-17-series/"
+    },
+    {
+      "id": "fitness-kit-summit-18-edition",
+      "slug": "fitness-kit-summit-18-edition",
+      "sku": "MCK-FIT-288",
+      "title": "Fitness Kit Summit 18 Edition",
+      "brand": "Alpine Goods",
+      "category": "fitness",
+      "price": 716.46,
+      "oldPrice": 876.46,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A fictional fitness product with predictable tags, stock, and specs. Item 18 in fitness uses fake but stable data.",
+      "tags": [
+        "training",
+        "wellness",
+        "home-gym",
+        "featured"
+      ],
+      "specs": {
+        "Resistance": "Adjustable",
+        "Levels": "16",
+        "Foldable": "Yes",
+        "SKUFamily": "FIT"
+      },
+      "image": "/assets/images/products/fitness-kit-summit-18-edition.svg",
+      "url": "/scenarios/ecommerce/products/fitness-kit-summit-18-edition/"
+    }
+  ]
+}

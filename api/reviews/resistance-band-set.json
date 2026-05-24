@@ -1,0 +1,23 @@
+{
+  "productId": "resistance-band-set",
+  "items": [
+    {
+      "id": "review-resistance-band-set-001",
+      "productId": "resistance-band-set",
+      "title": "Stable and predictable",
+      "author": "Noah Patel",
+      "date": "2026-04-13",
+      "stars": 3,
+      "body": "A good deterministic item for examples and tests."
+    },
+    {
+      "id": "review-resistance-band-set-002",
+      "productId": "resistance-band-set",
+      "title": "Matched the description",
+      "author": "Mina Carter",
+      "date": "2026-05-16",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

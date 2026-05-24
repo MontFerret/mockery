@@ -1,0 +1,727 @@
+{
+  "page": 8,
+  "pageSize": 24,
+  "total": 300,
+  "items": [
+    {
+      "id": "mockery-handbook-tempo-19-bundle",
+      "slug": "mockery-handbook-tempo-19-bundle",
+      "sku": "MCK-BOK-169",
+      "title": "Mockery Handbook Tempo 19 Bundle",
+      "brand": "Pixel Forge",
+      "category": "books",
+      "price": 749.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.5,
+      "reviewCount": 77,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A pretend book entry useful for title, author-like text, and category examples. Item 19 in books uses fake but stable data.",
+      "tags": [
+        "reading",
+        "reference",
+        "learning",
+        "classic"
+      ],
+      "specs": {
+        "Format": "Paperback",
+        "Pages": "320",
+        "Language": "English",
+        "SKUFamily": "BOK"
+      },
+      "image": "/assets/images/products/mockery-handbook-tempo-19-bundle.svg",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-tempo-19-bundle/"
+    },
+    {
+      "id": "mockery-handbook-vector-20-select",
+      "slug": "mockery-handbook-vector-20-select",
+      "sku": "MCK-BOK-170",
+      "title": "Mockery Handbook Vector 20 Select",
+      "brand": "Cedar & Co.",
+      "category": "books",
+      "price": 752.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.6,
+      "reviewCount": 88,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A pretend book entry useful for title, author-like text, and category examples. Item 20 in books uses fake but stable data.",
+      "tags": [
+        "reading",
+        "reference",
+        "learning",
+        "featured"
+      ],
+      "specs": {
+        "Format": "Hardcover",
+        "Pages": "448",
+        "Edition": "Second",
+        "SKUFamily": "BOK"
+      },
+      "image": "/assets/images/products/mockery-handbook-vector-20-select.svg",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-vector-20-select/"
+    },
+    {
+      "id": "mockery-handbook-willow-21-series",
+      "slug": "mockery-handbook-willow-21-series",
+      "sku": "MCK-BOK-171",
+      "title": "Mockery Handbook Willow 21 Series",
+      "brand": "Northwind",
+      "category": "books",
+      "price": 798.48,
+      "oldPrice": 918.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A pretend book entry useful for title, author-like text, and category examples. Item 21 in books uses fake but stable data.",
+      "tags": [
+        "reading",
+        "reference",
+        "learning",
+        "classic"
+      ],
+      "specs": {
+        "Format": "Ebook",
+        "FileType": "EPUB",
+        "License": "Personal",
+        "SKUFamily": "BOK"
+      },
+      "image": "/assets/images/products/mockery-handbook-willow-21-series.svg",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-willow-21-series/"
+    },
+    {
+      "id": "mockery-handbook-zenith-22-edition",
+      "slug": "mockery-handbook-zenith-22-edition",
+      "sku": "MCK-BOK-172",
+      "title": "Mockery Handbook Zenith 22 Edition",
+      "brand": "Contoso",
+      "category": "books",
+      "price": 843.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.8,
+      "reviewCount": 110,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A pretend book entry useful for title, author-like text, and category examples. Item 22 in books uses fake but stable data.",
+      "tags": [
+        "reading",
+        "reference",
+        "learning",
+        "featured"
+      ],
+      "specs": {
+        "Format": "Paperback",
+        "Pages": "320",
+        "Language": "English",
+        "SKUFamily": "BOK"
+      },
+      "image": "/assets/images/products/mockery-handbook-zenith-22-edition.svg",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-zenith-22-edition/"
+    },
+    {
+      "id": "mockery-handbook-atlas-23-bundle",
+      "slug": "mockery-handbook-atlas-23-bundle",
+      "sku": "MCK-BOK-173",
+      "title": "Mockery Handbook Atlas 23 Bundle",
+      "brand": "Fabrikam",
+      "category": "books",
+      "price": 889.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.9,
+      "reviewCount": 121,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A pretend book entry useful for title, author-like text, and category examples. Item 23 in books uses fake but stable data.",
+      "tags": [
+        "reading",
+        "reference",
+        "learning",
+        "classic"
+      ],
+      "specs": {
+        "Format": "Hardcover",
+        "Pages": "448",
+        "Edition": "Second",
+        "SKUFamily": "BOK"
+      },
+      "image": "/assets/images/products/mockery-handbook-atlas-23-bundle.svg",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-atlas-23-bundle/"
+    },
+    {
+      "id": "mockery-handbook-beacon-24-select",
+      "slug": "mockery-handbook-beacon-24-select",
+      "sku": "MCK-BOK-174",
+      "title": "Mockery Handbook Beacon 24 Select",
+      "brand": "Blue Yonder",
+      "category": "books",
+      "price": 934.95,
+      "oldPrice": 1014.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A pretend book entry useful for title, author-like text, and category examples. Item 24 in books uses fake but stable data.",
+      "tags": [
+        "reading",
+        "reference",
+        "learning",
+        "featured"
+      ],
+      "specs": {
+        "Format": "Ebook",
+        "FileType": "EPUB",
+        "License": "Personal",
+        "SKUFamily": "BOK"
+      },
+      "image": "/assets/images/products/mockery-handbook-beacon-24-select.svg",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-beacon-24-select/"
+    },
+    {
+      "id": "mockery-handbook-circuit-25-series",
+      "slug": "mockery-handbook-circuit-25-series",
+      "sku": "MCK-BOK-175",
+      "title": "Mockery Handbook Circuit 25 Series",
+      "brand": "Tailspin",
+      "category": "books",
+      "price": 937.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A pretend book entry useful for title, author-like text, and category examples. Item 25 in books uses fake but stable data.",
+      "tags": [
+        "reading",
+        "reference",
+        "learning",
+        "classic"
+      ],
+      "specs": {
+        "Format": "Paperback",
+        "Pages": "320",
+        "Language": "English",
+        "SKUFamily": "BOK"
+      },
+      "image": "/assets/images/products/mockery-handbook-circuit-25-series.svg",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-circuit-25-series/"
+    },
+    {
+      "id": "mockery-handbook-delta-26-edition",
+      "slug": "mockery-handbook-delta-26-edition",
+      "sku": "MCK-BOK-176",
+      "title": "Mockery Handbook Delta 26 Edition",
+      "brand": "Adventure Works",
+      "category": "books",
+      "price": 983.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.2,
+      "reviewCount": 154,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A pretend book entry useful for title, author-like text, and category examples. Item 26 in books uses fake but stable data.",
+      "tags": [
+        "reading",
+        "reference",
+        "learning",
+        "featured"
+      ],
+      "specs": {
+        "Format": "Hardcover",
+        "Pages": "448",
+        "Edition": "Second",
+        "SKUFamily": "BOK"
+      },
+      "image": "/assets/images/products/mockery-handbook-delta-26-edition.svg",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-delta-26-edition/"
+    },
+    {
+      "id": "mockery-handbook-ember-27-bundle",
+      "slug": "mockery-handbook-ember-27-bundle",
+      "sku": "MCK-BOK-177",
+      "title": "Mockery Handbook Ember 27 Bundle",
+      "brand": "Litware",
+      "category": "books",
+      "price": 1028.97,
+      "oldPrice": 1228.97,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A pretend book entry useful for title, author-like text, and category examples. Item 27 in books uses fake but stable data.",
+      "tags": [
+        "reading",
+        "reference",
+        "learning",
+        "classic"
+      ],
+      "specs": {
+        "Format": "Ebook",
+        "FileType": "EPUB",
+        "License": "Personal",
+        "SKUFamily": "BOK"
+      },
+      "image": "/assets/images/products/mockery-handbook-ember-27-bundle.svg",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-ember-27-bundle/"
+    },
+    {
+      "id": "mockery-handbook-foundry-28-select",
+      "slug": "mockery-handbook-foundry-28-select",
+      "sku": "MCK-BOK-178",
+      "title": "Mockery Handbook Foundry 28 Select",
+      "brand": "Alpine Goods",
+      "category": "books",
+      "price": 1074.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviewCount": 176,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A pretend book entry useful for title, author-like text, and category examples. Item 28 in books uses fake but stable data.",
+      "tags": [
+        "reading",
+        "reference",
+        "learning",
+        "featured"
+      ],
+      "specs": {
+        "Format": "Paperback",
+        "Pages": "320",
+        "Language": "English",
+        "SKUFamily": "BOK"
+      },
+      "image": "/assets/images/products/mockery-handbook-foundry-28-select.svg",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-foundry-28-select/"
+    },
+    {
+      "id": "mockery-handbook-harbor-29-series",
+      "slug": "mockery-handbook-harbor-29-series",
+      "sku": "MCK-BOK-179",
+      "title": "Mockery Handbook Harbor 29 Series",
+      "brand": "Pixel Forge",
+      "category": "books",
+      "price": 1119.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 187,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A pretend book entry useful for title, author-like text, and category examples. Item 29 in books uses fake but stable data.",
+      "tags": [
+        "reading",
+        "reference",
+        "learning",
+        "classic"
+      ],
+      "specs": {
+        "Format": "Hardcover",
+        "Pages": "448",
+        "Edition": "Second",
+        "SKUFamily": "BOK"
+      },
+      "image": "/assets/images/products/mockery-handbook-harbor-29-series.svg",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-harbor-29-series/"
+    },
+    {
+      "id": "mockery-handbook-ion-30-edition",
+      "slug": "mockery-handbook-ion-30-edition",
+      "sku": "MCK-BOK-180",
+      "title": "Mockery Handbook Ion 30 Edition",
+      "brand": "Cedar & Co.",
+      "category": "books",
+      "price": 1122.99,
+      "oldPrice": 1282.99,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A pretend book entry useful for title, author-like text, and category examples. Item 30 in books uses fake but stable data.",
+      "tags": [
+        "reading",
+        "reference",
+        "learning",
+        "featured"
+      ],
+      "specs": {
+        "Format": "Ebook",
+        "FileType": "EPUB",
+        "License": "Personal",
+        "SKUFamily": "BOK"
+      },
+      "image": "/assets/images/products/mockery-handbook-ion-30-edition.svg",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-ion-30-edition/"
+    },
+    {
+      "id": "desk-lamp",
+      "slug": "desk-lamp",
+      "sku": "MCK-OFF-181",
+      "title": "Desk Lamp",
+      "brand": "Northwind",
+      "category": "office",
+      "price": 75.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 29,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 1 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Material": "Aluminum",
+        "Dimensions": "60 x 30 cm",
+        "Color": "Silver",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/desk-lamp.svg",
+      "url": "/scenarios/ecommerce/products/desk-lamp/"
+    },
+    {
+      "id": "usb-c-dock",
+      "slug": "usb-c-dock",
+      "sku": "MCK-OFF-182",
+      "title": "USB-C Dock",
+      "brand": "Contoso",
+      "category": "office",
+      "price": 120.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 2 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Connectivity": "USB-C",
+        "Ports": "7",
+        "CableLength": "1 m",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/usb-c-dock.svg",
+      "url": "/scenarios/ecommerce/products/usb-c-dock/"
+    },
+    {
+      "id": "thermal-label-printer",
+      "slug": "thermal-label-printer",
+      "sku": "MCK-OFF-183",
+      "title": "Thermal Label Printer",
+      "brand": "Fabrikam",
+      "category": "office",
+      "price": 166.46,
+      "oldPrice": 366.46,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 3 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "PaperSize": "A4",
+        "TrayCapacity": "250 sheets",
+        "Duplex": "Manual",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/thermal-label-printer.svg",
+      "url": "/scenarios/ecommerce/products/thermal-label-printer/"
+    },
+    {
+      "id": "notebook-set",
+      "slug": "notebook-set",
+      "sku": "MCK-OFF-184",
+      "title": "Notebook Set",
+      "brand": "Blue Yonder",
+      "category": "office",
+      "price": 211.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.6,
+      "reviewCount": 62,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 4 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Material": "Aluminum",
+        "Dimensions": "60 x 30 cm",
+        "Color": "Silver",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/notebook-set.svg",
+      "url": "/scenarios/ecommerce/products/notebook-set/"
+    },
+    {
+      "id": "ergonomic-mouse",
+      "slug": "ergonomic-mouse",
+      "sku": "MCK-OFF-185",
+      "title": "Ergonomic Mouse",
+      "brand": "Tailspin",
+      "category": "office",
+      "price": 214.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.7,
+      "reviewCount": 73,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 5 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Connectivity": "USB-C",
+        "Ports": "7",
+        "CableLength": "1 m",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/ergonomic-mouse.svg",
+      "url": "/scenarios/ecommerce/products/ergonomic-mouse/"
+    },
+    {
+      "id": "office-chair-with-adjustable-lumbar-support-and-breathable-mesh-back",
+      "slug": "office-chair-with-adjustable-lumbar-support-and-breathable-mesh-back",
+      "sku": "MCK-OFF-186",
+      "title": "Office Chair with Adjustable Lumbar Support and Breathable Mesh Back",
+      "brand": "Adventure Works",
+      "category": "office",
+      "price": 260.48,
+      "oldPrice": 420.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 6 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "PaperSize": "A4",
+        "TrayCapacity": "250 sheets",
+        "Duplex": "Manual",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-chair-with-adjustable-lumbar-support-and-breathable-mesh-back.svg",
+      "url": "/scenarios/ecommerce/products/office-chair-with-adjustable-lumbar-support-and-breathable-mesh-back/"
+    },
+    {
+      "id": "cable-organizer-kit",
+      "slug": "cable-organizer-kit",
+      "sku": "MCK-OFF-187",
+      "title": "Cable Organizer Kit",
+      "brand": "Litware",
+      "category": "office",
+      "price": 305.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.9,
+      "reviewCount": 95,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 7 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Material": "Aluminum",
+        "Dimensions": "60 x 30 cm",
+        "Color": "Silver",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/cable-organizer-kit.svg",
+      "url": "/scenarios/ecommerce/products/cable-organizer-kit/"
+    },
+    {
+      "id": "office-kit-ion-08-select",
+      "slug": "office-kit-ion-08-select",
+      "sku": "MCK-OFF-188",
+      "title": "Office Kit Ion 08 Select",
+      "brand": "Alpine Goods",
+      "category": "office",
+      "price": 351.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4,
+      "reviewCount": 106,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 8 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Connectivity": "USB-C",
+        "Ports": "7",
+        "CableLength": "1 m",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-ion-08-select.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-ion-08-select/"
+    },
+    {
+      "id": "office-kit-juniper-09-series",
+      "slug": "office-kit-juniper-09-series",
+      "sku": "MCK-OFF-189",
+      "title": "Office Kit Juniper 09 Series",
+      "brand": "Pixel Forge",
+      "category": "office",
+      "price": 396.95,
+      "oldPrice": 516.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 9 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "PaperSize": "A4",
+        "TrayCapacity": "250 sheets",
+        "Duplex": "Manual",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-juniper-09-series.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-juniper-09-series/"
+    },
+    {
+      "id": "office-kit-keystone-10-edition",
+      "slug": "office-kit-keystone-10-edition",
+      "sku": "MCK-OFF-190",
+      "title": "Office Kit Keystone 10 Edition",
+      "brand": "Cedar & Co.",
+      "category": "office",
+      "price": 399.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.2,
+      "reviewCount": 128,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 10 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "Material": "Aluminum",
+        "Dimensions": "60 x 30 cm",
+        "Color": "Silver",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-keystone-10-edition.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-keystone-10-edition/"
+    },
+    {
+      "id": "office-kit-lumina-11-bundle",
+      "slug": "office-kit-lumina-11-bundle",
+      "sku": "MCK-OFF-191",
+      "title": "Office Kit Lumina 11 Bundle",
+      "brand": "Northwind",
+      "category": "office",
+      "price": 445.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.3,
+      "reviewCount": 139,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 11 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "classic"
+      ],
+      "specs": {
+        "Connectivity": "USB-C",
+        "Ports": "7",
+        "CableLength": "1 m",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-lumina-11-bundle.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-lumina-11-bundle/"
+    },
+    {
+      "id": "office-kit-metro-12-select",
+      "slug": "office-kit-metro-12-select",
+      "sku": "MCK-OFF-192",
+      "title": "Office Kit Metro 12 Select",
+      "brand": "Contoso",
+      "category": "office",
+      "price": 490.97,
+      "oldPrice": 570.97,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A deterministic office product for catalog and detail-page scraping demos. Item 12 in office uses fake but stable data.",
+      "tags": [
+        "desk",
+        "productivity",
+        "work",
+        "featured"
+      ],
+      "specs": {
+        "PaperSize": "A4",
+        "TrayCapacity": "250 sheets",
+        "Duplex": "Manual",
+        "SKUFamily": "OFF"
+      },
+      "image": "/assets/images/products/office-kit-metro-12-select.svg",
+      "url": "/scenarios/ecommerce/products/office-kit-metro-12-select/"
+    }
+  ]
+}

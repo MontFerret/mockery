@@ -1,0 +1,14 @@
+{
+  "productId": "desk-lamp",
+  "items": [
+    {
+      "id": "review-desk-lamp-001",
+      "productId": "desk-lamp",
+      "title": "Great product",
+      "author": "Sofia Chen",
+      "date": "2026-01-10",
+      "stars": 3,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

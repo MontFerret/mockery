@@ -1,0 +1,23 @@
+{
+  "productId": "mockery-handbook-delta-26-edition",
+  "items": [
+    {
+      "id": "review-mockery-handbook-delta-26-edition-001",
+      "productId": "mockery-handbook-delta-26-edition",
+      "title": "Great product",
+      "author": "Leo Grant",
+      "date": "2026-01-23",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    },
+    {
+      "id": "review-mockery-handbook-delta-26-edition-002",
+      "productId": "mockery-handbook-delta-26-edition",
+      "title": "Solid choice",
+      "author": "Alice Reed",
+      "date": "2026-02-26",
+      "stars": 5,
+      "body": "The metadata was easy to compare across the catalog."
+    }
+  ]
+}

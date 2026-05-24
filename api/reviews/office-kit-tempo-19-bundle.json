@@ -1,0 +1,14 @@
+{
+  "productId": "office-kit-tempo-19-bundle",
+  "items": [
+    {
+      "id": "review-office-kit-tempo-19-bundle-001",
+      "productId": "office-kit-tempo-19-bundle",
+      "title": "Stable and predictable",
+      "author": "Priya Stone",
+      "date": "2026-04-10",
+      "stars": 3,
+      "body": "A good deterministic item for examples and tests."
+    }
+  ]
+}

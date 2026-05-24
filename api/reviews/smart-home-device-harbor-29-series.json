@@ -1,0 +1,14 @@
+{
+  "productId": "smart-home-device-harbor-29-series",
+  "items": [
+    {
+      "id": "review-smart-home-device-harbor-29-series-001",
+      "productId": "smart-home-device-harbor-29-series",
+      "title": "Stable and predictable",
+      "author": "Sofia Chen",
+      "date": "2026-04-26",
+      "stars": 4,
+      "body": "A good deterministic item for examples and tests."
+    }
+  ]
+}

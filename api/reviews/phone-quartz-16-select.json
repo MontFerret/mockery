@@ -1,0 +1,23 @@
+{
+  "productId": "phone-quartz-16-select",
+  "items": [
+    {
+      "id": "review-phone-quartz-16-select-001",
+      "productId": "phone-quartz-16-select",
+      "title": "Great product",
+      "author": "Evan Brooks",
+      "date": "2026-01-19",
+      "stars": 3,
+      "body": "Fast, quiet, and lightweight."
+    },
+    {
+      "id": "review-phone-quartz-16-select-002",
+      "productId": "phone-quartz-16-select",
+      "title": "Solid choice",
+      "author": "Priya Stone",
+      "date": "2026-02-22",
+      "stars": 4,
+      "body": "The metadata was easy to compare across the catalog."
+    }
+  ]
+}

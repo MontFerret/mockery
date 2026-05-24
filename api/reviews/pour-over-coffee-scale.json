@@ -1,0 +1,23 @@
+{
+  "productId": "pour-over-coffee-scale",
+  "items": [
+    {
+      "id": "review-pour-over-coffee-scale-001",
+      "productId": "pour-over-coffee-scale",
+      "title": "Stable and predictable",
+      "author": "Jon Bell",
+      "date": "2026-04-25",
+      "stars": 3,
+      "body": "A good deterministic item for examples and tests."
+    },
+    {
+      "id": "review-pour-over-coffee-scale-002",
+      "productId": "pour-over-coffee-scale",
+      "title": "Matched the description",
+      "author": "Sofia Chen",
+      "date": "2026-05-10",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

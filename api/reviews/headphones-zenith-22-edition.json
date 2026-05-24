@@ -1,0 +1,23 @@
+{
+  "productId": "headphones-zenith-22-edition",
+  "items": [
+    {
+      "id": "review-headphones-zenith-22-edition-001",
+      "productId": "headphones-zenith-22-edition",
+      "title": "Solid choice",
+      "author": "Noah Patel",
+      "date": "2026-02-19",
+      "stars": 3,
+      "body": "The metadata was easy to compare across the catalog."
+    },
+    {
+      "id": "review-headphones-zenith-22-edition-002",
+      "productId": "headphones-zenith-22-edition",
+      "title": "Useful for demos",
+      "author": "Mina Carter",
+      "date": "2026-03-22",
+      "stars": 4,
+      "body": "Worked exactly as expected in this fake storefront."
+    }
+  ]
+}

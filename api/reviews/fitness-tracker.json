@@ -1,0 +1,14 @@
+{
+  "productId": "fitness-tracker",
+  "items": [
+    {
+      "id": "review-fitness-tracker-001",
+      "productId": "fitness-tracker",
+      "title": "Great product",
+      "author": "Priya Stone",
+      "date": "2026-01-10",
+      "stars": 3,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

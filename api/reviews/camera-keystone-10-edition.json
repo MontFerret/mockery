@@ -1,0 +1,23 @@
+{
+  "productId": "camera-keystone-10-edition",
+  "items": [
+    {
+      "id": "review-camera-keystone-10-edition-001",
+      "productId": "camera-keystone-10-edition",
+      "title": "Matched the description",
+      "author": "Jon Bell",
+      "date": "2026-05-19",
+      "stars": 3,
+      "body": "The specs and price were clear on the detail page."
+    },
+    {
+      "id": "review-camera-keystone-10-edition-002",
+      "productId": "camera-keystone-10-edition",
+      "title": "Great product",
+      "author": "Sofia Chen",
+      "date": "2026-01-22",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

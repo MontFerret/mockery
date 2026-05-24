@@ -1,0 +1,23 @@
+{
+  "productId": "laptop-quartz-16-select",
+  "items": [
+    {
+      "id": "review-laptop-quartz-16-select-001",
+      "productId": "laptop-quartz-16-select",
+      "title": "Great product",
+      "author": "Leo Grant",
+      "date": "2026-01-25",
+      "stars": 3,
+      "body": "Fast, quiet, and lightweight."
+    },
+    {
+      "id": "review-laptop-quartz-16-select-002",
+      "productId": "laptop-quartz-16-select",
+      "title": "Solid choice",
+      "author": "Alice Reed",
+      "date": "2026-02-10",
+      "stars": 4,
+      "body": "The metadata was easy to compare across the catalog."
+    }
+  ]
+}

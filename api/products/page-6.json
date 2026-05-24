@@ -1,0 +1,727 @@
+{
+  "page": 6,
+  "pageSize": 24,
+  "total": 300,
+  "items": [
+    {
+      "id": "smart-kettle",
+      "slug": "smart-kettle",
+      "sku": "MCK-KIT-121",
+      "title": "Smart Kettle",
+      "brand": "Northwind",
+      "category": "kitchen",
+      "price": 85.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.3,
+      "reviewCount": 89,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 1 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "classic"
+      ],
+      "specs": {
+        "Capacity": "5 L",
+        "Material": "Stainless steel",
+        "Power": "900 W",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/smart-kettle.svg",
+      "url": "/scenarios/ecommerce/products/smart-kettle/"
+    },
+    {
+      "id": "countertop-blender",
+      "slug": "countertop-blender",
+      "sku": "MCK-KIT-122",
+      "title": "Countertop Blender",
+      "brand": "Contoso",
+      "category": "kitchen",
+      "price": 130.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviewCount": 100,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 2 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "featured"
+      ],
+      "specs": {
+        "Capacity": "1.7 L",
+        "Finish": "Matte white",
+        "AutoOff": "Yes",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/countertop-blender.svg",
+      "url": "/scenarios/ecommerce/products/countertop-blender/"
+    },
+    {
+      "id": "ceramic-cookware-set",
+      "slug": "ceramic-cookware-set",
+      "sku": "MCK-KIT-123",
+      "title": "Ceramic Cookware Set",
+      "brand": "Fabrikam",
+      "category": "kitchen",
+      "price": 176.46,
+      "oldPrice": 376.46,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 3 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "classic"
+      ],
+      "specs": {
+        "Pieces": "8",
+        "DishwasherSafe": "Yes",
+        "Material": "Ceramic",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/ceramic-cookware-set.svg",
+      "url": "/scenarios/ecommerce/products/ceramic-cookware-set/"
+    },
+    {
+      "id": "pour-over-coffee-scale",
+      "slug": "pour-over-coffee-scale",
+      "sku": "MCK-KIT-124",
+      "title": "Pour-Over Coffee Scale",
+      "brand": "Blue Yonder",
+      "category": "kitchen",
+      "price": 221.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 122,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 4 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "featured"
+      ],
+      "specs": {
+        "Capacity": "5 L",
+        "Material": "Stainless steel",
+        "Power": "900 W",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/pour-over-coffee-scale.svg",
+      "url": "/scenarios/ecommerce/products/pour-over-coffee-scale/"
+    },
+    {
+      "id": "compact-air-fryer",
+      "slug": "compact-air-fryer",
+      "sku": "MCK-KIT-125",
+      "title": "Compact Air Fryer",
+      "brand": "Tailspin",
+      "category": "kitchen",
+      "price": 224.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 133,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 5 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "classic"
+      ],
+      "specs": {
+        "Capacity": "1.7 L",
+        "Finish": "Matte white",
+        "AutoOff": "Yes",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/compact-air-fryer.svg",
+      "url": "/scenarios/ecommerce/products/compact-air-fryer/"
+    },
+    {
+      "id": "chef-knife-8-inch",
+      "slug": "chef-knife-8-inch",
+      "sku": "MCK-KIT-126",
+      "title": "Chef Knife 8 Inch",
+      "brand": "Adventure Works",
+      "category": "kitchen",
+      "price": 270.48,
+      "oldPrice": 430.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 6 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "featured"
+      ],
+      "specs": {
+        "Pieces": "8",
+        "DishwasherSafe": "Yes",
+        "Material": "Ceramic",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/chef-knife-8-inch.svg",
+      "url": "/scenarios/ecommerce/products/chef-knife-8-inch/"
+    },
+    {
+      "id": "kitchen-storage-starter-set",
+      "slug": "kitchen-storage-starter-set",
+      "sku": "MCK-KIT-127",
+      "title": "Kitchen Storage Starter Set",
+      "brand": "Litware",
+      "category": "kitchen",
+      "price": 315.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.5,
+      "reviewCount": 155,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 7 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "classic"
+      ],
+      "specs": {
+        "Capacity": "5 L",
+        "Material": "Stainless steel",
+        "Power": "900 W",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-storage-starter-set.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-storage-starter-set/"
+    },
+    {
+      "id": "kitchen-tool-ion-08-select",
+      "slug": "kitchen-tool-ion-08-select",
+      "sku": "MCK-KIT-128",
+      "title": "Kitchen Tool Ion 08 Select",
+      "brand": "Alpine Goods",
+      "category": "kitchen",
+      "price": 361.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.6,
+      "reviewCount": 166,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 8 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "featured"
+      ],
+      "specs": {
+        "Capacity": "1.7 L",
+        "Finish": "Matte white",
+        "AutoOff": "Yes",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-ion-08-select.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-ion-08-select/"
+    },
+    {
+      "id": "kitchen-tool-juniper-09-series",
+      "slug": "kitchen-tool-juniper-09-series",
+      "sku": "MCK-KIT-129",
+      "title": "Kitchen Tool Juniper 09 Series",
+      "brand": "Pixel Forge",
+      "category": "kitchen",
+      "price": 406.95,
+      "oldPrice": 526.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 9 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "classic"
+      ],
+      "specs": {
+        "Pieces": "8",
+        "DishwasherSafe": "Yes",
+        "Material": "Ceramic",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-juniper-09-series.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-juniper-09-series/"
+    },
+    {
+      "id": "kitchen-tool-keystone-10-edition",
+      "slug": "kitchen-tool-keystone-10-edition",
+      "sku": "MCK-KIT-130",
+      "title": "Kitchen Tool Keystone 10 Edition",
+      "brand": "Cedar & Co.",
+      "category": "kitchen",
+      "price": 409.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.8,
+      "reviewCount": 188,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 10 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "featured"
+      ],
+      "specs": {
+        "Capacity": "5 L",
+        "Material": "Stainless steel",
+        "Power": "900 W",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-keystone-10-edition.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-keystone-10-edition/"
+    },
+    {
+      "id": "kitchen-tool-lumina-11-bundle",
+      "slug": "kitchen-tool-lumina-11-bundle",
+      "sku": "MCK-KIT-131",
+      "title": "Kitchen Tool Lumina 11 Bundle",
+      "brand": "Northwind",
+      "category": "kitchen",
+      "price": 455.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.9,
+      "reviewCount": 19,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 11 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "classic"
+      ],
+      "specs": {
+        "Capacity": "1.7 L",
+        "Finish": "Matte white",
+        "AutoOff": "Yes",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-lumina-11-bundle.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-lumina-11-bundle/"
+    },
+    {
+      "id": "kitchen-tool-metro-12-select",
+      "slug": "kitchen-tool-metro-12-select",
+      "sku": "MCK-KIT-132",
+      "title": "Kitchen Tool Metro 12 Select",
+      "brand": "Contoso",
+      "category": "kitchen",
+      "price": 500.97,
+      "oldPrice": 580.97,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 12 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "featured"
+      ],
+      "specs": {
+        "Pieces": "8",
+        "DishwasherSafe": "Yes",
+        "Material": "Ceramic",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-metro-12-select.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-metro-12-select/"
+    },
+    {
+      "id": "kitchen-tool-nova-13-series",
+      "slug": "kitchen-tool-nova-13-series",
+      "sku": "MCK-KIT-133",
+      "title": "Kitchen Tool Nova 13 Series",
+      "brand": "Fabrikam",
+      "category": "kitchen",
+      "price": 546.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 13 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "classic"
+      ],
+      "specs": {
+        "Capacity": "5 L",
+        "Material": "Stainless steel",
+        "Power": "900 W",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-nova-13-series.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-nova-13-series/"
+    },
+    {
+      "id": "kitchen-tool-orbit-14-edition",
+      "slug": "kitchen-tool-orbit-14-edition",
+      "sku": "MCK-KIT-134",
+      "title": "Kitchen Tool Orbit 14 Edition",
+      "brand": "Blue Yonder",
+      "category": "kitchen",
+      "price": 591.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.2,
+      "reviewCount": 52,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 14 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "featured"
+      ],
+      "specs": {
+        "Capacity": "1.7 L",
+        "Finish": "Matte white",
+        "AutoOff": "Yes",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-orbit-14-edition.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-orbit-14-edition/"
+    },
+    {
+      "id": "kitchen-tool-pilot-15-bundle",
+      "slug": "kitchen-tool-pilot-15-bundle",
+      "sku": "MCK-KIT-135",
+      "title": "Kitchen Tool Pilot 15 Bundle",
+      "brand": "Tailspin",
+      "category": "kitchen",
+      "price": 594.99,
+      "oldPrice": 794.99,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 15 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "classic"
+      ],
+      "specs": {
+        "Pieces": "8",
+        "DishwasherSafe": "Yes",
+        "Material": "Ceramic",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-pilot-15-bundle.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-pilot-15-bundle/"
+    },
+    {
+      "id": "kitchen-tool-quartz-16-select",
+      "slug": "kitchen-tool-quartz-16-select",
+      "sku": "MCK-KIT-136",
+      "title": "Kitchen Tool Quartz 16 Select",
+      "brand": "Adventure Works",
+      "category": "kitchen",
+      "price": 640.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviewCount": 74,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 16 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "featured"
+      ],
+      "specs": {
+        "Capacity": "5 L",
+        "Material": "Stainless steel",
+        "Power": "900 W",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-quartz-16-select.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-quartz-16-select/"
+    },
+    {
+      "id": "kitchen-tool-relay-17-series",
+      "slug": "kitchen-tool-relay-17-series",
+      "sku": "MCK-KIT-137",
+      "title": "Kitchen Tool Relay 17 Series",
+      "brand": "Litware",
+      "category": "kitchen",
+      "price": 685.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 85,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 17 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "classic"
+      ],
+      "specs": {
+        "Capacity": "1.7 L",
+        "Finish": "Matte white",
+        "AutoOff": "Yes",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-relay-17-series.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-relay-17-series/"
+    },
+    {
+      "id": "kitchen-tool-summit-18-edition",
+      "slug": "kitchen-tool-summit-18-edition",
+      "sku": "MCK-KIT-138",
+      "title": "Kitchen Tool Summit 18 Edition",
+      "brand": "Alpine Goods",
+      "category": "kitchen",
+      "price": 731.46,
+      "oldPrice": 891.46,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 18 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "featured"
+      ],
+      "specs": {
+        "Pieces": "8",
+        "DishwasherSafe": "Yes",
+        "Material": "Ceramic",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-summit-18-edition.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-summit-18-edition/"
+    },
+    {
+      "id": "kitchen-tool-tempo-19-bundle",
+      "slug": "kitchen-tool-tempo-19-bundle",
+      "sku": "MCK-KIT-139",
+      "title": "Kitchen Tool Tempo 19 Bundle",
+      "brand": "Pixel Forge",
+      "category": "kitchen",
+      "price": 776.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 107,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 19 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "classic"
+      ],
+      "specs": {
+        "Capacity": "5 L",
+        "Material": "Stainless steel",
+        "Power": "900 W",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-tempo-19-bundle.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-tempo-19-bundle/"
+    },
+    {
+      "id": "kitchen-tool-vector-20-select",
+      "slug": "kitchen-tool-vector-20-select",
+      "sku": "MCK-KIT-140",
+      "title": "Kitchen Tool Vector 20 Select",
+      "brand": "Cedar & Co.",
+      "category": "kitchen",
+      "price": 779.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 20 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "featured"
+      ],
+      "specs": {
+        "Capacity": "1.7 L",
+        "Finish": "Matte white",
+        "AutoOff": "Yes",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-vector-20-select.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-vector-20-select/"
+    },
+    {
+      "id": "kitchen-tool-willow-21-series",
+      "slug": "kitchen-tool-willow-21-series",
+      "sku": "MCK-KIT-141",
+      "title": "Kitchen Tool Willow 21 Series",
+      "brand": "Northwind",
+      "category": "kitchen",
+      "price": 825.48,
+      "oldPrice": 945.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 21 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "classic"
+      ],
+      "specs": {
+        "Pieces": "8",
+        "DishwasherSafe": "Yes",
+        "Material": "Ceramic",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-willow-21-series.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-willow-21-series/"
+    },
+    {
+      "id": "kitchen-tool-zenith-22-edition",
+      "slug": "kitchen-tool-zenith-22-edition",
+      "sku": "MCK-KIT-142",
+      "title": "Kitchen Tool Zenith 22 Edition",
+      "brand": "Contoso",
+      "category": "kitchen",
+      "price": 870.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.6,
+      "reviewCount": 140,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 22 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "featured"
+      ],
+      "specs": {
+        "Capacity": "5 L",
+        "Material": "Stainless steel",
+        "Power": "900 W",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-zenith-22-edition.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-zenith-22-edition/"
+    },
+    {
+      "id": "kitchen-tool-atlas-23-bundle",
+      "slug": "kitchen-tool-atlas-23-bundle",
+      "sku": "MCK-KIT-143",
+      "title": "Kitchen Tool Atlas 23 Bundle",
+      "brand": "Fabrikam",
+      "category": "kitchen",
+      "price": 916.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.7,
+      "reviewCount": 151,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 23 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "classic"
+      ],
+      "specs": {
+        "Capacity": "1.7 L",
+        "Finish": "Matte white",
+        "AutoOff": "Yes",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-atlas-23-bundle.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-atlas-23-bundle/"
+    },
+    {
+      "id": "kitchen-tool-beacon-24-select",
+      "slug": "kitchen-tool-beacon-24-select",
+      "sku": "MCK-KIT-144",
+      "title": "Kitchen Tool Beacon 24 Select",
+      "brand": "Blue Yonder",
+      "category": "kitchen",
+      "price": 961.95,
+      "oldPrice": 1041.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A fictional kitchen item with realistic product metadata and simple specs. Item 24 in kitchen uses fake but stable data.",
+      "tags": [
+        "home",
+        "cooking",
+        "countertop",
+        "featured"
+      ],
+      "specs": {
+        "Pieces": "8",
+        "DishwasherSafe": "Yes",
+        "Material": "Ceramic",
+        "SKUFamily": "KIT"
+      },
+      "image": "/assets/images/products/kitchen-tool-beacon-24-select.svg",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-beacon-24-select/"
+    }
+  ]
+}

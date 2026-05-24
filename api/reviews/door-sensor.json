@@ -1,0 +1,23 @@
+{
+  "productId": "door-sensor",
+  "items": [
+    {
+      "id": "review-door-sensor-001",
+      "productId": "door-sensor",
+      "title": "Solid choice",
+      "author": "Noah Patel",
+      "date": "2026-02-17",
+      "stars": 4,
+      "body": "The metadata was easy to compare across the catalog."
+    },
+    {
+      "id": "review-door-sensor-002",
+      "productId": "door-sensor",
+      "title": "Useful for demos",
+      "author": "Mina Carter",
+      "date": "2026-03-20",
+      "stars": 5,
+      "body": "Worked exactly as expected in this fake storefront."
+    }
+  ]
+}

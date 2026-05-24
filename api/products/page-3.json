@@ -1,0 +1,727 @@
+{
+  "page": 3,
+  "pageSize": 24,
+  "total": 300,
+  "items": [
+    {
+      "id": "phone-tempo-19-bundle",
+      "slug": "phone-tempo-19-bundle",
+      "sku": "MCK-PHN-049",
+      "title": "Phone Tempo 19 Bundle",
+      "brand": "Pixel Forge",
+      "category": "phones",
+      "price": 1186.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fictional mobile device with stable catalog metadata and stock signals. Item 19 in phones uses fake but stable data.",
+      "tags": [
+        "mobile",
+        "camera",
+        "travel",
+        "classic"
+      ],
+      "specs": {
+        "Storage": "128 GB",
+        "Camera": "48 MP",
+        "Battery": "4200 mAh",
+        "SKUFamily": "PHN"
+      },
+      "image": "/assets/images/products/phone-tempo-19-bundle.svg",
+      "url": "/scenarios/ecommerce/products/phone-tempo-19-bundle/"
+    },
+    {
+      "id": "phone-vector-20-select",
+      "slug": "phone-vector-20-select",
+      "sku": "MCK-PHN-050",
+      "title": "Phone Vector 20 Select",
+      "brand": "Cedar & Co.",
+      "category": "phones",
+      "price": 1189.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.2,
+      "reviewCount": 28,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fictional mobile device with stable catalog metadata and stock signals. Item 20 in phones uses fake but stable data.",
+      "tags": [
+        "mobile",
+        "camera",
+        "travel",
+        "featured"
+      ],
+      "specs": {
+        "Storage": "256 GB",
+        "Display": "6.4 inch",
+        "Network": "5G",
+        "SKUFamily": "PHN"
+      },
+      "image": "/assets/images/products/phone-vector-20-select.svg",
+      "url": "/scenarios/ecommerce/products/phone-vector-20-select/"
+    },
+    {
+      "id": "phone-willow-21-series",
+      "slug": "phone-willow-21-series",
+      "sku": "MCK-PHN-051",
+      "title": "Phone Willow 21 Series",
+      "brand": "Northwind",
+      "category": "phones",
+      "price": 1235.48,
+      "oldPrice": 1355.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A fictional mobile device with stable catalog metadata and stock signals. Item 21 in phones uses fake but stable data.",
+      "tags": [
+        "mobile",
+        "camera",
+        "travel",
+        "classic"
+      ],
+      "specs": {
+        "Storage": "64 GB",
+        "Color": "Graphite",
+        "Warranty": "1 year",
+        "SKUFamily": "PHN"
+      },
+      "image": "/assets/images/products/phone-willow-21-series.svg",
+      "url": "/scenarios/ecommerce/products/phone-willow-21-series/"
+    },
+    {
+      "id": "phone-zenith-22-edition",
+      "slug": "phone-zenith-22-edition",
+      "sku": "MCK-PHN-052",
+      "title": "Phone Zenith 22 Edition",
+      "brand": "Contoso",
+      "category": "phones",
+      "price": 1280.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviewCount": 50,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fictional mobile device with stable catalog metadata and stock signals. Item 22 in phones uses fake but stable data.",
+      "tags": [
+        "mobile",
+        "camera",
+        "travel",
+        "featured"
+      ],
+      "specs": {
+        "Storage": "128 GB",
+        "Camera": "48 MP",
+        "Battery": "4200 mAh",
+        "SKUFamily": "PHN"
+      },
+      "image": "/assets/images/products/phone-zenith-22-edition.svg",
+      "url": "/scenarios/ecommerce/products/phone-zenith-22-edition/"
+    },
+    {
+      "id": "phone-atlas-23-bundle",
+      "slug": "phone-atlas-23-bundle",
+      "sku": "MCK-PHN-053",
+      "title": "Phone Atlas 23 Bundle",
+      "brand": "Fabrikam",
+      "category": "phones",
+      "price": 1326.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 61,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fictional mobile device with stable catalog metadata and stock signals. Item 23 in phones uses fake but stable data.",
+      "tags": [
+        "mobile",
+        "camera",
+        "travel",
+        "classic"
+      ],
+      "specs": {
+        "Storage": "256 GB",
+        "Display": "6.4 inch",
+        "Network": "5G",
+        "SKUFamily": "PHN"
+      },
+      "image": "/assets/images/products/phone-atlas-23-bundle.svg",
+      "url": "/scenarios/ecommerce/products/phone-atlas-23-bundle/"
+    },
+    {
+      "id": "phone-beacon-24-select",
+      "slug": "phone-beacon-24-select",
+      "sku": "MCK-PHN-054",
+      "title": "Phone Beacon 24 Select",
+      "brand": "Blue Yonder",
+      "category": "phones",
+      "price": 1371.95,
+      "oldPrice": 1451.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A fictional mobile device with stable catalog metadata and stock signals. Item 24 in phones uses fake but stable data.",
+      "tags": [
+        "mobile",
+        "camera",
+        "travel",
+        "featured"
+      ],
+      "specs": {
+        "Storage": "64 GB",
+        "Color": "Graphite",
+        "Warranty": "1 year",
+        "SKUFamily": "PHN"
+      },
+      "image": "/assets/images/products/phone-beacon-24-select.svg",
+      "url": "/scenarios/ecommerce/products/phone-beacon-24-select/"
+    },
+    {
+      "id": "phone-circuit-25-series",
+      "slug": "phone-circuit-25-series",
+      "sku": "MCK-PHN-055",
+      "title": "Phone Circuit 25 Series",
+      "brand": "Tailspin",
+      "category": "phones",
+      "price": 1374.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 83,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A fictional mobile device with stable catalog metadata and stock signals. Item 25 in phones uses fake but stable data.",
+      "tags": [
+        "mobile",
+        "camera",
+        "travel",
+        "classic"
+      ],
+      "specs": {
+        "Storage": "128 GB",
+        "Camera": "48 MP",
+        "Battery": "4200 mAh",
+        "SKUFamily": "PHN"
+      },
+      "image": "/assets/images/products/phone-circuit-25-series.svg",
+      "url": "/scenarios/ecommerce/products/phone-circuit-25-series/"
+    },
+    {
+      "id": "phone-delta-26-edition",
+      "slug": "phone-delta-26-edition",
+      "sku": "MCK-PHN-056",
+      "title": "Phone Delta 26 Edition",
+      "brand": "Adventure Works",
+      "category": "phones",
+      "price": 1420.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A fictional mobile device with stable catalog metadata and stock signals. Item 26 in phones uses fake but stable data.",
+      "tags": [
+        "mobile",
+        "camera",
+        "travel",
+        "featured"
+      ],
+      "specs": {
+        "Storage": "256 GB",
+        "Display": "6.4 inch",
+        "Network": "5G",
+        "SKUFamily": "PHN"
+      },
+      "image": "/assets/images/products/phone-delta-26-edition.svg",
+      "url": "/scenarios/ecommerce/products/phone-delta-26-edition/"
+    },
+    {
+      "id": "phone-ember-27-bundle",
+      "slug": "phone-ember-27-bundle",
+      "sku": "MCK-PHN-057",
+      "title": "Phone Ember 27 Bundle",
+      "brand": "Litware",
+      "category": "phones",
+      "price": 1465.97,
+      "oldPrice": 1665.97,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A fictional mobile device with stable catalog metadata and stock signals. Item 27 in phones uses fake but stable data.",
+      "tags": [
+        "mobile",
+        "camera",
+        "travel",
+        "classic"
+      ],
+      "specs": {
+        "Storage": "64 GB",
+        "Color": "Graphite",
+        "Warranty": "1 year",
+        "SKUFamily": "PHN"
+      },
+      "image": "/assets/images/products/phone-ember-27-bundle.svg",
+      "url": "/scenarios/ecommerce/products/phone-ember-27-bundle/"
+    },
+    {
+      "id": "phone-foundry-28-select",
+      "slug": "phone-foundry-28-select",
+      "sku": "MCK-PHN-058",
+      "title": "Phone Foundry 28 Select",
+      "brand": "Alpine Goods",
+      "category": "phones",
+      "price": 1511.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.6,
+      "reviewCount": 116,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A fictional mobile device with stable catalog metadata and stock signals. Item 28 in phones uses fake but stable data.",
+      "tags": [
+        "mobile",
+        "camera",
+        "travel",
+        "featured"
+      ],
+      "specs": {
+        "Storage": "128 GB",
+        "Camera": "48 MP",
+        "Battery": "4200 mAh",
+        "SKUFamily": "PHN"
+      },
+      "image": "/assets/images/products/phone-foundry-28-select.svg",
+      "url": "/scenarios/ecommerce/products/phone-foundry-28-select/"
+    },
+    {
+      "id": "phone-harbor-29-series",
+      "slug": "phone-harbor-29-series",
+      "sku": "MCK-PHN-059",
+      "title": "Phone Harbor 29 Series",
+      "brand": "Pixel Forge",
+      "category": "phones",
+      "price": 1556.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.7,
+      "reviewCount": 127,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A fictional mobile device with stable catalog metadata and stock signals. Item 29 in phones uses fake but stable data.",
+      "tags": [
+        "mobile",
+        "camera",
+        "travel",
+        "classic"
+      ],
+      "specs": {
+        "Storage": "256 GB",
+        "Display": "6.4 inch",
+        "Network": "5G",
+        "SKUFamily": "PHN"
+      },
+      "image": "/assets/images/products/phone-harbor-29-series.svg",
+      "url": "/scenarios/ecommerce/products/phone-harbor-29-series/"
+    },
+    {
+      "id": "phone-ion-30-edition",
+      "slug": "phone-ion-30-edition",
+      "sku": "MCK-PHN-060",
+      "title": "Phone Ion 30 Edition",
+      "brand": "Cedar & Co.",
+      "category": "phones",
+      "price": 1559.99,
+      "oldPrice": 1719.99,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A fictional mobile device with stable catalog metadata and stock signals. Item 30 in phones uses fake but stable data.",
+      "tags": [
+        "mobile",
+        "camera",
+        "travel",
+        "featured"
+      ],
+      "specs": {
+        "Storage": "64 GB",
+        "Color": "Graphite",
+        "Warranty": "1 year",
+        "SKUFamily": "PHN"
+      },
+      "image": "/assets/images/products/phone-ion-30-edition.svg",
+      "url": "/scenarios/ecommerce/products/phone-ion-30-edition/"
+    },
+    {
+      "id": "noise-canceling-headphones",
+      "slug": "noise-canceling-headphones",
+      "sku": "MCK-AUD-061",
+      "title": "Noise Canceling Headphones",
+      "brand": "Northwind",
+      "category": "headphones",
+      "price": 125.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.9,
+      "reviewCount": 149,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A mock audio product with predictable ratings, prices, and availability. Item 1 in headphones uses fake but stable data.",
+      "tags": [
+        "audio",
+        "wireless",
+        "commute",
+        "classic"
+      ],
+      "specs": {
+        "Type": "Over-ear",
+        "Battery": "32 hours",
+        "Connectivity": "Bluetooth",
+        "SKUFamily": "AUD"
+      },
+      "image": "/assets/images/products/noise-canceling-headphones.svg",
+      "url": "/scenarios/ecommerce/products/noise-canceling-headphones/"
+    },
+    {
+      "id": "studio-headphones",
+      "slug": "studio-headphones",
+      "sku": "MCK-AUD-062",
+      "title": "Studio Headphones",
+      "brand": "Contoso",
+      "category": "headphones",
+      "price": 170.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4,
+      "reviewCount": 160,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A mock audio product with predictable ratings, prices, and availability. Item 2 in headphones uses fake but stable data.",
+      "tags": [
+        "audio",
+        "wireless",
+        "commute",
+        "featured"
+      ],
+      "specs": {
+        "Type": "In-ear",
+        "Drivers": "10 mm",
+        "WaterResistance": "IPX4",
+        "SKUFamily": "AUD"
+      },
+      "image": "/assets/images/products/studio-headphones.svg",
+      "url": "/scenarios/ecommerce/products/studio-headphones/"
+    },
+    {
+      "id": "travel-earbuds",
+      "slug": "travel-earbuds",
+      "sku": "MCK-AUD-063",
+      "title": "Travel Earbuds",
+      "brand": "Fabrikam",
+      "category": "headphones",
+      "price": 216.46,
+      "oldPrice": 416.46,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A mock audio product with predictable ratings, prices, and availability. Item 3 in headphones uses fake but stable data.",
+      "tags": [
+        "audio",
+        "wireless",
+        "commute",
+        "classic"
+      ],
+      "specs": {
+        "Type": "Open-back",
+        "Cable": "Detachable",
+        "Impedance": "32 ohm",
+        "SKUFamily": "AUD"
+      },
+      "image": "/assets/images/products/travel-earbuds.svg",
+      "url": "/scenarios/ecommerce/products/travel-earbuds/"
+    },
+    {
+      "id": "gaming-headset",
+      "slug": "gaming-headset",
+      "sku": "MCK-AUD-064",
+      "title": "Gaming Headset",
+      "brand": "Blue Yonder",
+      "category": "headphones",
+      "price": 261.95,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.2,
+      "reviewCount": 182,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A mock audio product with predictable ratings, prices, and availability. Item 4 in headphones uses fake but stable data.",
+      "tags": [
+        "audio",
+        "wireless",
+        "commute",
+        "featured"
+      ],
+      "specs": {
+        "Type": "Over-ear",
+        "Battery": "32 hours",
+        "Connectivity": "Bluetooth",
+        "SKUFamily": "AUD"
+      },
+      "image": "/assets/images/products/gaming-headset.svg",
+      "url": "/scenarios/ecommerce/products/gaming-headset/"
+    },
+    {
+      "id": "open-back-monitor-headphones",
+      "slug": "open-back-monitor-headphones",
+      "sku": "MCK-AUD-065",
+      "title": "Open-Back Monitor Headphones",
+      "brand": "Tailspin",
+      "category": "headphones",
+      "price": 264.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.3,
+      "reviewCount": 193,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A mock audio product with predictable ratings, prices, and availability. Item 5 in headphones uses fake but stable data.",
+      "tags": [
+        "audio",
+        "wireless",
+        "commute",
+        "classic"
+      ],
+      "specs": {
+        "Type": "In-ear",
+        "Drivers": "10 mm",
+        "WaterResistance": "IPX4",
+        "SKUFamily": "AUD"
+      },
+      "image": "/assets/images/products/open-back-monitor-headphones.svg",
+      "url": "/scenarios/ecommerce/products/open-back-monitor-headphones/"
+    },
+    {
+      "id": "kids-volume-limited-headphones",
+      "slug": "kids-volume-limited-headphones",
+      "sku": "MCK-AUD-066",
+      "title": "Kids Volume-Limited Headphones",
+      "brand": "Adventure Works",
+      "category": "headphones",
+      "price": 310.48,
+      "oldPrice": 470.48,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 3,
+      "description": "A mock audio product with predictable ratings, prices, and availability. Item 6 in headphones uses fake but stable data.",
+      "tags": [
+        "audio",
+        "wireless",
+        "commute",
+        "featured"
+      ],
+      "specs": {
+        "Type": "Open-back",
+        "Cable": "Detachable",
+        "Impedance": "32 ohm",
+        "SKUFamily": "AUD"
+      },
+      "image": "/assets/images/products/kids-volume-limited-headphones.svg",
+      "url": "/scenarios/ecommerce/products/kids-volume-limited-headphones/"
+    },
+    {
+      "id": "headphones-usb-c-edition",
+      "slug": "headphones-usb-c-edition",
+      "sku": "MCK-AUD-067",
+      "title": "Headphones USB-C Edition",
+      "brand": "Litware",
+      "category": "headphones",
+      "price": 355.97,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 35,
+      "inStock": true,
+      "stockCount": 10,
+      "description": "A mock audio product with predictable ratings, prices, and availability. Item 7 in headphones uses fake but stable data.",
+      "tags": [
+        "audio",
+        "wireless",
+        "commute",
+        "classic"
+      ],
+      "specs": {
+        "Type": "Over-ear",
+        "Battery": "32 hours",
+        "Connectivity": "Bluetooth",
+        "SKUFamily": "AUD"
+      },
+      "image": "/assets/images/products/headphones-usb-c-edition.svg",
+      "url": "/scenarios/ecommerce/products/headphones-usb-c-edition/"
+    },
+    {
+      "id": "headphones-ion-08-select",
+      "slug": "headphones-ion-08-select",
+      "sku": "MCK-AUD-068",
+      "title": "Headphones Ion 08 Select",
+      "brand": "Alpine Goods",
+      "category": "headphones",
+      "price": 401.46,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 46,
+      "inStock": true,
+      "stockCount": 17,
+      "description": "A mock audio product with predictable ratings, prices, and availability. Item 8 in headphones uses fake but stable data.",
+      "tags": [
+        "audio",
+        "wireless",
+        "commute",
+        "featured"
+      ],
+      "specs": {
+        "Type": "In-ear",
+        "Drivers": "10 mm",
+        "WaterResistance": "IPX4",
+        "SKUFamily": "AUD"
+      },
+      "image": "/assets/images/products/headphones-ion-08-select.svg",
+      "url": "/scenarios/ecommerce/products/headphones-ion-08-select/"
+    },
+    {
+      "id": "headphones-juniper-09-series",
+      "slug": "headphones-juniper-09-series",
+      "sku": "MCK-AUD-069",
+      "title": "Headphones Juniper 09 Series",
+      "brand": "Pixel Forge",
+      "category": "headphones",
+      "price": 446.95,
+      "oldPrice": 566.95,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 24,
+      "description": "A mock audio product with predictable ratings, prices, and availability. Item 9 in headphones uses fake but stable data.",
+      "tags": [
+        "audio",
+        "wireless",
+        "commute",
+        "classic"
+      ],
+      "specs": {
+        "Type": "Open-back",
+        "Cable": "Detachable",
+        "Impedance": "32 ohm",
+        "SKUFamily": "AUD"
+      },
+      "image": "/assets/images/products/headphones-juniper-09-series.svg",
+      "url": "/scenarios/ecommerce/products/headphones-juniper-09-series/"
+    },
+    {
+      "id": "headphones-keystone-10-edition",
+      "slug": "headphones-keystone-10-edition",
+      "sku": "MCK-AUD-070",
+      "title": "Headphones Keystone 10 Edition",
+      "brand": "Cedar & Co.",
+      "category": "headphones",
+      "price": 449.99,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": true,
+      "stockCount": 31,
+      "description": "A mock audio product with predictable ratings, prices, and availability. Item 10 in headphones uses fake but stable data.",
+      "tags": [
+        "audio",
+        "wireless",
+        "commute",
+        "featured"
+      ],
+      "specs": {
+        "Type": "Over-ear",
+        "Battery": "32 hours",
+        "Connectivity": "Bluetooth",
+        "SKUFamily": "AUD"
+      },
+      "image": "/assets/images/products/headphones-keystone-10-edition.svg",
+      "url": "/scenarios/ecommerce/products/headphones-keystone-10-edition/"
+    },
+    {
+      "id": "headphones-lumina-11-bundle",
+      "slug": "headphones-lumina-11-bundle",
+      "sku": "MCK-AUD-071",
+      "title": "Headphones Lumina 11 Bundle",
+      "brand": "Northwind",
+      "category": "headphones",
+      "price": 495.48,
+      "oldPrice": null,
+      "currency": "USD",
+      "rating": 3.5,
+      "reviewCount": 79,
+      "inStock": true,
+      "stockCount": 38,
+      "description": "A mock audio product with predictable ratings, prices, and availability. Item 11 in headphones uses fake but stable data.",
+      "tags": [
+        "audio",
+        "wireless",
+        "commute",
+        "classic"
+      ],
+      "specs": {
+        "Type": "In-ear",
+        "Drivers": "10 mm",
+        "WaterResistance": "IPX4",
+        "SKUFamily": "AUD"
+      },
+      "image": "/assets/images/products/headphones-lumina-11-bundle.svg",
+      "url": "/scenarios/ecommerce/products/headphones-lumina-11-bundle/"
+    },
+    {
+      "id": "headphones-metro-12-select",
+      "slug": "headphones-metro-12-select",
+      "sku": "MCK-AUD-072",
+      "title": "Headphones Metro 12 Select",
+      "brand": "Contoso",
+      "category": "headphones",
+      "price": 540.97,
+      "oldPrice": 620.97,
+      "currency": "USD",
+      "rating": null,
+      "reviewCount": 0,
+      "inStock": false,
+      "stockCount": 0,
+      "description": "A mock audio product with predictable ratings, prices, and availability. Item 12 in headphones uses fake but stable data.",
+      "tags": [
+        "audio",
+        "wireless",
+        "commute",
+        "featured"
+      ],
+      "specs": {
+        "Type": "Open-back",
+        "Cable": "Detachable",
+        "Impedance": "32 ohm",
+        "SKUFamily": "AUD"
+      },
+      "image": "/assets/images/products/headphones-metro-12-select.svg",
+      "url": "/scenarios/ecommerce/products/headphones-metro-12-select/"
+    }
+  ]
+}

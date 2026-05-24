@@ -1,0 +1,14 @@
+{
+  "productId": "gaming-gear-lumina-11-bundle",
+  "items": [
+    {
+      "id": "review-gaming-gear-lumina-11-bundle-001",
+      "productId": "gaming-gear-lumina-11-bundle",
+      "title": "Great product",
+      "author": "Sofia Chen",
+      "date": "2026-01-14",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

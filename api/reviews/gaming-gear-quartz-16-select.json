@@ -1,0 +1,23 @@
+{
+  "productId": "gaming-gear-quartz-16-select",
+  "items": [
+    {
+      "id": "review-gaming-gear-quartz-16-select-001",
+      "productId": "gaming-gear-quartz-16-select",
+      "title": "Great product",
+      "author": "Noah Patel",
+      "date": "2026-01-19",
+      "stars": 3,
+      "body": "Fast, quiet, and lightweight."
+    },
+    {
+      "id": "review-gaming-gear-quartz-16-select-002",
+      "productId": "gaming-gear-quartz-16-select",
+      "title": "Solid choice",
+      "author": "Mina Carter",
+      "date": "2026-02-22",
+      "stars": 4,
+      "body": "The metadata was easy to compare across the catalog."
+    }
+  ]
+}

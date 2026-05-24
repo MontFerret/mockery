@@ -1,0 +1,23 @@
+{
+  "productId": "headphones-delta-26-edition",
+  "items": [
+    {
+      "id": "review-headphones-delta-26-edition-001",
+      "productId": "headphones-delta-26-edition",
+      "title": "Great product",
+      "author": "Evan Brooks",
+      "date": "2026-01-23",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    },
+    {
+      "id": "review-headphones-delta-26-edition-002",
+      "productId": "headphones-delta-26-edition",
+      "title": "Solid choice",
+      "author": "Priya Stone",
+      "date": "2026-02-26",
+      "stars": 5,
+      "body": "The metadata was easy to compare across the catalog."
+    }
+  ]
+}

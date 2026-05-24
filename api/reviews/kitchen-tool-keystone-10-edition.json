@@ -1,0 +1,23 @@
+{
+  "productId": "kitchen-tool-keystone-10-edition",
+  "items": [
+    {
+      "id": "review-kitchen-tool-keystone-10-edition-001",
+      "productId": "kitchen-tool-keystone-10-edition",
+      "title": "Matched the description",
+      "author": "Noah Patel",
+      "date": "2026-05-13",
+      "stars": 3,
+      "body": "The specs and price were clear on the detail page."
+    },
+    {
+      "id": "review-kitchen-tool-keystone-10-edition-002",
+      "productId": "kitchen-tool-keystone-10-edition",
+      "title": "Great product",
+      "author": "Mina Carter",
+      "date": "2026-01-16",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

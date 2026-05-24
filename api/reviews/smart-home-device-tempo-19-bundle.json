@@ -1,0 +1,14 @@
+{
+  "productId": "smart-home-device-tempo-19-bundle",
+  "items": [
+    {
+      "id": "review-smart-home-device-tempo-19-bundle-001",
+      "productId": "smart-home-device-tempo-19-bundle",
+      "title": "Stable and predictable",
+      "author": "Mina Carter",
+      "date": "2026-04-16",
+      "stars": 3,
+      "body": "A good deterministic item for examples and tests."
+    }
+  ]
+}

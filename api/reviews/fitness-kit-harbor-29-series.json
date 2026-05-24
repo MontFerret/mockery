@@ -1,0 +1,14 @@
+{
+  "productId": "fitness-kit-harbor-29-series",
+  "items": [
+    {
+      "id": "review-fitness-kit-harbor-29-series-001",
+      "productId": "fitness-kit-harbor-29-series",
+      "title": "Stable and predictable",
+      "author": "Mina Carter",
+      "date": "2026-04-20",
+      "stars": 4,
+      "body": "A good deterministic item for examples and tests."
+    }
+  ]
+}

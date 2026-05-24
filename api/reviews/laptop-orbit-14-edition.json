@@ -1,0 +1,23 @@
+{
+  "productId": "laptop-orbit-14-edition",
+  "items": [
+    {
+      "id": "review-laptop-orbit-14-edition-001",
+      "productId": "laptop-orbit-14-edition",
+      "title": "Stable and predictable",
+      "author": "Evan Brooks",
+      "date": "2026-04-23",
+      "stars": 4,
+      "body": "A good deterministic item for examples and tests."
+    },
+    {
+      "id": "review-laptop-orbit-14-edition-002",
+      "productId": "laptop-orbit-14-edition",
+      "title": "Matched the description",
+      "author": "Priya Stone",
+      "date": "2026-05-26",
+      "stars": 5,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

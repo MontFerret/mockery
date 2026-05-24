@@ -1,0 +1,14 @@
+{
+  "productId": "voice-remote",
+  "items": [
+    {
+      "id": "review-voice-remote-001",
+      "productId": "voice-remote",
+      "title": "Matched the description",
+      "author": "Sofia Chen",
+      "date": "2026-05-20",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

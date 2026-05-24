@@ -1,0 +1,23 @@
+{
+  "productId": "phone-keystone-10-edition",
+  "items": [
+    {
+      "id": "review-phone-keystone-10-edition-001",
+      "productId": "phone-keystone-10-edition",
+      "title": "Matched the description",
+      "author": "Leo Grant",
+      "date": "2026-05-13",
+      "stars": 3,
+      "body": "The specs and price were clear on the detail page."
+    },
+    {
+      "id": "review-phone-keystone-10-edition-002",
+      "productId": "phone-keystone-10-edition",
+      "title": "Great product",
+      "author": "Alice Reed",
+      "date": "2026-01-16",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

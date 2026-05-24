@@ -1,0 +1,23 @@
+{
+  "productId": "fitness-kit-vector-20-select",
+  "items": [
+    {
+      "id": "review-fitness-kit-vector-20-select-001",
+      "productId": "fitness-kit-vector-20-select",
+      "title": "Matched the description",
+      "author": "Noah Patel",
+      "date": "2026-05-11",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    },
+    {
+      "id": "review-fitness-kit-vector-20-select-002",
+      "productId": "fitness-kit-vector-20-select",
+      "title": "Great product",
+      "author": "Mina Carter",
+      "date": "2026-01-14",
+      "stars": 5,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

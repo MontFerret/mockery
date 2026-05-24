@@ -1,0 +1,23 @@
+{
+  "productId": "office-kit-quartz-16-select",
+  "items": [
+    {
+      "id": "review-office-kit-quartz-16-select-001",
+      "productId": "office-kit-quartz-16-select",
+      "title": "Great product",
+      "author": "Jon Bell",
+      "date": "2026-01-25",
+      "stars": 3,
+      "body": "Fast, quiet, and lightweight."
+    },
+    {
+      "id": "review-office-kit-quartz-16-select-002",
+      "productId": "office-kit-quartz-16-select",
+      "title": "Solid choice",
+      "author": "Sofia Chen",
+      "date": "2026-02-10",
+      "stars": 4,
+      "body": "The metadata was easy to compare across the catalog."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "productId": "smart-home-device-orbit-14-edition",
+  "items": [
+    {
+      "id": "review-smart-home-device-orbit-14-edition-001",
+      "productId": "smart-home-device-orbit-14-edition",
+      "title": "Stable and predictable",
+      "author": "Evan Brooks",
+      "date": "2026-04-11",
+      "stars": 4,
+      "body": "A good deterministic item for examples and tests."
+    },
+    {
+      "id": "review-smart-home-device-orbit-14-edition-002",
+      "productId": "smart-home-device-orbit-14-edition",
+      "title": "Matched the description",
+      "author": "Priya Stone",
+      "date": "2026-05-14",
+      "stars": 5,
+      "body": "The specs and price were clear on the detail page."
+    }
+  ]
+}

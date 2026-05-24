@@ -1,0 +1,14 @@
+{
+  "productId": "phone-lumina-11-bundle",
+  "items": [
+    {
+      "id": "review-phone-lumina-11-bundle-001",
+      "productId": "phone-lumina-11-bundle",
+      "title": "Great product",
+      "author": "Alice Reed",
+      "date": "2026-01-14",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

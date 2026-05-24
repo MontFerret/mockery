@@ -1,0 +1,23 @@
+{
+  "productId": "laptop-flex-2-in-1",
+  "items": [
+    {
+      "id": "review-laptop-flex-2-in-1-001",
+      "productId": "laptop-flex-2-in-1",
+      "title": "Useful for demos",
+      "author": "Leo Grant",
+      "date": "2026-03-17",
+      "stars": 4,
+      "body": "Worked exactly as expected in this fake storefront."
+    },
+    {
+      "id": "review-laptop-flex-2-in-1-002",
+      "productId": "laptop-flex-2-in-1",
+      "title": "Stable and predictable",
+      "author": "Alice Reed",
+      "date": "2026-04-20",
+      "stars": 5,
+      "body": "A good deterministic item for examples and tests."
+    }
+  ]
+}

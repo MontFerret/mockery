@@ -1,0 +1,2106 @@
+{
+  "generatedAt": "2026-05-24T00:00:00.000Z",
+  "total": 300,
+  "items": [
+    {
+      "id": "laptop-pro-14",
+      "title": "Laptop Pro 14",
+      "price": 1299,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-pro-14/"
+    },
+    {
+      "id": "laptop-pro-14-refurbished",
+      "title": "Laptop Pro 14 Refurbished",
+      "price": 990.97,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-pro-14-refurbished/"
+    },
+    {
+      "id": "laptop-air-13",
+      "title": "Laptop Air 13",
+      "price": 1036.46,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-air-13/"
+    },
+    {
+      "id": "laptop-studio-16",
+      "title": "Laptop Studio 16",
+      "price": 1081.95,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-studio-16/"
+    },
+    {
+      "id": "laptop-mini-11",
+      "title": "Laptop Mini 11",
+      "price": 1084.99,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-mini-11/"
+    },
+    {
+      "id": "laptop-developer-workstation-with-ultra-wide-dock-bundle",
+      "title": "Laptop Developer Workstation with Ultra-Wide Dock Bundle",
+      "price": 1130.48,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-developer-workstation-with-ultra-wide-dock-bundle/"
+    },
+    {
+      "id": "laptop-pro-14-plus",
+      "title": "Laptop Pro 14 Plus",
+      "price": 1175.97,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-pro-14-plus/"
+    },
+    {
+      "id": "laptop-flex-2-in-1",
+      "title": "Laptop Flex 2-in-1",
+      "price": 1221.46,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-flex-2-in-1/"
+    },
+    {
+      "id": "laptop-juniper-09-series",
+      "title": "Laptop Juniper 09 Series",
+      "price": 1266.95,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-juniper-09-series/"
+    },
+    {
+      "id": "laptop-keystone-10-edition",
+      "title": "Laptop Keystone 10 Edition",
+      "price": 1269.99,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-keystone-10-edition/"
+    },
+    {
+      "id": "laptop-lumina-11-bundle",
+      "title": "Laptop Lumina 11 Bundle",
+      "price": 1315.48,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-lumina-11-bundle/"
+    },
+    {
+      "id": "laptop-metro-12-select",
+      "title": "Laptop Metro 12 Select",
+      "price": 1360.97,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-metro-12-select/"
+    },
+    {
+      "id": "laptop-nova-13-series",
+      "title": "Laptop Nova 13 Series",
+      "price": 1406.46,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-nova-13-series/"
+    },
+    {
+      "id": "laptop-orbit-14-edition",
+      "title": "Laptop Orbit 14 Edition",
+      "price": 1451.95,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-orbit-14-edition/"
+    },
+    {
+      "id": "laptop-pilot-15-bundle",
+      "title": "Laptop Pilot 15 Bundle",
+      "price": 1454.99,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-pilot-15-bundle/"
+    },
+    {
+      "id": "laptop-quartz-16-select",
+      "title": "Laptop Quartz 16 Select",
+      "price": 1500.48,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-quartz-16-select/"
+    },
+    {
+      "id": "laptop-relay-17-series",
+      "title": "Laptop Relay 17 Series",
+      "price": 1545.97,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-relay-17-series/"
+    },
+    {
+      "id": "laptop-summit-18-edition",
+      "title": "Laptop Summit 18 Edition",
+      "price": 1591.46,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-summit-18-edition/"
+    },
+    {
+      "id": "laptop-tempo-19-bundle",
+      "title": "Laptop Tempo 19 Bundle",
+      "price": 1636.95,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-tempo-19-bundle/"
+    },
+    {
+      "id": "laptop-vector-20-select",
+      "title": "Laptop Vector 20 Select",
+      "price": 1639.99,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-vector-20-select/"
+    },
+    {
+      "id": "laptop-willow-21-series",
+      "title": "Laptop Willow 21 Series",
+      "price": 1685.48,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-willow-21-series/"
+    },
+    {
+      "id": "laptop-zenith-22-edition",
+      "title": "Laptop Zenith 22 Edition",
+      "price": 1730.97,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-zenith-22-edition/"
+    },
+    {
+      "id": "laptop-atlas-23-bundle",
+      "title": "Laptop Atlas 23 Bundle",
+      "price": 1776.46,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-atlas-23-bundle/"
+    },
+    {
+      "id": "laptop-beacon-24-select",
+      "title": "Laptop Beacon 24 Select",
+      "price": 1821.95,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-beacon-24-select/"
+    },
+    {
+      "id": "laptop-circuit-25-series",
+      "title": "Laptop Circuit 25 Series",
+      "price": 1824.99,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-circuit-25-series/"
+    },
+    {
+      "id": "laptop-delta-26-edition",
+      "title": "Laptop Delta 26 Edition",
+      "price": 1870.48,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-delta-26-edition/"
+    },
+    {
+      "id": "laptop-ember-27-bundle",
+      "title": "Laptop Ember 27 Bundle",
+      "price": 1915.97,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-ember-27-bundle/"
+    },
+    {
+      "id": "laptop-foundry-28-select",
+      "title": "Laptop Foundry 28 Select",
+      "price": 1961.46,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-foundry-28-select/"
+    },
+    {
+      "id": "laptop-harbor-29-series",
+      "title": "Laptop Harbor 29 Series",
+      "price": 2006.95,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-harbor-29-series/"
+    },
+    {
+      "id": "laptop-ion-30-edition",
+      "title": "Laptop Ion 30 Edition",
+      "price": 2009.99,
+      "category": "laptops",
+      "url": "/scenarios/ecommerce/products/laptop-ion-30-edition/"
+    },
+    {
+      "id": "phone-x1",
+      "title": "Phone X1",
+      "price": 495.48,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-x1/"
+    },
+    {
+      "id": "phone-x1-mini",
+      "title": "Phone X1 Mini",
+      "price": 540.97,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-x1-mini/"
+    },
+    {
+      "id": "phone-max-6",
+      "title": "Phone Max 6",
+      "price": 586.46,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-max-6/"
+    },
+    {
+      "id": "phone-max-6-case-bundle",
+      "title": "Phone Max 6 Case Bundle",
+      "price": 631.95,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-max-6-case-bundle/"
+    },
+    {
+      "id": "phone-lite-5g",
+      "title": "Phone Lite 5G",
+      "price": 634.99,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-lite-5g/"
+    },
+    {
+      "id": "phone-camera-edition",
+      "title": "Phone Camera Edition",
+      "price": 680.48,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-camera-edition/"
+    },
+    {
+      "id": "phone-se-duplicate-name",
+      "title": "Phone SE Duplicate Name",
+      "price": 725.97,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-se-duplicate-name/"
+    },
+    {
+      "id": "phone-se-duplicate-name-plus",
+      "title": "Phone SE Duplicate Name Plus",
+      "price": 771.46,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-se-duplicate-name-plus/"
+    },
+    {
+      "id": "phone-juniper-09-series",
+      "title": "Phone Juniper 09 Series",
+      "price": 816.95,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-juniper-09-series/"
+    },
+    {
+      "id": "phone-keystone-10-edition",
+      "title": "Phone Keystone 10 Edition",
+      "price": 819.99,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-keystone-10-edition/"
+    },
+    {
+      "id": "phone-lumina-11-bundle",
+      "title": "Phone Lumina 11 Bundle",
+      "price": 865.48,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-lumina-11-bundle/"
+    },
+    {
+      "id": "phone-metro-12-select",
+      "title": "Phone Metro 12 Select",
+      "price": 910.97,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-metro-12-select/"
+    },
+    {
+      "id": "phone-nova-13-series",
+      "title": "Phone Nova 13 Series",
+      "price": 956.46,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-nova-13-series/"
+    },
+    {
+      "id": "phone-orbit-14-edition",
+      "title": "Phone Orbit 14 Edition",
+      "price": 1001.95,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-orbit-14-edition/"
+    },
+    {
+      "id": "phone-pilot-15-bundle",
+      "title": "Phone Pilot 15 Bundle",
+      "price": 1004.99,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-pilot-15-bundle/"
+    },
+    {
+      "id": "phone-quartz-16-select",
+      "title": "Phone Quartz 16 Select",
+      "price": 1050.48,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-quartz-16-select/"
+    },
+    {
+      "id": "phone-relay-17-series",
+      "title": "Phone Relay 17 Series",
+      "price": 1095.97,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-relay-17-series/"
+    },
+    {
+      "id": "phone-summit-18-edition",
+      "title": "Phone Summit 18 Edition",
+      "price": 1141.46,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-summit-18-edition/"
+    },
+    {
+      "id": "phone-tempo-19-bundle",
+      "title": "Phone Tempo 19 Bundle",
+      "price": 1186.95,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-tempo-19-bundle/"
+    },
+    {
+      "id": "phone-vector-20-select",
+      "title": "Phone Vector 20 Select",
+      "price": 1189.99,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-vector-20-select/"
+    },
+    {
+      "id": "phone-willow-21-series",
+      "title": "Phone Willow 21 Series",
+      "price": 1235.48,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-willow-21-series/"
+    },
+    {
+      "id": "phone-zenith-22-edition",
+      "title": "Phone Zenith 22 Edition",
+      "price": 1280.97,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-zenith-22-edition/"
+    },
+    {
+      "id": "phone-atlas-23-bundle",
+      "title": "Phone Atlas 23 Bundle",
+      "price": 1326.46,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-atlas-23-bundle/"
+    },
+    {
+      "id": "phone-beacon-24-select",
+      "title": "Phone Beacon 24 Select",
+      "price": 1371.95,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-beacon-24-select/"
+    },
+    {
+      "id": "phone-circuit-25-series",
+      "title": "Phone Circuit 25 Series",
+      "price": 1374.99,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-circuit-25-series/"
+    },
+    {
+      "id": "phone-delta-26-edition",
+      "title": "Phone Delta 26 Edition",
+      "price": 1420.48,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-delta-26-edition/"
+    },
+    {
+      "id": "phone-ember-27-bundle",
+      "title": "Phone Ember 27 Bundle",
+      "price": 1465.97,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-ember-27-bundle/"
+    },
+    {
+      "id": "phone-foundry-28-select",
+      "title": "Phone Foundry 28 Select",
+      "price": 1511.46,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-foundry-28-select/"
+    },
+    {
+      "id": "phone-harbor-29-series",
+      "title": "Phone Harbor 29 Series",
+      "price": 1556.95,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-harbor-29-series/"
+    },
+    {
+      "id": "phone-ion-30-edition",
+      "title": "Phone Ion 30 Edition",
+      "price": 1559.99,
+      "category": "phones",
+      "url": "/scenarios/ecommerce/products/phone-ion-30-edition/"
+    },
+    {
+      "id": "noise-canceling-headphones",
+      "title": "Noise Canceling Headphones",
+      "price": 125.48,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/noise-canceling-headphones/"
+    },
+    {
+      "id": "studio-headphones",
+      "title": "Studio Headphones",
+      "price": 170.97,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/studio-headphones/"
+    },
+    {
+      "id": "travel-earbuds",
+      "title": "Travel Earbuds",
+      "price": 216.46,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/travel-earbuds/"
+    },
+    {
+      "id": "gaming-headset",
+      "title": "Gaming Headset",
+      "price": 261.95,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/gaming-headset/"
+    },
+    {
+      "id": "open-back-monitor-headphones",
+      "title": "Open-Back Monitor Headphones",
+      "price": 264.99,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/open-back-monitor-headphones/"
+    },
+    {
+      "id": "kids-volume-limited-headphones",
+      "title": "Kids Volume-Limited Headphones",
+      "price": 310.48,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/kids-volume-limited-headphones/"
+    },
+    {
+      "id": "headphones-usb-c-edition",
+      "title": "Headphones USB-C Edition",
+      "price": 355.97,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-usb-c-edition/"
+    },
+    {
+      "id": "headphones-ion-08-select",
+      "title": "Headphones Ion 08 Select",
+      "price": 401.46,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-ion-08-select/"
+    },
+    {
+      "id": "headphones-juniper-09-series",
+      "title": "Headphones Juniper 09 Series",
+      "price": 446.95,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-juniper-09-series/"
+    },
+    {
+      "id": "headphones-keystone-10-edition",
+      "title": "Headphones Keystone 10 Edition",
+      "price": 449.99,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-keystone-10-edition/"
+    },
+    {
+      "id": "headphones-lumina-11-bundle",
+      "title": "Headphones Lumina 11 Bundle",
+      "price": 495.48,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-lumina-11-bundle/"
+    },
+    {
+      "id": "headphones-metro-12-select",
+      "title": "Headphones Metro 12 Select",
+      "price": 540.97,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-metro-12-select/"
+    },
+    {
+      "id": "headphones-nova-13-series",
+      "title": "Headphones Nova 13 Series",
+      "price": 586.46,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-nova-13-series/"
+    },
+    {
+      "id": "headphones-orbit-14-edition",
+      "title": "Headphones Orbit 14 Edition",
+      "price": 631.95,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-orbit-14-edition/"
+    },
+    {
+      "id": "headphones-pilot-15-bundle",
+      "title": "Headphones Pilot 15 Bundle",
+      "price": 634.99,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-pilot-15-bundle/"
+    },
+    {
+      "id": "headphones-quartz-16-select",
+      "title": "Headphones Quartz 16 Select",
+      "price": 680.48,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-quartz-16-select/"
+    },
+    {
+      "id": "headphones-relay-17-series",
+      "title": "Headphones Relay 17 Series",
+      "price": 725.97,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-relay-17-series/"
+    },
+    {
+      "id": "headphones-summit-18-edition",
+      "title": "Headphones Summit 18 Edition",
+      "price": 771.46,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-summit-18-edition/"
+    },
+    {
+      "id": "headphones-tempo-19-bundle",
+      "title": "Headphones Tempo 19 Bundle",
+      "price": 816.95,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-tempo-19-bundle/"
+    },
+    {
+      "id": "headphones-vector-20-select",
+      "title": "Headphones Vector 20 Select",
+      "price": 819.99,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-vector-20-select/"
+    },
+    {
+      "id": "headphones-willow-21-series",
+      "title": "Headphones Willow 21 Series",
+      "price": 865.48,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-willow-21-series/"
+    },
+    {
+      "id": "headphones-zenith-22-edition",
+      "title": "Headphones Zenith 22 Edition",
+      "price": 910.97,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-zenith-22-edition/"
+    },
+    {
+      "id": "headphones-atlas-23-bundle",
+      "title": "Headphones Atlas 23 Bundle",
+      "price": 956.46,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-atlas-23-bundle/"
+    },
+    {
+      "id": "headphones-beacon-24-select",
+      "title": "Headphones Beacon 24 Select",
+      "price": 1001.95,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-beacon-24-select/"
+    },
+    {
+      "id": "headphones-circuit-25-series",
+      "title": "Headphones Circuit 25 Series",
+      "price": 1004.99,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-circuit-25-series/"
+    },
+    {
+      "id": "headphones-delta-26-edition",
+      "title": "Headphones Delta 26 Edition",
+      "price": 1050.48,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-delta-26-edition/"
+    },
+    {
+      "id": "headphones-ember-27-bundle",
+      "title": "Headphones Ember 27 Bundle",
+      "price": 1095.97,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-ember-27-bundle/"
+    },
+    {
+      "id": "headphones-foundry-28-select",
+      "title": "Headphones Foundry 28 Select",
+      "price": 1141.46,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-foundry-28-select/"
+    },
+    {
+      "id": "headphones-harbor-29-series",
+      "title": "Headphones Harbor 29 Series",
+      "price": 1186.95,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-harbor-29-series/"
+    },
+    {
+      "id": "headphones-ion-30-edition",
+      "title": "Headphones Ion 30 Edition",
+      "price": 1189.99,
+      "category": "headphones",
+      "url": "/scenarios/ecommerce/products/headphones-ion-30-edition/"
+    },
+    {
+      "id": "mirrorless-camera-kit",
+      "title": "Mirrorless Camera Kit",
+      "price": 345.48,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/mirrorless-camera-kit/"
+    },
+    {
+      "id": "pocket-camera-12x",
+      "title": "Pocket Camera 12x",
+      "price": 390.97,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/pocket-camera-12x/"
+    },
+    {
+      "id": "action-camera-waterproof",
+      "title": "Action Camera Waterproof",
+      "price": 436.46,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/action-camera-waterproof/"
+    },
+    {
+      "id": "camera-lens-35mm",
+      "title": "Camera Lens 35mm",
+      "price": 481.95,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-lens-35mm/"
+    },
+    {
+      "id": "video-creator-camera",
+      "title": "Video Creator Camera",
+      "price": 484.99,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/video-creator-camera/"
+    },
+    {
+      "id": "instant-camera-classic",
+      "title": "Instant Camera Classic",
+      "price": 530.48,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/instant-camera-classic/"
+    },
+    {
+      "id": "camera-tripod-bundle",
+      "title": "Camera Tripod Bundle",
+      "price": 575.97,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-tripod-bundle/"
+    },
+    {
+      "id": "camera-ion-08-select",
+      "title": "Camera Ion 08 Select",
+      "price": 621.46,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-ion-08-select/"
+    },
+    {
+      "id": "camera-juniper-09-series",
+      "title": "Camera Juniper 09 Series",
+      "price": 666.95,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-juniper-09-series/"
+    },
+    {
+      "id": "camera-keystone-10-edition",
+      "title": "Camera Keystone 10 Edition",
+      "price": 669.99,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-keystone-10-edition/"
+    },
+    {
+      "id": "camera-lumina-11-bundle",
+      "title": "Camera Lumina 11 Bundle",
+      "price": 715.48,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-lumina-11-bundle/"
+    },
+    {
+      "id": "camera-metro-12-select",
+      "title": "Camera Metro 12 Select",
+      "price": 760.97,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-metro-12-select/"
+    },
+    {
+      "id": "camera-nova-13-series",
+      "title": "Camera Nova 13 Series",
+      "price": 806.46,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-nova-13-series/"
+    },
+    {
+      "id": "camera-orbit-14-edition",
+      "title": "Camera Orbit 14 Edition",
+      "price": 851.95,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-orbit-14-edition/"
+    },
+    {
+      "id": "camera-pilot-15-bundle",
+      "title": "Camera Pilot 15 Bundle",
+      "price": 854.99,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-pilot-15-bundle/"
+    },
+    {
+      "id": "camera-quartz-16-select",
+      "title": "Camera Quartz 16 Select",
+      "price": 900.48,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-quartz-16-select/"
+    },
+    {
+      "id": "camera-relay-17-series",
+      "title": "Camera Relay 17 Series",
+      "price": 945.97,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-relay-17-series/"
+    },
+    {
+      "id": "camera-summit-18-edition",
+      "title": "Camera Summit 18 Edition",
+      "price": 991.46,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-summit-18-edition/"
+    },
+    {
+      "id": "camera-tempo-19-bundle",
+      "title": "Camera Tempo 19 Bundle",
+      "price": 1036.95,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-tempo-19-bundle/"
+    },
+    {
+      "id": "camera-vector-20-select",
+      "title": "Camera Vector 20 Select",
+      "price": 1039.99,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-vector-20-select/"
+    },
+    {
+      "id": "camera-willow-21-series",
+      "title": "Camera Willow 21 Series",
+      "price": 1085.48,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-willow-21-series/"
+    },
+    {
+      "id": "camera-zenith-22-edition",
+      "title": "Camera Zenith 22 Edition",
+      "price": 1130.97,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-zenith-22-edition/"
+    },
+    {
+      "id": "camera-atlas-23-bundle",
+      "title": "Camera Atlas 23 Bundle",
+      "price": 1176.46,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-atlas-23-bundle/"
+    },
+    {
+      "id": "camera-beacon-24-select",
+      "title": "Camera Beacon 24 Select",
+      "price": 1221.95,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-beacon-24-select/"
+    },
+    {
+      "id": "camera-circuit-25-series",
+      "title": "Camera Circuit 25 Series",
+      "price": 1224.99,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-circuit-25-series/"
+    },
+    {
+      "id": "camera-delta-26-edition",
+      "title": "Camera Delta 26 Edition",
+      "price": 1270.48,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-delta-26-edition/"
+    },
+    {
+      "id": "camera-ember-27-bundle",
+      "title": "Camera Ember 27 Bundle",
+      "price": 1315.97,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-ember-27-bundle/"
+    },
+    {
+      "id": "camera-foundry-28-select",
+      "title": "Camera Foundry 28 Select",
+      "price": 1361.46,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-foundry-28-select/"
+    },
+    {
+      "id": "camera-harbor-29-series",
+      "title": "Camera Harbor 29 Series",
+      "price": 1406.95,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-harbor-29-series/"
+    },
+    {
+      "id": "camera-ion-30-edition",
+      "title": "Camera Ion 30 Edition",
+      "price": 1409.99,
+      "category": "cameras",
+      "url": "/scenarios/ecommerce/products/camera-ion-30-edition/"
+    },
+    {
+      "id": "smart-kettle",
+      "title": "Smart Kettle",
+      "price": 85.48,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/smart-kettle/"
+    },
+    {
+      "id": "countertop-blender",
+      "title": "Countertop Blender",
+      "price": 130.97,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/countertop-blender/"
+    },
+    {
+      "id": "ceramic-cookware-set",
+      "title": "Ceramic Cookware Set",
+      "price": 176.46,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/ceramic-cookware-set/"
+    },
+    {
+      "id": "pour-over-coffee-scale",
+      "title": "Pour-Over Coffee Scale",
+      "price": 221.95,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/pour-over-coffee-scale/"
+    },
+    {
+      "id": "compact-air-fryer",
+      "title": "Compact Air Fryer",
+      "price": 224.99,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/compact-air-fryer/"
+    },
+    {
+      "id": "chef-knife-8-inch",
+      "title": "Chef Knife 8 Inch",
+      "price": 270.48,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/chef-knife-8-inch/"
+    },
+    {
+      "id": "kitchen-storage-starter-set",
+      "title": "Kitchen Storage Starter Set",
+      "price": 315.97,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-storage-starter-set/"
+    },
+    {
+      "id": "kitchen-tool-ion-08-select",
+      "title": "Kitchen Tool Ion 08 Select",
+      "price": 361.46,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-ion-08-select/"
+    },
+    {
+      "id": "kitchen-tool-juniper-09-series",
+      "title": "Kitchen Tool Juniper 09 Series",
+      "price": 406.95,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-juniper-09-series/"
+    },
+    {
+      "id": "kitchen-tool-keystone-10-edition",
+      "title": "Kitchen Tool Keystone 10 Edition",
+      "price": 409.99,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-keystone-10-edition/"
+    },
+    {
+      "id": "kitchen-tool-lumina-11-bundle",
+      "title": "Kitchen Tool Lumina 11 Bundle",
+      "price": 455.48,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-lumina-11-bundle/"
+    },
+    {
+      "id": "kitchen-tool-metro-12-select",
+      "title": "Kitchen Tool Metro 12 Select",
+      "price": 500.97,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-metro-12-select/"
+    },
+    {
+      "id": "kitchen-tool-nova-13-series",
+      "title": "Kitchen Tool Nova 13 Series",
+      "price": 546.46,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-nova-13-series/"
+    },
+    {
+      "id": "kitchen-tool-orbit-14-edition",
+      "title": "Kitchen Tool Orbit 14 Edition",
+      "price": 591.95,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-orbit-14-edition/"
+    },
+    {
+      "id": "kitchen-tool-pilot-15-bundle",
+      "title": "Kitchen Tool Pilot 15 Bundle",
+      "price": 594.99,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-pilot-15-bundle/"
+    },
+    {
+      "id": "kitchen-tool-quartz-16-select",
+      "title": "Kitchen Tool Quartz 16 Select",
+      "price": 640.48,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-quartz-16-select/"
+    },
+    {
+      "id": "kitchen-tool-relay-17-series",
+      "title": "Kitchen Tool Relay 17 Series",
+      "price": 685.97,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-relay-17-series/"
+    },
+    {
+      "id": "kitchen-tool-summit-18-edition",
+      "title": "Kitchen Tool Summit 18 Edition",
+      "price": 731.46,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-summit-18-edition/"
+    },
+    {
+      "id": "kitchen-tool-tempo-19-bundle",
+      "title": "Kitchen Tool Tempo 19 Bundle",
+      "price": 776.95,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-tempo-19-bundle/"
+    },
+    {
+      "id": "kitchen-tool-vector-20-select",
+      "title": "Kitchen Tool Vector 20 Select",
+      "price": 779.99,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-vector-20-select/"
+    },
+    {
+      "id": "kitchen-tool-willow-21-series",
+      "title": "Kitchen Tool Willow 21 Series",
+      "price": 825.48,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-willow-21-series/"
+    },
+    {
+      "id": "kitchen-tool-zenith-22-edition",
+      "title": "Kitchen Tool Zenith 22 Edition",
+      "price": 870.97,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-zenith-22-edition/"
+    },
+    {
+      "id": "kitchen-tool-atlas-23-bundle",
+      "title": "Kitchen Tool Atlas 23 Bundle",
+      "price": 916.46,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-atlas-23-bundle/"
+    },
+    {
+      "id": "kitchen-tool-beacon-24-select",
+      "title": "Kitchen Tool Beacon 24 Select",
+      "price": 961.95,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-beacon-24-select/"
+    },
+    {
+      "id": "kitchen-tool-circuit-25-series",
+      "title": "Kitchen Tool Circuit 25 Series",
+      "price": 964.99,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-circuit-25-series/"
+    },
+    {
+      "id": "kitchen-tool-delta-26-edition",
+      "title": "Kitchen Tool Delta 26 Edition",
+      "price": 1010.48,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-delta-26-edition/"
+    },
+    {
+      "id": "kitchen-tool-ember-27-bundle",
+      "title": "Kitchen Tool Ember 27 Bundle",
+      "price": 1055.97,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-ember-27-bundle/"
+    },
+    {
+      "id": "kitchen-tool-foundry-28-select",
+      "title": "Kitchen Tool Foundry 28 Select",
+      "price": 1101.46,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-foundry-28-select/"
+    },
+    {
+      "id": "kitchen-tool-harbor-29-series",
+      "title": "Kitchen Tool Harbor 29 Series",
+      "price": 1146.95,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-harbor-29-series/"
+    },
+    {
+      "id": "kitchen-tool-ion-30-edition",
+      "title": "Kitchen Tool Ion 30 Edition",
+      "price": 1149.99,
+      "category": "kitchen",
+      "url": "/scenarios/ecommerce/products/kitchen-tool-ion-30-edition/"
+    },
+    {
+      "id": "practical-web-scraping",
+      "title": "Practical Web Scraping",
+      "price": 58.48,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/practical-web-scraping/"
+    },
+    {
+      "id": "book-data-pipelines-and-scraping-special-edition",
+      "title": "Book: Data Pipelines & Scraping Special Edition",
+      "price": 103.97,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/book-data-pipelines-and-scraping-special-edition/"
+    },
+    {
+      "id": "the-static-site-handbook",
+      "title": "The Static Site Handbook",
+      "price": 149.46,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/the-static-site-handbook/"
+    },
+    {
+      "id": "pagination-patterns",
+      "title": "Pagination Patterns",
+      "price": 194.95,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/pagination-patterns/"
+    },
+    {
+      "id": "reliable-selectors-guide",
+      "title": "Reliable Selectors Guide",
+      "price": 197.99,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/reliable-selectors-guide/"
+    },
+    {
+      "id": "json-apis-for-test-fixtures",
+      "title": "JSON APIs for Test Fixtures",
+      "price": 243.48,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/json-apis-for-test-fixtures/"
+    },
+    {
+      "id": "long-tail-catalog-design",
+      "title": "Long-Tail Catalog Design",
+      "price": 288.97,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/long-tail-catalog-design/"
+    },
+    {
+      "id": "mockery-handbook-ion-08-select",
+      "title": "Mockery Handbook Ion 08 Select",
+      "price": 334.46,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-ion-08-select/"
+    },
+    {
+      "id": "mockery-handbook-juniper-09-series",
+      "title": "Mockery Handbook Juniper 09 Series",
+      "price": 379.95,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-juniper-09-series/"
+    },
+    {
+      "id": "mockery-handbook-keystone-10-edition",
+      "title": "Mockery Handbook Keystone 10 Edition",
+      "price": 382.99,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-keystone-10-edition/"
+    },
+    {
+      "id": "mockery-handbook-lumina-11-bundle",
+      "title": "Mockery Handbook Lumina 11 Bundle",
+      "price": 428.48,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-lumina-11-bundle/"
+    },
+    {
+      "id": "mockery-handbook-metro-12-select",
+      "title": "Mockery Handbook Metro 12 Select",
+      "price": 473.97,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-metro-12-select/"
+    },
+    {
+      "id": "mockery-handbook-nova-13-series",
+      "title": "Mockery Handbook Nova 13 Series",
+      "price": 519.46,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-nova-13-series/"
+    },
+    {
+      "id": "mockery-handbook-orbit-14-edition",
+      "title": "Mockery Handbook Orbit 14 Edition",
+      "price": 564.95,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-orbit-14-edition/"
+    },
+    {
+      "id": "mockery-handbook-pilot-15-bundle",
+      "title": "Mockery Handbook Pilot 15 Bundle",
+      "price": 567.99,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-pilot-15-bundle/"
+    },
+    {
+      "id": "mockery-handbook-quartz-16-select",
+      "title": "Mockery Handbook Quartz 16 Select",
+      "price": 613.48,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-quartz-16-select/"
+    },
+    {
+      "id": "mockery-handbook-relay-17-series",
+      "title": "Mockery Handbook Relay 17 Series",
+      "price": 658.97,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-relay-17-series/"
+    },
+    {
+      "id": "mockery-handbook-summit-18-edition",
+      "title": "Mockery Handbook Summit 18 Edition",
+      "price": 704.46,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-summit-18-edition/"
+    },
+    {
+      "id": "mockery-handbook-tempo-19-bundle",
+      "title": "Mockery Handbook Tempo 19 Bundle",
+      "price": 749.95,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-tempo-19-bundle/"
+    },
+    {
+      "id": "mockery-handbook-vector-20-select",
+      "title": "Mockery Handbook Vector 20 Select",
+      "price": 752.99,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-vector-20-select/"
+    },
+    {
+      "id": "mockery-handbook-willow-21-series",
+      "title": "Mockery Handbook Willow 21 Series",
+      "price": 798.48,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-willow-21-series/"
+    },
+    {
+      "id": "mockery-handbook-zenith-22-edition",
+      "title": "Mockery Handbook Zenith 22 Edition",
+      "price": 843.97,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-zenith-22-edition/"
+    },
+    {
+      "id": "mockery-handbook-atlas-23-bundle",
+      "title": "Mockery Handbook Atlas 23 Bundle",
+      "price": 889.46,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-atlas-23-bundle/"
+    },
+    {
+      "id": "mockery-handbook-beacon-24-select",
+      "title": "Mockery Handbook Beacon 24 Select",
+      "price": 934.95,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-beacon-24-select/"
+    },
+    {
+      "id": "mockery-handbook-circuit-25-series",
+      "title": "Mockery Handbook Circuit 25 Series",
+      "price": 937.99,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-circuit-25-series/"
+    },
+    {
+      "id": "mockery-handbook-delta-26-edition",
+      "title": "Mockery Handbook Delta 26 Edition",
+      "price": 983.48,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-delta-26-edition/"
+    },
+    {
+      "id": "mockery-handbook-ember-27-bundle",
+      "title": "Mockery Handbook Ember 27 Bundle",
+      "price": 1028.97,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-ember-27-bundle/"
+    },
+    {
+      "id": "mockery-handbook-foundry-28-select",
+      "title": "Mockery Handbook Foundry 28 Select",
+      "price": 1074.46,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-foundry-28-select/"
+    },
+    {
+      "id": "mockery-handbook-harbor-29-series",
+      "title": "Mockery Handbook Harbor 29 Series",
+      "price": 1119.95,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-harbor-29-series/"
+    },
+    {
+      "id": "mockery-handbook-ion-30-edition",
+      "title": "Mockery Handbook Ion 30 Edition",
+      "price": 1122.99,
+      "category": "books",
+      "url": "/scenarios/ecommerce/products/mockery-handbook-ion-30-edition/"
+    },
+    {
+      "id": "desk-lamp",
+      "title": "Desk Lamp",
+      "price": 75.48,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/desk-lamp/"
+    },
+    {
+      "id": "usb-c-dock",
+      "title": "USB-C Dock",
+      "price": 120.97,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/usb-c-dock/"
+    },
+    {
+      "id": "thermal-label-printer",
+      "title": "Thermal Label Printer",
+      "price": 166.46,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/thermal-label-printer/"
+    },
+    {
+      "id": "notebook-set",
+      "title": "Notebook Set",
+      "price": 211.95,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/notebook-set/"
+    },
+    {
+      "id": "ergonomic-mouse",
+      "title": "Ergonomic Mouse",
+      "price": 214.99,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/ergonomic-mouse/"
+    },
+    {
+      "id": "office-chair-with-adjustable-lumbar-support-and-breathable-mesh-back",
+      "title": "Office Chair with Adjustable Lumbar Support and Breathable Mesh Back",
+      "price": 260.48,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-chair-with-adjustable-lumbar-support-and-breathable-mesh-back/"
+    },
+    {
+      "id": "cable-organizer-kit",
+      "title": "Cable Organizer Kit",
+      "price": 305.97,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/cable-organizer-kit/"
+    },
+    {
+      "id": "office-kit-ion-08-select",
+      "title": "Office Kit Ion 08 Select",
+      "price": 351.46,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-ion-08-select/"
+    },
+    {
+      "id": "office-kit-juniper-09-series",
+      "title": "Office Kit Juniper 09 Series",
+      "price": 396.95,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-juniper-09-series/"
+    },
+    {
+      "id": "office-kit-keystone-10-edition",
+      "title": "Office Kit Keystone 10 Edition",
+      "price": 399.99,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-keystone-10-edition/"
+    },
+    {
+      "id": "office-kit-lumina-11-bundle",
+      "title": "Office Kit Lumina 11 Bundle",
+      "price": 445.48,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-lumina-11-bundle/"
+    },
+    {
+      "id": "office-kit-metro-12-select",
+      "title": "Office Kit Metro 12 Select",
+      "price": 490.97,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-metro-12-select/"
+    },
+    {
+      "id": "office-kit-nova-13-series",
+      "title": "Office Kit Nova 13 Series",
+      "price": 536.46,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-nova-13-series/"
+    },
+    {
+      "id": "office-kit-orbit-14-edition",
+      "title": "Office Kit Orbit 14 Edition",
+      "price": 581.95,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-orbit-14-edition/"
+    },
+    {
+      "id": "office-kit-pilot-15-bundle",
+      "title": "Office Kit Pilot 15 Bundle",
+      "price": 584.99,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-pilot-15-bundle/"
+    },
+    {
+      "id": "office-kit-quartz-16-select",
+      "title": "Office Kit Quartz 16 Select",
+      "price": 630.48,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-quartz-16-select/"
+    },
+    {
+      "id": "office-kit-relay-17-series",
+      "title": "Office Kit Relay 17 Series",
+      "price": 675.97,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-relay-17-series/"
+    },
+    {
+      "id": "office-kit-summit-18-edition",
+      "title": "Office Kit Summit 18 Edition",
+      "price": 721.46,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-summit-18-edition/"
+    },
+    {
+      "id": "office-kit-tempo-19-bundle",
+      "title": "Office Kit Tempo 19 Bundle",
+      "price": 766.95,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-tempo-19-bundle/"
+    },
+    {
+      "id": "office-kit-vector-20-select",
+      "title": "Office Kit Vector 20 Select",
+      "price": 769.99,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-vector-20-select/"
+    },
+    {
+      "id": "office-kit-willow-21-series",
+      "title": "Office Kit Willow 21 Series",
+      "price": 815.48,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-willow-21-series/"
+    },
+    {
+      "id": "office-kit-zenith-22-edition",
+      "title": "Office Kit Zenith 22 Edition",
+      "price": 860.97,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-zenith-22-edition/"
+    },
+    {
+      "id": "office-kit-atlas-23-bundle",
+      "title": "Office Kit Atlas 23 Bundle",
+      "price": 906.46,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-atlas-23-bundle/"
+    },
+    {
+      "id": "office-kit-beacon-24-select",
+      "title": "Office Kit Beacon 24 Select",
+      "price": 951.95,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-beacon-24-select/"
+    },
+    {
+      "id": "office-kit-circuit-25-series",
+      "title": "Office Kit Circuit 25 Series",
+      "price": 954.99,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-circuit-25-series/"
+    },
+    {
+      "id": "office-kit-delta-26-edition",
+      "title": "Office Kit Delta 26 Edition",
+      "price": 1000.48,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-delta-26-edition/"
+    },
+    {
+      "id": "office-kit-ember-27-bundle",
+      "title": "Office Kit Ember 27 Bundle",
+      "price": 1045.97,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-ember-27-bundle/"
+    },
+    {
+      "id": "office-kit-foundry-28-select",
+      "title": "Office Kit Foundry 28 Select",
+      "price": 1091.46,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-foundry-28-select/"
+    },
+    {
+      "id": "office-kit-harbor-29-series",
+      "title": "Office Kit Harbor 29 Series",
+      "price": 1136.95,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-harbor-29-series/"
+    },
+    {
+      "id": "office-kit-ion-30-edition",
+      "title": "Office Kit Ion 30 Edition",
+      "price": 1139.99,
+      "category": "office",
+      "url": "/scenarios/ecommerce/products/office-kit-ion-30-edition/"
+    },
+    {
+      "id": "mechanical-keyboard",
+      "title": "Mechanical Keyboard",
+      "price": 105.48,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/mechanical-keyboard/"
+    },
+    {
+      "id": "wireless-controller",
+      "title": "Wireless Controller",
+      "price": 150.97,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/wireless-controller/"
+    },
+    {
+      "id": "gaming-console-plus-plus-tournament-ready",
+      "title": "Gaming Console ++ Tournament Ready",
+      "price": 196.46,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-console-plus-plus-tournament-ready/"
+    },
+    {
+      "id": "streaming-capture-card",
+      "title": "Streaming Capture Card",
+      "price": 241.95,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/streaming-capture-card/"
+    },
+    {
+      "id": "rgb-mouse-pad-xl",
+      "title": "RGB Mouse Pad XL",
+      "price": 244.99,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/rgb-mouse-pad-xl/"
+    },
+    {
+      "id": "arcade-stick-pro",
+      "title": "Arcade Stick Pro",
+      "price": 290.48,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/arcade-stick-pro/"
+    },
+    {
+      "id": "game-storage-tower",
+      "title": "Game Storage Tower",
+      "price": 335.97,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/game-storage-tower/"
+    },
+    {
+      "id": "gaming-gear-ion-08-select",
+      "title": "Gaming Gear Ion 08 Select",
+      "price": 381.46,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-ion-08-select/"
+    },
+    {
+      "id": "gaming-gear-juniper-09-series",
+      "title": "Gaming Gear Juniper 09 Series",
+      "price": 426.95,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-juniper-09-series/"
+    },
+    {
+      "id": "gaming-gear-keystone-10-edition",
+      "title": "Gaming Gear Keystone 10 Edition",
+      "price": 429.99,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-keystone-10-edition/"
+    },
+    {
+      "id": "gaming-gear-lumina-11-bundle",
+      "title": "Gaming Gear Lumina 11 Bundle",
+      "price": 475.48,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-lumina-11-bundle/"
+    },
+    {
+      "id": "gaming-gear-metro-12-select",
+      "title": "Gaming Gear Metro 12 Select",
+      "price": 520.97,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-metro-12-select/"
+    },
+    {
+      "id": "gaming-gear-nova-13-series",
+      "title": "Gaming Gear Nova 13 Series",
+      "price": 566.46,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-nova-13-series/"
+    },
+    {
+      "id": "gaming-gear-orbit-14-edition",
+      "title": "Gaming Gear Orbit 14 Edition",
+      "price": 611.95,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-orbit-14-edition/"
+    },
+    {
+      "id": "gaming-gear-pilot-15-bundle",
+      "title": "Gaming Gear Pilot 15 Bundle",
+      "price": 614.99,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-pilot-15-bundle/"
+    },
+    {
+      "id": "gaming-gear-quartz-16-select",
+      "title": "Gaming Gear Quartz 16 Select",
+      "price": 660.48,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-quartz-16-select/"
+    },
+    {
+      "id": "gaming-gear-relay-17-series",
+      "title": "Gaming Gear Relay 17 Series",
+      "price": 705.97,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-relay-17-series/"
+    },
+    {
+      "id": "gaming-gear-summit-18-edition",
+      "title": "Gaming Gear Summit 18 Edition",
+      "price": 751.46,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-summit-18-edition/"
+    },
+    {
+      "id": "gaming-gear-tempo-19-bundle",
+      "title": "Gaming Gear Tempo 19 Bundle",
+      "price": 796.95,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-tempo-19-bundle/"
+    },
+    {
+      "id": "gaming-gear-vector-20-select",
+      "title": "Gaming Gear Vector 20 Select",
+      "price": 799.99,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-vector-20-select/"
+    },
+    {
+      "id": "gaming-gear-willow-21-series",
+      "title": "Gaming Gear Willow 21 Series",
+      "price": 845.48,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-willow-21-series/"
+    },
+    {
+      "id": "gaming-gear-zenith-22-edition",
+      "title": "Gaming Gear Zenith 22 Edition",
+      "price": 890.97,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-zenith-22-edition/"
+    },
+    {
+      "id": "gaming-gear-atlas-23-bundle",
+      "title": "Gaming Gear Atlas 23 Bundle",
+      "price": 936.46,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-atlas-23-bundle/"
+    },
+    {
+      "id": "gaming-gear-beacon-24-select",
+      "title": "Gaming Gear Beacon 24 Select",
+      "price": 981.95,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-beacon-24-select/"
+    },
+    {
+      "id": "gaming-gear-circuit-25-series",
+      "title": "Gaming Gear Circuit 25 Series",
+      "price": 984.99,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-circuit-25-series/"
+    },
+    {
+      "id": "gaming-gear-delta-26-edition",
+      "title": "Gaming Gear Delta 26 Edition",
+      "price": 1030.48,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-delta-26-edition/"
+    },
+    {
+      "id": "gaming-gear-ember-27-bundle",
+      "title": "Gaming Gear Ember 27 Bundle",
+      "price": 1075.97,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-ember-27-bundle/"
+    },
+    {
+      "id": "gaming-gear-foundry-28-select",
+      "title": "Gaming Gear Foundry 28 Select",
+      "price": 1121.46,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-foundry-28-select/"
+    },
+    {
+      "id": "gaming-gear-harbor-29-series",
+      "title": "Gaming Gear Harbor 29 Series",
+      "price": 1166.95,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-harbor-29-series/"
+    },
+    {
+      "id": "gaming-gear-ion-30-edition",
+      "title": "Gaming Gear Ion 30 Edition",
+      "price": 1169.99,
+      "category": "gaming",
+      "url": "/scenarios/ecommerce/products/gaming-gear-ion-30-edition/"
+    },
+    {
+      "id": "smart-bulb-pack",
+      "title": "Smart Bulb Pack",
+      "price": 80.48,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-bulb-pack/"
+    },
+    {
+      "id": "door-sensor",
+      "title": "Door Sensor",
+      "price": 125.97,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/door-sensor/"
+    },
+    {
+      "id": "thermostat-mini",
+      "title": "Thermostat Mini",
+      "price": 171.46,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/thermostat-mini/"
+    },
+    {
+      "id": "security-camera-indoor",
+      "title": "Security Camera Indoor",
+      "price": 216.95,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/security-camera-indoor/"
+    },
+    {
+      "id": "voice-remote",
+      "title": "Voice Remote",
+      "price": 219.99,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/voice-remote/"
+    },
+    {
+      "id": "smart-plug-duo",
+      "title": "Smart Plug Duo",
+      "price": 265.48,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-plug-duo/"
+    },
+    {
+      "id": "water-leak-sensor",
+      "title": "Water Leak Sensor",
+      "price": 310.97,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/water-leak-sensor/"
+    },
+    {
+      "id": "smart-home-device-ion-08-select",
+      "title": "Smart Home Device Ion 08 Select",
+      "price": 356.46,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-ion-08-select/"
+    },
+    {
+      "id": "smart-home-device-juniper-09-series",
+      "title": "Smart Home Device Juniper 09 Series",
+      "price": 401.95,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-juniper-09-series/"
+    },
+    {
+      "id": "smart-home-device-keystone-10-edition",
+      "title": "Smart Home Device Keystone 10 Edition",
+      "price": 404.99,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-keystone-10-edition/"
+    },
+    {
+      "id": "smart-home-device-lumina-11-bundle",
+      "title": "Smart Home Device Lumina 11 Bundle",
+      "price": 450.48,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-lumina-11-bundle/"
+    },
+    {
+      "id": "smart-home-device-metro-12-select",
+      "title": "Smart Home Device Metro 12 Select",
+      "price": 495.97,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-metro-12-select/"
+    },
+    {
+      "id": "smart-home-device-nova-13-series",
+      "title": "Smart Home Device Nova 13 Series",
+      "price": 541.46,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-nova-13-series/"
+    },
+    {
+      "id": "smart-home-device-orbit-14-edition",
+      "title": "Smart Home Device Orbit 14 Edition",
+      "price": 586.95,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-orbit-14-edition/"
+    },
+    {
+      "id": "smart-home-device-pilot-15-bundle",
+      "title": "Smart Home Device Pilot 15 Bundle",
+      "price": 589.99,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-pilot-15-bundle/"
+    },
+    {
+      "id": "smart-home-device-quartz-16-select",
+      "title": "Smart Home Device Quartz 16 Select",
+      "price": 635.48,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-quartz-16-select/"
+    },
+    {
+      "id": "smart-home-device-relay-17-series",
+      "title": "Smart Home Device Relay 17 Series",
+      "price": 680.97,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-relay-17-series/"
+    },
+    {
+      "id": "smart-home-device-summit-18-edition",
+      "title": "Smart Home Device Summit 18 Edition",
+      "price": 726.46,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-summit-18-edition/"
+    },
+    {
+      "id": "smart-home-device-tempo-19-bundle",
+      "title": "Smart Home Device Tempo 19 Bundle",
+      "price": 771.95,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-tempo-19-bundle/"
+    },
+    {
+      "id": "smart-home-device-vector-20-select",
+      "title": "Smart Home Device Vector 20 Select",
+      "price": 774.99,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-vector-20-select/"
+    },
+    {
+      "id": "smart-home-device-willow-21-series",
+      "title": "Smart Home Device Willow 21 Series",
+      "price": 820.48,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-willow-21-series/"
+    },
+    {
+      "id": "smart-home-device-zenith-22-edition",
+      "title": "Smart Home Device Zenith 22 Edition",
+      "price": 865.97,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-zenith-22-edition/"
+    },
+    {
+      "id": "smart-home-device-atlas-23-bundle",
+      "title": "Smart Home Device Atlas 23 Bundle",
+      "price": 911.46,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-atlas-23-bundle/"
+    },
+    {
+      "id": "smart-home-device-beacon-24-select",
+      "title": "Smart Home Device Beacon 24 Select",
+      "price": 956.95,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-beacon-24-select/"
+    },
+    {
+      "id": "smart-home-device-circuit-25-series",
+      "title": "Smart Home Device Circuit 25 Series",
+      "price": 959.99,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-circuit-25-series/"
+    },
+    {
+      "id": "smart-home-device-delta-26-edition",
+      "title": "Smart Home Device Delta 26 Edition",
+      "price": 1005.48,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-delta-26-edition/"
+    },
+    {
+      "id": "smart-home-device-ember-27-bundle",
+      "title": "Smart Home Device Ember 27 Bundle",
+      "price": 1050.97,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-ember-27-bundle/"
+    },
+    {
+      "id": "smart-home-device-foundry-28-select",
+      "title": "Smart Home Device Foundry 28 Select",
+      "price": 1096.46,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-foundry-28-select/"
+    },
+    {
+      "id": "smart-home-device-harbor-29-series",
+      "title": "Smart Home Device Harbor 29 Series",
+      "price": 1141.95,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-harbor-29-series/"
+    },
+    {
+      "id": "smart-home-device-ion-30-edition",
+      "title": "Smart Home Device Ion 30 Edition",
+      "price": 1144.99,
+      "category": "smart-home",
+      "url": "/scenarios/ecommerce/products/smart-home-device-ion-30-edition/"
+    },
+    {
+      "id": "fitness-tracker",
+      "title": "Fitness Tracker",
+      "price": 70.48,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-tracker/"
+    },
+    {
+      "id": "adjustable-dumbbell",
+      "title": "Adjustable Dumbbell",
+      "price": 115.97,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/adjustable-dumbbell/"
+    },
+    {
+      "id": "yoga-mat-pro",
+      "title": "Yoga Mat Pro",
+      "price": 161.46,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/yoga-mat-pro/"
+    },
+    {
+      "id": "resistance-band-set",
+      "title": "Resistance Band Set",
+      "price": 206.95,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/resistance-band-set/"
+    },
+    {
+      "id": "folding-exercise-bike",
+      "title": "Folding Exercise Bike",
+      "price": 209.99,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/folding-exercise-bike/"
+    },
+    {
+      "id": "smart-scale",
+      "title": "Smart Scale",
+      "price": 255.48,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/smart-scale/"
+    },
+    {
+      "id": "recovery-massage-roller",
+      "title": "Recovery Massage Roller",
+      "price": 300.97,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/recovery-massage-roller/"
+    },
+    {
+      "id": "fitness-kit-ion-08-select",
+      "title": "Fitness Kit Ion 08 Select",
+      "price": 346.46,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-ion-08-select/"
+    },
+    {
+      "id": "fitness-kit-juniper-09-series",
+      "title": "Fitness Kit Juniper 09 Series",
+      "price": 391.95,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-juniper-09-series/"
+    },
+    {
+      "id": "fitness-kit-keystone-10-edition",
+      "title": "Fitness Kit Keystone 10 Edition",
+      "price": 394.99,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-keystone-10-edition/"
+    },
+    {
+      "id": "fitness-kit-lumina-11-bundle",
+      "title": "Fitness Kit Lumina 11 Bundle",
+      "price": 440.48,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-lumina-11-bundle/"
+    },
+    {
+      "id": "fitness-kit-metro-12-select",
+      "title": "Fitness Kit Metro 12 Select",
+      "price": 485.97,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-metro-12-select/"
+    },
+    {
+      "id": "fitness-kit-nova-13-series",
+      "title": "Fitness Kit Nova 13 Series",
+      "price": 531.46,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-nova-13-series/"
+    },
+    {
+      "id": "fitness-kit-orbit-14-edition",
+      "title": "Fitness Kit Orbit 14 Edition",
+      "price": 576.95,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-orbit-14-edition/"
+    },
+    {
+      "id": "fitness-kit-pilot-15-bundle",
+      "title": "Fitness Kit Pilot 15 Bundle",
+      "price": 579.99,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-pilot-15-bundle/"
+    },
+    {
+      "id": "fitness-kit-quartz-16-select",
+      "title": "Fitness Kit Quartz 16 Select",
+      "price": 625.48,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-quartz-16-select/"
+    },
+    {
+      "id": "fitness-kit-relay-17-series",
+      "title": "Fitness Kit Relay 17 Series",
+      "price": 670.97,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-relay-17-series/"
+    },
+    {
+      "id": "fitness-kit-summit-18-edition",
+      "title": "Fitness Kit Summit 18 Edition",
+      "price": 716.46,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-summit-18-edition/"
+    },
+    {
+      "id": "fitness-kit-tempo-19-bundle",
+      "title": "Fitness Kit Tempo 19 Bundle",
+      "price": 761.95,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-tempo-19-bundle/"
+    },
+    {
+      "id": "fitness-kit-vector-20-select",
+      "title": "Fitness Kit Vector 20 Select",
+      "price": 764.99,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-vector-20-select/"
+    },
+    {
+      "id": "fitness-kit-willow-21-series",
+      "title": "Fitness Kit Willow 21 Series",
+      "price": 810.48,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-willow-21-series/"
+    },
+    {
+      "id": "fitness-kit-zenith-22-edition",
+      "title": "Fitness Kit Zenith 22 Edition",
+      "price": 855.97,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-zenith-22-edition/"
+    },
+    {
+      "id": "fitness-kit-atlas-23-bundle",
+      "title": "Fitness Kit Atlas 23 Bundle",
+      "price": 901.46,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-atlas-23-bundle/"
+    },
+    {
+      "id": "fitness-kit-beacon-24-select",
+      "title": "Fitness Kit Beacon 24 Select",
+      "price": 946.95,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-beacon-24-select/"
+    },
+    {
+      "id": "fitness-kit-circuit-25-series",
+      "title": "Fitness Kit Circuit 25 Series",
+      "price": 949.99,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-circuit-25-series/"
+    },
+    {
+      "id": "fitness-kit-delta-26-edition",
+      "title": "Fitness Kit Delta 26 Edition",
+      "price": 995.48,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-delta-26-edition/"
+    },
+    {
+      "id": "fitness-kit-ember-27-bundle",
+      "title": "Fitness Kit Ember 27 Bundle",
+      "price": 1040.97,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-ember-27-bundle/"
+    },
+    {
+      "id": "fitness-kit-foundry-28-select",
+      "title": "Fitness Kit Foundry 28 Select",
+      "price": 1086.46,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-foundry-28-select/"
+    },
+    {
+      "id": "fitness-kit-harbor-29-series",
+      "title": "Fitness Kit Harbor 29 Series",
+      "price": 1131.95,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-harbor-29-series/"
+    },
+    {
+      "id": "fitness-kit-ion-30-edition",
+      "title": "Fitness Kit Ion 30 Edition",
+      "price": 1134.99,
+      "category": "fitness",
+      "url": "/scenarios/ecommerce/products/fitness-kit-ion-30-edition/"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "productId": "laptop-vector-20-select",
+  "items": [
+    {
+      "id": "review-laptop-vector-20-select-001",
+      "productId": "laptop-vector-20-select",
+      "title": "Matched the description",
+      "author": "Jon Bell",
+      "date": "2026-05-11",
+      "stars": 4,
+      "body": "The specs and price were clear on the detail page."
+    },
+    {
+      "id": "review-laptop-vector-20-select-002",
+      "productId": "laptop-vector-20-select",
+      "title": "Great product",
+      "author": "Sofia Chen",
+      "date": "2026-01-14",
+      "stars": 5,
+      "body": "Fast, quiet, and lightweight."
+    }
+  ]
+}

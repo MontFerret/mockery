@@ -1,0 +1,23 @@
+{
+  "productId": "camera-delta-26-edition",
+  "items": [
+    {
+      "id": "review-camera-delta-26-edition-001",
+      "productId": "camera-delta-26-edition",
+      "title": "Great product",
+      "author": "Jon Bell",
+      "date": "2026-01-17",
+      "stars": 4,
+      "body": "Fast, quiet, and lightweight."
+    },
+    {
+      "id": "review-camera-delta-26-edition-002",
+      "productId": "camera-delta-26-edition",
+      "title": "Solid choice",
+      "author": "Sofia Chen",
+      "date": "2026-02-20",
+      "stars": 5,
+      "body": "The metadata was easy to compare across the catalog."
+    }
+  ]
+}
