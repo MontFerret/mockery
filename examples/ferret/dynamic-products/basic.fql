@@ -1,0 +1,15 @@
+LET baseUrl = @baseUrl
+LET page = DOCUMENT(baseUrl + "/scenarios/dynamic-products/basic/", { driver: "cdp" })
+
+WAIT_ELEMENT(page, "[data-testid='dynamic-product-card']")
+
+FOR card IN ELEMENTS(page, "[data-testid='dynamic-product-card']")
+    LET price = ELEMENT(card, "[data-testid='product-price']")
+
+    RETURN {
+        id: card.attributes["data-product-id"],
+        sku: card.attributes["data-product-sku"],
+        title: TRIM(INNER_TEXT(card, "[data-testid='product-title']")),
+        price: TO_FLOAT(price.attributes["data-price"]),
+        currency: price.attributes["data-currency"]
+    }

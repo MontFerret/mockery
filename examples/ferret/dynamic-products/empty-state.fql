@@ -1,0 +1,10 @@
+LET baseUrl = @baseUrl
+LET page = DOCUMENT(baseUrl + "/scenarios/dynamic-products/empty-state/", { driver: "cdp" })
+
+WAIT_ELEMENT(page, "[data-testid='dynamic-products-empty']:not([hidden])")
+
+RETURN {
+    state: ELEMENT(page, "[data-testid='dynamic-products-scenario']").attributes["data-state"],
+    products: ELEMENTS_COUNT(page, "[data-testid='dynamic-product-card']"),
+    message: TRIM(INNER_TEXT(page, "[data-testid='dynamic-products-empty']"))
+}

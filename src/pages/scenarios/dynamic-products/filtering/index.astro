@@ -1,0 +1,109 @@
+---
+import dynamicProductsScript from '../../../../assets/dynamic-products.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Dynamic Products Filtering"
+  description="Client-side filtering and sorting after loading static product search JSON."
+  canonicalPath="/scenarios/dynamic-products/filtering/"
+  scripts={[dynamicProductsScript]}
+  mainId="dynamic-products-scenario"
+  mainClass="wrap scenario dynamic-products-scenario"
+  mainAttributes={{
+    'data-testid': 'dynamic-products-scenario',
+    'data-scenario': 'dynamic-products',
+    'data-case': 'filtering',
+    'data-state': 'idle',
+    'data-page': '0',
+    'data-loaded-count': '0',
+    'data-total-count': '0',
+  }}
+>
+  <h1>Dynamic Products Filtering</h1>
+  <p class="lead">Loads all dynamic products once, then updates the rendered list from form events.</p>
+  <div
+    id="dynamic-products-status"
+    class="scenario-status"
+    data-testid="dynamic-products-status"
+    data-state="idle"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+
+  <form id="dynamic-products-filter-form" data-testid="dynamic-products-filter-form">
+    <label for="dynamic-search-query">Search</label>
+    <input
+      id="dynamic-search-query"
+      data-testid="dynamic-search-query"
+      name="q"
+      type="search"
+    />
+
+    <label for="dynamic-category">Category</label>
+    <select
+      id="dynamic-category"
+      data-testid="dynamic-category"
+      name="category"
+    ></select>
+
+    <label for="dynamic-brand">Brand</label>
+    <select
+      id="dynamic-brand"
+      data-testid="dynamic-brand"
+      name="brand"
+    ></select>
+
+    <label for="dynamic-sort">Sort</label>
+    <select
+      id="dynamic-sort"
+      data-testid="dynamic-sort"
+      name="sort"
+    >
+      <option value="name-asc">Name A-Z</option>
+      <option value="price-asc">Price low to high</option>
+      <option value="price-desc">Price high to low</option>
+      <option value="rating-desc">Rating high to low</option>
+    </select>
+
+    <label class="checkbox-row">
+      <input
+        id="dynamic-in-stock"
+        data-testid="dynamic-in-stock"
+        name="inStock"
+        type="checkbox"
+      />
+      In stock only
+    </label>
+
+    <button
+      id="dynamic-filter-reset"
+      data-testid="dynamic-filter-reset"
+      type="button"
+    >
+      Reset filters
+    </button>
+  </form>
+
+  <div
+    id="dynamic-filter-status"
+    class="scenario-status"
+    data-testid="dynamic-filter-status"
+    data-result-count="0"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+  <section
+    id="dynamic-products-grid"
+    class="product-grid"
+    data-testid="dynamic-products-grid"
+    aria-label="Filtered dynamic products"
+  ></section>
+  <ul
+    id="dynamic-products-log"
+    class="scenario-log"
+    data-testid="dynamic-products-log"
+    aria-label="Dynamic products event log"
+  ></ul>
+</BaseLayout>

@@ -1,0 +1,14 @@
+LET baseUrl = @baseUrl
+LET page = DOCUMENT(baseUrl + "/scenarios/dynamic-products/load-more/", { driver: "cdp" })
+
+WAIT_ELEMENT(page, "[data-testid='dynamic-products-scenario'][data-page='1']")
+CLICK(page, "[data-testid='load-more-products']")
+WAIT_ELEMENT(page, "[data-testid='dynamic-products-scenario'][data-page='2'][data-loaded-count='24']")
+CLICK(page, "[data-testid='load-more-products']")
+WAIT_ELEMENT(page, "[data-testid='dynamic-products-scenario'][data-state='complete'][data-loaded-count='36']")
+
+RETURN {
+    state: ELEMENT(page, "[data-testid='dynamic-products-scenario']").attributes["data-state"],
+    products: ELEMENTS_COUNT(page, "[data-testid='dynamic-product-card']"),
+    button: TRIM(INNER_TEXT(page, "[data-testid='load-more-products']"))
+}

@@ -1,0 +1,52 @@
+---
+import dynamicProductsScript from '../../../../assets/dynamic-products.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Dynamic Products Error State"
+  description="Deterministic client-side error rendering from an ok:false static JSON payload."
+  canonicalPath="/scenarios/dynamic-products/error-state/"
+  scripts={[dynamicProductsScript]}
+  mainId="dynamic-products-scenario"
+  mainClass="wrap scenario dynamic-products-scenario"
+  mainAttributes={{
+    'data-testid': 'dynamic-products-scenario',
+    'data-scenario': 'dynamic-products',
+    'data-case': 'error-state',
+    'data-state': 'idle',
+    'data-page': '0',
+    'data-loaded-count': '0',
+    'data-total-count': '0',
+  }}
+>
+  <h1>Dynamic Products Error State</h1>
+  <p class="lead">Fetches a successful static JSON response whose payload models a deterministic failure.</p>
+  <div
+    id="dynamic-products-status"
+    class="scenario-status"
+    data-testid="dynamic-products-status"
+    data-state="idle"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+  <section
+    id="dynamic-products-grid"
+    class="product-grid"
+    data-testid="dynamic-products-grid"
+    aria-label="Dynamic products"
+  ></section>
+  <section
+    id="dynamic-products-error"
+    class="scenario-error"
+    data-testid="dynamic-products-error"
+    data-error-code=""
+    hidden
+  ></section>
+  <ul
+    id="dynamic-products-log"
+    class="scenario-log"
+    data-testid="dynamic-products-log"
+    aria-label="Dynamic products event log"
+  ></ul>
+</BaseLayout>

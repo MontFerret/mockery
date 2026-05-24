@@ -1,0 +1,12 @@
+LET baseUrl = @baseUrl
+LET page = DOCUMENT(baseUrl + "/scenarios/dynamic-products/filtering/", { driver: "cdp" })
+
+WAIT_ELEMENT(page, "[data-testid='dynamic-product-card']")
+INPUT(page, "[data-testid='dynamic-search-query']", "camera")
+CLICK(page, "[data-testid='dynamic-in-stock']")
+WAIT_ELEMENT(page, "[data-testid='dynamic-products-scenario'][data-state='loaded']")
+
+RETURN {
+    status: TRIM(INNER_TEXT(page, "[data-testid='dynamic-filter-status']")),
+    products: ELEMENTS_COUNT(page, "[data-testid='dynamic-product-card']")
+}

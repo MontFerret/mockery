@@ -1,0 +1,53 @@
+---
+import dynamicProductsScript from '../../../../assets/dynamic-products.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Dynamic Products Load More"
+  description="Client-side load-more pagination from static JSON product pages."
+  canonicalPath="/scenarios/dynamic-products/load-more/"
+  scripts={[dynamicProductsScript]}
+  mainId="dynamic-products-scenario"
+  mainClass="wrap scenario dynamic-products-scenario"
+  mainAttributes={{
+    'data-testid': 'dynamic-products-scenario',
+    'data-scenario': 'dynamic-products',
+    'data-case': 'load-more',
+    'data-state': 'idle',
+    'data-page': '0',
+    'data-loaded-count': '0',
+    'data-total-count': '0',
+  }}
+>
+  <h1>Dynamic Products Load More</h1>
+  <p class="lead">Fetches the first page on load, then appends later pages after button clicks.</p>
+  <div
+    id="dynamic-products-status"
+    class="scenario-status"
+    data-testid="dynamic-products-status"
+    data-state="idle"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+  <section
+    id="dynamic-products-grid"
+    class="product-grid"
+    data-testid="dynamic-products-grid"
+    aria-label="Dynamic products"
+  ></section>
+  <button
+    id="load-more-products"
+    data-testid="load-more-products"
+    type="button"
+    data-complete="false"
+  >
+    Load more
+  </button>
+  <ul
+    id="dynamic-products-log"
+    class="scenario-log"
+    data-testid="dynamic-products-log"
+    aria-label="Dynamic products event log"
+  ></ul>
+</BaseLayout>

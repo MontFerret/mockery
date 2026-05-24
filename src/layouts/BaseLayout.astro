@@ -8,6 +8,9 @@ const {
   description,
   canonicalPath = '/',
   scripts = [],
+  mainId = undefined,
+  mainClass = 'wrap',
+  mainAttributes = {},
 } = Astro.props;
 
 const navItems = [
@@ -42,7 +45,7 @@ const pageTitle = title === siteName ? title : `${title} - ${siteName}`;
         </nav>
       </div>
     </header>
-    <main class="wrap">
+    <main {...mainAttributes} id={mainId} class={mainClass}>
       <slot />
     </main>
     <footer class="site-footer">

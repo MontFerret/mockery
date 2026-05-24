@@ -1,0 +1,51 @@
+---
+import dynamicProductsScript from '../../../../assets/dynamic-products.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Dynamic Products Empty State"
+  description="Deterministic empty-state rendering from a successful static JSON payload."
+  canonicalPath="/scenarios/dynamic-products/empty-state/"
+  scripts={[dynamicProductsScript]}
+  mainId="dynamic-products-scenario"
+  mainClass="wrap scenario dynamic-products-scenario"
+  mainAttributes={{
+    'data-testid': 'dynamic-products-scenario',
+    'data-scenario': 'dynamic-products',
+    'data-case': 'empty-state',
+    'data-state': 'idle',
+    'data-page': '0',
+    'data-loaded-count': '0',
+    'data-total-count': '0',
+  }}
+>
+  <h1>Dynamic Products Empty State</h1>
+  <p class="lead">Fetches an empty successful JSON response and renders a stable empty panel.</p>
+  <div
+    id="dynamic-products-status"
+    class="scenario-status"
+    data-testid="dynamic-products-status"
+    data-state="idle"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+  <section
+    id="dynamic-products-grid"
+    class="product-grid"
+    data-testid="dynamic-products-grid"
+    aria-label="Dynamic products"
+  ></section>
+  <section
+    id="dynamic-products-empty"
+    class="scenario-empty"
+    data-testid="dynamic-products-empty"
+    hidden
+  ></section>
+  <ul
+    id="dynamic-products-log"
+    class="scenario-log"
+    data-testid="dynamic-products-log"
+    aria-label="Dynamic products event log"
+  ></ul>
+</BaseLayout>

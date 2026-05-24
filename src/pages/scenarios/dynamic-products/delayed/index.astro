@@ -1,0 +1,51 @@
+---
+import dynamicProductsScript from '../../../../assets/dynamic-products.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Delayed Dynamic Products"
+  description="Controlled delayed fetch and render state transitions for dynamic products."
+  canonicalPath="/scenarios/dynamic-products/delayed/"
+  scripts={[dynamicProductsScript]}
+  mainId="dynamic-products-scenario"
+  mainClass="wrap scenario dynamic-products-scenario"
+  mainAttributes={{
+    'data-testid': 'dynamic-products-scenario',
+    'data-scenario': 'dynamic-products',
+    'data-case': 'delayed',
+    'data-state': 'idle',
+    'data-page': '0',
+    'data-loaded-count': '0',
+    'data-total-count': '0',
+  }}
+>
+  <h1>Delayed Dynamic Products</h1>
+  <p class="lead">Waits for deterministic delays before fetching and rendering dynamic products.</p>
+  <div
+    id="dynamic-products-status"
+    class="scenario-status"
+    data-testid="dynamic-products-status"
+    data-state="idle"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+  <div
+    id="dynamic-delay-marker"
+    data-testid="dynamic-delay-marker"
+    data-delay-ms="500"
+    data-render-delay-ms="1000"
+  ></div>
+  <section
+    id="dynamic-products-grid"
+    class="product-grid"
+    data-testid="dynamic-products-grid"
+    aria-label="Delayed dynamic products"
+  ></section>
+  <ul
+    id="dynamic-products-log"
+    class="scenario-log"
+    data-testid="dynamic-products-log"
+    aria-label="Dynamic products event log"
+  ></ul>
+</BaseLayout>

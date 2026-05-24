@@ -1,0 +1,62 @@
+---
+import dynamicProductsScript from '../../../../assets/dynamic-products.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Dynamic Products Replace vs Append"
+  description="Demonstrates DOM append and replacement update strategies using static JSON pages."
+  canonicalPath="/scenarios/dynamic-products/replace-vs-append/"
+  scripts={[dynamicProductsScript]}
+  mainId="dynamic-products-scenario"
+  mainClass="wrap scenario dynamic-products-scenario"
+  mainAttributes={{
+    'data-testid': 'dynamic-products-scenario',
+    'data-scenario': 'dynamic-products',
+    'data-case': 'replace-vs-append',
+    'data-state': 'idle',
+    'data-page': '0',
+    'data-loaded-count': '0',
+    'data-total-count': '0',
+    'data-update-mode': 'initial',
+  }}
+>
+  <h1>Dynamic Products Replace vs Append</h1>
+  <p class="lead">Loads page one, then compares appending page two with replacing the grid.</p>
+  <div
+    id="dynamic-products-status"
+    class="scenario-status"
+    data-testid="dynamic-products-status"
+    data-state="idle"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+  <div class="button-row" aria-label="Dynamic product update controls">
+    <button
+      id="append-page"
+      data-testid="append-page"
+      type="button"
+    >
+      Append page 2
+    </button>
+    <button
+      id="replace-page"
+      data-testid="replace-page"
+      type="button"
+    >
+      Replace with page 2
+    </button>
+  </div>
+  <section
+    id="dynamic-products-grid"
+    class="product-grid"
+    data-testid="dynamic-products-grid"
+    aria-label="Dynamic products"
+  ></section>
+  <ul
+    id="dynamic-products-log"
+    class="scenario-log"
+    data-testid="dynamic-products-log"
+    aria-label="Dynamic products event log"
+  ></ul>
+</BaseLayout>

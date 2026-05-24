@@ -1,0 +1,10 @@
+LET baseUrl = @baseUrl
+LET page = DOCUMENT(baseUrl + "/scenarios/dynamic-products/error-state/", { driver: "cdp" })
+
+WAIT_ELEMENT(page, "[data-testid='dynamic-products-error']:not([hidden])")
+
+RETURN {
+    state: ELEMENT(page, "[data-testid='dynamic-products-scenario']").attributes["data-state"],
+    code: ELEMENT(page, "[data-testid='dynamic-products-error']").attributes["data-error-code"],
+    message: TRIM(INNER_TEXT(page, "[data-testid='dynamic-products-error']"))
+}

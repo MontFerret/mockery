@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const products = JSON.parse(await fs.readFile(path.join(rootDir, 'src/data/products.json'), 'utf8'));
+const dynamicProducts = JSON.parse(await fs.readFile(path.join(rootDir, 'src/data/dynamic-products.json'), 'utf8'));
 const categories = JSON.parse(await fs.readFile(path.join(rootDir, 'src/data/categories.json'), 'utf8'));
 const reviews = JSON.parse(await fs.readFile(path.join(rootDir, 'src/data/reviews.json'), 'utf8'));
 const expectedBrands = [
@@ -37,7 +38,29 @@ const scenarioSlugs = [
 ];
 const productPageSize = 24;
 const categoryPageSize = 24;
+const dynamicProductPageSize = 12;
 const expectedProductPageCount = Math.ceil(products.length / productPageSize);
+const expectedDynamicProductPageCount = Math.ceil(dynamicProducts.length / dynamicProductPageSize);
+
+const dynamicProductCases = [
+  'basic',
+  'load-more',
+  'filtering',
+  'error-state',
+  'empty-state',
+  'delayed',
+  'replace-vs-append',
+];
+
+const dynamicProductApiFiles = [
+  ...Array.from({ length: expectedDynamicProductPageCount }, (_, index) => `api/dynamic-products/page-${index + 1}.json`),
+  'api/dynamic-products/featured.json',
+  'api/dynamic-products/search.json',
+  'api/dynamic-products/empty.json',
+  'api/dynamic-products/error.json',
+  'api/dynamic-products/slow-page-1.json',
+  'api/dynamic-products/slow-page-2.json',
+];
 
 const requiredFiles = [
   'index.html',
@@ -48,6 +71,7 @@ const requiredFiles = [
   'scenarios/ecommerce/categories/index.html',
   'scenarios/ecommerce/search/index.html',
   'scenarios/dynamic-products/index.html',
+  ...dynamicProductCases.map((scenarioCase) => `scenarios/dynamic-products/${scenarioCase}/index.html`),
   'scenarios/network/index.html',
   'scenarios/messy-markup/index.html',
   'scenarios/forms/index.html',
@@ -70,6 +94,7 @@ const requiredFiles = [
   'api/categories/index.json',
   'api/reviews/index.json',
   'api/search/products.json',
+  ...dynamicProductApiFiles,
   'api/network/products.json',
   'api/network/reviews.json',
   'api/network/recommendations.json',
@@ -91,7 +116,18 @@ const ecommerceExampleFiles = [
   'examples/ferret/ecommerce/search.fql',
 ];
 
+const dynamicProductExampleFiles = [
+  'examples/ferret/dynamic-products/basic.fql',
+  'examples/ferret/dynamic-products/load-more.fql',
+  'examples/ferret/dynamic-products/filtering.fql',
+  'examples/ferret/dynamic-products/error-state.fql',
+  'examples/ferret/dynamic-products/empty-state.fql',
+  'examples/ferret/dynamic-products/delayed.fql',
+  'examples/ferret/dynamic-products/replace-vs-append.fql',
+];
+
 const productSlug = (product) => product.slug || product.id;
+const dynamicProductSlug = (product) => product.slug || product.id;
 const productPageFile = (product) => path.join('scenarios/ecommerce/products', productSlug(product), 'index.html');
 const countMatches = (value, pattern) => [...value.matchAll(pattern)].length;
 const categoryCount = (categoryId) => products.filter((product) => product.category === categoryId).length;
@@ -112,6 +148,7 @@ const build = (outDir, basePath = '/') => {
 
 const validateSourceFixtures = async () => {
   assert.equal(products.length, 300, 'e-commerce product fixture count');
+  assert.equal(dynamicProducts.length, 36, 'dynamic product fixture count');
   assert.equal(categories.length, 10, 'e-commerce category fixture count');
 
   const ids = new Set();
@@ -147,6 +184,45 @@ const validateSourceFixtures = async () => {
   assert.ok(products.some((product) => product.tags.length === 0), 'expected products with no tags');
   assert.ok(products.some((product) => product.tags.length >= 6), 'expected products with many tags');
 
+  const dynamicIds = new Set();
+  const dynamicSkus = new Set();
+  const dynamicSlugs = new Set();
+  for (const product of dynamicProducts) {
+    assert.equal(typeof product.id, 'string');
+    assert.equal(typeof product.slug, 'string');
+    assert.equal(typeof product.sku, 'string');
+    assert.equal(typeof product.title, 'string');
+    assert.equal(typeof product.brand, 'string');
+    assert.equal(typeof product.category, 'string');
+    assert.equal(typeof product.price, 'number');
+    assert.ok(product.oldPrice === null || typeof product.oldPrice === 'number');
+    assert.equal(product.currency, 'USD');
+    assert.ok(product.rating === null || typeof product.rating === 'number');
+    assert.ok(Number.isInteger(product.reviewCount));
+    assert.equal(typeof product.inStock, 'boolean');
+    assert.ok(Number.isInteger(product.stockCount));
+    assert.equal(typeof product.description, 'string');
+    assert.ok(Array.isArray(product.tags));
+    assert.equal(product.image, `assets/images/products/${product.slug}.svg`);
+    assert.ok(!dynamicIds.has(product.id), `duplicate dynamic product id ${product.id}`);
+    assert.ok(!dynamicSkus.has(product.sku), `duplicate dynamic product sku ${product.sku}`);
+    assert.ok(!dynamicSlugs.has(product.slug), `duplicate dynamic product slug ${product.slug}`);
+    dynamicIds.add(product.id);
+    dynamicSkus.add(product.sku);
+    dynamicSlugs.add(product.slug);
+  }
+
+  assert.equal(new Set(dynamicProducts.map((product) => product.category)).size >= 6, true, 'expected multiple dynamic product categories');
+  assert.equal(new Set(dynamicProducts.map((product) => product.brand)).size >= 6, true, 'expected multiple dynamic product brands');
+  assert.ok(dynamicProducts.some((product) => product.oldPrice === null), 'expected dynamic products with null oldPrice');
+  assert.ok(dynamicProducts.some((product) => product.rating === null), 'expected dynamic products with null ratings');
+  assert.ok(dynamicProducts.some((product) => !product.inStock), 'expected out-of-stock dynamic products');
+  assert.ok(dynamicProducts.some((product) => product.stockCount === 0), 'expected zero-stock dynamic products');
+  assert.ok(dynamicProducts.some((product) => product.title.length > 60), 'expected long dynamic product titles');
+  assert.ok(dynamicProducts.some((product) => /[+:&]/.test(product.title)), 'expected special-character dynamic product titles');
+  assert.ok(dynamicProducts.some((product) => product.tags.length === 0), 'expected dynamic products with no tags');
+  assert.ok(dynamicProducts.some((product) => product.price === 0), 'expected zero-price dynamic product');
+
   for (const category of categories) {
     assert.equal(typeof category.description, 'string');
     assert.ok(category.description.length > 20, `category ${category.id} should have a useful description`);
@@ -170,6 +246,19 @@ const validateSourceFixtures = async () => {
   for (const rel of ecommerceExampleFiles) {
     await exists(path.join(rootDir, rel));
   }
+
+  for (const rel of dynamicProductExampleFiles) {
+    await exists(path.join(rootDir, rel));
+  }
+
+  await exists(path.join(rootDir, 'src/scenarios/dynamic-products/README.md'));
+
+  const dynamicProductsScript = await fs.readFile(path.join(rootDir, 'src/assets/dynamic-products.js'), 'utf8');
+  for (const pattern of [/Math\.random\(/, /crypto\.randomUUID\(/, /Date\.now\(/]) {
+    assert.doesNotMatch(dynamicProductsScript, pattern, `forbidden runtime randomness pattern ${pattern}`);
+  }
+
+  assert.doesNotMatch(dynamicProductsScript, /fetch\(\s*['"]\//, 'dynamic products script should not use root-relative fetch URLs');
 };
 
 const exists = async (filePath) => {
@@ -252,6 +341,10 @@ const validateOutput = async (outDir, basePath) => {
     await exists(path.join(outDir, 'assets/images/products', `${productSlug(product)}.svg`));
   }
 
+  for (const product of dynamicProducts) {
+    await exists(path.join(outDir, 'assets/images/products', `${dynamicProductSlug(product)}.svg`));
+  }
+
   for (const category of categories) {
     await exists(path.join(outDir, 'scenarios/ecommerce/categories', category.id, 'index.html'));
     await exists(path.join(outDir, 'scenarios/ecommerce/categories', category.id, 'page/2/index.html'));
@@ -281,9 +374,53 @@ const validateOutput = async (outDir, basePath) => {
     assert.match(scenariosHtml, new RegExp(`data-scenario="${slug}"`), `missing scenario ${slug}`);
   }
 
-  const dynamicHtml = await fs.readFile(path.join(outDir, 'scenarios/dynamic-products/index.html'), 'utf8');
-  assert.match(dynamicHtml, /data-testid="dynamic-products"/);
-  assert.match(dynamicHtml, /data-testid="load-more-products"/);
+  const dynamicLandingHtml = await fs.readFile(path.join(outDir, 'scenarios/dynamic-products/index.html'), 'utf8');
+  assert.match(dynamicLandingHtml, /data-testid="dynamic-products-scenario"/);
+  assert.match(dynamicLandingHtml, /data-testid="scenario-header"[^>]*data-scenario="dynamic-products"/);
+  assert.match(dynamicLandingHtml, /fictional static scenario for Ferret demos and tests/i);
+  for (const scenarioCase of dynamicProductCases) {
+    assert.match(dynamicLandingHtml, new RegExp(`data-scenario-case="${scenarioCase}"`), `missing dynamic product case ${scenarioCase}`);
+  }
+
+  const dynamicCaseSelectors = {
+    basic: [],
+    'load-more': ['data-testid="load-more-products"', 'data-testid="dynamic-products-log"'],
+    filtering: [
+      'data-testid="dynamic-products-filter-form"',
+      'data-testid="dynamic-search-query"',
+      'data-testid="dynamic-category"',
+      'data-testid="dynamic-brand"',
+      'data-testid="dynamic-sort"',
+      'data-testid="dynamic-in-stock"',
+      'data-testid="dynamic-filter-status"',
+    ],
+    'error-state': ['data-testid="dynamic-products-error"'],
+    'empty-state': ['data-testid="dynamic-products-empty"'],
+    delayed: ['data-testid="dynamic-delay-marker"', 'data-delay-ms="500"', 'data-render-delay-ms="1000"'],
+    'replace-vs-append': ['data-testid="append-page"', 'data-testid="replace-page"', 'data-update-mode="initial"'],
+  };
+
+  for (const scenarioCase of dynamicProductCases) {
+    const html = await fs.readFile(path.join(outDir, 'scenarios/dynamic-products', scenarioCase, 'index.html'), 'utf8');
+    for (const selector of [
+      'id="dynamic-products-scenario"',
+      'data-testid="dynamic-products-scenario"',
+      'data-scenario="dynamic-products"',
+      `data-case="${scenarioCase}"`,
+      'data-state="idle"',
+      'data-page="0"',
+      'data-loaded-count="0"',
+      'data-total-count="0"',
+      'data-testid="dynamic-products-status"',
+      'data-testid="dynamic-products-grid"',
+      ...dynamicCaseSelectors[scenarioCase],
+    ]) {
+      assert.match(html, new RegExp(selector), `missing ${selector} on dynamic products ${scenarioCase}`);
+    }
+
+    assert.match(html, /dynamic-products[^"]*\.js/, `dynamic products script missing on ${scenarioCase}`);
+    assert.doesNotMatch(html, /data-testid="dynamic-product-card"/, `dynamic products ${scenarioCase} should not pre-render product cards`);
+  }
 
   const landingHtml = await fs.readFile(path.join(outDir, 'scenarios/ecommerce/index.html'), 'utf8');
   assert.match(landingHtml, /fictional static e-commerce scenario/i);
@@ -390,6 +527,70 @@ const validateOutput = async (outDir, basePath) => {
     assert.ok(Object.hasOwn(searchApi.items[0], field), `search API item missing ${field}`);
   }
 
+  const dynamicApiFields = ['id', 'slug', 'sku', 'title', 'brand', 'category', 'price', 'oldPrice', 'currency', 'rating', 'reviewCount', 'inStock', 'stockCount', 'description', 'tags', 'url', 'image'];
+  const dynamicPageItems = [];
+  for (const page of Array.from({ length: expectedDynamicProductPageCount }, (_, index) => index + 1)) {
+    const apiPage = JSON.parse(await fs.readFile(path.join(outDir, `api/dynamic-products/page-${page}.json`), 'utf8'));
+    const expectedItems = dynamicProducts.slice((page - 1) * dynamicProductPageSize, page * dynamicProductPageSize).length;
+    assert.equal(apiPage.ok, true);
+    assert.equal(apiPage.page, page);
+    assert.equal(apiPage.pageSize, dynamicProductPageSize);
+    assert.equal(apiPage.total, dynamicProducts.length);
+    assert.equal(apiPage.items.length, expectedItems, `dynamic product page ${page} should render ${expectedItems} API items`);
+    assert.equal(apiPage.hasNextPage, page < expectedDynamicProductPageCount);
+    assert.equal(apiPage.nextPage, page < expectedDynamicProductPageCount ? page + 1 : null);
+    assert.ok(apiPage.items[0].url.startsWith(`${expectedPrefix}scenarios/dynamic-products/`));
+    assert.ok(apiPage.items[0].image.startsWith(`${expectedPrefix}assets/images/products/`));
+    for (const field of dynamicApiFields) {
+      assert.ok(Object.hasOwn(apiPage.items[0], field), `dynamic product API item missing ${field}`);
+    }
+    dynamicPageItems.push(...apiPage.items);
+  }
+
+  assert.equal(dynamicPageItems.length, dynamicProducts.length);
+  assert.equal(new Set(dynamicPageItems.map((product) => product.id)).size, dynamicProducts.length, 'dynamic API product IDs should be unique');
+  assert.equal(new Set(dynamicPageItems.map((product) => product.sku)).size, dynamicProducts.length, 'dynamic API product SKUs should be unique');
+  assert.equal(new Set(dynamicPageItems.map((product) => product.slug)).size, dynamicProducts.length, 'dynamic API product slugs should be unique');
+
+  const dynamicFeaturedApi = JSON.parse(await fs.readFile(path.join(outDir, 'api/dynamic-products/featured.json'), 'utf8'));
+  assert.equal(dynamicFeaturedApi.ok, true);
+  assert.ok(dynamicFeaturedApi.items.length >= 4 && dynamicFeaturedApi.items.length <= 6, 'featured dynamic products should include 4-6 items');
+
+  const dynamicSearchApi = JSON.parse(await fs.readFile(path.join(outDir, 'api/dynamic-products/search.json'), 'utf8'));
+  assert.equal(dynamicSearchApi.ok, true);
+  assert.equal(dynamicSearchApi.total, dynamicProducts.length);
+  assert.equal(dynamicSearchApi.items.length, dynamicProducts.length);
+
+  const dynamicEmptyApi = JSON.parse(await fs.readFile(path.join(outDir, 'api/dynamic-products/empty.json'), 'utf8'));
+  assert.deepEqual(dynamicEmptyApi, {
+    ok: true,
+    page: 1,
+    pageSize: dynamicProductPageSize,
+    total: 0,
+    hasNextPage: false,
+    nextPage: null,
+    items: [],
+  });
+
+  const dynamicErrorApi = JSON.parse(await fs.readFile(path.join(outDir, 'api/dynamic-products/error.json'), 'utf8'));
+  assert.deepEqual(dynamicErrorApi, {
+    ok: false,
+    error: {
+      code: 'MOCK_DYNAMIC_PRODUCTS_FAILURE',
+      message: 'Simulated dynamic products failure.',
+    },
+    items: [],
+  });
+
+  assert.deepEqual(
+    JSON.parse(await fs.readFile(path.join(outDir, 'api/dynamic-products/slow-page-1.json'), 'utf8')),
+    JSON.parse(await fs.readFile(path.join(outDir, 'api/dynamic-products/page-1.json'), 'utf8')),
+  );
+  assert.deepEqual(
+    JSON.parse(await fs.readFile(path.join(outDir, 'api/dynamic-products/slow-page-2.json'), 'utf8')),
+    JSON.parse(await fs.readFile(path.join(outDir, 'api/dynamic-products/page-2.json'), 'utf8')),
+  );
+
   const reviewsIndex = JSON.parse(await fs.readFile(path.join(outDir, 'api/reviews/index.json'), 'utf8'));
   assert.equal(reviewsIndex.total, products.length);
   assert.equal(reviewsIndex.items.length, products.length);
@@ -427,6 +628,14 @@ const validateOutput = async (outDir, basePath) => {
     const js = await fs.readFile(file, 'utf8');
     for (const match of js.matchAll(/api\/[A-Za-z0-9/_-]+\.json/g)) {
       apiRefs.add(match[0]);
+    }
+
+    if (js.includes('api/dynamic-products/')) {
+      for (const pattern of [/Math\.random\(/, /crypto\.randomUUID\(/, /Date\.now\(/]) {
+        assert.doesNotMatch(js, pattern, `forbidden runtime randomness in ${path.relative(outDir, file)}`);
+      }
+
+      assert.doesNotMatch(js, /fetch\(\s*['"]\//, `root-relative fetch URL in ${path.relative(outDir, file)}`);
     }
   }
 

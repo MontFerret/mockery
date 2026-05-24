@@ -1,6 +1,6 @@
 LET baseUrl = @baseUrl
-LET page = DOCUMENT(baseUrl + "/scenarios/dynamic-products/", { driver: "cdp" })
+LET page = DOCUMENT(baseUrl + "/scenarios/dynamic-products/basic/", { driver: "cdp" })
 
-WAIT_ELEMENT(page, "[data-testid='dynamic-products'][data-loaded='true']")
+WAIT_ELEMENT(page, "[data-testid='dynamic-products-scenario'][data-state='loaded']")
 
-RETURN ELEMENTS_COUNT(page, "[data-testid='product-card']")
+RETURN ELEMENTS_COUNT(page, "[data-testid='dynamic-product-card']")

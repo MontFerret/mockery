@@ -1,8 +1,13 @@
-import { escapeXml, products, productSlug } from '../../../../lib/site.js';
+import { dynamicProductSlug, dynamicProducts, escapeXml, products, productSlug } from '../../../../lib/site.js';
+
+const imageProducts = [
+  ...products.map((product) => ({ product, slug: productSlug(product) })),
+  ...dynamicProducts.map((product) => ({ product, slug: dynamicProductSlug(product) })),
+];
 
 export function getStaticPaths() {
-  return products.map((product) => ({
-    params: { id: productSlug(product) },
+  return imageProducts.map(({ product, slug }) => ({
+    params: { id: slug },
     props: { product },
   }));
 }

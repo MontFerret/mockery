@@ -1,0 +1,17 @@
+LET baseUrl = @baseUrl
+LET page = DOCUMENT(baseUrl + "/scenarios/dynamic-products/replace-vs-append/", { driver: "cdp" })
+
+WAIT_ELEMENT(page, "[data-testid='dynamic-products-scenario'][data-update-mode='initial']")
+CLICK(page, "[data-testid='append-page']")
+WAIT_ELEMENT(page, "[data-testid='dynamic-products-scenario'][data-update-mode='append'][data-loaded-count='24']")
+LET appendCount = ELEMENTS_COUNT(page, "[data-testid='dynamic-product-card']")
+
+CLICK(page, "[data-testid='replace-page']")
+WAIT_ELEMENT(page, "[data-testid='dynamic-products-scenario'][data-update-mode='replace'][data-loaded-count='12']")
+LET replaceCount = ELEMENTS_COUNT(page, "[data-testid='dynamic-product-card']")
+
+RETURN {
+    appendCount: appendCount,
+    replaceCount: replaceCount,
+    mode: ELEMENT(page, "[data-testid='dynamic-products-scenario']").attributes["data-update-mode"]
+}

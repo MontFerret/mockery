@@ -1,10 +1,81 @@
 ---
-import dynamicProductsScript from '../../../assets/dynamic-products.js?url';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { withBase } from '../../../lib/site.js';
+
+const cases = [
+  {
+    slug: 'basic',
+    title: 'Basic dynamic render',
+    description: 'Fetches product JSON on page load and renders cards into an empty container.',
+  },
+  {
+    slug: 'load-more',
+    title: 'Load more pagination',
+    description: 'Appends additional static JSON pages after deterministic button clicks.',
+  },
+  {
+    slug: 'filtering',
+    title: 'Client-side filtering',
+    description: 'Loads search JSON once, then mutates the DOM from form controls.',
+  },
+  {
+    slug: 'error-state',
+    title: 'Error state',
+    description: 'Renders a deterministic error panel from an ok:false JSON payload.',
+  },
+  {
+    slug: 'empty-state',
+    title: 'Empty state',
+    description: 'Renders an empty result state from a successful empty API response.',
+  },
+  {
+    slug: 'delayed',
+    title: 'Delayed dynamic render',
+    description: 'Uses short deterministic delays before fetching and rendering products.',
+  },
+  {
+    slug: 'replace-vs-append',
+    title: 'Replace vs append',
+    description: 'Compares DOM replacement and DOM append behavior for page-two data.',
+  },
+];
 ---
-<BaseLayout title="Dynamic Products Scenario" description="Client-side rendering from static JSON pages." canonicalPath="/scenarios/dynamic-products/" scripts={[dynamicProductsScript]}>
-  <h1>Dynamic products</h1>
-  <div id="dynamic-products" class="product-grid" data-testid="dynamic-products" data-loaded="false"></div>
-  <button id="load-more-products" data-testid="load-more-products" type="button">Load more</button>
-  <div id="dynamic-status" data-testid="dynamic-status" aria-live="polite">Loading...</div>
+<BaseLayout
+  title="Dynamic Products Scenario"
+  description="Client-side rendered product listings loaded from static JSON files."
+  canonicalPath="/scenarios/dynamic-products/"
+  mainId="dynamic-products-scenario"
+  mainClass="wrap scenario dynamic-products-scenario"
+  mainAttributes={{
+    'data-testid': 'dynamic-products-scenario',
+    'data-scenario': 'dynamic-products',
+    'data-case': 'index',
+    'data-state': 'idle',
+    'data-page': '0',
+    'data-loaded-count': '0',
+    'data-total-count': '0',
+  }}
+>
+  <section class="scenario-header" data-testid="scenario-header" data-scenario="dynamic-products">
+    <h1>Dynamic Products</h1>
+    <p class="lead">
+      Client-side rendered product listings for testing browser-based extraction,
+      waiting, network activity, and DOM mutation.
+    </p>
+    <p class="notice">
+      This is a fictional static scenario for Ferret demos and tests. Product data is loaded from static JSON files and rendered in the browser.
+    </p>
+  </section>
+
+  <section class="scenario-links" data-testid="scenario-links" aria-label="Dynamic product cases">
+    <div class="grid">
+      {cases.map((scenarioCase) => (
+        <article class="scenario-card" data-testid="scenario-card" data-scenario-case={scenarioCase.slug}>
+          <h2>{scenarioCase.title}</h2>
+          <p>{scenarioCase.description}</p>
+          <a href={withBase(`/scenarios/dynamic-products/${scenarioCase.slug}/`)}>Open case</a>
+        </article>
+      ))}
+    </div>
+  </section>
 </BaseLayout>

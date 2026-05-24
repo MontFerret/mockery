@@ -96,9 +96,10 @@ escaping, and accidental external dependencies.
 ## Ferret examples
 
 Example scripts are in `examples/ferret/` and the e-commerce scenario examples
-are grouped under `examples/ferret/ecommerce/`. The e-commerce catalog contains
-300 deterministic products, with 30 products in each category and static
-pagination for both product listings and category pages. Examples use a
+are grouped under `examples/ferret/ecommerce/`. Dynamic product examples are
+grouped under `examples/ferret/dynamic-products/`. The e-commerce catalog
+contains 300 deterministic products, with 30 products in each category and
+static pagination for both product listings and category pages. Examples use a
 configurable base URL:
 
 ```fql
@@ -126,6 +127,10 @@ lab run examples/ferret/ecommerce/products.fql \
 lab run examples/ferret/ecommerce/search.fql \
   --serve ./dist@app \
   --param baseUrl=@lab.static.app
+
+lab run examples/ferret/dynamic-products/basic.fql \
+  --serve ./dist@app \
+  --param baseUrl=@lab.static.app
 ```
 
 You can also point `baseUrl` to any ordinary static server URL, for example
@@ -141,6 +146,13 @@ The build generates deterministic static JSON under `dist/api`, including:
 - `api/reviews/index.json`
 - `api/reviews/<product-id>.json`
 - `api/search/products.json`
+- `api/dynamic-products/page-1.json` through `api/dynamic-products/page-3.json`
+- `api/dynamic-products/featured.json`
+- `api/dynamic-products/search.json`
+- `api/dynamic-products/empty.json`
+- `api/dynamic-products/error.json`
+- `api/dynamic-products/slow-page-1.json`
+- `api/dynamic-products/slow-page-2.json`
 - `api/network/*.json`
 
 No backend runtime, database, analytics, external assets, or external SaaS
