@@ -1,0 +1,1874 @@
+{
+  "laptop-pro-14": [
+    {
+      "id": "laptop-pro-14-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Laptop Pro 14.",
+      "stars": 4
+    },
+    {
+      "id": "laptop-pro-14-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Laptop Pro 14.",
+      "stars": 5
+    },
+    {
+      "id": "laptop-pro-14-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Laptop Pro 14.",
+      "stars": 4
+    }
+  ],
+  "laptops-laptop-2": [
+    {
+      "id": "laptops-laptop-2-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Laptop Ultra 2.",
+      "stars": 4
+    },
+    {
+      "id": "laptops-laptop-2-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Laptop Ultra 2.",
+      "stars": 5
+    },
+    {
+      "id": "laptops-laptop-2-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Laptop Ultra 2.",
+      "stars": 4
+    }
+  ],
+  "laptops-laptop-3": [
+    {
+      "id": "laptops-laptop-3-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Laptop Edge 3.",
+      "stars": 4
+    },
+    {
+      "id": "laptops-laptop-3-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Laptop Edge 3.",
+      "stars": 5
+    },
+    {
+      "id": "laptops-laptop-3-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Laptop Edge 3.",
+      "stars": 4
+    }
+  ],
+  "laptops-laptop-4": [
+    {
+      "id": "laptops-laptop-4-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Laptop Mini 4.",
+      "stars": 4
+    },
+    {
+      "id": "laptops-laptop-4-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Laptop Mini 4.",
+      "stars": 5
+    },
+    {
+      "id": "laptops-laptop-4-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Laptop Mini 4.",
+      "stars": 4
+    }
+  ],
+  "laptops-laptop-5": [
+    {
+      "id": "laptops-laptop-5-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Laptop Pro 5.",
+      "stars": 4
+    },
+    {
+      "id": "laptops-laptop-5-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Laptop Pro 5.",
+      "stars": 5
+    },
+    {
+      "id": "laptops-laptop-5-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Laptop Pro 5.",
+      "stars": 4
+    }
+  ],
+  "laptops-laptop-6": [
+    {
+      "id": "laptops-laptop-6-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Laptop Lite 6.",
+      "stars": 4
+    },
+    {
+      "id": "laptops-laptop-6-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Laptop Lite 6.",
+      "stars": 5
+    },
+    {
+      "id": "laptops-laptop-6-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Laptop Lite 6.",
+      "stars": 4
+    }
+  ],
+  "laptops-laptop-7": [
+    {
+      "id": "laptops-laptop-7-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Laptop Plus 7.",
+      "stars": 4
+    },
+    {
+      "id": "laptops-laptop-7-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Laptop Plus 7.",
+      "stars": 5
+    },
+    {
+      "id": "laptops-laptop-7-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Laptop Plus 7.",
+      "stars": 4
+    }
+  ],
+  "phones-phone-1": [
+    {
+      "id": "phones-phone-1-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Phone Pro 1.",
+      "stars": 4
+    },
+    {
+      "id": "phones-phone-1-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Phone Pro 1.",
+      "stars": 5
+    },
+    {
+      "id": "phones-phone-1-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Phone Pro 1.",
+      "stars": 4
+    }
+  ],
+  "phones-phone-2": [
+    {
+      "id": "phones-phone-2-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Phone Max 2.",
+      "stars": 4
+    },
+    {
+      "id": "phones-phone-2-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Phone Max 2.",
+      "stars": 5
+    },
+    {
+      "id": "phones-phone-2-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Phone Max 2.",
+      "stars": 4
+    }
+  ],
+  "phones-phone-3": [
+    {
+      "id": "phones-phone-3-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Phone Plus 3.",
+      "stars": 4
+    },
+    {
+      "id": "phones-phone-3-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Phone Plus 3.",
+      "stars": 5
+    },
+    {
+      "id": "phones-phone-3-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Phone Plus 3.",
+      "stars": 4
+    }
+  ],
+  "phones-phone-4": [
+    {
+      "id": "phones-phone-4-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Phone Plus 4.",
+      "stars": 4
+    },
+    {
+      "id": "phones-phone-4-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Phone Plus 4.",
+      "stars": 5
+    },
+    {
+      "id": "phones-phone-4-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Phone Plus 4.",
+      "stars": 4
+    }
+  ],
+  "phones-phone-5": [
+    {
+      "id": "phones-phone-5-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Phone Mini 5.",
+      "stars": 4
+    },
+    {
+      "id": "phones-phone-5-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Phone Mini 5.",
+      "stars": 5
+    },
+    {
+      "id": "phones-phone-5-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Phone Mini 5.",
+      "stars": 4
+    }
+  ],
+  "phones-phone-6": [
+    {
+      "id": "phones-phone-6-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Phone Ultra 6.",
+      "stars": 4
+    },
+    {
+      "id": "phones-phone-6-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Phone Ultra 6.",
+      "stars": 5
+    },
+    {
+      "id": "phones-phone-6-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Phone Ultra 6.",
+      "stars": 4
+    }
+  ],
+  "phones-phone-7": [
+    {
+      "id": "phones-phone-7-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Phone Max 7.",
+      "stars": 4
+    },
+    {
+      "id": "phones-phone-7-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Phone Max 7.",
+      "stars": 5
+    },
+    {
+      "id": "phones-phone-7-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Phone Max 7.",
+      "stars": 4
+    }
+  ],
+  "headphones-headphones-1": [
+    {
+      "id": "headphones-headphones-1-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Headphones Lite 1.",
+      "stars": 4
+    },
+    {
+      "id": "headphones-headphones-1-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Headphones Lite 1.",
+      "stars": 5
+    },
+    {
+      "id": "headphones-headphones-1-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Headphones Lite 1.",
+      "stars": 4
+    }
+  ],
+  "headphones-headphones-2": [
+    {
+      "id": "headphones-headphones-2-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Headphones Lite 2.",
+      "stars": 4
+    },
+    {
+      "id": "headphones-headphones-2-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Headphones Lite 2.",
+      "stars": 5
+    },
+    {
+      "id": "headphones-headphones-2-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Headphones Lite 2.",
+      "stars": 4
+    }
+  ],
+  "headphones-headphones-3": [
+    {
+      "id": "headphones-headphones-3-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Headphones Prime 3.",
+      "stars": 4
+    },
+    {
+      "id": "headphones-headphones-3-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Headphones Prime 3.",
+      "stars": 5
+    },
+    {
+      "id": "headphones-headphones-3-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Headphones Prime 3.",
+      "stars": 4
+    }
+  ],
+  "headphones-headphones-4": [
+    {
+      "id": "headphones-headphones-4-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Headphones Ultra 4.",
+      "stars": 4
+    },
+    {
+      "id": "headphones-headphones-4-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Headphones Ultra 4.",
+      "stars": 5
+    },
+    {
+      "id": "headphones-headphones-4-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Headphones Ultra 4.",
+      "stars": 4
+    }
+  ],
+  "headphones-headphones-5": [
+    {
+      "id": "headphones-headphones-5-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Headphones Edge 5.",
+      "stars": 4
+    },
+    {
+      "id": "headphones-headphones-5-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Headphones Edge 5.",
+      "stars": 5
+    },
+    {
+      "id": "headphones-headphones-5-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Headphones Edge 5.",
+      "stars": 4
+    }
+  ],
+  "headphones-headphones-6": [
+    {
+      "id": "headphones-headphones-6-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Headphones Plus 6.",
+      "stars": 4
+    },
+    {
+      "id": "headphones-headphones-6-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Headphones Plus 6.",
+      "stars": 5
+    },
+    {
+      "id": "headphones-headphones-6-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Headphones Plus 6.",
+      "stars": 4
+    }
+  ],
+  "headphones-headphones-7": [
+    {
+      "id": "headphones-headphones-7-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Headphones Ultra 7.",
+      "stars": 4
+    },
+    {
+      "id": "headphones-headphones-7-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Headphones Ultra 7.",
+      "stars": 5
+    },
+    {
+      "id": "headphones-headphones-7-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Headphones Ultra 7.",
+      "stars": 4
+    }
+  ],
+  "cameras-camera-1": [
+    {
+      "id": "cameras-camera-1-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Camera Prime 1.",
+      "stars": 4
+    },
+    {
+      "id": "cameras-camera-1-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Camera Prime 1.",
+      "stars": 5
+    },
+    {
+      "id": "cameras-camera-1-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Camera Prime 1.",
+      "stars": 4
+    }
+  ],
+  "cameras-camera-2": [
+    {
+      "id": "cameras-camera-2-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Camera Studio 2.",
+      "stars": 4
+    },
+    {
+      "id": "cameras-camera-2-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Camera Studio 2.",
+      "stars": 5
+    },
+    {
+      "id": "cameras-camera-2-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Camera Studio 2.",
+      "stars": 4
+    }
+  ],
+  "cameras-camera-3": [
+    {
+      "id": "cameras-camera-3-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Camera Edge 3.",
+      "stars": 4
+    },
+    {
+      "id": "cameras-camera-3-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Camera Edge 3.",
+      "stars": 5
+    },
+    {
+      "id": "cameras-camera-3-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Camera Edge 3.",
+      "stars": 4
+    }
+  ],
+  "cameras-camera-4": [
+    {
+      "id": "cameras-camera-4-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Camera Ultra 4.",
+      "stars": 4
+    },
+    {
+      "id": "cameras-camera-4-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Camera Ultra 4.",
+      "stars": 5
+    },
+    {
+      "id": "cameras-camera-4-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Camera Ultra 4.",
+      "stars": 4
+    }
+  ],
+  "cameras-camera-5": [
+    {
+      "id": "cameras-camera-5-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Camera Lite 5.",
+      "stars": 4
+    },
+    {
+      "id": "cameras-camera-5-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Camera Lite 5.",
+      "stars": 5
+    },
+    {
+      "id": "cameras-camera-5-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Camera Lite 5.",
+      "stars": 4
+    }
+  ],
+  "cameras-camera-6": [
+    {
+      "id": "cameras-camera-6-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Camera Lite 6.",
+      "stars": 4
+    },
+    {
+      "id": "cameras-camera-6-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Camera Lite 6.",
+      "stars": 5
+    },
+    {
+      "id": "cameras-camera-6-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Camera Lite 6.",
+      "stars": 4
+    }
+  ],
+  "cameras-camera-7": [
+    {
+      "id": "cameras-camera-7-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Camera Max 7.",
+      "stars": 4
+    },
+    {
+      "id": "cameras-camera-7-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Camera Max 7.",
+      "stars": 5
+    },
+    {
+      "id": "cameras-camera-7-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Camera Max 7.",
+      "stars": 4
+    }
+  ],
+  "kitchen-kitchen-1": [
+    {
+      "id": "kitchen-kitchen-1-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Kitchen Prime 1.",
+      "stars": 4
+    },
+    {
+      "id": "kitchen-kitchen-1-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Kitchen Prime 1.",
+      "stars": 5
+    },
+    {
+      "id": "kitchen-kitchen-1-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Kitchen Prime 1.",
+      "stars": 4
+    }
+  ],
+  "kitchen-kitchen-2": [
+    {
+      "id": "kitchen-kitchen-2-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Kitchen Prime 2.",
+      "stars": 4
+    },
+    {
+      "id": "kitchen-kitchen-2-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Kitchen Prime 2.",
+      "stars": 5
+    },
+    {
+      "id": "kitchen-kitchen-2-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Kitchen Prime 2.",
+      "stars": 4
+    }
+  ],
+  "kitchen-kitchen-3": [
+    {
+      "id": "kitchen-kitchen-3-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Kitchen Studio 3.",
+      "stars": 4
+    },
+    {
+      "id": "kitchen-kitchen-3-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Kitchen Studio 3.",
+      "stars": 5
+    },
+    {
+      "id": "kitchen-kitchen-3-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Kitchen Studio 3.",
+      "stars": 4
+    }
+  ],
+  "kitchen-kitchen-4": [
+    {
+      "id": "kitchen-kitchen-4-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Kitchen Lite 4.",
+      "stars": 4
+    },
+    {
+      "id": "kitchen-kitchen-4-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Kitchen Lite 4.",
+      "stars": 5
+    },
+    {
+      "id": "kitchen-kitchen-4-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Kitchen Lite 4.",
+      "stars": 4
+    }
+  ],
+  "kitchen-kitchen-5": [
+    {
+      "id": "kitchen-kitchen-5-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Kitchen Pro 5.",
+      "stars": 4
+    },
+    {
+      "id": "kitchen-kitchen-5-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Kitchen Pro 5.",
+      "stars": 5
+    },
+    {
+      "id": "kitchen-kitchen-5-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Kitchen Pro 5.",
+      "stars": 4
+    }
+  ],
+  "kitchen-kitchen-6": [
+    {
+      "id": "kitchen-kitchen-6-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Kitchen Pro 6.",
+      "stars": 4
+    },
+    {
+      "id": "kitchen-kitchen-6-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Kitchen Pro 6.",
+      "stars": 5
+    },
+    {
+      "id": "kitchen-kitchen-6-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Kitchen Pro 6.",
+      "stars": 4
+    }
+  ],
+  "kitchen-kitchen-7": [
+    {
+      "id": "kitchen-kitchen-7-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Kitchen Pro 7.",
+      "stars": 4
+    },
+    {
+      "id": "kitchen-kitchen-7-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Kitchen Pro 7.",
+      "stars": 5
+    },
+    {
+      "id": "kitchen-kitchen-7-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Kitchen Pro 7.",
+      "stars": 4
+    }
+  ],
+  "books-book-1": [
+    {
+      "id": "books-book-1-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Book Prime 1.",
+      "stars": 4
+    },
+    {
+      "id": "books-book-1-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Book Prime 1.",
+      "stars": 5
+    },
+    {
+      "id": "books-book-1-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Book Prime 1.",
+      "stars": 4
+    }
+  ],
+  "books-book-2-special-edition": [
+    {
+      "id": "books-book-2-special-edition-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Book: Data Pipelines & Scraping \u2014 Special Edition.",
+      "stars": 4
+    },
+    {
+      "id": "books-book-2-special-edition-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Book: Data Pipelines & Scraping \u2014 Special Edition.",
+      "stars": 5
+    },
+    {
+      "id": "books-book-2-special-edition-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Book: Data Pipelines & Scraping \u2014 Special Edition.",
+      "stars": 4
+    }
+  ],
+  "books-book-3": [
+    {
+      "id": "books-book-3-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Book Edge 3.",
+      "stars": 4
+    },
+    {
+      "id": "books-book-3-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Book Edge 3.",
+      "stars": 5
+    },
+    {
+      "id": "books-book-3-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Book Edge 3.",
+      "stars": 4
+    }
+  ],
+  "books-book-4": [
+    {
+      "id": "books-book-4-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Book Plus 4.",
+      "stars": 4
+    },
+    {
+      "id": "books-book-4-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Book Plus 4.",
+      "stars": 5
+    },
+    {
+      "id": "books-book-4-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Book Plus 4.",
+      "stars": 4
+    }
+  ],
+  "books-book-5": [
+    {
+      "id": "books-book-5-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Book Mini 5.",
+      "stars": 4
+    },
+    {
+      "id": "books-book-5-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Book Mini 5.",
+      "stars": 5
+    },
+    {
+      "id": "books-book-5-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Book Mini 5.",
+      "stars": 4
+    }
+  ],
+  "books-book-6": [
+    {
+      "id": "books-book-6-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Book Ultra 6.",
+      "stars": 4
+    },
+    {
+      "id": "books-book-6-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Book Ultra 6.",
+      "stars": 5
+    },
+    {
+      "id": "books-book-6-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Book Ultra 6.",
+      "stars": 4
+    }
+  ],
+  "books-book-7": [
+    {
+      "id": "books-book-7-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Book Studio 7.",
+      "stars": 4
+    },
+    {
+      "id": "books-book-7-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Book Studio 7.",
+      "stars": 5
+    },
+    {
+      "id": "books-book-7-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Book Studio 7.",
+      "stars": 4
+    }
+  ],
+  "office-office-1": [
+    {
+      "id": "office-office-1-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Office Mini 1.",
+      "stars": 4
+    },
+    {
+      "id": "office-office-1-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Office Mini 1.",
+      "stars": 5
+    },
+    {
+      "id": "office-office-1-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Office Mini 1.",
+      "stars": 4
+    }
+  ],
+  "office-office-2": [
+    {
+      "id": "office-office-2-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Office Ultra 2.",
+      "stars": 4
+    },
+    {
+      "id": "office-office-2-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Office Ultra 2.",
+      "stars": 5
+    },
+    {
+      "id": "office-office-2-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Office Ultra 2.",
+      "stars": 4
+    }
+  ],
+  "office-office-3": [
+    {
+      "id": "office-office-3-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Office Edge 3.",
+      "stars": 4
+    },
+    {
+      "id": "office-office-3-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Office Edge 3.",
+      "stars": 5
+    },
+    {
+      "id": "office-office-3-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Office Edge 3.",
+      "stars": 4
+    }
+  ],
+  "office-office-4": [
+    {
+      "id": "office-office-4-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Office Mini 4.",
+      "stars": 4
+    },
+    {
+      "id": "office-office-4-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Office Mini 4.",
+      "stars": 5
+    },
+    {
+      "id": "office-office-4-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Office Mini 4.",
+      "stars": 4
+    }
+  ],
+  "office-office-5": [
+    {
+      "id": "office-office-5-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Office Lite 5.",
+      "stars": 4
+    },
+    {
+      "id": "office-office-5-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Office Lite 5.",
+      "stars": 5
+    },
+    {
+      "id": "office-office-5-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Office Lite 5.",
+      "stars": 4
+    }
+  ],
+  "office-office-6-long-title": [
+    {
+      "id": "office-office-6-long-title-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Office Ergonomic Chair with Adjustable Lumbar Support and Breathable Mesh for Long Work Sessions.",
+      "stars": 4
+    },
+    {
+      "id": "office-office-6-long-title-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Office Ergonomic Chair with Adjustable Lumbar Support and Breathable Mesh for Long Work Sessions.",
+      "stars": 5
+    },
+    {
+      "id": "office-office-6-long-title-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Office Ergonomic Chair with Adjustable Lumbar Support and Breathable Mesh for Long Work Sessions.",
+      "stars": 4
+    }
+  ],
+  "office-office-7": [
+    {
+      "id": "office-office-7-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Office Studio 7.",
+      "stars": 4
+    },
+    {
+      "id": "office-office-7-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Office Studio 7.",
+      "stars": 5
+    },
+    {
+      "id": "office-office-7-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Office Studio 7.",
+      "stars": 4
+    }
+  ],
+  "gaming-gaming-1": [
+    {
+      "id": "gaming-gaming-1-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Gaming Mini 1.",
+      "stars": 4
+    },
+    {
+      "id": "gaming-gaming-1-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Gaming Mini 1.",
+      "stars": 5
+    },
+    {
+      "id": "gaming-gaming-1-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Gaming Mini 1.",
+      "stars": 4
+    }
+  ],
+  "gaming-gaming-2": [
+    {
+      "id": "gaming-gaming-2-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Gaming Pro 2.",
+      "stars": 4
+    },
+    {
+      "id": "gaming-gaming-2-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Gaming Pro 2.",
+      "stars": 5
+    },
+    {
+      "id": "gaming-gaming-2-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Gaming Pro 2.",
+      "stars": 4
+    }
+  ],
+  "gaming-gaming-3-plus-plus": [
+    {
+      "id": "gaming-gaming-3-plus-plus-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Gaming Console ++ Tournament Ready.",
+      "stars": 4
+    },
+    {
+      "id": "gaming-gaming-3-plus-plus-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Gaming Console ++ Tournament Ready.",
+      "stars": 5
+    },
+    {
+      "id": "gaming-gaming-3-plus-plus-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Gaming Console ++ Tournament Ready.",
+      "stars": 4
+    }
+  ],
+  "gaming-gaming-4": [
+    {
+      "id": "gaming-gaming-4-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Gaming Ultra 4.",
+      "stars": 4
+    },
+    {
+      "id": "gaming-gaming-4-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Gaming Ultra 4.",
+      "stars": 5
+    },
+    {
+      "id": "gaming-gaming-4-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Gaming Ultra 4.",
+      "stars": 4
+    }
+  ],
+  "gaming-gaming-5": [
+    {
+      "id": "gaming-gaming-5-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Gaming Plus 5.",
+      "stars": 4
+    },
+    {
+      "id": "gaming-gaming-5-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Gaming Plus 5.",
+      "stars": 5
+    },
+    {
+      "id": "gaming-gaming-5-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Gaming Plus 5.",
+      "stars": 4
+    }
+  ],
+  "gaming-gaming-6": [
+    {
+      "id": "gaming-gaming-6-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Gaming Ultra 6.",
+      "stars": 4
+    },
+    {
+      "id": "gaming-gaming-6-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Gaming Ultra 6.",
+      "stars": 5
+    },
+    {
+      "id": "gaming-gaming-6-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Gaming Ultra 6.",
+      "stars": 4
+    }
+  ],
+  "gaming-gaming-7": [
+    {
+      "id": "gaming-gaming-7-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Gaming Max 7.",
+      "stars": 4
+    },
+    {
+      "id": "gaming-gaming-7-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Gaming Max 7.",
+      "stars": 5
+    },
+    {
+      "id": "gaming-gaming-7-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Gaming Max 7.",
+      "stars": 4
+    }
+  ],
+  "smart-home-smart-home-1": [
+    {
+      "id": "smart-home-smart-home-1-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Smart Home Studio 1.",
+      "stars": 4
+    },
+    {
+      "id": "smart-home-smart-home-1-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Smart Home Studio 1.",
+      "stars": 5
+    },
+    {
+      "id": "smart-home-smart-home-1-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Smart Home Studio 1.",
+      "stars": 4
+    }
+  ],
+  "smart-home-smart-home-2": [
+    {
+      "id": "smart-home-smart-home-2-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Smart Home Max 2.",
+      "stars": 4
+    },
+    {
+      "id": "smart-home-smart-home-2-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Smart Home Max 2.",
+      "stars": 5
+    },
+    {
+      "id": "smart-home-smart-home-2-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Smart Home Max 2.",
+      "stars": 4
+    }
+  ],
+  "smart-home-smart-home-3": [
+    {
+      "id": "smart-home-smart-home-3-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Smart Home Max 3.",
+      "stars": 4
+    },
+    {
+      "id": "smart-home-smart-home-3-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Smart Home Max 3.",
+      "stars": 5
+    },
+    {
+      "id": "smart-home-smart-home-3-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Smart Home Max 3.",
+      "stars": 4
+    }
+  ],
+  "smart-home-smart-home-4": [
+    {
+      "id": "smart-home-smart-home-4-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Smart Home Prime 4.",
+      "stars": 4
+    },
+    {
+      "id": "smart-home-smart-home-4-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Smart Home Prime 4.",
+      "stars": 5
+    },
+    {
+      "id": "smart-home-smart-home-4-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Smart Home Prime 4.",
+      "stars": 4
+    }
+  ],
+  "smart-home-smart-home-5": [
+    {
+      "id": "smart-home-smart-home-5-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Smart Home Max 5.",
+      "stars": 4
+    },
+    {
+      "id": "smart-home-smart-home-5-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Smart Home Max 5.",
+      "stars": 5
+    },
+    {
+      "id": "smart-home-smart-home-5-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Smart Home Max 5.",
+      "stars": 4
+    }
+  ],
+  "smart-home-smart-home-6": [
+    {
+      "id": "smart-home-smart-home-6-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Smart Home Max 6.",
+      "stars": 4
+    },
+    {
+      "id": "smart-home-smart-home-6-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Smart Home Max 6.",
+      "stars": 5
+    },
+    {
+      "id": "smart-home-smart-home-6-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Smart Home Max 6.",
+      "stars": 4
+    }
+  ],
+  "smart-home-smart-home-7": [
+    {
+      "id": "smart-home-smart-home-7-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Smart Home Pro 7.",
+      "stars": 4
+    },
+    {
+      "id": "smart-home-smart-home-7-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Smart Home Pro 7.",
+      "stars": 5
+    },
+    {
+      "id": "smart-home-smart-home-7-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Smart Home Pro 7.",
+      "stars": 4
+    }
+  ],
+  "fitness-fitness-1": [
+    {
+      "id": "fitness-fitness-1-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Fitness Pro 1.",
+      "stars": 4
+    },
+    {
+      "id": "fitness-fitness-1-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Fitness Pro 1.",
+      "stars": 5
+    },
+    {
+      "id": "fitness-fitness-1-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Fitness Pro 1.",
+      "stars": 4
+    }
+  ],
+  "fitness-fitness-2": [
+    {
+      "id": "fitness-fitness-2-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Fitness Pro 2.",
+      "stars": 4
+    },
+    {
+      "id": "fitness-fitness-2-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Fitness Pro 2.",
+      "stars": 5
+    },
+    {
+      "id": "fitness-fitness-2-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Fitness Pro 2.",
+      "stars": 4
+    }
+  ],
+  "fitness-fitness-3": [
+    {
+      "id": "fitness-fitness-3-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Fitness Mini 3.",
+      "stars": 4
+    },
+    {
+      "id": "fitness-fitness-3-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Fitness Mini 3.",
+      "stars": 5
+    },
+    {
+      "id": "fitness-fitness-3-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Fitness Mini 3.",
+      "stars": 4
+    }
+  ],
+  "fitness-fitness-4": [
+    {
+      "id": "fitness-fitness-4-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Fitness Ultra 4.",
+      "stars": 4
+    },
+    {
+      "id": "fitness-fitness-4-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Fitness Ultra 4.",
+      "stars": 5
+    },
+    {
+      "id": "fitness-fitness-4-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Fitness Ultra 4.",
+      "stars": 4
+    }
+  ],
+  "fitness-fitness-5": [
+    {
+      "id": "fitness-fitness-5-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Fitness Ultra 5.",
+      "stars": 4
+    },
+    {
+      "id": "fitness-fitness-5-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Fitness Ultra 5.",
+      "stars": 5
+    },
+    {
+      "id": "fitness-fitness-5-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Fitness Ultra 5.",
+      "stars": 4
+    }
+  ],
+  "fitness-fitness-6": [
+    {
+      "id": "fitness-fitness-6-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Fitness Mini 6.",
+      "stars": 4
+    },
+    {
+      "id": "fitness-fitness-6-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Fitness Mini 6.",
+      "stars": 5
+    },
+    {
+      "id": "fitness-fitness-6-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Fitness Mini 6.",
+      "stars": 4
+    }
+  ],
+  "fitness-fitness-7": [
+    {
+      "id": "fitness-fitness-7-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Fitness Pro 7.",
+      "stars": 4
+    },
+    {
+      "id": "fitness-fitness-7-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Fitness Pro 7.",
+      "stars": 5
+    },
+    {
+      "id": "fitness-fitness-7-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Fitness Pro 7.",
+      "stars": 4
+    }
+  ],
+  "misc-item-71": [
+    {
+      "id": "misc-item-71-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Misc Item 71.",
+      "stars": 4
+    },
+    {
+      "id": "misc-item-71-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Misc Item 71.",
+      "stars": 5
+    },
+    {
+      "id": "misc-item-71-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Misc Item 71.",
+      "stars": 4
+    }
+  ],
+  "misc-item-72": [
+    {
+      "id": "misc-item-72-review-1",
+      "title": "Great value",
+      "author": "Alice Reed",
+      "date": "2026-04-13",
+      "body": "Deterministic review 1 for Misc Item 72.",
+      "stars": 4
+    },
+    {
+      "id": "misc-item-72-review-2",
+      "title": "Solid choice",
+      "author": "Kai Morgan",
+      "date": "2026-07-14",
+      "body": "Deterministic review 2 for Misc Item 72.",
+      "stars": 5
+    },
+    {
+      "id": "misc-item-72-review-3",
+      "title": "Worth trying",
+      "author": "Noah Patel",
+      "date": "2026-10-15",
+      "body": "Deterministic review 3 for Misc Item 72.",
+      "stars": 4
+    }
+  ]
+}

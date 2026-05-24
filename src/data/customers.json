@@ -1,0 +1,17 @@
+[
+  {
+    "id": "CUS-001",
+    "name": "Alice Reed",
+    "segment": "pro"
+  },
+  {
+    "id": "CUS-002",
+    "name": "Kai Morgan",
+    "segment": "starter"
+  },
+  {
+    "id": "CUS-003",
+    "name": "Noah Patel",
+    "segment": "team"
+  }
+]

@@ -1,0 +1,8 @@
+LET baseUrl = @baseUrl
+LET browser = BROWSER()
+LET page = PAGE(browser)
+NAVIGATE(page, baseUrl + "/scenarios/network/")
+CLICK(page, "button[data-fetch='products']")
+WAITFOR ELEMENT(page, "#network-log li")
+
+RETURN INNER_TEXT(ELEMENT(page, "#network-log li:last-child"))

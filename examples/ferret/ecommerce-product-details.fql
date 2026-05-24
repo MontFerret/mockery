@@ -1,0 +1,9 @@
+LET baseUrl = @baseUrl
+LET doc = DOCUMENT(baseUrl + "/scenarios/ecommerce/products/laptop-pro-14/")
+
+RETURN {
+  title: INNER_TEXT(ELEMENT(doc, "[data-testid='product-title']")),
+  price: ATTRIBUTE(ELEMENT(doc, "[data-testid='product-price']"), "data-price"),
+  specsRows: LENGTH(ELEMENTS(doc, "[data-testid='product-specs'] tr")),
+  reviews: LENGTH(ELEMENTS(doc, "[data-testid='review']"))
+}
