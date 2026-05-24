@@ -1,42 +1,52 @@
 [
   {
     "id": "laptops",
-    "name": "Laptop"
+    "name": "Laptops",
+    "description": "Portable computers for work and entertainment."
   },
   {
     "id": "phones",
-    "name": "Phone"
+    "name": "Phones",
+    "description": "Mobile devices with stable fake plans and accessories."
   },
   {
     "id": "headphones",
-    "name": "Headphones"
+    "name": "Headphones",
+    "description": "Audio gear for travel, work, and gaming setups."
   },
   {
     "id": "cameras",
-    "name": "Camera"
+    "name": "Cameras",
+    "description": "Photo and video equipment with varied specs."
   },
   {
     "id": "kitchen",
-    "name": "Kitchen"
+    "name": "Kitchen",
+    "description": "Countertop appliances and cooking tools."
   },
   {
     "id": "books",
-    "name": "Book"
+    "name": "Books",
+    "description": "Fictional books for metadata and text extraction examples."
   },
   {
     "id": "office",
-    "name": "Office"
+    "name": "Office",
+    "description": "Desk accessories, printers, and productivity hardware."
   },
   {
     "id": "gaming",
-    "name": "Gaming"
+    "name": "Gaming",
+    "description": "Consoles, controllers, and streaming accessories."
   },
   {
     "id": "smart-home",
-    "name": "Smart Home"
+    "name": "Smart Home",
+    "description": "Connected devices for fake home automation demos."
   },
   {
     "id": "fitness",
-    "name": "Fitness"
+    "name": "Fitness",
+    "description": "Wearables and home training equipment."
   }
 ]

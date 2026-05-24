@@ -9,6 +9,19 @@ import { fileURLToPath } from 'node:url';
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const products = JSON.parse(await fs.readFile(path.join(rootDir, 'src/data/products.json'), 'utf8'));
 const categories = JSON.parse(await fs.readFile(path.join(rootDir, 'src/data/categories.json'), 'utf8'));
+const reviews = JSON.parse(await fs.readFile(path.join(rootDir, 'src/data/reviews.json'), 'utf8'));
+const expectedBrands = [
+  'Northwind',
+  'Contoso',
+  'Fabrikam',
+  'Blue Yonder',
+  'Tailspin',
+  'Adventure Works',
+  'Litware',
+  'Alpine Goods',
+  'Pixel Forge',
+  'Cedar & Co.',
+];
 const scenarioSlugs = [
   'ecommerce',
   'dynamic-products',
@@ -69,6 +82,20 @@ const requiredFiles = [
   'sitemap.xml',
 ];
 
+const ecommerceExampleFiles = [
+  'examples/ferret/ecommerce/products.fql',
+  'examples/ferret/ecommerce/pagination.fql',
+  'examples/ferret/ecommerce/product-details.fql',
+  'examples/ferret/ecommerce/categories.fql',
+  'examples/ferret/ecommerce/reviews.fql',
+  'examples/ferret/ecommerce/search.fql',
+];
+
+const productSlug = (product) => product.slug || product.id;
+const productPageFile = (product) => path.join('scenarios/ecommerce/products', productSlug(product), 'index.html');
+const countMatches = (value, pattern) => [...value.matchAll(pattern)].length;
+const categoryCount = (categoryId) => products.filter((product) => product.category === categoryId).length;
+
 const build = (outDir, basePath = '/') => {
   const result = spawnSync('npm', ['run', 'build'], {
     cwd: rootDir,
@@ -81,6 +108,79 @@ const build = (outDir, basePath = '/') => {
   });
 
   assert.equal(result.status, 0, `build failed for ${basePath}`);
+};
+
+const validateSourceFixtures = async () => {
+  assert.equal(products.length, 72, 'e-commerce product fixture count');
+  assert.equal(categories.length, 10, 'e-commerce category fixture count');
+
+  const ids = new Set();
+  const slugs = new Set();
+  for (const product of products) {
+    assert.equal(typeof product.id, 'string');
+    assert.equal(typeof product.slug, 'string');
+    assert.equal(typeof product.sku, 'string');
+    assert.equal(typeof product.title, 'string');
+    assert.equal(typeof product.brand, 'string');
+    assert.equal(typeof product.category, 'string');
+    assert.equal(typeof product.price, 'number');
+    assert.equal(product.currency, 'USD');
+    assert.equal(typeof product.inStock, 'boolean');
+    assert.ok(Number.isInteger(product.stockCount));
+    assert.ok(Array.isArray(product.tags));
+    assert.equal(typeof product.specs, 'object');
+    assert.equal(product.image, `assets/images/products/${product.slug}.svg`);
+    assert.ok(!ids.has(product.id), `duplicate product id ${product.id}`);
+    assert.ok(!slugs.has(product.slug), `duplicate product slug ${product.slug}`);
+    ids.add(product.id);
+    slugs.add(product.slug);
+  }
+
+  assert.deepEqual([...new Set(products.map((product) => product.brand))].sort(), [...expectedBrands].sort());
+  assert.deepEqual(categories.map((category) => [category.id, categoryCount(category.id)]), [
+    ['laptops', 8],
+    ['phones', 8],
+    ['headphones', 7],
+    ['cameras', 7],
+    ['kitchen', 7],
+    ['books', 7],
+    ['office', 7],
+    ['gaming', 7],
+    ['smart-home', 7],
+    ['fitness', 7],
+  ]);
+  assert.ok(products.some((product) => product.rating === null), 'expected products with null ratings');
+  assert.ok(products.some((product) => product.oldPrice === null), 'expected products with null oldPrice');
+  assert.ok(products.some((product) => !product.inStock), 'expected out-of-stock products');
+  assert.ok(products.some((product) => product.stockCount === 0), 'expected zero stock products');
+  assert.ok(products.some((product) => product.title.length > 60), 'expected long product titles');
+  assert.ok(products.some((product) => /[+:&]/.test(product.title)), 'expected special-character product titles');
+  assert.ok(products.some((product) => product.tags.length === 0), 'expected products with no tags');
+  assert.ok(products.some((product) => product.tags.length >= 6), 'expected products with many tags');
+
+  for (const category of categories) {
+    assert.equal(typeof category.description, 'string');
+    assert.ok(category.description.length > 20, `category ${category.id} should have a useful description`);
+  }
+
+  assert.ok(Object.keys(reviews).length > 0, 'expected reviewed products');
+  assert.ok(Object.keys(reviews).length < products.length, 'expected some products without detailed reviews');
+  for (const [productId, entries] of Object.entries(reviews)) {
+    assert.ok(ids.has(productId), `review product ${productId} must exist`);
+    assert.ok(entries.length > 0, `review product ${productId} should have entries`);
+    for (const review of entries) {
+      assert.equal(review.productId, productId);
+      assert.match(review.id, new RegExp(`^review-${productId}-\\d{3}$`));
+      assert.match(review.date, /^\d{4}-\d{2}-\d{2}$/);
+      assert.ok(Number.isInteger(review.stars) && review.stars >= 1 && review.stars <= 5);
+      assert.equal(typeof review.author, 'string');
+      assert.equal(typeof review.body, 'string');
+    }
+  }
+
+  for (const rel of ecommerceExampleFiles) {
+    await exists(path.join(rootDir, rel));
+  }
 };
 
 const exists = async (filePath) => {
@@ -145,15 +245,22 @@ const assertInternalRef = async (outDir, htmlFile, ref, basePath) => {
   assert.ok(ok, `broken internal link in ${path.relative(outDir, htmlFile)}: ${ref}`);
 };
 
+const assertNoExternalAssetRefs = (html, file) => {
+  const rel = path.relative(rootDir, file);
+  assert.doesNotMatch(html, /<img\b[^>]*\bsrc="https?:\/\//i, `external image in ${rel}`);
+  assert.doesNotMatch(html, /<script\b[^>]*\bsrc="https?:\/\//i, `external script in ${rel}`);
+  assert.doesNotMatch(html, /<link\b[^>]*\brel="stylesheet"[^>]*\bhref="https?:\/\//i, `external stylesheet in ${rel}`);
+};
+
 const validateOutput = async (outDir, basePath) => {
   for (const rel of requiredFiles) {
     await exists(path.join(outDir, rel));
   }
 
   for (const product of products) {
-    await exists(path.join(outDir, 'scenarios/ecommerce/products', product.id, 'index.html'));
+    await exists(path.join(outDir, productPageFile(product)));
     await exists(path.join(outDir, 'api/reviews', `${product.id}.json`));
-    await exists(path.join(outDir, 'assets/images/products', `${product.id}.svg`));
+    await exists(path.join(outDir, 'assets/images/products', `${productSlug(product)}.svg`));
   }
 
   for (const category of categories) {
@@ -162,6 +269,21 @@ const validateOutput = async (outDir, basePath) => {
 
   const listHtml = await fs.readFile(path.join(outDir, 'scenarios/ecommerce/products/index.html'), 'utf8');
   assert.match(listHtml, /data-testid="product-card"/);
+  assert.equal(countMatches(listHtml, /data-testid="product-card"/g), 24, 'page 1 should render 24 product cards');
+  assert.match(listHtml, /data-product-sku="MCK-LAP-001"/);
+  assert.match(listHtml, /data-brand="Northwind"/);
+  assert.match(listHtml, /data-in-stock="true"/);
+  assert.match(listHtml, /data-testid="product-image"/);
+  assert.match(listHtml, /data-testid="product-old-price"/);
+  assert.match(listHtml, /No reviews yet/);
+
+  for (const page of [2, 3]) {
+    const pageHtml = await fs.readFile(path.join(outDir, `scenarios/ecommerce/products/page/${page}/index.html`), 'utf8');
+    assert.equal(countMatches(pageHtml, /data-testid="product-card"/g), 24, `page ${page} should render 24 product cards`);
+    assert.match(pageHtml, /data-testid="pagination"/);
+    assert.match(pageHtml, /data-testid="page-previous"/);
+    assert.match(pageHtml, /data-testid="page-next"/);
+  }
 
   const scenariosHtml = await fs.readFile(path.join(outDir, 'scenarios/index.html'), 'utf8');
   for (const slug of scenarioSlugs) {
@@ -172,13 +294,109 @@ const validateOutput = async (outDir, basePath) => {
   assert.match(dynamicHtml, /data-testid="dynamic-products"/);
   assert.match(dynamicHtml, /data-testid="load-more-products"/);
 
-  const apiPage = JSON.parse(await fs.readFile(path.join(outDir, 'api/products/page-1.json'), 'utf8'));
+  const landingHtml = await fs.readFile(path.join(outDir, 'scenarios/ecommerce/index.html'), 'utf8');
+  assert.match(landingHtml, /fictional static e-commerce scenario/i);
+  assert.match(landingHtml, /data-testid="featured-category"/);
+  assert.match(landingHtml, /data-testid="product-card"/);
+
+  const categoryIndexHtml = await fs.readFile(path.join(outDir, 'scenarios/ecommerce/categories/index.html'), 'utf8');
+  assert.equal(countMatches(categoryIndexHtml, /data-testid="category-card"/g), categories.length);
+  for (const category of categories) {
+    const categoryHtml = await fs.readFile(path.join(outDir, 'scenarios/ecommerce/categories', category.id, 'index.html'), 'utf8');
+    assert.match(categoryHtml, new RegExp(`data-testid="category-header"[^>]*data-category="${category.id}"`));
+    assert.match(categoryHtml, new RegExp(`${categoryCount(category.id)} products`));
+    assert.equal(countMatches(categoryHtml, /data-testid="product-card"/g), categoryCount(category.id));
+  }
+
+  const detailHtml = await fs.readFile(path.join(outDir, productPageFile(products[0])), 'utf8');
+  for (const selector of [
+    'data-testid="breadcrumbs"',
+    'data-testid="product-detail"',
+    'data-product-sku="MCK-LAP-001"',
+    'data-category="laptops"',
+    'data-testid="product-title"',
+    'data-testid="product-brand"',
+    'data-testid="product-sku"',
+    'data-testid="product-image"',
+    'data-testid="product-price"',
+    'data-testid="product-description"',
+    'data-testid="product-specs"',
+    'data-testid="product-tags"',
+    'data-testid="reviews"',
+    'data-testid="related-products"',
+  ]) {
+    assert.match(detailHtml, new RegExp(selector), `missing ${selector} in product detail`);
+  }
+  assert.match(detailHtml, /type="application\/ld\+json"/);
+  assert.match(detailHtml, /data-testid="review"/);
+  assert.match(detailHtml, /data-testid="review-date"/);
+
+  const noReviewProduct = products.find((product) => !reviews[product.id]);
+  const noReviewHtml = await fs.readFile(path.join(outDir, productPageFile(noReviewProduct)), 'utf8');
+  assert.match(noReviewHtml, /data-testid="reviews-empty"/);
+
+  const noTagsProduct = products.find((product) => product.tags.length === 0);
+  const noTagsHtml = await fs.readFile(path.join(outDir, productPageFile(noTagsProduct)), 'utf8');
+  assert.match(noTagsHtml, /data-testid="product-tags-empty"/);
+
+  const searchHtml = await fs.readFile(path.join(outDir, 'scenarios/ecommerce/search/index.html'), 'utf8');
+  for (const control of [
+    'data-testid="product-search-form"',
+    'data-testid="search-query"',
+    'data-testid="search-category"',
+    'data-testid="search-brand"',
+    'data-testid="search-min-price"',
+    'data-testid="search-max-price"',
+    'data-testid="search-in-stock"',
+    'data-testid="search-sort"',
+    'data-testid="search-status"',
+    'data-testid="search-results"',
+  ]) {
+    assert.match(searchHtml, new RegExp(control), `missing ${control} on search page`);
+  }
+
   const expectedPrefix = normalizeBase(basePath) === '/' ? '/' : normalizeBase(basePath);
-  assert.equal(apiPage.page, 1);
-  assert.equal(apiPage.pageSize, 24);
-  assert.equal(apiPage.total, products.length);
-  assert.ok(apiPage.items[0].url.startsWith(`${expectedPrefix}scenarios/ecommerce/products/`));
-  assert.ok(apiPage.items[0].image.startsWith(`${expectedPrefix}assets/images/products/`));
+  const apiIndex = JSON.parse(await fs.readFile(path.join(outDir, 'api/products/index.json'), 'utf8'));
+
+  for (const page of [1, 2, 3]) {
+    const apiPage = JSON.parse(await fs.readFile(path.join(outDir, `api/products/page-${page}.json`), 'utf8'));
+    assert.equal(apiPage.page, page);
+    assert.equal(apiPage.pageSize, 24);
+    assert.equal(apiPage.total, products.length);
+    assert.equal(apiPage.items.length, 24);
+    assert.ok(apiPage.items[0].url.startsWith(`${expectedPrefix}scenarios/ecommerce/products/`));
+    assert.ok(apiPage.items[0].image.startsWith(`${expectedPrefix}assets/images/products/`));
+    for (const field of ['id', 'slug', 'sku', 'title', 'brand', 'category', 'price', 'oldPrice', 'currency', 'rating', 'reviewCount', 'inStock', 'stockCount', 'description', 'tags', 'specs', 'url', 'image']) {
+      assert.ok(Object.hasOwn(apiPage.items[0], field), `product API item missing ${field}`);
+    }
+  }
+
+  assert.deepEqual(apiIndex, JSON.parse(await fs.readFile(path.join(outDir, 'api/products/page-1.json'), 'utf8')));
+
+  const categoriesApi = JSON.parse(await fs.readFile(path.join(outDir, 'api/categories/index.json'), 'utf8'));
+  assert.equal(categoriesApi.items.length, categories.length);
+  for (const item of categoriesApi.items) {
+    assert.equal(item.count, categoryCount(item.id));
+    assert.ok(item.url.startsWith(`${expectedPrefix}scenarios/ecommerce/categories/`));
+    assert.equal(typeof item.description, 'string');
+  }
+
+  const searchApi = JSON.parse(await fs.readFile(path.join(outDir, 'api/search/products.json'), 'utf8'));
+  assert.equal(searchApi.total, products.length);
+  assert.equal(searchApi.items.length, products.length);
+  for (const field of ['id', 'slug', 'sku', 'title', 'brand', 'category', 'price', 'oldPrice', 'currency', 'rating', 'reviewCount', 'inStock', 'stockCount', 'description', 'tags', 'specs', 'url', 'image']) {
+    assert.ok(Object.hasOwn(searchApi.items[0], field), `search API item missing ${field}`);
+  }
+
+  const reviewsIndex = JSON.parse(await fs.readFile(path.join(outDir, 'api/reviews/index.json'), 'utf8'));
+  assert.equal(reviewsIndex.total, products.length);
+  assert.equal(reviewsIndex.items.length, products.length);
+  for (const product of products) {
+    const reviewPage = JSON.parse(await fs.readFile(path.join(outDir, 'api/reviews', `${product.id}.json`), 'utf8'));
+    assert.equal(reviewPage.productId, product.id);
+    assert.ok(Array.isArray(reviewPage.items));
+    assert.equal(reviewPage.items.length, reviews[product.id]?.length ?? 0);
+  }
 
   const networkError = JSON.parse(await fs.readFile(path.join(outDir, 'api/network/error.json'), 'utf8'));
   assert.deepEqual(networkError, {
@@ -187,13 +405,14 @@ const validateOutput = async (outDir, basePath) => {
     code: 'MOCK_UPSTREAM_FAILURE',
   });
 
-  const specialSvg = await fs.readFile(path.join(outDir, 'assets/images/products/books-book-2-special-edition.svg'), 'utf8');
+  const specialSvg = await fs.readFile(path.join(outDir, 'assets/images/products/book-data-pipelines-and-scraping-special-edition.svg'), 'utf8');
   assert.match(specialSvg, /&amp; Scraping/);
   assert.doesNotMatch(specialSvg, / & Scraping/);
 
   const htmlFiles = await walk(outDir, '.html');
   for (const file of htmlFiles) {
     const html = await fs.readFile(file, 'utf8');
+    assertNoExternalAssetRefs(html, file);
     const refs = [...html.matchAll(/(?:href|src)="([^"]+)"/g)].map((match) => match[1]);
     for (const ref of refs) {
       await assertInternalRef(outDir, file, ref, basePath);
@@ -215,6 +434,8 @@ const validateOutput = async (outDir, basePath) => {
 };
 
 test('Mockery static output validates at root and subpath', async () => {
+  await validateSourceFixtures();
+
   const rootOutDir = path.join(rootDir, 'dist');
   const subpathOutDir = await fs.mkdtemp(path.join(os.tmpdir(), 'mockery-subpath-'));
 

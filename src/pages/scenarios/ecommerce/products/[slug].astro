@@ -3,11 +3,14 @@ import ProductCard from '../../../../components/ProductCard.astro';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import {
   absoluteUrl,
+  categories,
+  categoryPath,
   displayDate,
   formatMoney,
   jsonLd,
   productImagePath,
   productPath,
+  productSlug,
   products,
   reviews,
   withBase,
@@ -15,12 +18,13 @@ import {
 
 export function getStaticPaths() {
   return products.map((product) => ({
-    params: { slug: product.id },
+    params: { slug: productSlug(product) },
     props: { product },
   }));
 }
 
 const { product } = Astro.props;
+const category = categories.find((item) => item.id === product.category);
 const productReviews = reviews[product.id] ?? [];
 const related = products.filter((item) => item.category === product.category && item.id !== product.id).slice(0, 3);
 const schema = {
@@ -37,10 +41,19 @@ const schema = {
     price: product.price,
     availability: product.inStock ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
   },
+  ...(product.rating
+    ? {
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: product.rating,
+          reviewCount: product.reviewCount,
+        },
+      }
+    : {}),
 };
 ---
 <BaseLayout title={product.title} description={product.description} canonicalPath={productPath(product)}>
-  <nav aria-label="Breadcrumb">
+  <nav class="breadcrumbs" data-testid="breadcrumbs" aria-label="Breadcrumb">
     <ol class="breadcrumbs">
       <li><a href={withBase('/')}>Home</a></li>
       <li><a href={withBase('/scenarios/')}>Scenarios</a></li>
@@ -50,52 +63,90 @@ const schema = {
     </ol>
   </nav>
 
-  <section class="product-detail" data-testid="product-detail" data-product-id={product.id}>
-    <img class="product-image detail-image" src={withBase(productImagePath(product))} alt={product.title} />
-    <div>
+  <article
+    class="product-detail"
+    data-testid="product-detail"
+    data-product-id={product.id}
+    data-product-sku={product.sku}
+    data-category={product.category}
+  >
+    <div class="detail-media">
+      <img
+        class="product-image detail-image"
+        data-testid="product-image"
+        src={withBase(productImagePath(product))}
+        alt={`${product.title} product image`}
+      />
+    </div>
+    <div class="detail-summary">
       <h1 class="product-title" data-testid="product-title">{product.title}</h1>
       <p class="product-brand" data-testid="product-brand">{product.brand}</p>
+      <p class="product-sku" data-testid="product-sku">{product.sku}</p>
+      <p class="product-category" data-testid="product-category">
+        <a href={withBase(categoryPath(product.category))}>{category?.name ?? product.category}</a>
+      </p>
       <div class="product-price" data-testid="product-price" data-price={product.price} data-currency={product.currency}>
-        {product.oldPrice && <span class="old-price">{formatMoney(product.oldPrice, product.currency)}</span>}
         {formatMoney(product.price, product.currency)}
       </div>
-      <p data-testid="product-stock">{product.inStock ? `In stock (${product.stockCount})` : 'Out of stock'}</p>
-      <p data-testid="product-rating">{product.rating ?? 'N/A'} ({product.reviewCount} reviews)</p>
+      {product.oldPrice && (
+        <p class="product-old-price old-price" data-testid="product-old-price" data-price={product.oldPrice}>
+          {formatMoney(product.oldPrice, product.currency)}
+        </p>
+      )}
+      <p class="product-stock" data-testid="product-stock" data-stock-count={product.stockCount}>
+        {product.inStock ? `In stock (${product.stockCount})` : 'Out of stock'}
+      </p>
+      <p class="product-rating" data-testid="product-rating" data-rating={product.rating ?? ''}>
+        {product.rating ? `${product.rating} out of 5 (${product.reviewCount} reviews)` : 'No reviews yet'}
+      </p>
+    </div>
+
+    <section class="product-description detail-section" data-testid="product-description">
+      <h2>Description</h2>
       <p>{product.description}</p>
-      <section>
-        <h2>Tags</h2>
-        {product.tags.map((tag) => <span class="badge">{tag}</span>)}
-      </section>
-    </div>
-  </section>
+    </section>
 
-  <section class="product-specs" data-testid="product-specs">
-    <h2>Specifications</h2>
-    <table>
-      <tbody>
-        {Object.entries(product.specs).map(([key, value]) => <tr><th>{key}</th><td>{value}</td></tr>)}
-      </tbody>
-    </table>
-  </section>
+    <section class="product-specs detail-section" data-testid="product-specs">
+      <h2>Specifications</h2>
+      <table>
+        <tbody>
+          {Object.entries(product.specs).map(([key, value]) => <tr><th>{key}</th><td>{value}</td></tr>)}
+        </tbody>
+      </table>
+    </section>
 
-  <section class="reviews" data-testid="reviews">
-    <h2>Reviews</h2>
-    {productReviews.map((review) => (
-      <article class="review" data-testid="review" data-review-id={review.id} data-stars={review.stars}>
-        <h3 class="review-title" data-testid="review-title">{review.title}</h3>
-        <p class="review-author" data-testid="review-author">{review.author}</p>
-        <time class="review-date" datetime={review.date}>{displayDate(review.date)}</time>
-        <p class="review-body" data-testid="review-body">{review.body}</p>
-      </article>
-    ))}
-  </section>
+    <section class="product-tags detail-section" data-testid="product-tags">
+      <h2>Tags</h2>
+      {product.tags.length > 0 ? (
+        product.tags.map((tag) => <span class="badge" data-testid="product-tag">{tag}</span>)
+      ) : (
+        <p class="product-tags-empty" data-testid="product-tags-empty">No tags.</p>
+      )}
+    </section>
 
-  <section>
-    <h2>Related products</h2>
-    <div class="grid">
-      {related.map((item) => <ProductCard product={item} heading="h3" />)}
-    </div>
-  </section>
+    <section class="reviews detail-section" data-testid="reviews">
+      <h2>Reviews</h2>
+      {productReviews.length > 0 ? (
+        productReviews.map((review) => (
+          <article class="review" data-testid="review" data-review-id={review.id} data-stars={review.stars}>
+            <h3 class="review-title" data-testid="review-title">{review.title}</h3>
+            <p class="review-author" data-testid="review-author">{review.author}</p>
+            <time class="review-date" data-testid="review-date" datetime={review.date}>{displayDate(review.date)}</time>
+            <p class="review-body" data-testid="review-body">{review.body}</p>
+          </article>
+        ))
+      ) : (
+        <p class="reviews-empty" data-testid="reviews-empty">No reviews yet.</p>
+      )}
+    </section>
+
+    <section class="related-products detail-section" data-testid="related-products">
+      <h2>Related products</h2>
+      <div class="grid">
+        {related.map((item) => <ProductCard product={item} heading="h3" />)}
+      </div>
+    </section>
+  </article>
 
   <script type="application/ld+json" set:html={jsonLd(schema)}></script>
 </BaseLayout>

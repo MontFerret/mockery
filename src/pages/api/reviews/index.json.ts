@@ -1,6 +1,11 @@
-import { reviews } from '../../../lib/site.js';
+import { products, reviews } from '../../../lib/site.js';
 import { jsonResponse } from '../../../lib/responses.js';
 
 export function GET() {
-  return jsonResponse({ total: Object.keys(reviews).length, items: reviews });
+  const items = products.map((product) => ({
+    productId: product.id,
+    items: reviews[product.id] ?? [],
+  }));
+
+  return jsonResponse({ total: items.length, items });
 }

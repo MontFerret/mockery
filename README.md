@@ -18,6 +18,7 @@ shadow DOM, and navigation interactions.
 - `src/components/` reusable scenario and product UI
 - `src/data/` deterministic fixtures to maintain
 - `src/assets/` shared CSS and vanilla browser scripts
+- `scripts/` deterministic fixture generation helpers
 - `examples/ferret/` readable Ferret example scripts
 - `tests/validate-dist.test.mjs` static output validation
 - `dist/` generated static output
@@ -94,7 +95,8 @@ accidental external dependencies.
 
 ## Ferret examples
 
-Example scripts are in `examples/ferret/` and use a configurable base URL:
+Example scripts are in `examples/ferret/` and the e-commerce scenario examples
+are grouped under `examples/ferret/ecommerce/`. They use a configurable base URL:
 
 ```fql
 LET baseUrl = @baseUrl
@@ -107,6 +109,18 @@ LET doc = DOCUMENT(baseUrl + "/scenarios/ecommerce/products/")
 npm run build
 
 lab run examples/ferret/ecommerce-products.fql \
+  --serve ./dist@app \
+  --param baseUrl=@lab.static.app
+```
+
+For the focused e-commerce examples:
+
+```bash
+lab run examples/ferret/ecommerce/products.fql \
+  --serve ./dist@app \
+  --param baseUrl=@lab.static.app
+
+lab run examples/ferret/ecommerce/search.fql \
   --serve ./dist@app \
   --param baseUrl=@lab.static.app
 ```

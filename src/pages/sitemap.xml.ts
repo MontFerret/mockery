@@ -9,6 +9,7 @@ const urls = [
   '/scenarios/ecommerce/products/page/2/',
   '/scenarios/ecommerce/products/page/3/',
   '/scenarios/ecommerce/categories/',
+  '/scenarios/ecommerce/search/',
   ...categories.map(categoryPath),
   ...products.map(productPath),
 ];

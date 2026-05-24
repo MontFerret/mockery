@@ -1,8 +1,8 @@
-import { escapeXml, products } from '../../../../lib/site.js';
+import { escapeXml, products, productSlug } from '../../../../lib/site.js';
 
 export function getStaticPaths() {
   return products.map((product) => ({
-    params: { id: product.id },
+    params: { id: productSlug(product) },
     props: { product },
   }));
 }

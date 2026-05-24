@@ -10,5 +10,5 @@ export function getStaticPaths() {
 
 export function GET({ props }) {
   const entries = reviews[props.productId] ?? [];
-  return jsonResponse({ productId: props.productId, total: entries.length, items: entries });
+  return jsonResponse({ productId: props.productId, items: entries });
 }

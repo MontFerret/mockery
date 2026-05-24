@@ -3,18 +3,44 @@ import { formatMoney, productImagePath, productPath, withBase } from '../lib/sit
 
 const { product, heading = 'h2' } = Astro.props;
 const Heading = heading;
+const skuNumber = Number(String(product.sku).split('-').at(-1));
+const renderOldPricePlaceholder = product.oldPrice === null && skuNumber % 2 === 0;
 ---
-<article class="product-card" data-testid="product-card" data-product-id={product.id} data-category={product.category} data-price={product.price}>
+<article
+  class="product-card"
+  data-testid="product-card"
+  data-product-id={product.id}
+  data-product-sku={product.sku}
+  data-category={product.category}
+  data-brand={product.brand}
+  data-price={product.price}
+  data-in-stock={String(product.inStock)}
+>
   <a class="product-link" data-testid="product-link" href={withBase(productPath(product))}>
-    <img class="product-image" src={withBase(productImagePath(product))} alt={product.title} loading="lazy" />
+    <img
+      class="product-image"
+      data-testid="product-image"
+      src={withBase(productImagePath(product))}
+      alt={`${product.title} product image`}
+      loading="lazy"
+    />
     <Heading class="product-title" data-testid="product-title">{product.title}</Heading>
   </a>
   <p class="product-brand" data-testid="product-brand">{product.brand}</p>
   <p class="product-price" data-testid="product-price" data-price={product.price} data-currency={product.currency}>
     {formatMoney(product.price, product.currency)}
   </p>
+  {product.oldPrice ? (
+    <p class="product-old-price old-price" data-testid="product-old-price" data-price={product.oldPrice}>
+      {formatMoney(product.oldPrice, product.currency)}
+    </p>
+  ) : renderOldPricePlaceholder ? (
+    <p class="product-old-price" data-testid="product-old-price" data-empty="true"></p>
+  ) : null}
   <p class="product-rating" data-testid="product-rating" data-rating={product.rating ?? ''}>
-    {product.rating ? `${product.rating} out of 5` : 'Not rated yet'}
+    {product.rating ? `${product.rating} out of 5` : 'No reviews yet'}
   </p>
-  <p class="product-stock" data-testid="product-stock">{product.inStock ? `In stock (${product.stockCount})` : 'Out of stock'}</p>
+  <p class="product-stock" data-testid="product-stock" data-stock-count={product.stockCount}>
+    {product.inStock ? 'In stock' : 'Out of stock'}
+  </p>
 </article>

@@ -1,13 +1,42 @@
 ---
+import ProductCard from '../../../components/ProductCard.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import { withBase } from '../../../lib/site.js';
+import { categories, categoryPath, products, withBase } from '../../../lib/site.js';
+
+const featuredCategories = categories.slice(0, 4);
+const featuredProducts = [
+  products.find((product) => product.id === 'laptop-pro-14'),
+  products.find((product) => product.id === 'phone-x1'),
+  products.find((product) => product.id === 'practical-web-scraping'),
+].filter(Boolean);
 ---
 <BaseLayout title="E-commerce Scenario" description="Mock e-commerce scenario with products, categories, search and detail pages." canonicalPath="/scenarios/ecommerce/">
   <h1>E-commerce scenario</h1>
-  <p>Deterministic fake storefront scenario for extraction, pagination, category, review, and detail-page examples.</p>
+  <p class="lead">A deterministic fake storefront for extraction, pagination, category, review, static API, and client-side filtering examples.</p>
+  <p class="notice">This is a fictional static e-commerce scenario for Ferret demos and tests. No real products, accounts, carts, or payments exist.</p>
+
   <ul class="link-list">
     <li><a href={withBase('/scenarios/ecommerce/products/')}>Products</a></li>
     <li><a href={withBase('/scenarios/ecommerce/categories/')}>Categories</a></li>
     <li><a href={withBase('/scenarios/ecommerce/search/')}>Search</a></li>
   </ul>
+
+  <section aria-labelledby="featured-categories-heading">
+    <h2 id="featured-categories-heading">Featured categories</h2>
+    <div class="grid">
+      {featuredCategories.map((category) => (
+        <article class="card" data-testid="featured-category" data-category={category.id}>
+          <h3><a href={withBase(categoryPath(category))}>{category.name}</a></h3>
+          <p>{category.description}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section aria-labelledby="featured-products-heading">
+    <h2 id="featured-products-heading">Featured products</h2>
+    <div class="product-grid">
+      {featuredProducts.map((product) => <ProductCard product={product} heading="h3" />)}
+    </div>
+  </section>
 </BaseLayout>

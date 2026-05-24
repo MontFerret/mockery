@@ -15,7 +15,7 @@ export const scenarios = [
     title: 'E-commerce',
     description: 'Product listings, detail pages, categories, pagination, and reviews.',
     demonstrates: 'static extraction, product cards, pagination, categories, reviews, structured data',
-    examples: ['ecommerce-products.fql', 'ecommerce-pagination.fql', 'ecommerce-product-details.fql'],
+    examples: ['ecommerce/products.fql', 'ecommerce/pagination.fql', 'ecommerce/product-details.fql'],
   },
   {
     slug: 'dynamic-products',
@@ -117,17 +117,27 @@ export const withBase = (pathname) => {
 
 export const absoluteUrl = (pathname) => `${siteUrl}${withBase(pathname)}`;
 export const scenarioPath = (slug) => `/scenarios/${slug}/`;
-export const productPath = (product) => `/scenarios/ecommerce/products/${product.id}/`;
-export const productImagePath = (product) => `/assets/images/products/${product.id}.svg`;
+export const productSlug = (product) => product.slug || product.id;
+export const productPath = (product) => `/scenarios/ecommerce/products/${productSlug(product)}/`;
+export const productImagePath = (product) => `/assets/images/products/${productSlug(product)}.svg`;
 export const categoryPath = (category) => `/scenarios/ecommerce/categories/${category.id || category}/`;
+export const categoryProductCount = (category) => products.filter((product) => product.category === (category.id || category)).length;
+
+export const publicCategory = (category) => ({
+  ...category,
+  count: categoryProductCount(category),
+  url: withBase(categoryPath(category)),
+});
 
 export const publicProduct = (product) => ({
   ...product,
+  slug: productSlug(product),
   url: withBase(productPath(product)),
   image: withBase(productImagePath(product)),
 });
 
 export const publicProducts = () => products.map(publicProduct);
+export const publicCategories = () => categories.map(publicCategory);
 export const productPages = () => {
   const pages = [];
 
@@ -149,11 +159,16 @@ export const productPagePayload = (page) => {
   };
 };
 
+export const searchProductPayload = () => ({
+  total: products.length,
+  items: publicProducts(),
+});
+
 export const formatMoney = (value, currency = 'USD') =>
   new Intl.NumberFormat('en-US', { style: 'currency', currency }).format(value);
 
 export const displayDate = (value) =>
-  new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric' }).format(new Date(`${value}T00:00:00Z`));
+  new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${value}T00:00:00Z`));
 
 export const jsonLd = (value) => JSON.stringify(value).replace(/</g, '\\u003c');
 

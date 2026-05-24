@@ -1,0 +1,10 @@
+LET baseUrl = @baseUrl
+LET doc = DOCUMENT(baseUrl + "/scenarios/ecommerce/categories/")
+
+FOR category IN ELEMENTS(doc, "[data-testid='category-card']")
+    RETURN {
+        id: category.attributes["data-category"],
+        name: TRIM(INNER_TEXT(category, "[data-testid='category-link']")),
+        description: TRIM(INNER_TEXT(category, "[data-testid='category-description']")),
+        count: TRIM(INNER_TEXT(category, "[data-testid='category-count']"))
+    }

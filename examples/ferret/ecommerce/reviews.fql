@@ -1,0 +1,12 @@
+LET baseUrl = @baseUrl
+LET doc = DOCUMENT(baseUrl + "/scenarios/ecommerce/products/laptop-pro-14/")
+
+FOR review IN ELEMENTS(doc, "[data-testid='review']")
+    RETURN {
+        id: review.attributes["data-review-id"],
+        stars: TO_INT(review.attributes["data-stars"]),
+        title: TRIM(INNER_TEXT(review, "[data-testid='review-title']")),
+        author: TRIM(INNER_TEXT(review, "[data-testid='review-author']")),
+        date: ELEMENT(review, "[data-testid='review-date']").attributes["datetime"],
+        body: TRIM(INNER_TEXT(review, "[data-testid='review-body']"))
+    }

@@ -1,34 +1,219 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import { products } from '../../../lib/site.js';
+import { categories, products } from '../../../lib/site.js';
 
-const searchIndex = products.slice(0, 25).map(({ id, title, price }) => ({ id, title, price }));
+const brands = Array.from(new Set(products.map((product) => product.brand))).sort((a, b) => a.localeCompare(b));
 ---
-<BaseLayout title="E-commerce Search" description="Static search-like page driven by query string." canonicalPath="/scenarios/ecommerce/search/">
-  <h1>Search</h1>
-  <p>Use <code>?q=laptop</code> to filter by title.</p>
-  <div id="search-results" data-testid="search-results"></div>
-  <script define:vars={{ searchIndex }}>
-    const q = new URLSearchParams(window.location.search).get('q')?.toLowerCase() ?? '';
-    const filtered = q ? searchIndex.filter((item) => item.title.toLowerCase().includes(q)) : searchIndex;
-    const root = document.getElementById('search-results');
+<BaseLayout title="E-commerce Search" description="Client-side e-commerce search and filters." canonicalPath="/scenarios/ecommerce/search/">
+  <h1>Search products</h1>
+  <form id="product-search-form" data-testid="product-search-form">
+    <label for="search-query">Search</label>
+    <input id="search-query" data-testid="search-query" name="q" type="search" autocomplete="off" />
 
-    for (const item of filtered) {
+    <label for="search-category">Category</label>
+    <select id="search-category" data-testid="search-category" name="category">
+      <option value="">All categories</option>
+      {categories.map((category) => <option value={category.id}>{category.name}</option>)}
+    </select>
+
+    <label for="search-brand">Brand</label>
+    <select id="search-brand" data-testid="search-brand" name="brand">
+      <option value="">All brands</option>
+      {brands.map((brand) => <option value={brand}>{brand}</option>)}
+    </select>
+
+    <label for="search-min-price">Minimum price</label>
+    <input id="search-min-price" data-testid="search-min-price" name="minPrice" type="number" min="0" step="0.01" />
+
+    <label for="search-max-price">Maximum price</label>
+    <input id="search-max-price" data-testid="search-max-price" name="maxPrice" type="number" min="0" step="0.01" />
+
+    <label class="checkbox-row">
+      <input id="search-in-stock" data-testid="search-in-stock" name="inStock" type="checkbox" />
+      In stock only
+    </label>
+
+    <label for="search-sort">Sort</label>
+    <select id="search-sort" data-testid="search-sort" name="sort">
+      <option value="name">Name</option>
+      <option value="price-asc">Price ascending</option>
+      <option value="price-desc">Price descending</option>
+      <option value="rating">Rating</option>
+    </select>
+  </form>
+
+  <div id="search-status" data-testid="search-status" aria-live="polite">Loading products...</div>
+  <div id="search-results" class="product-grid" data-testid="search-results"></div>
+
+  <script>
+    const form = document.getElementById('product-search-form');
+    const status = document.getElementById('search-status');
+    const results = document.getElementById('search-results');
+    const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
+    let products = [];
+
+    const resolvePath = (pathname) => {
+      if (window.Mockery?.resolvePath) {
+        return window.Mockery.resolvePath(pathname);
+      }
+
+      const basePath = document.documentElement.dataset.basePath || '/';
+      const clean = String(pathname).replace(/^\/+/, '');
+      return new URL(`${basePath}${clean}`, window.location.origin).toString();
+    };
+
+    const normalize = (value) => String(value ?? '').trim().toLowerCase();
+    const numberOrNull = (value) => {
+      if (String(value ?? '').trim() === '') {
+        return null;
+      }
+
+      const parsed = Number(value);
+      return Number.isFinite(parsed) ? parsed : null;
+    };
+
+    const productMatches = (product, values) => {
+      const query = normalize(values.get('q'));
+      const minPrice = numberOrNull(values.get('minPrice'));
+      const maxPrice = numberOrNull(values.get('maxPrice'));
+
+      if (query) {
+        const haystack = normalize(`${product.title} ${product.brand} ${product.category} ${product.sku} ${(product.tags ?? []).join(' ')}`);
+        if (!haystack.includes(query)) {
+          return false;
+        }
+      }
+
+      if (values.get('category') && product.category !== values.get('category')) {
+        return false;
+      }
+
+      if (values.get('brand') && product.brand !== values.get('brand')) {
+        return false;
+      }
+
+      if (minPrice !== null && product.price < minPrice) {
+        return false;
+      }
+
+      if (maxPrice !== null && product.price > maxPrice) {
+        return false;
+      }
+
+      if (values.get('inStock') === 'on' && !product.inStock) {
+        return false;
+      }
+
+      return true;
+    };
+
+    const sortProducts = (items, sort) => {
+      const sorted = [...items];
+
+      if (sort === 'price-asc') {
+        sorted.sort((a, b) => a.price - b.price || a.title.localeCompare(b.title));
+      } else if (sort === 'price-desc') {
+        sorted.sort((a, b) => b.price - a.price || a.title.localeCompare(b.title));
+      } else if (sort === 'rating') {
+        sorted.sort((a, b) => (b.rating ?? -1) - (a.rating ?? -1) || a.title.localeCompare(b.title));
+      } else {
+        sorted.sort((a, b) => a.title.localeCompare(b.title));
+      }
+
+      return sorted;
+    };
+
+    const productCard = (product) => {
       const article = document.createElement('article');
       article.className = 'product-card';
       article.dataset.testid = 'product-card';
-      article.dataset.productId = item.id;
+      article.dataset.productId = product.id;
+      article.dataset.productSku = product.sku;
+      article.dataset.category = product.category;
+      article.dataset.brand = product.brand;
+      article.dataset.price = String(product.price);
+      article.dataset.inStock = String(product.inStock);
+
+      const link = document.createElement('a');
+      link.className = 'product-link';
+      link.dataset.testid = 'product-link';
+      link.href = product.url;
+
+      const image = document.createElement('img');
+      image.className = 'product-image';
+      image.dataset.testid = 'product-image';
+      image.src = product.image;
+      image.alt = `${product.title} product image`;
+      image.loading = 'lazy';
 
       const title = document.createElement('h2');
+      title.className = 'product-title';
       title.dataset.testid = 'product-title';
-      title.textContent = item.title;
+      title.textContent = product.title;
+
+      const brand = document.createElement('p');
+      brand.className = 'product-brand';
+      brand.dataset.testid = 'product-brand';
+      brand.textContent = product.brand;
 
       const price = document.createElement('p');
+      price.className = 'product-price';
       price.dataset.testid = 'product-price';
-      price.textContent = `$${Number(item.price).toFixed(2)}`;
+      price.dataset.price = String(product.price);
+      price.dataset.currency = product.currency;
+      price.textContent = money.format(product.price);
 
-      article.append(title, price);
-      root.append(article);
-    }
+      const rating = document.createElement('p');
+      rating.className = 'product-rating';
+      rating.dataset.testid = 'product-rating';
+      rating.dataset.rating = product.rating ?? '';
+      rating.textContent = product.rating ? `${product.rating} out of 5` : 'No reviews yet';
+
+      const stock = document.createElement('p');
+      stock.className = 'product-stock';
+      stock.dataset.testid = 'product-stock';
+      stock.dataset.stockCount = String(product.stockCount);
+      stock.textContent = product.inStock ? 'In stock' : 'Out of stock';
+
+      link.append(image, title);
+      article.append(link, brand, price);
+
+      if (product.oldPrice) {
+        const oldPrice = document.createElement('p');
+        oldPrice.className = 'product-old-price old-price';
+        oldPrice.dataset.testid = 'product-old-price';
+        oldPrice.dataset.price = String(product.oldPrice);
+        oldPrice.textContent = money.format(product.oldPrice);
+        article.append(oldPrice);
+      }
+
+      article.append(rating, stock);
+      return article;
+    };
+
+    const render = () => {
+      const values = new FormData(form);
+      const filtered = sortProducts(products.filter((product) => productMatches(product, values)), values.get('sort'));
+
+      results.replaceChildren(...filtered.map(productCard));
+      status.textContent = `${filtered.length} product${filtered.length === 1 ? '' : 's'} found`;
+    };
+
+    form.addEventListener('input', render);
+    form.addEventListener('change', render);
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      render();
+    });
+
+    fetch(resolvePath('/api/search/products.json'))
+      .then((response) => response.json())
+      .then((payload) => {
+        products = payload.items;
+        render();
+      })
+      .catch(() => {
+        status.textContent = 'Search data could not be loaded.';
+      });
   </script>
 </BaseLayout>

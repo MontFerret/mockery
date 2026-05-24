@@ -1,10 +1,19 @@
 ---
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
-import { categories, categoryPath, withBase } from '../../../../lib/site.js';
+import { publicCategories } from '../../../../lib/site.js';
+
+const categories = publicCategories();
 ---
 <BaseLayout title="E-commerce Categories" description="Category listing for the e-commerce scenario." canonicalPath="/scenarios/ecommerce/categories/">
   <h1>Categories</h1>
-  <ul class="link-list">
-    {categories.map((category) => <li><a href={withBase(categoryPath(category))}>{category.name}</a></li>)}
-  </ul>
+  <p class="lead">Browse deterministic product category pages with stable counts and selectors.</p>
+  <div class="grid">
+    {categories.map((category) => (
+      <article class="card category-card" data-testid="category-card" data-category={category.id}>
+        <h2><a data-testid="category-link" href={category.url}>{category.name}</a></h2>
+        <p data-testid="category-description">{category.description}</p>
+        <p data-testid="category-count">{category.count} products</p>
+      </article>
+    ))}
+  </div>
 </BaseLayout>
