@@ -1,0 +1,9 @@
+LET baseUrl = @baseUrl
+LET browser = BROWSER()
+LET page = PAGE(browser)
+NAVIGATE(page, baseUrl + "/scenarios/infinite-scroll/")
+
+# Illustrative script for lazy-load scenario testing.
+WAITFOR ELEMENT(page, "[data-testid='infinite-products'] [data-testid='product-card']")
+
+RETURN LENGTH(ELEMENTS(page, "[data-testid='product-card']"))

@@ -1,0 +1,9 @@
+LET baseUrl = @baseUrl
+LET doc = DOCUMENT(baseUrl + "/scenarios/tables/orders/")
+
+RETURN ELEMENTS(doc, "#sortable-orders tbody tr")
+  |> MAP({
+    orderId: INNER_TEXT(ELEMENT(@, "td:nth-child(1)")),
+    status: INNER_TEXT(ELEMENT(@, "td:nth-child(4)")),
+    total: INNER_TEXT(ELEMENT(@, "td:nth-child(5)"))
+  })

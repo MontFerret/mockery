@@ -1,0 +1,9 @@
+LET baseUrl = @baseUrl
+LET browser = BROWSER()
+LET page = PAGE(browser)
+NAVIGATE(page, baseUrl + "/scenarios/dynamic-products/")
+
+# Illustrative: WAITFOR VALUE usage may vary by Ferret version.
+WAITFOR ELEMENT(page, "[data-testid='dynamic-products'][data-loaded='true']")
+
+RETURN LENGTH(ELEMENTS(page, "[data-testid='product-card']"))

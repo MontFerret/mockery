@@ -1,0 +1,2016 @@
+[
+  {
+    "id": "laptop-pro-14",
+    "sku": "MCK-LAP-001",
+    "title": "Laptop Pro 14",
+    "brand": "Blue Orbit",
+    "category": "laptops",
+    "price": 1221.12,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.2,
+    "reviewCount": 60,
+    "inStock": true,
+    "stockCount": 20,
+    "description": "Mockery demo product for laptops scenario number 1. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "laptops",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "LAP-01",
+      "Warranty": "2 year",
+      "Memory": "16 GB",
+      "Storage": "256 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/laptop-pro-14/",
+    "image": "/assets/images/products/laptop-pro-14.svg"
+  },
+  {
+    "id": "laptops-laptop-2",
+    "sku": "MCK-LAP-002",
+    "title": "Laptop Ultra 2",
+    "brand": "Pioneer Labs",
+    "category": "laptops",
+    "price": 1403.57,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.4,
+    "reviewCount": 154,
+    "inStock": true,
+    "stockCount": 37,
+    "description": "Mockery demo product for laptops scenario number 2. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "laptops",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "LAP-02",
+      "Warranty": "3 year",
+      "Memory": "24 GB",
+      "Storage": "384 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/laptops-laptop-2/",
+    "image": "/assets/images/products/laptops-laptop-2.svg"
+  },
+  {
+    "id": "laptops-laptop-3",
+    "sku": "MCK-LAP-003",
+    "title": "Laptop Edge 3",
+    "brand": "Northwind",
+    "category": "laptops",
+    "price": 78.75,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.4,
+    "reviewCount": 146,
+    "inStock": true,
+    "stockCount": 17,
+    "description": "Mockery demo product for laptops scenario number 3. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "laptops",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "LAP-03",
+      "Warranty": "1 year",
+      "Memory": "32 GB",
+      "Storage": "512 GB SSD",
+      "Display": "13 inch"
+    },
+    "url": "/scenarios/ecommerce/products/laptops-laptop-3/",
+    "image": "/assets/images/products/laptops-laptop-3.svg"
+  },
+  {
+    "id": "laptops-laptop-4",
+    "sku": "MCK-LAP-004",
+    "title": "Laptop Mini 4",
+    "brand": "Nimbus",
+    "category": "laptops",
+    "price": 1365.12,
+    "oldPrice": 1543.44,
+    "currency": "USD",
+    "rating": 3.9,
+    "reviewCount": 210,
+    "inStock": true,
+    "stockCount": 31,
+    "description": "Mockery demo product for laptops scenario number 4. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "laptops",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "LAP-04",
+      "Warranty": "2 year",
+      "Memory": "8 GB",
+      "Storage": "128 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/laptops-laptop-4/",
+    "image": "/assets/images/products/laptops-laptop-4.svg"
+  },
+  {
+    "id": "laptops-laptop-5",
+    "sku": "MCK-LAP-005",
+    "title": "Laptop Pro 5",
+    "brand": "Coastal",
+    "category": "laptops",
+    "price": 1445.56,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": null,
+    "reviewCount": 0,
+    "inStock": true,
+    "stockCount": 13,
+    "description": "Mockery demo product for laptops scenario number 5. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "laptops",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "LAP-05",
+      "Warranty": "3 year",
+      "Memory": "16 GB",
+      "Storage": "256 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/laptops-laptop-5/",
+    "image": "/assets/images/products/laptops-laptop-5.svg"
+  },
+  {
+    "id": "laptops-laptop-6",
+    "sku": "MCK-LAP-006",
+    "title": "Laptop Lite 6",
+    "brand": "Atlas",
+    "category": "laptops",
+    "price": 541.4,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.6,
+    "reviewCount": 29,
+    "inStock": false,
+    "stockCount": 0,
+    "description": "Mockery demo product for laptops scenario number 6. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "laptops",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "LAP-06",
+      "Warranty": "1 year",
+      "Memory": "24 GB",
+      "Storage": "384 GB SSD",
+      "Display": "16 inch"
+    },
+    "url": "/scenarios/ecommerce/products/laptops-laptop-6/",
+    "image": "/assets/images/products/laptops-laptop-6.svg"
+  },
+  {
+    "id": "laptops-laptop-7",
+    "sku": "MCK-LAP-007",
+    "title": "Laptop Plus 7",
+    "brand": "Nimbus",
+    "category": "laptops",
+    "price": 733.26,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.8,
+    "reviewCount": 209,
+    "inStock": true,
+    "stockCount": 25,
+    "description": "Mockery demo product for laptops scenario number 7. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "laptops",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "LAP-07",
+      "Warranty": "2 year",
+      "Memory": "32 GB",
+      "Storage": "512 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/laptops-laptop-7/",
+    "image": "/assets/images/products/laptops-laptop-7.svg"
+  },
+  {
+    "id": "phones-phone-1",
+    "sku": "MCK-PHO-008",
+    "title": "Phone Pro 1",
+    "brand": "Pioneer Labs",
+    "category": "phones",
+    "price": 1390.9,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.1,
+    "reviewCount": 144,
+    "inStock": true,
+    "stockCount": 27,
+    "description": "Mockery demo product for phones scenario number 1. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "phones",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "PHO-01",
+      "Warranty": "2 year",
+      "Memory": "16 GB",
+      "Storage": "256 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/phones-phone-1/",
+    "image": "/assets/images/products/phones-phone-1.svg"
+  },
+  {
+    "id": "phones-phone-2",
+    "sku": "MCK-PHO-009",
+    "title": "Phone Max 2",
+    "brand": "Blue Orbit",
+    "category": "phones",
+    "price": 1578.28,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.3,
+    "reviewCount": 183,
+    "inStock": true,
+    "stockCount": 26,
+    "description": "Mockery demo product for phones scenario number 2. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "phones",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "PHO-02",
+      "Warranty": "3 year",
+      "Memory": "24 GB",
+      "Storage": "384 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/phones-phone-2/",
+    "image": "/assets/images/products/phones-phone-2.svg"
+  },
+  {
+    "id": "phones-phone-3",
+    "sku": "MCK-PHO-010",
+    "title": "Phone Plus 3",
+    "brand": "Pioneer Labs",
+    "category": "phones",
+    "price": 105.15,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.6,
+    "reviewCount": 62,
+    "inStock": true,
+    "stockCount": 21,
+    "description": "Mockery demo product for phones scenario number 3. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "phones",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "PHO-03",
+      "Warranty": "1 year",
+      "Memory": "32 GB",
+      "Storage": "512 GB SSD",
+      "Display": "13 inch"
+    },
+    "url": "/scenarios/ecommerce/products/phones-phone-3/",
+    "image": "/assets/images/products/phones-phone-3.svg"
+  },
+  {
+    "id": "phones-phone-4",
+    "sku": "MCK-PHO-011",
+    "title": "Phone Plus 4",
+    "brand": "Atlas",
+    "category": "phones",
+    "price": 733.64,
+    "oldPrice": 852.46,
+    "currency": "USD",
+    "rating": 4.6,
+    "reviewCount": 93,
+    "inStock": true,
+    "stockCount": 13,
+    "description": "Mockery demo product for phones scenario number 4. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "phones",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "PHO-04",
+      "Warranty": "2 year",
+      "Memory": "8 GB",
+      "Storage": "128 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/phones-phone-4/",
+    "image": "/assets/images/products/phones-phone-4.svg"
+  },
+  {
+    "id": "phones-phone-5",
+    "sku": "MCK-PHO-012",
+    "title": "Phone Mini 5",
+    "brand": "Pioneer Labs",
+    "category": "phones",
+    "price": 1278.93,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": null,
+    "reviewCount": 0,
+    "inStock": true,
+    "stockCount": 47,
+    "description": "Mockery demo product for phones scenario number 5. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "phones",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "PHO-05",
+      "Warranty": "3 year",
+      "Memory": "16 GB",
+      "Storage": "256 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/phones-phone-5/",
+    "image": "/assets/images/products/phones-phone-5.svg"
+  },
+  {
+    "id": "phones-phone-6",
+    "sku": "MCK-PHO-013",
+    "title": "Phone Ultra 6",
+    "brand": "Vertex",
+    "category": "phones",
+    "price": 1023.18,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.6,
+    "reviewCount": 100,
+    "inStock": false,
+    "stockCount": 0,
+    "description": "Mockery demo product for phones scenario number 6. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "phones",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "PHO-06",
+      "Warranty": "1 year",
+      "Memory": "24 GB",
+      "Storage": "384 GB SSD",
+      "Display": "16 inch"
+    },
+    "url": "/scenarios/ecommerce/products/phones-phone-6/",
+    "image": "/assets/images/products/phones-phone-6.svg"
+  },
+  {
+    "id": "phones-phone-7",
+    "sku": "MCK-PHO-014",
+    "title": "Phone Max 7",
+    "brand": "Blue Orbit",
+    "category": "phones",
+    "price": 1879.3,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.3,
+    "reviewCount": 178,
+    "inStock": true,
+    "stockCount": 38,
+    "description": "Mockery demo product for phones scenario number 7. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "phones",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "PHO-07",
+      "Warranty": "2 year",
+      "Memory": "32 GB",
+      "Storage": "512 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/phones-phone-7/",
+    "image": "/assets/images/products/phones-phone-7.svg"
+  },
+  {
+    "id": "headphones-headphones-1",
+    "sku": "MCK-HEA-015",
+    "title": "Headphones Lite 1",
+    "brand": "Northwind",
+    "category": "headphones",
+    "price": 1603.56,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.5,
+    "reviewCount": 209,
+    "inStock": true,
+    "stockCount": 17,
+    "description": "Mockery demo product for headphones scenario number 1. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "headphones",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "HEA-01",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/headphones-headphones-1/",
+    "image": "/assets/images/products/headphones-headphones-1.svg"
+  },
+  {
+    "id": "headphones-headphones-2",
+    "sku": "MCK-HEA-016",
+    "title": "Headphones Lite 2",
+    "brand": "Atlas",
+    "category": "headphones",
+    "price": 773.19,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.3,
+    "reviewCount": 57,
+    "inStock": true,
+    "stockCount": 39,
+    "description": "Mockery demo product for headphones scenario number 2. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "headphones",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "HEA-02",
+      "Warranty": "3 year"
+    },
+    "url": "/scenarios/ecommerce/products/headphones-headphones-2/",
+    "image": "/assets/images/products/headphones-headphones-2.svg"
+  },
+  {
+    "id": "headphones-headphones-3",
+    "sku": "MCK-HEA-017",
+    "title": "Headphones Prime 3",
+    "brand": "Red Maple",
+    "category": "headphones",
+    "price": 762.79,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.8,
+    "reviewCount": 70,
+    "inStock": true,
+    "stockCount": 32,
+    "description": "Mockery demo product for headphones scenario number 3. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "headphones",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "HEA-03",
+      "Warranty": "1 year",
+      "Display": "13 inch"
+    },
+    "url": "/scenarios/ecommerce/products/headphones-headphones-3/",
+    "image": "/assets/images/products/headphones-headphones-3.svg"
+  },
+  {
+    "id": "headphones-headphones-4",
+    "sku": "MCK-HEA-018",
+    "title": "Headphones Ultra 4",
+    "brand": "Coastal",
+    "category": "headphones",
+    "price": 482.66,
+    "oldPrice": 627.39,
+    "currency": "USD",
+    "rating": 3.6,
+    "reviewCount": 152,
+    "inStock": true,
+    "stockCount": 40,
+    "description": "Mockery demo product for headphones scenario number 4. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "headphones",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "HEA-04",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/headphones-headphones-4/",
+    "image": "/assets/images/products/headphones-headphones-4.svg"
+  },
+  {
+    "id": "headphones-headphones-5",
+    "sku": "MCK-HEA-019",
+    "title": "Headphones Edge 5",
+    "brand": "Vertex",
+    "category": "headphones",
+    "price": 699.55,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": null,
+    "reviewCount": 0,
+    "inStock": true,
+    "stockCount": 11,
+    "description": "Mockery demo product for headphones scenario number 5. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "headphones",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "HEA-05",
+      "Warranty": "3 year"
+    },
+    "url": "/scenarios/ecommerce/products/headphones-headphones-5/",
+    "image": "/assets/images/products/headphones-headphones-5.svg"
+  },
+  {
+    "id": "headphones-headphones-6",
+    "sku": "MCK-HEA-020",
+    "title": "Headphones Plus 6",
+    "brand": "Red Maple",
+    "category": "headphones",
+    "price": 1439.87,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.7,
+    "reviewCount": 163,
+    "inStock": false,
+    "stockCount": 0,
+    "description": "Mockery demo product for headphones scenario number 6. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "headphones",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "HEA-06",
+      "Warranty": "1 year",
+      "Display": "16 inch"
+    },
+    "url": "/scenarios/ecommerce/products/headphones-headphones-6/",
+    "image": "/assets/images/products/headphones-headphones-6.svg"
+  },
+  {
+    "id": "headphones-headphones-7",
+    "sku": "MCK-HEA-021",
+    "title": "Headphones Ultra 7",
+    "brand": "Coastal",
+    "category": "headphones",
+    "price": 1508.11,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.9,
+    "reviewCount": 100,
+    "inStock": true,
+    "stockCount": 7,
+    "description": "Mockery demo product for headphones scenario number 7. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "headphones",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "HEA-07",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/headphones-headphones-7/",
+    "image": "/assets/images/products/headphones-headphones-7.svg"
+  },
+  {
+    "id": "cameras-camera-1",
+    "sku": "MCK-CAM-022",
+    "title": "Camera Prime 1",
+    "brand": "Pioneer Labs",
+    "category": "cameras",
+    "price": 1013.73,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.9,
+    "reviewCount": 177,
+    "inStock": true,
+    "stockCount": 3,
+    "description": "Mockery demo product for cameras scenario number 1. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "cameras",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "CAM-01",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/cameras-camera-1/",
+    "image": "/assets/images/products/cameras-camera-1.svg"
+  },
+  {
+    "id": "cameras-camera-2",
+    "sku": "MCK-CAM-023",
+    "title": "Camera Studio 2",
+    "brand": "Pioneer Labs",
+    "category": "cameras",
+    "price": 1430.65,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.5,
+    "reviewCount": 78,
+    "inStock": true,
+    "stockCount": 24,
+    "description": "Mockery demo product for cameras scenario number 2. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "cameras",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "CAM-02",
+      "Warranty": "3 year"
+    },
+    "url": "/scenarios/ecommerce/products/cameras-camera-2/",
+    "image": "/assets/images/products/cameras-camera-2.svg"
+  },
+  {
+    "id": "cameras-camera-3",
+    "sku": "MCK-CAM-024",
+    "title": "Camera Edge 3",
+    "brand": "Nimbus",
+    "category": "cameras",
+    "price": 316.34,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.2,
+    "reviewCount": 131,
+    "inStock": true,
+    "stockCount": 49,
+    "description": "Mockery demo product for cameras scenario number 3. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "cameras",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "CAM-03",
+      "Warranty": "1 year",
+      "Display": "13 inch"
+    },
+    "url": "/scenarios/ecommerce/products/cameras-camera-3/",
+    "image": "/assets/images/products/cameras-camera-3.svg"
+  },
+  {
+    "id": "cameras-camera-4",
+    "sku": "MCK-CAM-025",
+    "title": "Camera Ultra 4",
+    "brand": "Blue Orbit",
+    "category": "cameras",
+    "price": 973.44,
+    "oldPrice": 1008.98,
+    "currency": "USD",
+    "rating": 4.3,
+    "reviewCount": 42,
+    "inStock": true,
+    "stockCount": 43,
+    "description": "Mockery demo product for cameras scenario number 4. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "cameras",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "CAM-04",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/cameras-camera-4/",
+    "image": "/assets/images/products/cameras-camera-4.svg"
+  },
+  {
+    "id": "cameras-camera-5",
+    "sku": "MCK-CAM-026",
+    "title": "Camera Lite 5",
+    "brand": "Northwind",
+    "category": "cameras",
+    "price": 1452.52,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": null,
+    "reviewCount": 0,
+    "inStock": true,
+    "stockCount": 37,
+    "description": "Mockery demo product for cameras scenario number 5. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "cameras",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "CAM-05",
+      "Warranty": "3 year"
+    },
+    "url": "/scenarios/ecommerce/products/cameras-camera-5/",
+    "image": "/assets/images/products/cameras-camera-5.svg"
+  },
+  {
+    "id": "cameras-camera-6",
+    "sku": "MCK-CAM-027",
+    "title": "Camera Lite 6",
+    "brand": "Atlas",
+    "category": "cameras",
+    "price": 937.58,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.4,
+    "reviewCount": 215,
+    "inStock": false,
+    "stockCount": 0,
+    "description": "Mockery demo product for cameras scenario number 6. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "cameras",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "CAM-06",
+      "Warranty": "1 year",
+      "Display": "16 inch"
+    },
+    "url": "/scenarios/ecommerce/products/cameras-camera-6/",
+    "image": "/assets/images/products/cameras-camera-6.svg"
+  },
+  {
+    "id": "cameras-camera-7",
+    "sku": "MCK-CAM-028",
+    "title": "Camera Max 7",
+    "brand": "Pioneer Labs",
+    "category": "cameras",
+    "price": 469.17,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.6,
+    "reviewCount": 24,
+    "inStock": true,
+    "stockCount": 39,
+    "description": "Mockery demo product for cameras scenario number 7. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "cameras",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "CAM-07",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/cameras-camera-7/",
+    "image": "/assets/images/products/cameras-camera-7.svg"
+  },
+  {
+    "id": "kitchen-kitchen-1",
+    "sku": "MCK-KIT-029",
+    "title": "Kitchen Prime 1",
+    "brand": "Red Maple",
+    "category": "kitchen",
+    "price": 1553.12,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.9,
+    "reviewCount": 35,
+    "inStock": true,
+    "stockCount": 37,
+    "description": "Mockery demo product for kitchen scenario number 1. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "kitchen",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "KIT-01",
+      "Warranty": "2 year",
+      "Weight": "1.3 kg"
+    },
+    "url": "/scenarios/ecommerce/products/kitchen-kitchen-1/",
+    "image": "/assets/images/products/kitchen-kitchen-1.svg"
+  },
+  {
+    "id": "kitchen-kitchen-2",
+    "sku": "MCK-KIT-030",
+    "title": "Kitchen Prime 2",
+    "brand": "Coastal",
+    "category": "kitchen",
+    "price": 1799.08,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.5,
+    "reviewCount": 57,
+    "inStock": true,
+    "stockCount": 36,
+    "description": "Mockery demo product for kitchen scenario number 2. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "kitchen",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "KIT-02",
+      "Warranty": "3 year",
+      "Weight": "1.4 kg"
+    },
+    "url": "/scenarios/ecommerce/products/kitchen-kitchen-2/",
+    "image": "/assets/images/products/kitchen-kitchen-2.svg"
+  },
+  {
+    "id": "kitchen-kitchen-3",
+    "sku": "MCK-KIT-031",
+    "title": "Kitchen Studio 3",
+    "brand": "Nimbus",
+    "category": "kitchen",
+    "price": 1438.9,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.4,
+    "reviewCount": 105,
+    "inStock": true,
+    "stockCount": 48,
+    "description": "Mockery demo product for kitchen scenario number 3. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "kitchen",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "KIT-03",
+      "Warranty": "1 year",
+      "Weight": "1.5 kg",
+      "Display": "13 inch"
+    },
+    "url": "/scenarios/ecommerce/products/kitchen-kitchen-3/",
+    "image": "/assets/images/products/kitchen-kitchen-3.svg"
+  },
+  {
+    "id": "kitchen-kitchen-4",
+    "sku": "MCK-KIT-032",
+    "title": "Kitchen Lite 4",
+    "brand": "Pioneer Labs",
+    "category": "kitchen",
+    "price": 842.63,
+    "oldPrice": 976.85,
+    "currency": "USD",
+    "rating": 3.4,
+    "reviewCount": 89,
+    "inStock": true,
+    "stockCount": 17,
+    "description": "Mockery demo product for kitchen scenario number 4. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "kitchen",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "KIT-04",
+      "Warranty": "2 year",
+      "Weight": "1.6 kg"
+    },
+    "url": "/scenarios/ecommerce/products/kitchen-kitchen-4/",
+    "image": "/assets/images/products/kitchen-kitchen-4.svg"
+  },
+  {
+    "id": "kitchen-kitchen-5",
+    "sku": "MCK-KIT-033",
+    "title": "Kitchen Pro 5",
+    "brand": "Blue Orbit",
+    "category": "kitchen",
+    "price": 1125.02,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": null,
+    "reviewCount": 0,
+    "inStock": true,
+    "stockCount": 17,
+    "description": "Mockery demo product for kitchen scenario number 5. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "kitchen",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "KIT-05",
+      "Warranty": "3 year",
+      "Weight": "1.7 kg"
+    },
+    "url": "/scenarios/ecommerce/products/kitchen-kitchen-5/",
+    "image": "/assets/images/products/kitchen-kitchen-5.svg"
+  },
+  {
+    "id": "kitchen-kitchen-6",
+    "sku": "MCK-KIT-034",
+    "title": "Kitchen Pro 6",
+    "brand": "Blue Orbit",
+    "category": "kitchen",
+    "price": 152.47,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.3,
+    "reviewCount": 20,
+    "inStock": false,
+    "stockCount": 0,
+    "description": "Mockery demo product for kitchen scenario number 6. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "kitchen",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "KIT-06",
+      "Warranty": "1 year",
+      "Weight": "1.8 kg",
+      "Display": "16 inch"
+    },
+    "url": "/scenarios/ecommerce/products/kitchen-kitchen-6/",
+    "image": "/assets/images/products/kitchen-kitchen-6.svg"
+  },
+  {
+    "id": "kitchen-kitchen-7",
+    "sku": "MCK-KIT-035",
+    "title": "Kitchen Pro 7",
+    "brand": "Nimbus",
+    "category": "kitchen",
+    "price": 1635.11,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.3,
+    "reviewCount": 174,
+    "inStock": true,
+    "stockCount": 18,
+    "description": "Mockery demo product for kitchen scenario number 7. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "kitchen",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "KIT-07",
+      "Warranty": "2 year",
+      "Weight": "1.9 kg"
+    },
+    "url": "/scenarios/ecommerce/products/kitchen-kitchen-7/",
+    "image": "/assets/images/products/kitchen-kitchen-7.svg"
+  },
+  {
+    "id": "books-book-1",
+    "sku": "MCK-BOO-036",
+    "title": "Book Prime 1",
+    "brand": "Vertex",
+    "category": "books",
+    "price": 421.77,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.4,
+    "reviewCount": 65,
+    "inStock": true,
+    "stockCount": 39,
+    "description": "Mockery demo product for books scenario number 1. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "books",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "BOO-01",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/books-book-1/",
+    "image": "/assets/images/products/books-book-1.svg"
+  },
+  {
+    "id": "books-book-2-special-edition",
+    "sku": "MCK-BOO-037",
+    "title": "Book: Data Pipelines & Scraping \u2014 Special Edition",
+    "brand": "Pioneer Labs",
+    "category": "books",
+    "price": 1494.08,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.6,
+    "reviewCount": 27,
+    "inStock": true,
+    "stockCount": 15,
+    "description": "Mockery demo product for books scenario number 2. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "books",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "BOO-02",
+      "Warranty": "3 year"
+    },
+    "url": "/scenarios/ecommerce/products/books-book-2-special-edition/",
+    "image": "/assets/images/products/books-book-2-special-edition.svg"
+  },
+  {
+    "id": "books-book-3",
+    "sku": "MCK-BOO-038",
+    "title": "Book Edge 3",
+    "brand": "Northwind",
+    "category": "books",
+    "price": 685.08,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.9,
+    "reviewCount": 175,
+    "inStock": true,
+    "stockCount": 49,
+    "description": "Mockery demo product for books scenario number 3. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "books",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "BOO-03",
+      "Warranty": "1 year",
+      "Display": "13 inch"
+    },
+    "url": "/scenarios/ecommerce/products/books-book-3/",
+    "image": "/assets/images/products/books-book-3.svg"
+  },
+  {
+    "id": "books-book-4",
+    "sku": "MCK-BOO-039",
+    "title": "Book Plus 4",
+    "brand": "Blue Orbit",
+    "category": "books",
+    "price": 132.95,
+    "oldPrice": 317.72,
+    "currency": "USD",
+    "rating": 4.6,
+    "reviewCount": 52,
+    "inStock": true,
+    "stockCount": 9,
+    "description": "Mockery demo product for books scenario number 4. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "books",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "BOO-04",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/books-book-4/",
+    "image": "/assets/images/products/books-book-4.svg"
+  },
+  {
+    "id": "books-book-5",
+    "sku": "MCK-BOO-040",
+    "title": "Book Mini 5",
+    "brand": "Coastal",
+    "category": "books",
+    "price": 1027.22,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": null,
+    "reviewCount": 0,
+    "inStock": true,
+    "stockCount": 11,
+    "description": "Mockery demo product for books scenario number 5. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "books",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "BOO-05",
+      "Warranty": "3 year"
+    },
+    "url": "/scenarios/ecommerce/products/books-book-5/",
+    "image": "/assets/images/products/books-book-5.svg"
+  },
+  {
+    "id": "books-book-6",
+    "sku": "MCK-BOO-041",
+    "title": "Book Ultra 6",
+    "brand": "Pioneer Labs",
+    "category": "books",
+    "price": 542.66,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.6,
+    "reviewCount": 116,
+    "inStock": false,
+    "stockCount": 0,
+    "description": "Mockery demo product for books scenario number 6. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "books",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "BOO-06",
+      "Warranty": "1 year",
+      "Display": "16 inch"
+    },
+    "url": "/scenarios/ecommerce/products/books-book-6/",
+    "image": "/assets/images/products/books-book-6.svg"
+  },
+  {
+    "id": "books-book-7",
+    "sku": "MCK-BOO-042",
+    "title": "Book Studio 7",
+    "brand": "Northwind",
+    "category": "books",
+    "price": 203.07,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.3,
+    "reviewCount": 26,
+    "inStock": true,
+    "stockCount": 37,
+    "description": "Mockery demo product for books scenario number 7. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "books",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "BOO-07",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/books-book-7/",
+    "image": "/assets/images/products/books-book-7.svg"
+  },
+  {
+    "id": "office-office-1",
+    "sku": "MCK-OFF-043",
+    "title": "Office Mini 1",
+    "brand": "Coastal",
+    "category": "office",
+    "price": 331.66,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.0,
+    "reviewCount": 18,
+    "inStock": true,
+    "stockCount": 16,
+    "description": "Mockery demo product for office scenario number 1. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "office",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "OFF-01",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/office-office-1/",
+    "image": "/assets/images/products/office-office-1.svg"
+  },
+  {
+    "id": "office-office-2",
+    "sku": "MCK-OFF-044",
+    "title": "Office Ultra 2",
+    "brand": "Vertex",
+    "category": "office",
+    "price": 731.47,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.9,
+    "reviewCount": 76,
+    "inStock": true,
+    "stockCount": 19,
+    "description": "Mockery demo product for office scenario number 2. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "office",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "OFF-02",
+      "Warranty": "3 year"
+    },
+    "url": "/scenarios/ecommerce/products/office-office-2/",
+    "image": "/assets/images/products/office-office-2.svg"
+  },
+  {
+    "id": "office-office-3",
+    "sku": "MCK-OFF-045",
+    "title": "Office Edge 3",
+    "brand": "Vertex",
+    "category": "office",
+    "price": 1328.59,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.4,
+    "reviewCount": 42,
+    "inStock": true,
+    "stockCount": 38,
+    "description": "Mockery demo product for office scenario number 3. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "office",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "OFF-03",
+      "Warranty": "1 year",
+      "Display": "13 inch"
+    },
+    "url": "/scenarios/ecommerce/products/office-office-3/",
+    "image": "/assets/images/products/office-office-3.svg"
+  },
+  {
+    "id": "office-office-4",
+    "sku": "MCK-OFF-046",
+    "title": "Office Mini 4",
+    "brand": "Northwind",
+    "category": "office",
+    "price": 576.81,
+    "oldPrice": 819.3,
+    "currency": "USD",
+    "rating": 4.2,
+    "reviewCount": 194,
+    "inStock": true,
+    "stockCount": 37,
+    "description": "Mockery demo product for office scenario number 4. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "office",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "OFF-04",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/office-office-4/",
+    "image": "/assets/images/products/office-office-4.svg"
+  },
+  {
+    "id": "office-office-5",
+    "sku": "MCK-OFF-047",
+    "title": "Office Lite 5",
+    "brand": "Vertex",
+    "category": "office",
+    "price": 126.47,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": null,
+    "reviewCount": 0,
+    "inStock": true,
+    "stockCount": 40,
+    "description": "Mockery demo product for office scenario number 5. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "office",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "OFF-05",
+      "Warranty": "3 year"
+    },
+    "url": "/scenarios/ecommerce/products/office-office-5/",
+    "image": "/assets/images/products/office-office-5.svg"
+  },
+  {
+    "id": "office-office-6-long-title",
+    "sku": "MCK-OFF-048",
+    "title": "Office Ergonomic Chair with Adjustable Lumbar Support and Breathable Mesh for Long Work Sessions",
+    "brand": "Red Maple",
+    "category": "office",
+    "price": 964.36,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.6,
+    "reviewCount": 17,
+    "inStock": false,
+    "stockCount": 0,
+    "description": "Mockery demo product for office scenario number 6. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "office",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "OFF-06",
+      "Warranty": "1 year",
+      "Display": "16 inch"
+    },
+    "url": "/scenarios/ecommerce/products/office-office-6-long-title/",
+    "image": "/assets/images/products/office-office-6-long-title.svg"
+  },
+  {
+    "id": "office-office-7",
+    "sku": "MCK-OFF-049",
+    "title": "Office Studio 7",
+    "brand": "Pioneer Labs",
+    "category": "office",
+    "price": 169.61,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.5,
+    "reviewCount": 175,
+    "inStock": true,
+    "stockCount": 41,
+    "description": "Mockery demo product for office scenario number 7. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "office",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "OFF-07",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/office-office-7/",
+    "image": "/assets/images/products/office-office-7.svg"
+  },
+  {
+    "id": "gaming-gaming-1",
+    "sku": "MCK-GAM-050",
+    "title": "Gaming Mini 1",
+    "brand": "Blue Orbit",
+    "category": "gaming",
+    "price": 778.1,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.8,
+    "reviewCount": 151,
+    "inStock": true,
+    "stockCount": 39,
+    "description": "Mockery demo product for gaming scenario number 1. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "gaming",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "GAM-01",
+      "Warranty": "2 year",
+      "Memory": "16 GB",
+      "Storage": "256 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/gaming-gaming-1/",
+    "image": "/assets/images/products/gaming-gaming-1.svg"
+  },
+  {
+    "id": "gaming-gaming-2",
+    "sku": "MCK-GAM-051",
+    "title": "Gaming Pro 2",
+    "brand": "Atlas",
+    "category": "gaming",
+    "price": 1183.44,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.9,
+    "reviewCount": 69,
+    "inStock": true,
+    "stockCount": 40,
+    "description": "Mockery demo product for gaming scenario number 2. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "gaming",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "GAM-02",
+      "Warranty": "3 year",
+      "Memory": "24 GB",
+      "Storage": "384 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/gaming-gaming-2/",
+    "image": "/assets/images/products/gaming-gaming-2.svg"
+  },
+  {
+    "id": "gaming-gaming-3-plus-plus",
+    "sku": "MCK-GAM-052",
+    "title": "Gaming Console ++ Tournament Ready",
+    "brand": "Nimbus",
+    "category": "gaming",
+    "price": 403.01,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.4,
+    "reviewCount": 104,
+    "inStock": true,
+    "stockCount": 18,
+    "description": "Mockery demo product for gaming scenario number 3. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "gaming",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "GAM-03",
+      "Warranty": "1 year",
+      "Memory": "32 GB",
+      "Storage": "512 GB SSD",
+      "Display": "13 inch"
+    },
+    "url": "/scenarios/ecommerce/products/gaming-gaming-3-plus-plus/",
+    "image": "/assets/images/products/gaming-gaming-3-plus-plus.svg"
+  },
+  {
+    "id": "gaming-gaming-4",
+    "sku": "MCK-GAM-053",
+    "title": "Gaming Ultra 4",
+    "brand": "Northwind",
+    "category": "gaming",
+    "price": 1281.78,
+    "oldPrice": 1363.78,
+    "currency": "USD",
+    "rating": 3.7,
+    "reviewCount": 120,
+    "inStock": true,
+    "stockCount": 7,
+    "description": "Mockery demo product for gaming scenario number 4. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "gaming",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "GAM-04",
+      "Warranty": "2 year",
+      "Memory": "8 GB",
+      "Storage": "128 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/gaming-gaming-4/",
+    "image": "/assets/images/products/gaming-gaming-4.svg"
+  },
+  {
+    "id": "gaming-gaming-5",
+    "sku": "MCK-GAM-054",
+    "title": "Gaming Plus 5",
+    "brand": "Nimbus",
+    "category": "gaming",
+    "price": 156.73,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": null,
+    "reviewCount": 0,
+    "inStock": true,
+    "stockCount": 16,
+    "description": "Mockery demo product for gaming scenario number 5. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "gaming",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "GAM-05",
+      "Warranty": "3 year",
+      "Memory": "16 GB",
+      "Storage": "256 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/gaming-gaming-5/",
+    "image": "/assets/images/products/gaming-gaming-5.svg"
+  },
+  {
+    "id": "gaming-gaming-6",
+    "sku": "MCK-GAM-055",
+    "title": "Gaming Ultra 6",
+    "brand": "Blue Orbit",
+    "category": "gaming",
+    "price": 1773.53,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.7,
+    "reviewCount": 97,
+    "inStock": false,
+    "stockCount": 0,
+    "description": "Mockery demo product for gaming scenario number 6. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "gaming",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "GAM-06",
+      "Warranty": "1 year",
+      "Memory": "24 GB",
+      "Storage": "384 GB SSD",
+      "Display": "16 inch"
+    },
+    "url": "/scenarios/ecommerce/products/gaming-gaming-6/",
+    "image": "/assets/images/products/gaming-gaming-6.svg"
+  },
+  {
+    "id": "gaming-gaming-7",
+    "sku": "MCK-GAM-056",
+    "title": "Gaming Max 7",
+    "brand": "Nimbus",
+    "category": "gaming",
+    "price": 315.56,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.6,
+    "reviewCount": 159,
+    "inStock": true,
+    "stockCount": 48,
+    "description": "Mockery demo product for gaming scenario number 7. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "gaming",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "GAM-07",
+      "Warranty": "2 year",
+      "Memory": "32 GB",
+      "Storage": "512 GB SSD"
+    },
+    "url": "/scenarios/ecommerce/products/gaming-gaming-7/",
+    "image": "/assets/images/products/gaming-gaming-7.svg"
+  },
+  {
+    "id": "smart-home-smart-home-1",
+    "sku": "MCK-SMA-057",
+    "title": "Smart Home Studio 1",
+    "brand": "Pioneer Labs",
+    "category": "smart-home",
+    "price": 33.71,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.6,
+    "reviewCount": 37,
+    "inStock": true,
+    "stockCount": 22,
+    "description": "Mockery demo product for smart-home scenario number 1. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "smart-home",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "SMA-01",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/smart-home-smart-home-1/",
+    "image": "/assets/images/products/smart-home-smart-home-1.svg"
+  },
+  {
+    "id": "smart-home-smart-home-2",
+    "sku": "MCK-SMA-058",
+    "title": "Smart Home Max 2",
+    "brand": "Red Maple",
+    "category": "smart-home",
+    "price": 236.01,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.4,
+    "reviewCount": 72,
+    "inStock": true,
+    "stockCount": 38,
+    "description": "Mockery demo product for smart-home scenario number 2. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "smart-home",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "SMA-02",
+      "Warranty": "3 year"
+    },
+    "url": "/scenarios/ecommerce/products/smart-home-smart-home-2/",
+    "image": "/assets/images/products/smart-home-smart-home-2.svg"
+  },
+  {
+    "id": "smart-home-smart-home-3",
+    "sku": "MCK-SMA-059",
+    "title": "Smart Home Max 3",
+    "brand": "Nimbus",
+    "category": "smart-home",
+    "price": 1156.08,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.4,
+    "reviewCount": 132,
+    "inStock": true,
+    "stockCount": 16,
+    "description": "Mockery demo product for smart-home scenario number 3. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "smart-home",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "SMA-03",
+      "Warranty": "1 year",
+      "Display": "13 inch"
+    },
+    "url": "/scenarios/ecommerce/products/smart-home-smart-home-3/",
+    "image": "/assets/images/products/smart-home-smart-home-3.svg"
+  },
+  {
+    "id": "smart-home-smart-home-4",
+    "sku": "MCK-SMA-060",
+    "title": "Smart Home Prime 4",
+    "brand": "Coastal",
+    "category": "smart-home",
+    "price": 491.11,
+    "oldPrice": 719.07,
+    "currency": "USD",
+    "rating": 3.3,
+    "reviewCount": 215,
+    "inStock": true,
+    "stockCount": 43,
+    "description": "Mockery demo product for smart-home scenario number 4. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "smart-home",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "SMA-04",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/smart-home-smart-home-4/",
+    "image": "/assets/images/products/smart-home-smart-home-4.svg"
+  },
+  {
+    "id": "smart-home-smart-home-5",
+    "sku": "MCK-SMA-061",
+    "title": "Smart Home Max 5",
+    "brand": "Red Maple",
+    "category": "smart-home",
+    "price": 101.88,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": null,
+    "reviewCount": 0,
+    "inStock": true,
+    "stockCount": 24,
+    "description": "Mockery demo product for smart-home scenario number 5. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "smart-home",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "SMA-05",
+      "Warranty": "3 year"
+    },
+    "url": "/scenarios/ecommerce/products/smart-home-smart-home-5/",
+    "image": "/assets/images/products/smart-home-smart-home-5.svg"
+  },
+  {
+    "id": "smart-home-smart-home-6",
+    "sku": "MCK-SMA-062",
+    "title": "Smart Home Max 6",
+    "brand": "Coastal",
+    "category": "smart-home",
+    "price": 322.77,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.0,
+    "reviewCount": 146,
+    "inStock": false,
+    "stockCount": 0,
+    "description": "Mockery demo product for smart-home scenario number 6. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "smart-home",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "SMA-06",
+      "Warranty": "1 year",
+      "Display": "16 inch"
+    },
+    "url": "/scenarios/ecommerce/products/smart-home-smart-home-6/",
+    "image": "/assets/images/products/smart-home-smart-home-6.svg"
+  },
+  {
+    "id": "smart-home-smart-home-7",
+    "sku": "MCK-SMA-063",
+    "title": "Smart Home Pro 7",
+    "brand": "Red Maple",
+    "category": "smart-home",
+    "price": 229.32,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.8,
+    "reviewCount": 142,
+    "inStock": true,
+    "stockCount": 47,
+    "description": "Mockery demo product for smart-home scenario number 7. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "smart-home",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "SMA-07",
+      "Warranty": "2 year"
+    },
+    "url": "/scenarios/ecommerce/products/smart-home-smart-home-7/",
+    "image": "/assets/images/products/smart-home-smart-home-7.svg"
+  },
+  {
+    "id": "fitness-fitness-1",
+    "sku": "MCK-FIT-064",
+    "title": "Fitness Pro 1",
+    "brand": "Coastal",
+    "category": "fitness",
+    "price": 1588.04,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.2,
+    "reviewCount": 35,
+    "inStock": true,
+    "stockCount": 12,
+    "description": "Mockery demo product for fitness scenario number 1. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "fitness",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "FIT-01",
+      "Warranty": "2 year",
+      "Weight": "1.3 kg"
+    },
+    "url": "/scenarios/ecommerce/products/fitness-fitness-1/",
+    "image": "/assets/images/products/fitness-fitness-1.svg"
+  },
+  {
+    "id": "fitness-fitness-2",
+    "sku": "MCK-FIT-065",
+    "title": "Fitness Pro 2",
+    "brand": "Atlas",
+    "category": "fitness",
+    "price": 598.53,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.7,
+    "reviewCount": 56,
+    "inStock": true,
+    "stockCount": 5,
+    "description": "Mockery demo product for fitness scenario number 2. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "fitness",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "FIT-02",
+      "Warranty": "3 year",
+      "Weight": "1.4 kg"
+    },
+    "url": "/scenarios/ecommerce/products/fitness-fitness-2/",
+    "image": "/assets/images/products/fitness-fitness-2.svg"
+  },
+  {
+    "id": "fitness-fitness-3",
+    "sku": "MCK-FIT-066",
+    "title": "Fitness Mini 3",
+    "brand": "Coastal",
+    "category": "fitness",
+    "price": 1272.83,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.8,
+    "reviewCount": 161,
+    "inStock": true,
+    "stockCount": 38,
+    "description": "Mockery demo product for fitness scenario number 3. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "fitness",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "FIT-03",
+      "Warranty": "1 year",
+      "Weight": "1.5 kg",
+      "Display": "13 inch"
+    },
+    "url": "/scenarios/ecommerce/products/fitness-fitness-3/",
+    "image": "/assets/images/products/fitness-fitness-3.svg"
+  },
+  {
+    "id": "fitness-fitness-4",
+    "sku": "MCK-FIT-067",
+    "title": "Fitness Ultra 4",
+    "brand": "Coastal",
+    "category": "fitness",
+    "price": 1759.44,
+    "oldPrice": 1826.26,
+    "currency": "USD",
+    "rating": 3.5,
+    "reviewCount": 9,
+    "inStock": true,
+    "stockCount": 14,
+    "description": "Mockery demo product for fitness scenario number 4. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "fitness",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "FIT-04",
+      "Warranty": "2 year",
+      "Weight": "1.6 kg"
+    },
+    "url": "/scenarios/ecommerce/products/fitness-fitness-4/",
+    "image": "/assets/images/products/fitness-fitness-4.svg"
+  },
+  {
+    "id": "fitness-fitness-5",
+    "sku": "MCK-FIT-068",
+    "title": "Fitness Ultra 5",
+    "brand": "Coastal",
+    "category": "fitness",
+    "price": 1403.74,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": null,
+    "reviewCount": 0,
+    "inStock": true,
+    "stockCount": 24,
+    "description": "Mockery demo product for fitness scenario number 5. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "fitness",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "FIT-05",
+      "Warranty": "3 year",
+      "Weight": "1.7 kg"
+    },
+    "url": "/scenarios/ecommerce/products/fitness-fitness-5/",
+    "image": "/assets/images/products/fitness-fitness-5.svg"
+  },
+  {
+    "id": "fitness-fitness-6",
+    "sku": "MCK-FIT-069",
+    "title": "Fitness Mini 6",
+    "brand": "Pioneer Labs",
+    "category": "fitness",
+    "price": 520.59,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.5,
+    "reviewCount": 100,
+    "inStock": false,
+    "stockCount": 0,
+    "description": "Mockery demo product for fitness scenario number 6. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "fitness",
+      "demo",
+      "featured"
+    ],
+    "specs": {
+      "Model": "FIT-06",
+      "Warranty": "1 year",
+      "Weight": "1.8 kg",
+      "Display": "16 inch"
+    },
+    "url": "/scenarios/ecommerce/products/fitness-fitness-6/",
+    "image": "/assets/images/products/fitness-fitness-6.svg"
+  },
+  {
+    "id": "fitness-fitness-7",
+    "sku": "MCK-FIT-070",
+    "title": "Fitness Pro 7",
+    "brand": "Atlas",
+    "category": "fitness",
+    "price": 1633.16,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 3.6,
+    "reviewCount": 81,
+    "inStock": true,
+    "stockCount": 32,
+    "description": "Mockery demo product for fitness scenario number 7. Deterministic fake content only.",
+    "tags": [
+      "mockery",
+      "fitness",
+      "demo",
+      "classic"
+    ],
+    "specs": {
+      "Model": "FIT-07",
+      "Warranty": "2 year",
+      "Weight": "1.9 kg"
+    },
+    "url": "/scenarios/ecommerce/products/fitness-fitness-7/",
+    "image": "/assets/images/products/fitness-fitness-7.svg"
+  },
+  {
+    "id": "misc-item-71",
+    "sku": "MCK-MIS-071",
+    "title": "Misc Item 71",
+    "brand": "Northwind",
+    "category": "office",
+    "price": 120.0,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.0,
+    "reviewCount": 12,
+    "inStock": true,
+    "stockCount": 20,
+    "description": "Extra deterministic item.",
+    "tags": [
+      "mockery",
+      "office"
+    ],
+    "specs": {
+      "Model": "MISC-71"
+    },
+    "url": "/scenarios/ecommerce/products/misc-item-71/",
+    "image": "/assets/images/products/misc-item-71.svg"
+  },
+  {
+    "id": "misc-item-72",
+    "sku": "MCK-MIS-072",
+    "title": "Misc Item 72",
+    "brand": "Northwind",
+    "category": "office",
+    "price": 121.0,
+    "oldPrice": null,
+    "currency": "USD",
+    "rating": 4.0,
+    "reviewCount": 12,
+    "inStock": true,
+    "stockCount": 20,
+    "description": "Extra deterministic item.",
+    "tags": [
+      "mockery",
+      "office"
+    ],
+    "specs": {
+      "Model": "MISC-72"
+    },
+    "url": "/scenarios/ecommerce/products/misc-item-72/",
+    "image": "/assets/images/products/misc-item-72.svg"
+  }
+]

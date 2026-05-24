@@ -1,0 +1,42 @@
+[
+  {
+    "id": "laptops",
+    "name": "Laptop"
+  },
+  {
+    "id": "phones",
+    "name": "Phone"
+  },
+  {
+    "id": "headphones",
+    "name": "Headphones"
+  },
+  {
+    "id": "cameras",
+    "name": "Camera"
+  },
+  {
+    "id": "kitchen",
+    "name": "Kitchen"
+  },
+  {
+    "id": "books",
+    "name": "Book"
+  },
+  {
+    "id": "office",
+    "name": "Office"
+  },
+  {
+    "id": "gaming",
+    "name": "Gaming"
+  },
+  {
+    "id": "smart-home",
+    "name": "Smart Home"
+  },
+  {
+    "id": "fitness",
+    "name": "Fitness"
+  }
+]
