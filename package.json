@@ -7,7 +7,8 @@
     "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
     "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
     "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
-    "validate": "node --test tests/validate-dist.test.mjs"
+    "validate": "node --test tests/validate-dist.test.mjs",
+    "deploy": "./scripts/publish.sh"
   },
   "devDependencies": {
     "astro": "^6.3.7"
