@@ -1,0 +1,14 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Missing Cells Table" description="Table with intentional missing cells." canonicalPath="/scenarios/tables/missing-cells/">
+  <h1>Missing cells</h1>
+  <table data-testid="missing-cells-table">
+    <thead><tr><th>Row</th><th>Name</th><th>Price</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Alpha</td><td>$10</td><td>ok</td></tr>
+      <tr><td>2</td><td>Beta</td><td></td><td>pending</td></tr>
+      <tr><td>3</td><td></td><td>$33</td><td>ok</td></tr>
+    </tbody>
+  </table>
+</BaseLayout>

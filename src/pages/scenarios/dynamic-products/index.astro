@@ -1,0 +1,10 @@
+---
+import dynamicProductsScript from '../../../assets/dynamic-products.js?url';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Dynamic Products Scenario" description="Client-side rendering from static JSON pages." canonicalPath="/scenarios/dynamic-products/" scripts={[dynamicProductsScript]}>
+  <h1>Dynamic products</h1>
+  <div id="dynamic-products" class="product-grid" data-testid="dynamic-products" data-loaded="false"></div>
+  <button id="load-more-products" data-testid="load-more-products" type="button">Load more</button>
+  <div id="dynamic-status" data-testid="dynamic-status" aria-live="polite">Loading...</div>
+</BaseLayout>

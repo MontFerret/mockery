@@ -1,0 +1,12 @@
+---
+import delayedScript from '../../../assets/delayed-rendering.js?url';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Delayed Rendering Scenario" description="Controlled delayed content rendering and state changes." canonicalPath="/scenarios/delayed-rendering/" scripts={[delayedScript]}>
+  <h1>Delayed rendering</h1>
+  <div data-testid="delayed-short" data-state="pending"></div>
+  <div data-testid="delayed-long" data-state="pending"></div>
+  <button id="delayed-interactive" type="button">Reveal interaction content</button>
+  <div id="delayed-click-result" data-testid="delayed-click-result" data-state="pending"></div>
+  <div id="delayed-ticker" data-testid="delayed-ticker">Tick 0</div>
+</BaseLayout>

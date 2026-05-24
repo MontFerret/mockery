@@ -1,0 +1,10 @@
+---
+import shadowDomScript from '../../../assets/shadow-dom.js?url';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Shadow DOM Scenario" description="Open shadow DOM custom element examples." canonicalPath="/scenarios/shadow-dom/" scripts={[shadowDomScript]}>
+  <h1>Shadow DOM</h1>
+  <mockery-product-card title="Shadow Laptop"></mockery-product-card>
+  <mockery-rating value="4.6"></mockery-rating>
+  <mockery-hidden-details></mockery-hidden-details>
+</BaseLayout>

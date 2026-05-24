@@ -1,0 +1,21 @@
+---
+import ScenarioCard from '../components/ScenarioCard.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { scenarios, siteDescription, tagline } from '../lib/site.js';
+---
+<BaseLayout title="Mockery" description={siteDescription} canonicalPath="/">
+  <h1>Mockery</h1>
+  <p class="lead">{tagline}</p>
+  <p class="notice"><strong>Fake demo notice:</strong> This entire website is deterministic demo content only.</p>
+  <p>
+    Mockery is a collection of deterministic fake web scenarios for testing Ferret and its HTML drivers.
+    Each scenario models a common scraping situation: static pages, dynamic rendering, pagination, forms,
+    tables, network activity, infinite scroll, messy markup, iframes, and browser interactions.
+  </p>
+  <section>
+    <h2>Featured scenarios</h2>
+    <div class="grid">
+      {scenarios.map((scenario) => <ScenarioCard scenario={scenario} />)}
+    </div>
+  </section>
+</BaseLayout>

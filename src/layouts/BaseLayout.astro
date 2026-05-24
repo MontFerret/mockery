@@ -1,0 +1,56 @@
+---
+import '../assets/styles.css';
+import appScript from '../assets/app.js?url';
+import { absoluteUrl, basePath, siteName, withBase } from '../lib/site.js';
+
+const {
+  title,
+  description,
+  canonicalPath = '/',
+  scripts = [],
+} = Astro.props;
+
+const navItems = [
+  ['Home', '/'],
+  ['Scenarios', '/scenarios/'],
+  ['E-commerce', '/scenarios/ecommerce/'],
+  ['API', '/api/products/index.json'],
+];
+
+const pageTitle = title === siteName ? title : `${title} - ${siteName}`;
+---
+<!doctype html>
+<html lang="en" data-base-path={basePath}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href={absoluteUrl(canonicalPath)} />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href={withBase('/')}>{siteName}</a>
+        <nav aria-label="Primary">
+          <ul>
+            {navItems.map(([label, href]) => <li><a href={withBase(href)}>{label}</a></li>)}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Mockery is a fictional static website for Ferret demos, tests, and documentation. No real products, accounts, or payments exist.</p>
+      </div>
+    </footer>
+    <script src={appScript} defer></script>
+    {scripts.map((src) => <script src={src} defer></script>)}
+  </body>
+</html>

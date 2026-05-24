@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { withBase } from '../../../lib/site.js';
+---
+<BaseLayout title="Tables Scenario" description="Table extraction examples." canonicalPath="/scenarios/tables/">
+  <h1>Tables</h1>
+  <ul class="link-list">
+    <li><a href={withBase('/scenarios/tables/orders/')}>Orders table</a></li>
+    <li><a href={withBase('/scenarios/tables/inventory/')}>Inventory table</a></li>
+    <li><a href={withBase('/scenarios/tables/missing-cells/')}>Missing cells table</a></li>
+  </ul>
+</BaseLayout>

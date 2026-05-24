@@ -1,0 +1,23 @@
+---
+import ProductCard from '../../../../components/ProductCard.astro';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { categories, products } from '../../../../lib/site.js';
+
+export function getStaticPaths() {
+  return categories.map((category) => ({
+    params: { category: category.id },
+    props: {
+      category,
+      items: products.filter((product) => product.category === category.id),
+    },
+  }));
+}
+
+const { category, items } = Astro.props;
+---
+<BaseLayout title={`${category.name} Category`} description={`Category page for ${category.name}.`} canonicalPath={`/scenarios/ecommerce/categories/${category.id}/`}>
+  <h1>{category.name}</h1>
+  <div class="product-grid">
+    {items.map((product) => <ProductCard product={product} />)}
+  </div>
+</BaseLayout>

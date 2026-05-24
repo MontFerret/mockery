@@ -1,0 +1,17 @@
+---
+import networkScript from '../../../assets/network.js?url';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Network Activity Scenario" description="Deterministic network activity via static JSON fetch calls." canonicalPath="/scenarios/network/" scripts={[networkScript]}>
+  <h1>Network activity</h1>
+  <div class="grid">
+    <button type="button" data-fetch="products">Fetch products</button>
+    <button type="button" data-fetch="reviews">Fetch reviews</button>
+    <button type="button" data-fetch="recommendations">Fetch recommendations</button>
+    <button type="button" data-fetch="error">Fetch simulated error payload</button>
+    <button id="network-sequential" type="button">Trigger delayed sequential requests</button>
+    <button id="network-parallel" type="button">Trigger parallel requests</button>
+  </div>
+  <ul id="network-log" data-testid="network-log"></ul>
+  <div id="network-status" data-testid="network-status" data-state="idle">idle</div>
+</BaseLayout>

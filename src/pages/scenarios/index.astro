@@ -1,0 +1,12 @@
+---
+import ScenarioCard from '../../components/ScenarioCard.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { scenarios } from '../../lib/site.js';
+---
+<BaseLayout title="Scenarios" description="Scenario index for deterministic scraping and browser automation demos." canonicalPath="/scenarios/">
+  <h1>Scenarios</h1>
+  <p>A scenario is a controlled fake web situation designed to test or demonstrate a specific scraping or browser behavior.</p>
+  <div class="grid">
+    {scenarios.map((scenario) => <ScenarioCard scenario={scenario} />)}
+  </div>
+</BaseLayout>

@@ -4,9 +4,12 @@
   "private": true,
   "description": "Mockery: fake web scenarios for real Ferret tests.",
   "scripts": {
-    "dev": "node scripts/dev.mjs",
-    "build": "node scripts/build.mjs",
-    "preview": "node scripts/serve.mjs dist 4173",
-    "validate": "node scripts/validate.mjs"
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "validate": "node --test tests/validate-dist.test.mjs"
+  },
+  "devDependencies": {
+    "astro": "^6.3.7"
   }
 }

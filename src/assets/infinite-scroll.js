@@ -8,7 +8,27 @@
   let loading = false;
 
   const add = (items) => {
-    target.insertAdjacentHTML('beforeend', items.map((item) => `<article class="product-card" data-testid="product-card"><h3>${item.title}</h3><p data-testid="product-price">$${Number(item.price).toFixed(2)}</p></article>`).join(''));
+    for (const item of items) {
+      const card = document.createElement('article');
+      card.className = 'product-card';
+      card.dataset.testid = 'product-card';
+      card.dataset.productId = item.id;
+
+      const link = document.createElement('a');
+      link.href = window.Mockery.resolvePath(item.url);
+
+      const title = document.createElement('h3');
+      title.dataset.testid = 'product-title';
+      title.textContent = item.title;
+
+      const price = document.createElement('p');
+      price.dataset.testid = 'product-price';
+      price.textContent = `$${Number(item.price).toFixed(2)}`;
+
+      link.append(title);
+      card.append(link, price);
+      target.append(card);
+    }
   };
 
   const load = async () => {

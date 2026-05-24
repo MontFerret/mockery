@@ -1,0 +1,20 @@
+---
+import { formatMoney, productImagePath, productPath, withBase } from '../lib/site.js';
+
+const { product, heading = 'h2' } = Astro.props;
+const Heading = heading;
+---
+<article class="product-card" data-testid="product-card" data-product-id={product.id} data-category={product.category} data-price={product.price}>
+  <a class="product-link" data-testid="product-link" href={withBase(productPath(product))}>
+    <img class="product-image" src={withBase(productImagePath(product))} alt={product.title} loading="lazy" />
+    <Heading class="product-title" data-testid="product-title">{product.title}</Heading>
+  </a>
+  <p class="product-brand" data-testid="product-brand">{product.brand}</p>
+  <p class="product-price" data-testid="product-price" data-price={product.price} data-currency={product.currency}>
+    {formatMoney(product.price, product.currency)}
+  </p>
+  <p class="product-rating" data-testid="product-rating" data-rating={product.rating ?? ''}>
+    {product.rating ? `${product.rating} out of 5` : 'Not rated yet'}
+  </p>
+  <p class="product-stock" data-testid="product-stock">{product.inStock ? `In stock (${product.stockCount})` : 'Out of stock'}</p>
+</article>

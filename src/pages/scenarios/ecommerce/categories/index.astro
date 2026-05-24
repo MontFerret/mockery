@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { categories, categoryPath, withBase } from '../../../../lib/site.js';
+---
+<BaseLayout title="E-commerce Categories" description="Category listing for the e-commerce scenario." canonicalPath="/scenarios/ecommerce/categories/">
+  <h1>Categories</h1>
+  <ul class="link-list">
+    {categories.map((category) => <li><a href={withBase(categoryPath(category))}>{category.name}</a></li>)}
+  </ul>
+</BaseLayout>

@@ -1,13 +1,14 @@
 LET baseUrl = @baseUrl
 LET doc = DOCUMENT(baseUrl + "/scenarios/messy-markup/")
-LET cards = ELEMENTS(doc, ".product-card")
 
-RETURN cards
-  |> MAP({
-    title: COALESCE(
-      INNER_TEXT(ELEMENT(@, "[data-testid='product-name']")),
-      INNER_TEXT(ELEMENT(@, "h2")),
-      INNER_TEXT(ELEMENT(@, ".title"))
-    ),
-    price: COALESCE(INNER_TEXT(ELEMENT(@, ".price")), INNER_TEXT(ELEMENT(@, ".money")), "MISSING")
-  })
+FOR card IN ELEMENTS(doc, ".product-card")
+    LET dataName = ELEMENT(card, "[data-testid='product-name']")?
+    LET heading = ELEMENT(card, "h2")?
+    LET title = ELEMENT(card, ".title")?
+    LET price = ELEMENT(card, ".price")?
+    LET money = ELEMENT(card, ".money")?
+
+    RETURN {
+        title: TRIM(dataName != NONE ? INNER_TEXT(dataName) : heading != NONE ? INNER_TEXT(heading) : title != NONE ? INNER_TEXT(title) : "MISSING"),
+        price: TRIM(price != NONE ? INNER_TEXT(price) : money != NONE ? INNER_TEXT(money) : "MISSING")
+    }

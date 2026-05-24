@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Navigation Step 2" description="Step 2 of navigation flow." canonicalPath="/scenarios/navigation/step-2/">
+  <h1>Step 2</h1>
+  <button id="finish-flow" type="button">Finish flow</button>
+  <script>
+    document.getElementById('finish-flow')?.addEventListener('click', () => {
+      window.location.href = window.Mockery.resolvePath('/scenarios/navigation/done/#complete');
+    });
+  </script>
+</BaseLayout>

@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { withBase } from '../../../lib/site.js';
+---
+<BaseLayout title="Messy Markup Scenario" description="Intentional inconsistency for scraping fallback examples." canonicalPath="/scenarios/messy-markup/">
+  <h1>Messy markup</h1>
+  <!-- Inconsistencies below are intentional for parser robustness demos. -->
+  <section data-testid="messy-products">
+    <div class="product-card">
+      <span class="title">Budget Mouse</span>
+      <span class="price">$19.99</span>
+    </div>
+    <div class="item product-card">
+      <div>
+        <h2>Mechanical Keyboard</h2>
+        <!-- price missing intentionally -->
+      </div>
+    </div>
+    <div class="product-card promoted">
+      <div data-testid="product-name">USB-C Hub</div>
+      <div class="money">USD 49.00</div>
+    </div>
+    <div class="product-card" data-product-name="Wireless Charger">
+      <p data-testid="product-name"> Wireless Charger </p>
+      <a> View </a>
+      <img data-src={withBase('/assets/images/products/laptop-pro-14.svg')} alt="Lazy product placeholder" />
+    </div>
+    <div class="product-card unavailable">
+      <h3>Noise-Canceling Headphones</h3>
+      <span class="price">EUR 199,00</span>
+      <span>Unavailable</span>
+    </div>
+    <div class="product-card" id="duplicate-product-id">
+      <span class="label">Name</span>
+      <span class="label">Book: Data Pipelines &amp; Scraping</span>
+      <span class="money">$31</span>
+    </div>
+    <div class="product-card hidden-example" data-hidden-product="true" hidden>
+      <h2>Hidden Spare Part</h2>
+      <span class="price">$0.00</span>
+    </div>
+    <div class="promo">Promoted card mixed with product list</div>
+  </section>
+</BaseLayout>

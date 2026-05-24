@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { withBase } from '../../../lib/site.js';
+---
+<BaseLayout title="Navigation Scenario" description="Link, hash and query based navigation flow." canonicalPath="/scenarios/navigation/">
+  <h1>Navigation flow</h1>
+  <p><a href={withBase('/scenarios/navigation/step-1/')}>Start flow</a></p>
+  <button id="start-by-button" type="button">Start by button</button>
+  <p><a href="#hash-example">Hash navigation target</a></p>
+  <div id="hash-example">Hash target block</div>
+  <script>
+    document.getElementById('start-by-button')?.addEventListener('click', () => {
+      window.location.href = window.Mockery.resolvePath('/scenarios/navigation/step-1/?mode=button');
+    });
+  </script>
+</BaseLayout>

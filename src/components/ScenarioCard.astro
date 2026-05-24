@@ -1,0 +1,14 @@
+---
+import { scenarioPath, withBase } from '../lib/site.js';
+
+const { scenario } = Astro.props;
+---
+<article class="scenario-card" data-scenario={scenario.slug}>
+  <h2>{scenario.title}</h2>
+  <p>{scenario.description}</p>
+  <p><strong>Demonstrates:</strong> {scenario.demonstrates}</p>
+  {scenario.examples?.length > 0 && (
+    <p class="muted">Examples: {scenario.examples.join(', ')}</p>
+  )}
+  <a href={withBase(scenarioPath(scenario.slug))}>Open scenario</a>
+</article>

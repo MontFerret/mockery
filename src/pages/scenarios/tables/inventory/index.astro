@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { productPath, products, withBase } from '../../../../lib/site.js';
+---
+<BaseLayout title="Inventory Table" description="Table with nested links and data attributes." canonicalPath="/scenarios/tables/inventory/">
+  <h1>Inventory</h1>
+  <table data-testid="inventory-table">
+    <thead><tr><th>SKU</th><th>Title</th><th>Category</th><th>Stock</th></tr></thead>
+    <tbody>
+      {products.slice(0, 10).map((product) => (
+        <tr data-sku={product.sku} data-category={product.category}>
+          <td>{product.sku}</td>
+          <td><a href={withBase(productPath(product))}>{product.title}</a></td>
+          <td>{product.category}</td>
+          <td>{product.stockCount}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</BaseLayout>

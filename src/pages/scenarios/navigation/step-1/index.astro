@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { withBase } from '../../../../lib/site.js';
+---
+<BaseLayout title="Navigation Step 1" description="Step 1 of navigation flow." canonicalPath="/scenarios/navigation/step-1/">
+  <h1>Step 1</h1>
+  <a href={withBase('/scenarios/navigation/step-2/?from=step-1')}>Continue to step 2</a>
+</BaseLayout>

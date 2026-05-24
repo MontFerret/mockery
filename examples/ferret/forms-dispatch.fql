@@ -1,9 +1,8 @@
 LET baseUrl = @baseUrl
-LET browser = BROWSER()
-LET page = PAGE(browser)
-NAVIGATE(page, baseUrl + "/scenarios/forms/")
-TYPE(page, "#email", "demo@example.com")
+LET page = DOCUMENT(baseUrl + "/scenarios/forms/", { driver: "cdp" })
+
+INPUT(page, "#email", "demo@example.com")
 CLICK(page, "#newsletter-form button[type='submit']")
-WAITFOR ELEMENT(page, "#form-result:not([hidden])")
+WAIT_ELEMENT(page, "#form-result:not([hidden])")
 
 RETURN INNER_TEXT(ELEMENT(page, "#form-result"))

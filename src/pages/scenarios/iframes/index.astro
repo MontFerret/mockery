@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { withBase } from '../../../lib/site.js';
+---
+<BaseLayout title="Iframes Scenario" description="Same-origin iframe traversal examples." canonicalPath="/scenarios/iframes/">
+  <h1>Iframes</h1>
+  <iframe title="Frame A" src={withBase('/scenarios/iframes/frame-a/')} loading="lazy" data-testid="frame-a"></iframe>
+  <iframe title="Frame B" src={withBase('/scenarios/iframes/frame-b/')} loading="lazy" data-testid="frame-b"></iframe>
+  <iframe title="Frame Delayed" src={withBase('/scenarios/delayed-rendering/')} loading="lazy" data-testid="frame-delayed"></iframe>
+</BaseLayout>

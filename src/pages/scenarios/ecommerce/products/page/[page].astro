@@ -1,0 +1,22 @@
+---
+import Pagination from '../../../../../components/Pagination.astro';
+import ProductCard from '../../../../../components/ProductCard.astro';
+import BaseLayout from '../../../../../layouts/BaseLayout.astro';
+import { productPages } from '../../../../../lib/site.js';
+
+export function getStaticPaths() {
+  return productPages().slice(1).map((items, index) => ({
+    params: { page: String(index + 2) },
+    props: { items, page: index + 2, totalPages: productPages().length },
+  }));
+}
+
+const { items, page, totalPages } = Astro.props;
+---
+<BaseLayout title={`E-commerce Products Page ${page}`} description={`Product listing page ${page}.`} canonicalPath={`/scenarios/ecommerce/products/page/${page}/`}>
+  <h1>Product listing page {page}</h1>
+  <div class="product-grid">
+    {items.map((product) => <ProductCard product={product} />)}
+  </div>
+  <Pagination currentPage={page} totalPages={totalPages} />
+</BaseLayout>

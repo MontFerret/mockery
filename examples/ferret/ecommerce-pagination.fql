@@ -1,9 +1,8 @@
 LET baseUrl = @baseUrl
 LET page1 = DOCUMENT(baseUrl + "/scenarios/ecommerce/products/")
-LET nextLink = ATTRIBUTE(ELEMENT(page1, ".pagination .next"), "href")
-LET page2 = DOCUMENT(baseUrl + nextLink)
+LET page2 = DOCUMENT(baseUrl + "/scenarios/ecommerce/products/page/2/")
 
 RETURN {
-  page1Count: LENGTH(ELEMENTS(page1, "[data-testid='product-card']")),
-  page2Count: LENGTH(ELEMENTS(page2, "[data-testid='product-card']"))
+    page1Count: ELEMENTS_COUNT(page1, "[data-testid='product-card']"),
+    page2Count: ELEMENTS_COUNT(page2, "[data-testid='product-card']")
 }

@@ -7,7 +7,46 @@
   let page = 1;
   const maxPage = 3;
   const render = (items) => {
-    root.insertAdjacentHTML('beforeend', items.map((item) => `\n      <article class="product-card" data-testid="product-card" data-product-id="${item.id}" data-category="${item.category}" data-price="${item.price}">\n        <a class="product-link" data-testid="product-link" href="${item.url}">\n          <img class="product-image" src="${item.image}" alt="${item.title}" loading="lazy" />\n          <h2 class="product-title" data-testid="product-title">${item.title}</h2>\n        </a>\n        <p class="product-brand" data-testid="product-brand">${item.brand}</p>\n        <p class="product-price" data-testid="product-price" data-price="${item.price}" data-currency="${item.currency}">$${Number(item.price).toFixed(2)}</p>\n      </article>`).join(''));
+    for (const item of items) {
+      const card = document.createElement('article');
+      card.className = 'product-card';
+      card.dataset.testid = 'product-card';
+      card.dataset.productId = item.id;
+      card.dataset.category = item.category;
+      card.dataset.price = item.price;
+
+      const link = document.createElement('a');
+      link.className = 'product-link';
+      link.dataset.testid = 'product-link';
+      link.href = window.Mockery.resolvePath(item.url);
+
+      const image = document.createElement('img');
+      image.className = 'product-image';
+      image.src = window.Mockery.resolvePath(item.image);
+      image.alt = item.title;
+      image.loading = 'lazy';
+
+      const title = document.createElement('h2');
+      title.className = 'product-title';
+      title.dataset.testid = 'product-title';
+      title.textContent = item.title;
+
+      const brand = document.createElement('p');
+      brand.className = 'product-brand';
+      brand.dataset.testid = 'product-brand';
+      brand.textContent = item.brand;
+
+      const price = document.createElement('p');
+      price.className = 'product-price';
+      price.dataset.testid = 'product-price';
+      price.dataset.price = item.price;
+      price.dataset.currency = item.currency;
+      price.textContent = `$${Number(item.price).toFixed(2)}`;
+
+      link.append(image, title);
+      card.append(link, brand, price);
+      root.append(card);
+    }
   };
 
   const load = async () => {

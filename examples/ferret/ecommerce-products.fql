@@ -1,9 +1,12 @@
 LET baseUrl = @baseUrl
 LET doc = DOCUMENT(baseUrl + "/scenarios/ecommerce/products/")
 
-RETURN ELEMENTS(doc, "[data-testid='product-card']")
-  |> MAP({
-    id: ATTRIBUTE(@, "data-product-id"),
-    title: INNER_TEXT(ELEMENT(@, "[data-testid='product-title']")),
-    price: ATTRIBUTE(ELEMENT(@, "[data-testid='product-price']"), "data-price")
-  })
+FOR card IN ELEMENTS(doc, "[data-testid='product-card']")
+    LET price = ELEMENT(card, "[data-testid='product-price']")
+
+    RETURN {
+        id: card.attributes["data-product-id"],
+        title: TRIM(INNER_TEXT(card, "[data-testid='product-title']")),
+        price: TO_FLOAT(price.attributes["data-price"]),
+        currency: price.attributes["data-currency"]
+    }

@@ -1,8 +1,7 @@
 LET baseUrl = @baseUrl
-LET browser = BROWSER()
-LET page = PAGE(browser)
-NAVIGATE(page, baseUrl + "/scenarios/network/")
+LET page = DOCUMENT(baseUrl + "/scenarios/network/", { driver: "cdp" })
+
 CLICK(page, "button[data-fetch='products']")
-WAITFOR ELEMENT(page, "#network-log li")
+WAIT_ELEMENT(page, "#network-log li")
 
 RETURN INNER_TEXT(ELEMENT(page, "#network-log li:last-child"))

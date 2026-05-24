@@ -1,0 +1,16 @@
+---
+import Pagination from '../../../../components/Pagination.astro';
+import ProductCard from '../../../../components/ProductCard.astro';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { productPages } from '../../../../lib/site.js';
+
+const pages = productPages();
+const items = pages[0];
+---
+<BaseLayout title="E-commerce Products Page 1" description="Product listing page 1." canonicalPath="/scenarios/ecommerce/products/">
+  <h1>Product listing page 1</h1>
+  <div class="product-grid">
+    {items.map((product) => <ProductCard product={product} />)}
+  </div>
+  <Pagination currentPage={1} totalPages={pages.length} />
+</BaseLayout>

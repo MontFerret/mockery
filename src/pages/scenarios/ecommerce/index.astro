@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { withBase } from '../../../lib/site.js';
+---
+<BaseLayout title="E-commerce Scenario" description="Mock e-commerce scenario with products, categories, search and detail pages." canonicalPath="/scenarios/ecommerce/">
+  <h1>E-commerce scenario</h1>
+  <p>Deterministic fake storefront scenario for extraction, pagination, category, review, and detail-page examples.</p>
+  <ul class="link-list">
+    <li><a href={withBase('/scenarios/ecommerce/products/')}>Products</a></li>
+    <li><a href={withBase('/scenarios/ecommerce/categories/')}>Categories</a></li>
+    <li><a href={withBase('/scenarios/ecommerce/search/')}>Search</a></li>
+  </ul>
+</BaseLayout>

@@ -1,9 +1,11 @@
 LET baseUrl = @baseUrl
 LET doc = DOCUMENT(baseUrl + "/scenarios/ecommerce/products/laptop-pro-14/")
+LET price = ELEMENT(doc, "[data-testid='product-price']")
 
 RETURN {
-  title: INNER_TEXT(ELEMENT(doc, "[data-testid='product-title']")),
-  price: ATTRIBUTE(ELEMENT(doc, "[data-testid='product-price']"), "data-price"),
-  specsRows: LENGTH(ELEMENTS(doc, "[data-testid='product-specs'] tr")),
-  reviews: LENGTH(ELEMENTS(doc, "[data-testid='review']"))
+    title: TRIM(INNER_TEXT(doc, "[data-testid='product-title']")),
+    price: TO_FLOAT(price.attributes["data-price"]),
+    currency: price.attributes["data-currency"],
+    specsRows: ELEMENTS_COUNT(doc, "[data-testid='product-specs'] tr"),
+    reviews: ELEMENTS_COUNT(doc, "[data-testid='review']")
 }

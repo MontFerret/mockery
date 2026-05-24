@@ -1,0 +1,32 @@
+---
+import tablesScript from '../../../../assets/tables.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { formatMoney, orders } from '../../../../lib/site.js';
+
+const totalValue = orders.reduce((sum, item) => sum + item.total, 0);
+const totalItems = orders.reduce((sum, item) => sum + item.itemCount, 0);
+---
+<BaseLayout title="Orders Table" description="Clean orders table with sortable control." canonicalPath="/scenarios/tables/orders/" scripts={[tablesScript]}>
+  <h1>Orders table</h1>
+  <button id="sort-total" type="button">Sort by total</button>
+  <table id="sortable-orders" data-testid="orders-table">
+    <thead>
+      <tr><th>Order ID</th><th>Customer</th><th>Date</th><th>Status</th><th>Total</th><th>Item count</th></tr>
+    </thead>
+    <tbody>
+      {orders.map((order) => (
+        <tr data-order-id={order.orderId} data-total={order.total}>
+          <td>{order.orderId}</td>
+          <td><a href={`#customer-${order.customer}`}>{order.customer}</a></td>
+          <td>{order.date}</td>
+          <td>{order.status}</td>
+          <td>{formatMoney(order.total)}</td>
+          <td>{order.itemCount}</td>
+        </tr>
+      ))}
+    </tbody>
+    <tfoot>
+      <tr><th colspan="4">Total</th><th>{formatMoney(totalValue)}</th><th>{totalItems}</th></tr>
+    </tfoot>
+  </table>
+</BaseLayout>

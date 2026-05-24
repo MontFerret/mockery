@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { products } from '../../../lib/site.js';
+
+const searchIndex = products.slice(0, 25).map(({ id, title, price }) => ({ id, title, price }));
+---
+<BaseLayout title="E-commerce Search" description="Static search-like page driven by query string." canonicalPath="/scenarios/ecommerce/search/">
+  <h1>Search</h1>
+  <p>Use <code>?q=laptop</code> to filter by title.</p>
+  <div id="search-results" data-testid="search-results"></div>
+  <script define:vars={{ searchIndex }}>
+    const q = new URLSearchParams(window.location.search).get('q')?.toLowerCase() ?? '';
+    const filtered = q ? searchIndex.filter((item) => item.title.toLowerCase().includes(q)) : searchIndex;
+    const root = document.getElementById('search-results');
+
+    for (const item of filtered) {
+      const article = document.createElement('article');
+      article.className = 'product-card';
+      article.dataset.testid = 'product-card';
+      article.dataset.productId = item.id;
+
+      const title = document.createElement('h2');
+      title.dataset.testid = 'product-title';
+      title.textContent = item.title;
+
+      const price = document.createElement('p');
+      price.dataset.testid = 'product-price';
+      price.textContent = `$${Number(item.price).toFixed(2)}`;
+
+      article.append(title, price);
+      root.append(article);
+    }
+  </script>
+</BaseLayout>
