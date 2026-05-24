@@ -1,0 +1,54 @@
+---
+import networkScript from '../../../../assets/network.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Network Delayed Requests"
+  description="Fetch static JSON files after deterministic client-side delays."
+  canonicalPath="/scenarios/network/delayed-requests/"
+  scripts={[networkScript]}
+  mainId="network-scenario"
+  mainClass="wrap scenario network-scenario"
+  mainAttributes={{
+    'data-testid': 'network-scenario',
+    'data-scenario': 'network',
+    'data-case': 'delayed-requests',
+    'data-state': 'idle',
+    'data-request-count': '0',
+    'data-response-count': '0',
+    'data-error-count': '0',
+    'data-complete': 'false',
+  }}
+>
+  <h1>Delayed Requests</h1>
+  <p class="lead">Waits 300ms, 500ms, and 700ms before three deterministic static fetches.</p>
+  <div
+    id="network-status"
+    class="scenario-status"
+    data-testid="network-status"
+    data-state="idle"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+  <div
+    id="network-delay-config"
+    data-testid="network-delay-config"
+    data-delay-1-ms="300"
+    data-delay-2-ms="500"
+    data-delay-3-ms="700"
+  ></div>
+  <section
+    id="network-results"
+    class="network-results"
+    data-testid="network-results"
+    data-result-count="0"
+    aria-label="Delayed network results"
+  ></section>
+  <ul
+    id="network-log"
+    class="scenario-log"
+    data-testid="network-log"
+    aria-label="Network scenario event log"
+  ></ul>
+</BaseLayout>

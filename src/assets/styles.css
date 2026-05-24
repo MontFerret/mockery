@@ -20,6 +20,9 @@ nav ul { display:flex; flex-wrap:wrap; gap:.75rem; list-style:none; padding:0; m
 .scenario-error,.scenario-empty { background:#fff; border:1px solid var(--line); border-radius:.5rem; margin:1rem 0; padding:1rem; }
 .scenario-error { border-color:#fca5a5; background:#fef2f2; }
 .scenario-empty { border-color:#cbd5e1; background:#f8fafc; }
+.network-results,.network-diagnostics { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem; margin:1rem 0; }
+.network-result-card { background:var(--card); border:1px solid var(--line); border-radius:.5rem; padding:1rem; }
+.network-result-card h2 { margin-top:0; font-size:1.1rem; }
 .button-row { display:flex; flex-wrap:wrap; gap:.75rem; margin:1rem 0; }
 .dynamic-product-card { scroll-margin-top:1rem; }
 .product-image { width:100%; aspect-ratio:4/3; object-fit:cover; border:1px solid var(--line); border-radius:.4rem; background:#fff; }

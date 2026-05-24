@@ -1,0 +1,61 @@
+---
+import networkScript from '../../../../assets/network.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Network Mixed Content"
+  description="Fetch JSON, text, and trusted static HTML fragment resources."
+  canonicalPath="/scenarios/network/mixed-content/"
+  scripts={[networkScript]}
+  mainId="network-scenario"
+  mainClass="wrap scenario network-scenario"
+  mainAttributes={{
+    'data-testid': 'network-scenario',
+    'data-scenario': 'network',
+    'data-case': 'mixed-content',
+    'data-state': 'idle',
+    'data-request-count': '0',
+    'data-response-count': '0',
+    'data-error-count': '0',
+    'data-complete': 'false',
+  }}
+>
+  <h1>Mixed Content</h1>
+  <p class="lead">Loads JSON, plain text, and a trusted local HTML fragment from static files.</p>
+  <div
+    id="network-status"
+    class="scenario-status"
+    data-testid="network-status"
+    data-state="idle"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+  <section
+    id="mixed-json-result"
+    class="network-results"
+    data-testid="mixed-json-result"
+    data-result-count="0"
+    aria-label="Mixed JSON result"
+  ></section>
+  <section
+    id="mixed-text-result"
+    class="network-results"
+    data-testid="mixed-text-result"
+    data-result-count="0"
+    aria-label="Mixed text result"
+  ></section>
+  <section
+    id="mixed-html-result"
+    class="network-results"
+    data-testid="mixed-html-result"
+    data-result-count="0"
+    aria-label="Mixed HTML result"
+  ></section>
+  <ul
+    id="network-log"
+    class="scenario-log"
+    data-testid="network-log"
+    aria-label="Network scenario event log"
+  ></ul>
+</BaseLayout>

@@ -1,0 +1,54 @@
+---
+import networkScript from '../../../../assets/network.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Network Request Filtering"
+  description="Trigger distinguishable request URLs for filtering demonstrations."
+  canonicalPath="/scenarios/network/request-filtering/"
+  scripts={[networkScript]}
+  mainId="network-scenario"
+  mainClass="wrap scenario network-scenario"
+  mainAttributes={{
+    'data-testid': 'network-scenario',
+    'data-scenario': 'network',
+    'data-case': 'request-filtering',
+    'data-state': 'idle',
+    'data-request-count': '0',
+    'data-response-count': '0',
+    'data-error-count': '0',
+    'data-complete': 'false',
+  }}
+>
+  <h1>Request Filtering</h1>
+  <p class="lead">Loads products, reviews, and analytics endpoints with stable URL names.</p>
+  <div
+    id="network-status"
+    class="scenario-status"
+    data-testid="network-status"
+    data-state="idle"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+  <section
+    id="network-primary-results"
+    class="network-results"
+    data-testid="network-primary-results"
+    data-result-count="0"
+    aria-label="Primary network results"
+  ></section>
+  <section
+    id="network-diagnostics"
+    class="network-diagnostics"
+    data-testid="network-diagnostics"
+    data-result-count="0"
+    aria-label="Network diagnostics"
+  ></section>
+  <ul
+    id="network-log"
+    class="scenario-log"
+    data-testid="network-log"
+    aria-label="Network scenario event log"
+  ></ul>
+</BaseLayout>

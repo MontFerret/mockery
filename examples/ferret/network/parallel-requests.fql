@@ -1,0 +1,19 @@
+LET baseUrl = @baseUrl
+LET doc = DOCUMENT(baseUrl + "/scenarios/network/parallel-requests/")
+
+WAITFOR VALUE (
+  FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css)
+    .attributes["data-state"] == "complete"
+)
+TIMEOUT 10s
+
+RETURN {
+  requestCount: FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css).attributes["data-request-count"],
+  responseCount: FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css).attributes["data-response-count"],
+  started: (
+    QUERY "[data-event='request-started']" IN doc USING css
+  )[* RETURN .attributes["data-request-id"]],
+  rendered: (
+    QUERY "[data-testid='network-result-card']" IN doc USING css
+  )[* RETURN .attributes["data-resource"]]
+}

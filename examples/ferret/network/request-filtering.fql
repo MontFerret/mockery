@@ -1,0 +1,26 @@
+LET baseUrl = @baseUrl
+LET doc = DOCUMENT(baseUrl + "/scenarios/network/request-filtering/")
+
+WAITFOR VALUE (
+  FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css)
+    .attributes["data-state"] == "complete"
+)
+TIMEOUT 10s
+
+RETURN {
+  productRequest: FIRST(
+    QUERY "[data-event='request-started'][data-request-id='filter-products']" IN doc USING css
+  ).attributes["data-url"],
+  primaryResources: (
+    QUERY "[data-testid='network-primary-results'] [data-testid='network-result-card']" IN doc USING css
+  )[* RETURN .attributes["data-resource"]],
+  diagnostics: (
+    QUERY "[data-testid='network-diagnostics'] [data-testid='network-result-card']" IN doc USING css
+  )[* RETURN .attributes["data-resource"]]
+}
+
+// Illustrative Ferret v2 network-event form, if enabled by the active driver:
+// LET evt = WAITFOR EVENT "network.response_received" IN doc
+// FILTER .url CONTAINS "/api/network/filter-products.json"
+// TIMEOUT 10s
+// RETURN evt.url

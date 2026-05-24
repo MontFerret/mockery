@@ -1,7 +1,7 @@
 LET baseUrl = @baseUrl
-LET page = DOCUMENT(baseUrl + "/scenarios/network/", { driver: "cdp" })
+LET page = DOCUMENT(baseUrl + "/scenarios/network/user-triggered/", { driver: "cdp" })
 
-CLICK(page, "button[data-fetch='products']")
+CLICK(page, "[data-testid='fetch-products']")
 WAIT_ELEMENT(page, "#network-log li")
 
 RETURN INNER_TEXT(ELEMENT(page, "#network-log li:last-child"))

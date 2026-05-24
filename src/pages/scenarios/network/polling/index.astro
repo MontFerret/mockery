@@ -1,0 +1,55 @@
+---
+import networkScript from '../../../../assets/network.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Network Polling"
+  description="Simulate polling with three deterministic static JSON responses."
+  canonicalPath="/scenarios/network/polling/"
+  scripts={[networkScript]}
+  mainId="network-scenario"
+  mainClass="wrap scenario network-scenario"
+  mainAttributes={{
+    'data-testid': 'network-scenario',
+    'data-scenario': 'network',
+    'data-case': 'polling',
+    'data-state': 'idle',
+    'data-request-count': '0',
+    'data-response-count': '0',
+    'data-error-count': '0',
+    'data-complete': 'false',
+    'data-poll-step': '0',
+    'data-poll-complete': 'false',
+  }}
+>
+  <h1>Polling</h1>
+  <p class="lead">Fetches three polling payloads with a deterministic 400ms interval.</p>
+  <div
+    id="network-status"
+    class="scenario-status"
+    data-testid="network-status"
+    data-state="idle"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+  <div
+    id="network-poll-config"
+    data-testid="network-poll-config"
+    data-interval-ms="400"
+    data-max-polls="3"
+  ></div>
+  <section
+    id="network-results"
+    class="network-results"
+    data-testid="network-results"
+    data-result-count="0"
+    aria-label="Polling results"
+  ></section>
+  <ul
+    id="network-log"
+    class="scenario-log"
+    data-testid="network-log"
+    aria-label="Network scenario event log"
+  ></ul>
+</BaseLayout>

@@ -1,0 +1,47 @@
+---
+import networkScript from '../../../../assets/network.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Network Single Request"
+  description="Fetch one static JSON file on page load and render the response."
+  canonicalPath="/scenarios/network/single-request/"
+  scripts={[networkScript]}
+  mainId="network-scenario"
+  mainClass="wrap scenario network-scenario"
+  mainAttributes={{
+    'data-testid': 'network-scenario',
+    'data-scenario': 'network',
+    'data-case': 'single-request',
+    'data-state': 'idle',
+    'data-request-count': '0',
+    'data-response-count': '0',
+    'data-error-count': '0',
+    'data-complete': 'false',
+  }}
+>
+  <h1>Single Request</h1>
+  <p class="lead">Fetches one product JSON file on page load and renders a stable response summary.</p>
+  <div
+    id="network-status"
+    class="scenario-status"
+    data-testid="network-status"
+    data-state="idle"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+  <section
+    id="network-results"
+    class="network-results"
+    data-testid="network-results"
+    data-result-count="0"
+    aria-label="Network results"
+  ></section>
+  <ul
+    id="network-log"
+    class="scenario-log"
+    data-testid="network-log"
+    aria-label="Network scenario event log"
+  ></ul>
+</BaseLayout>

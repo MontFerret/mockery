@@ -1,0 +1,17 @@
+LET baseUrl = @baseUrl
+LET doc = DOCUMENT(baseUrl + "/scenarios/network/mixed-content/")
+
+WAITFOR VALUE (
+  FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css)
+    .attributes["data-state"] == "complete"
+)
+TIMEOUT 10s
+
+RETURN {
+  json: FIRST(QUERY "[data-testid='mixed-json-result'] [data-testid='network-result-summary']" IN doc USING css).text,
+  text: FIRST(QUERY "[data-testid='mixed-text-result'] [data-testid='network-result-summary']" IN doc USING css).text,
+  html: FIRST(QUERY "[data-testid='mixed-html-result'] [data-testid='network-result-title']" IN doc USING css).text,
+  contentTypes: (
+    QUERY "[data-event='request-started']" IN doc USING css
+  )[* RETURN .attributes["data-content-type"]]
+}

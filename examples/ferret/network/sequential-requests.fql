@@ -1,0 +1,21 @@
+LET baseUrl = @baseUrl
+LET doc = DOCUMENT(baseUrl + "/scenarios/network/sequential-requests/")
+
+WAITFOR VALUE (
+  FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css)
+    .attributes["data-state"] == "complete"
+)
+TIMEOUT 10s
+
+RETURN {
+  state: FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css).attributes["data-state"],
+  requests: (
+    QUERY "[data-event='request-started']" IN doc USING css
+  )[* RETURN {
+    requestId: .attributes["data-request-id"],
+    url: .attributes["data-url"]
+  }],
+  resultResources: (
+    QUERY "[data-testid='network-result-card']" IN doc USING css
+  )[* RETURN .attributes["data-resource"]]
+}

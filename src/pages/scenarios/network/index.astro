@@ -1,17 +1,93 @@
 ---
-import networkScript from '../../../assets/network.js?url';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { withBase } from '../../../lib/site.js';
+
+const cases = [
+  {
+    slug: 'single-request',
+    title: 'Single Request',
+    description: 'Fetch one JSON file on page load and render the response.',
+  },
+  {
+    slug: 'sequential-requests',
+    title: 'Sequential Requests',
+    description: 'Fetch a deterministic chain of JSON resources in order.',
+  },
+  {
+    slug: 'parallel-requests',
+    title: 'Parallel Requests',
+    description: 'Trigger a deterministic fan-out and render results after all responses finish.',
+  },
+  {
+    slug: 'delayed-requests',
+    title: 'Delayed Requests',
+    description: 'Space static fetches apart with short client-side delays.',
+  },
+  {
+    slug: 'polling',
+    title: 'Polling',
+    description: 'Fetch three deterministic polling payloads until completion.',
+  },
+  {
+    slug: 'simulated-error',
+    title: 'Simulated Error',
+    description: 'Render an application-level error from an ok:false payload.',
+  },
+  {
+    slug: 'request-filtering',
+    title: 'Request Filtering',
+    description: 'Trigger distinguishable URLs for products, reviews, and analytics.',
+  },
+  {
+    slug: 'network-idle',
+    title: 'Network Idle',
+    description: 'Run a small request burst and expose an application-level idle marker.',
+  },
+  {
+    slug: 'user-triggered',
+    title: 'User Triggered',
+    description: 'Trigger static fetches only after button clicks.',
+  },
+  {
+    slug: 'mixed-content',
+    title: 'Mixed Content',
+    description: 'Fetch JSON, text, and a trusted static HTML fragment.',
+  },
+];
 ---
-<BaseLayout title="Network Activity Scenario" description="Deterministic network activity via static JSON fetch calls." canonicalPath="/scenarios/network/" scripts={[networkScript]}>
-  <h1>Network activity</h1>
-  <div class="grid">
-    <button type="button" data-fetch="products">Fetch products</button>
-    <button type="button" data-fetch="reviews">Fetch reviews</button>
-    <button type="button" data-fetch="recommendations">Fetch recommendations</button>
-    <button type="button" data-fetch="error">Fetch simulated error payload</button>
-    <button id="network-sequential" type="button">Trigger delayed sequential requests</button>
-    <button id="network-parallel" type="button">Trigger parallel requests</button>
-  </div>
-  <ul id="network-log" data-testid="network-log"></ul>
-  <div id="network-status" data-testid="network-status" data-state="idle">idle</div>
+<BaseLayout
+  title="Network Activity"
+  description="Deterministic browser-side fetch scenarios for Ferret network observation."
+  canonicalPath="/scenarios/network/"
+>
+  <section
+    class="scenario-header"
+    data-testid="scenario-header"
+    data-scenario="network"
+  >
+    <h1>Network Activity</h1>
+    <p class="lead">
+      Deterministic browser-side fetch scenarios for testing Ferret CDP network events,
+      request observation, response handling, and network idle behavior.
+    </p>
+    <p class="notice">
+      This is a fictional static scenario for Ferret demos and tests. All API responses are static files served by Mockery.
+    </p>
+  </section>
+
+  <section class="scenario-links" data-testid="scenario-links" aria-label="Network activity cases">
+    <div class="grid">
+      {cases.map((scenarioCase) => (
+        <article
+          class="scenario-card"
+          data-testid="scenario-card"
+          data-scenario-case={scenarioCase.slug}
+        >
+          <h2>{scenarioCase.title}</h2>
+          <p>{scenarioCase.description}</p>
+          <a href={withBase(`/scenarios/network/${scenarioCase.slug}/`)}>Open case</a>
+        </article>
+      ))}
+    </div>
+  </section>
 </BaseLayout>

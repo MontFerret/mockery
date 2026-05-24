@@ -1,0 +1,52 @@
+---
+import networkScript from '../../../../assets/network.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Network Idle"
+  description="Expose a DOM idle marker after deterministic network activity completes."
+  canonicalPath="/scenarios/network/network-idle/"
+  scripts={[networkScript]}
+  mainId="network-scenario"
+  mainClass="wrap scenario network-scenario"
+  mainAttributes={{
+    'data-testid': 'network-scenario',
+    'data-scenario': 'network',
+    'data-case': 'network-idle',
+    'data-state': 'idle',
+    'data-request-count': '0',
+    'data-response-count': '0',
+    'data-error-count': '0',
+    'data-complete': 'false',
+  }}
+>
+  <h1>Network Idle</h1>
+  <p class="lead">Runs a small burst of requests and marks application-level idle after completion.</p>
+  <div
+    id="network-status"
+    class="scenario-status"
+    data-testid="network-status"
+    data-state="idle"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+  <div
+    id="network-idle-marker"
+    data-testid="network-idle-marker"
+    data-idle="false"
+  ></div>
+  <section
+    id="network-results"
+    class="network-results"
+    data-testid="network-results"
+    data-result-count="0"
+    aria-label="Network idle results"
+  ></section>
+  <ul
+    id="network-log"
+    class="scenario-log"
+    data-testid="network-log"
+    aria-label="Network scenario event log"
+  ></ul>
+</BaseLayout>

@@ -30,9 +30,9 @@ export const scenarios = [
   {
     slug: 'network',
     title: 'Network Activity',
-    description: 'Buttons that trigger predictable fetch patterns and statuses.',
-    demonstrates: 'request, response, request finished, request failed, and idle network events',
-    examples: ['network-events.fql'],
+    description: 'Deterministic browser-side fetch scenarios from static API files.',
+    demonstrates: 'network observation, waits, request filtering, polling, idle markers, and DOM updates',
+    examples: ['network/single-request.fql', 'network/user-triggered.fql', 'network/request-filtering.fql'],
   },
   {
     slug: 'messy-markup',
@@ -261,6 +261,217 @@ export const dynamicProductApiPayload = (name) => {
 
   return null;
 };
+
+const networkProducts = [
+  {
+    id: 'net-product-001',
+    sku: 'NET-PRD-001',
+    title: 'Network Laptop Pro 14',
+    category: 'laptops',
+    price: 1299.0,
+    currency: 'USD',
+    inStock: true,
+  },
+  {
+    id: 'net-product-002',
+    sku: 'NET-PRD-002',
+    title: 'Network Dock Station',
+    category: 'accessories',
+    price: 219.0,
+    currency: 'USD',
+    inStock: true,
+  },
+  {
+    id: 'net-product-003',
+    sku: 'NET-PRD-003',
+    title: 'Network Travel Router',
+    category: 'networking',
+    price: 89.0,
+    currency: 'USD',
+    inStock: false,
+  },
+];
+
+const networkReviews = [
+  {
+    id: 'net-review-001',
+    productId: 'net-product-001',
+    author: 'Alice Reed',
+    stars: 5,
+    body: 'Loaded through the network scenario.',
+  },
+  {
+    id: 'net-review-002',
+    productId: 'net-product-002',
+    author: 'Jordan Lee',
+    stars: 4,
+    body: 'Useful fixture data for request observation.',
+  },
+];
+
+const networkRecommendations = [
+  {
+    id: 'net-rec-001',
+    productId: 'net-product-001',
+    title: 'Pair with Network Dock Station',
+    rank: 1,
+  },
+  {
+    id: 'net-rec-002',
+    productId: 'net-product-002',
+    title: 'Add a spare USB-C cable',
+    rank: 2,
+  },
+  {
+    id: 'net-rec-003',
+    productId: 'net-product-003',
+    title: 'Review travel networking accessories',
+    rank: 3,
+  },
+];
+
+const networkPayloads = {
+  products: () => ({
+    ok: true,
+    resource: 'products',
+    items: networkProducts,
+  }),
+  reviews: () => ({
+    ok: true,
+    resource: 'reviews',
+    items: networkReviews,
+  }),
+  recommendations: () => ({
+    ok: true,
+    resource: 'recommendations',
+    items: networkRecommendations,
+  }),
+  categories: () => ({
+    ok: true,
+    resource: 'categories',
+    items: [
+      { id: 'laptops', title: 'Laptops', count: 1 },
+      { id: 'accessories', title: 'Accessories', count: 1 },
+      { id: 'networking', title: 'Networking', count: 1 },
+    ],
+  }),
+  inventory: () => ({
+    ok: true,
+    resource: 'inventory',
+    items: [
+      { productId: 'net-product-001', quantity: 12, warehouse: 'primary' },
+      { productId: 'net-product-002', quantity: 7, warehouse: 'primary' },
+      { productId: 'net-product-003', quantity: 0, warehouse: 'secondary' },
+    ],
+  }),
+  pricing: () => ({
+    ok: true,
+    resource: 'pricing',
+    items: [
+      { productId: 'net-product-001', price: 1299.0, currency: 'USD', discountCode: null },
+      { productId: 'net-product-002', price: 219.0, currency: 'USD', discountCode: 'NETWORK-BUNDLE' },
+      { productId: 'net-product-003', price: 89.0, currency: 'USD', discountCode: null },
+    ],
+  }),
+  profile: () => ({
+    ok: true,
+    resource: 'profile',
+    profile: {
+      id: 'net-profile-001',
+      name: 'Demo Network Shopper',
+      tier: 'test',
+    },
+    items: [],
+  }),
+  settings: () => ({
+    ok: true,
+    resource: 'settings',
+    settings: {
+      locale: 'en-US',
+      currency: 'USD',
+      notifications: false,
+    },
+    items: [],
+  }),
+  'simulated-error': () => ({
+    ok: false,
+    resource: 'simulated-error',
+    error: {
+      code: 'MOCK_UPSTREAM_FAILURE',
+      message: 'Simulated upstream failure.',
+    },
+    items: [],
+  }),
+  'poll-1': () => ({
+    ok: true,
+    resource: 'poll',
+    step: 1,
+    complete: false,
+    message: 'Still processing.',
+  }),
+  'poll-2': () => ({
+    ok: true,
+    resource: 'poll',
+    step: 2,
+    complete: false,
+    message: 'Processing continues.',
+  }),
+  'poll-3': () => ({
+    ok: true,
+    resource: 'poll',
+    step: 3,
+    complete: true,
+    message: 'Processing complete.',
+  }),
+  'slow-1': () => ({
+    ok: true,
+    resource: 'slow-1',
+    step: 1,
+    message: 'First delayed response complete.',
+    items: [networkProducts[0]],
+  }),
+  'slow-2': () => ({
+    ok: true,
+    resource: 'slow-2',
+    step: 2,
+    message: 'Second delayed response complete.',
+    items: [networkProducts[1]],
+  }),
+  'slow-3': () => ({
+    ok: true,
+    resource: 'slow-3',
+    step: 3,
+    message: 'Third delayed response complete.',
+    items: [networkProducts[2]],
+  }),
+  'filter-products': () => ({
+    ok: true,
+    resource: 'products',
+    filterKey: 'filter-products',
+    items: networkProducts,
+  }),
+  'filter-reviews': () => ({
+    ok: true,
+    resource: 'reviews',
+    filterKey: 'filter-reviews',
+    items: networkReviews,
+  }),
+  'filter-analytics': () => ({
+    ok: true,
+    resource: 'analytics',
+    filterKey: 'filter-analytics',
+    items: [
+      { id: 'net-analytics-001', event: 'scenario-view', value: 1 },
+    ],
+  }),
+  'mixed-products': () => ({
+    ok: true,
+    resource: 'mixed-products',
+    items: networkProducts.slice(0, 2),
+  }),
+};
+
+export const networkApiPayload = (name) => networkPayloads[name]?.() ?? null;
 
 export const formatMoney = (value, currency = 'USD') =>
   new Intl.NumberFormat('en-US', { style: 'currency', currency }).format(value);

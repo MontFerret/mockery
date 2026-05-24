@@ -1,0 +1,54 @@
+---
+import networkScript from '../../../../assets/network.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Network Simulated Error"
+  description="Render an application-level error from a successful static JSON response."
+  canonicalPath="/scenarios/network/simulated-error/"
+  scripts={[networkScript]}
+  mainId="network-scenario"
+  mainClass="wrap scenario network-scenario"
+  mainAttributes={{
+    'data-testid': 'network-scenario',
+    'data-scenario': 'network',
+    'data-case': 'simulated-error',
+    'data-state': 'idle',
+    'data-request-count': '0',
+    'data-response-count': '0',
+    'data-error-count': '0',
+    'data-complete': 'false',
+  }}
+>
+  <h1>Simulated Error</h1>
+  <p class="lead">Fetches a static JSON payload with ok:false and renders a stable error panel.</p>
+  <div
+    id="network-status"
+    class="scenario-status"
+    data-testid="network-status"
+    data-state="idle"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+  <section
+    id="network-error"
+    class="scenario-error"
+    data-testid="network-error"
+    data-error-code=""
+    hidden
+  ></section>
+  <section
+    id="network-results"
+    class="network-results"
+    data-testid="network-results"
+    data-result-count="0"
+    aria-label="Network results"
+  ></section>
+  <ul
+    id="network-log"
+    class="scenario-log"
+    data-testid="network-log"
+    aria-label="Network scenario event log"
+  ></ul>
+</BaseLayout>

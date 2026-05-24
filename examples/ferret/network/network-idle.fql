@@ -1,0 +1,17 @@
+LET baseUrl = @baseUrl
+LET doc = DOCUMENT(baseUrl + "/scenarios/network/network-idle/")
+
+WAITFOR VALUE (
+  FIRST(QUERY "[data-testid='network-idle-marker']" IN doc USING css)
+    .attributes["data-idle"] == "true"
+)
+TIMEOUT 10s
+
+RETURN {
+  state: FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css).attributes["data-state"],
+  marker: FIRST(QUERY "[data-testid='network-idle-marker']" IN doc USING css).text,
+  requestCount: FIRST(QUERY "[data-testid='network-idle-marker']" IN doc USING css).attributes["data-request-count"]
+}
+
+// Browser-level network idle waits are driver-specific. This example uses the
+// page's deterministic DOM-level idle marker as a stable assertion point.

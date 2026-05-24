@@ -1,0 +1,18 @@
+LET baseUrl = @baseUrl
+LET doc = DOCUMENT(baseUrl + "/scenarios/network/user-triggered/")
+LET btn = FIRST(QUERY "[data-testid='fetch-all']" IN doc USING css)
+
+DISPATCH "click" IN btn
+
+WAITFOR VALUE (
+  FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css)
+    .attributes["data-state"] == "complete"
+)
+TIMEOUT 10s
+
+RETURN {
+  attributes: FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css).attributes,
+  resources: (
+    QUERY "[data-testid='network-result-card']" IN doc USING css
+  )[* RETURN .attributes["data-resource"]]
+}

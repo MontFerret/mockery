@@ -53,6 +53,19 @@ const dynamicProductCases = [
   'replace-vs-append',
 ];
 
+const networkCases = [
+  'single-request',
+  'sequential-requests',
+  'parallel-requests',
+  'delayed-requests',
+  'polling',
+  'simulated-error',
+  'request-filtering',
+  'network-idle',
+  'user-triggered',
+  'mixed-content',
+];
+
 const dynamicProductApiFiles = [
   ...Array.from({ length: expectedDynamicProductPageCount }, (_, index) => `api/dynamic-products/page-${index + 1}.json`),
   'api/dynamic-products/featured.json',
@@ -61,6 +74,30 @@ const dynamicProductApiFiles = [
   'api/dynamic-products/error.json',
   'api/dynamic-products/slow-page-1.json',
   'api/dynamic-products/slow-page-2.json',
+];
+
+const networkApiFiles = [
+  'api/network/products.json',
+  'api/network/reviews.json',
+  'api/network/recommendations.json',
+  'api/network/categories.json',
+  'api/network/inventory.json',
+  'api/network/pricing.json',
+  'api/network/profile.json',
+  'api/network/settings.json',
+  'api/network/simulated-error.json',
+  'api/network/poll-1.json',
+  'api/network/poll-2.json',
+  'api/network/poll-3.json',
+  'api/network/slow-1.json',
+  'api/network/slow-2.json',
+  'api/network/slow-3.json',
+  'api/network/filter-products.json',
+  'api/network/filter-reviews.json',
+  'api/network/filter-analytics.json',
+  'api/network/mixed-products.json',
+  'api/network/mixed-text.txt',
+  'api/network/mixed-fragment.html',
 ];
 
 const requiredFiles = [
@@ -74,6 +111,7 @@ const requiredFiles = [
   'scenarios/dynamic-products/index.html',
   ...dynamicProductCases.map((scenarioCase) => `scenarios/dynamic-products/${scenarioCase}/index.html`),
   'scenarios/network/index.html',
+  ...networkCases.map((scenarioCase) => `scenarios/network/${scenarioCase}/index.html`),
   'scenarios/messy-markup/index.html',
   'scenarios/forms/index.html',
   'scenarios/tables/index.html',
@@ -96,13 +134,7 @@ const requiredFiles = [
   'api/reviews/index.json',
   'api/search/products.json',
   ...dynamicProductApiFiles,
-  'api/network/products.json',
-  'api/network/reviews.json',
-  'api/network/recommendations.json',
-  'api/network/error.json',
-  'api/network/slow-1.json',
-  'api/network/slow-2.json',
-  'api/network/slow-3.json',
+  ...networkApiFiles,
   'CNAME',
   'feeds/products.json',
   'robots.txt',
@@ -126,6 +158,19 @@ const dynamicProductExampleFiles = [
   'examples/ferret/dynamic-products/empty-state.fql',
   'examples/ferret/dynamic-products/delayed.fql',
   'examples/ferret/dynamic-products/replace-vs-append.fql',
+];
+
+const networkExampleFiles = [
+  'examples/ferret/network/single-request.fql',
+  'examples/ferret/network/sequential-requests.fql',
+  'examples/ferret/network/parallel-requests.fql',
+  'examples/ferret/network/delayed-requests.fql',
+  'examples/ferret/network/polling.fql',
+  'examples/ferret/network/simulated-error.fql',
+  'examples/ferret/network/request-filtering.fql',
+  'examples/ferret/network/network-idle.fql',
+  'examples/ferret/network/user-triggered.fql',
+  'examples/ferret/network/mixed-content.fql',
 ];
 
 const productSlug = (product) => product.slug || product.id;
@@ -253,7 +298,21 @@ const validateSourceFixtures = async () => {
     await exists(path.join(rootDir, rel));
   }
 
+  for (const rel of networkExampleFiles) {
+    await exists(path.join(rootDir, rel));
+  }
+
   await exists(path.join(rootDir, 'src/scenarios/dynamic-products/README.md'));
+  await exists(path.join(rootDir, 'src/scenarios/network/README.md'));
+
+  const dynamicNetworkEndpointExists = await fs.access(path.join(rootDir, 'src/pages/api/network/[name].json.ts'))
+    .then(() => true)
+    .catch(() => false);
+  assert.equal(dynamicNetworkEndpointExists, false, 'network JSON APIs should use explicit endpoint files');
+
+  for (const rel of networkApiFiles.filter((file) => file.endsWith('.json'))) {
+    await exists(path.join(rootDir, 'src/pages', `${rel}.ts`));
+  }
 
   const dynamicProductsScript = await fs.readFile(path.join(rootDir, 'src/assets/dynamic-products.js'), 'utf8');
   for (const pattern of [/Math\.random\(/, /crypto\.randomUUID\(/, /Date\.now\(/]) {
@@ -261,6 +320,13 @@ const validateSourceFixtures = async () => {
   }
 
   assert.doesNotMatch(dynamicProductsScript, /fetch\(\s*['"]\//, 'dynamic products script should not use root-relative fetch URLs');
+
+  const networkScript = await fs.readFile(path.join(rootDir, 'src/assets/network.js'), 'utf8');
+  for (const pattern of [/Math\.random\(/, /crypto\.randomUUID\(/, /Date\.now\(/]) {
+    assert.doesNotMatch(networkScript, pattern, `forbidden network runtime randomness pattern ${pattern}`);
+  }
+
+  assert.doesNotMatch(networkScript, /fetch\(\s*['"]\//, 'network script should not use root-relative fetch URLs');
 };
 
 const exists = async (filePath) => {
@@ -424,6 +490,54 @@ const validateOutput = async (outDir, basePath) => {
 
     assert.match(html, /dynamic-products[^"]*\.js/, `dynamic products script missing on ${scenarioCase}`);
     assert.doesNotMatch(html, /data-testid="dynamic-product-card"/, `dynamic products ${scenarioCase} should not pre-render product cards`);
+  }
+
+  const networkLandingHtml = await fs.readFile(path.join(outDir, 'scenarios/network/index.html'), 'utf8');
+  assert.match(networkLandingHtml, /data-testid="scenario-header"[^>]*data-scenario="network"/);
+  assert.match(networkLandingHtml, /fictional static scenario for Ferret demos and tests/i);
+  for (const scenarioCase of networkCases) {
+    assert.match(networkLandingHtml, new RegExp(`data-scenario-case="${scenarioCase}"`), `missing network case ${scenarioCase}`);
+  }
+
+  const networkCaseSelectors = {
+    'single-request': ['data-testid="network-results"'],
+    'sequential-requests': ['data-testid="network-results"'],
+    'parallel-requests': ['data-testid="network-results"'],
+    'delayed-requests': ['data-testid="network-delay-config"', 'data-delay-1-ms="300"', 'data-delay-2-ms="500"', 'data-delay-3-ms="700"'],
+    polling: ['data-testid="network-poll-config"', 'data-interval-ms="400"', 'data-max-polls="3"', 'data-poll-step="0"', 'data-poll-complete="false"'],
+    'simulated-error': ['data-testid="network-error"'],
+    'request-filtering': ['data-testid="network-primary-results"', 'data-testid="network-diagnostics"'],
+    'network-idle': ['data-testid="network-idle-marker"', 'data-idle="false"'],
+    'user-triggered': [
+      'data-testid="fetch-products"',
+      'data-testid="fetch-reviews"',
+      'data-testid="fetch-recommendations"',
+      'data-testid="fetch-all"',
+    ],
+    'mixed-content': ['data-testid="mixed-json-result"', 'data-testid="mixed-text-result"', 'data-testid="mixed-html-result"'],
+  };
+
+  for (const scenarioCase of networkCases) {
+    const html = await fs.readFile(path.join(outDir, 'scenarios/network', scenarioCase, 'index.html'), 'utf8');
+    for (const selector of [
+      'id="network-scenario"',
+      'data-testid="network-scenario"',
+      'data-scenario="network"',
+      `data-case="${scenarioCase}"`,
+      'data-state="idle"',
+      'data-request-count="0"',
+      'data-response-count="0"',
+      'data-error-count="0"',
+      'data-complete="false"',
+      'data-testid="network-status"',
+      'data-testid="network-log"',
+      ...networkCaseSelectors[scenarioCase],
+    ]) {
+      assert.match(html, new RegExp(selector), `missing ${selector} on network ${scenarioCase}`);
+    }
+
+    assert.match(html, /network[^"]*\.js/, `network script missing on ${scenarioCase}`);
+    assert.doesNotMatch(html, /data-testid="network-result-card"/, `network ${scenarioCase} should not pre-render result cards`);
   }
 
   const landingHtml = await fs.readFile(path.join(outDir, 'scenarios/ecommerce/index.html'), 'utf8');
@@ -605,12 +719,39 @@ const validateOutput = async (outDir, basePath) => {
     assert.equal(reviewPage.items.length, reviews[product.id]?.length ?? 0);
   }
 
-  const networkError = JSON.parse(await fs.readFile(path.join(outDir, 'api/network/error.json'), 'utf8'));
+  for (const rel of networkApiFiles.filter((file) => file.endsWith('.json'))) {
+    const payload = JSON.parse(await fs.readFile(path.join(outDir, rel), 'utf8'));
+    assert.equal(typeof payload.ok, 'boolean', `${rel} should expose ok`);
+    assert.equal(typeof payload.resource, 'string', `${rel} should expose resource`);
+  }
+
+  const networkProducts = JSON.parse(await fs.readFile(path.join(outDir, 'api/network/products.json'), 'utf8'));
+  assert.equal(networkProducts.ok, true);
+  assert.equal(networkProducts.resource, 'products');
+  assert.equal(networkProducts.items[0].id, 'net-product-001');
+  assert.equal(networkProducts.items[0].sku, 'NET-PRD-001');
+
+  const networkError = JSON.parse(await fs.readFile(path.join(outDir, 'api/network/simulated-error.json'), 'utf8'));
   assert.deepEqual(networkError, {
     ok: false,
-    error: 'Simulated upstream failure',
-    code: 'MOCK_UPSTREAM_FAILURE',
+    resource: 'simulated-error',
+    error: {
+      code: 'MOCK_UPSTREAM_FAILURE',
+      message: 'Simulated upstream failure.',
+    },
+    items: [],
   });
+
+  for (const step of [1, 2, 3]) {
+    const poll = JSON.parse(await fs.readFile(path.join(outDir, `api/network/poll-${step}.json`), 'utf8'));
+    assert.equal(poll.resource, 'poll');
+    assert.equal(poll.step, step);
+    assert.equal(typeof poll.complete, 'boolean');
+  }
+
+  assert.equal(JSON.parse(await fs.readFile(path.join(outDir, 'api/network/poll-3.json'), 'utf8')).complete, true);
+  assert.match(await fs.readFile(path.join(outDir, 'api/network/mixed-text.txt'), 'utf8'), /Plain text loaded/);
+  assert.match(await fs.readFile(path.join(outDir, 'api/network/mixed-fragment.html'), 'utf8'), /data-fragment-id="mixed-fragment"/);
 
   const specialSvg = await fs.readFile(path.join(outDir, 'assets/images/products/book-data-pipelines-and-scraping-special-edition.svg'), 'utf8');
   assert.match(specialSvg, /&amp; Scraping/);
@@ -640,6 +781,14 @@ const validateOutput = async (outDir, basePath) => {
       }
 
       assert.doesNotMatch(js, /fetch\(\s*['"]\//, `root-relative fetch URL in ${path.relative(outDir, file)}`);
+    }
+
+    if (js.includes('api/network/')) {
+      for (const pattern of [/Math\.random\(/, /crypto\.randomUUID\(/, /Date\.now\(/]) {
+        assert.doesNotMatch(js, pattern, `forbidden network runtime randomness in ${path.relative(outDir, file)}`);
+      }
+
+      assert.doesNotMatch(js, /fetch\(\s*['"]\//, `root-relative network fetch URL in ${path.relative(outDir, file)}`);
     }
   }
 

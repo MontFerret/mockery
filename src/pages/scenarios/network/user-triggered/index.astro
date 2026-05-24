@@ -1,0 +1,53 @@
+---
+import networkScript from '../../../../assets/network.js?url';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Network User Triggered"
+  description="Trigger static network activity only after user interaction."
+  canonicalPath="/scenarios/network/user-triggered/"
+  scripts={[networkScript]}
+  mainId="network-scenario"
+  mainClass="wrap scenario network-scenario"
+  mainAttributes={{
+    'data-testid': 'network-scenario',
+    'data-scenario': 'network',
+    'data-case': 'user-triggered',
+    'data-state': 'idle',
+    'data-request-count': '0',
+    'data-response-count': '0',
+    'data-error-count': '0',
+    'data-complete': 'false',
+  }}
+>
+  <h1>User Triggered Network Activity</h1>
+  <p class="lead">Buttons trigger deterministic fetches after a click; page load performs no scenario API fetches.</p>
+  <div
+    id="network-status"
+    class="scenario-status"
+    data-testid="network-status"
+    data-state="idle"
+    aria-live="polite"
+  >
+    Ready.
+  </div>
+  <div class="button-row" aria-label="Network request controls">
+    <button id="fetch-products" data-testid="fetch-products" type="button">Fetch products</button>
+    <button id="fetch-reviews" data-testid="fetch-reviews" type="button">Fetch reviews</button>
+    <button id="fetch-recommendations" data-testid="fetch-recommendations" type="button">Fetch recommendations</button>
+    <button id="fetch-all" data-testid="fetch-all" type="button">Fetch all</button>
+  </div>
+  <section
+    id="network-results"
+    class="network-results"
+    data-testid="network-results"
+    data-result-count="0"
+    aria-label="User-triggered network results"
+  ></section>
+  <ul
+    id="network-log"
+    class="scenario-log"
+    data-testid="network-log"
+    aria-label="Network scenario event log"
+  ></ul>
+</BaseLayout>

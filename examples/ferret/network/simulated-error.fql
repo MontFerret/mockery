@@ -1,0 +1,14 @@
+LET baseUrl = @baseUrl
+LET doc = DOCUMENT(baseUrl + "/scenarios/network/simulated-error/")
+
+WAITFOR VALUE (
+  FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css)
+    .attributes["data-state"] == "complete"
+)
+TIMEOUT 10s
+
+RETURN {
+  errorCount: FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css).attributes["data-error-count"],
+  code: FIRST(QUERY "[data-testid='network-error']" IN doc USING css).attributes["data-error-code"],
+  message: FIRST(QUERY "[data-testid='network-error'] p" IN doc USING css).text
+}

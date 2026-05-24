@@ -1,0 +1,17 @@
+LET baseUrl = @baseUrl
+LET doc = DOCUMENT(baseUrl + "/scenarios/network/polling/")
+
+WAITFOR VALUE (
+  FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css)
+    .attributes["data-poll-complete"] == "true"
+)
+TIMEOUT 10s
+
+RETURN {
+  state: FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css).attributes["data-state"],
+  pollStep: FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css).attributes["data-poll-step"],
+  pollComplete: FIRST(QUERY "[data-testid='network-scenario']" IN doc USING css).attributes["data-poll-complete"],
+  messages: (
+    QUERY "[data-testid='network-result-summary']" IN doc USING css
+  )[* RETURN .text]
+}
