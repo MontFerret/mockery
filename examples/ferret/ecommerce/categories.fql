@@ -1,10 +1,21 @@
 LET baseUrl = @baseUrl
 LET doc = DOCUMENT(baseUrl + "/scenarios/ecommerce/categories/")
+LET laptopsHref = ELEMENT(doc, "[data-category='laptops'] [data-testid='category-link']").attributes["href"]
+LET laptops = DOCUMENT(laptopsHref)
+LET laptopsPage2Href = ELEMENT(laptops, "[data-testid='page-link'][href*='/page/2/']").attributes["href"]
+LET laptopsPage2 = DOCUMENT(laptopsPage2Href)
 
-FOR category IN ELEMENTS(doc, "[data-testid='category-card']")
-    RETURN {
-        id: category.attributes["data-category"],
-        name: TRIM(INNER_TEXT(category, "[data-testid='category-link']")),
-        description: TRIM(INNER_TEXT(category, "[data-testid='category-description']")),
-        count: TRIM(INNER_TEXT(category, "[data-testid='category-count']"))
-    }
+RETURN {
+    categories: (
+        FOR category IN ELEMENTS(doc, "[data-testid='category-card']")
+            RETURN {
+                id: category.attributes["data-category"],
+                name: TRIM(INNER_TEXT(category, "[data-testid='category-link']")),
+                description: TRIM(INNER_TEXT(category, "[data-testid='category-description']")),
+                count: TRIM(INNER_TEXT(category, "[data-testid='category-count']"))
+            }
+    ),
+    laptopsPage1Count: ELEMENTS_COUNT(laptops, "[data-testid='product-card']"),
+    laptopsPage2Count: ELEMENTS_COUNT(laptopsPage2, "[data-testid='product-card']"),
+    laptopsNextUrl: ELEMENT(laptops, "[data-testid='page-next']").attributes["href"]
+}

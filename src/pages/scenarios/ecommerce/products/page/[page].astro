@@ -18,5 +18,5 @@ const { items, page, totalPages } = Astro.props;
   <div class="product-grid">
     {items.map((product) => <ProductCard product={product} />)}
   </div>
-  <Pagination currentPage={page} totalPages={totalPages} />
+  <Pagination currentPage={page} totalPages={totalPages} basePath="/scenarios/ecommerce/products/" ariaLabel="Product pages" />
 </BaseLayout>

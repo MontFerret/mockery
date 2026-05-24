@@ -24,7 +24,7 @@ const categories = [
     name: 'Laptops',
     description: 'Portable computers for work and entertainment.',
     code: 'LAP',
-    count: 8,
+    count: 30,
     basePrice: 899,
     specSets: [
       { Memory: '16 GB', Storage: '512 GB SSD', Display: '14 inch' },
@@ -37,7 +37,7 @@ const categories = [
     name: 'Phones',
     description: 'Mobile devices with stable fake plans and accessories.',
     code: 'PHN',
-    count: 8,
+    count: 30,
     basePrice: 449,
     specSets: [
       { Storage: '128 GB', Camera: '48 MP', Battery: '4200 mAh' },
@@ -50,7 +50,7 @@ const categories = [
     name: 'Headphones',
     description: 'Audio gear for travel, work, and gaming setups.',
     code: 'AUD',
-    count: 7,
+    count: 30,
     basePrice: 79,
     specSets: [
       { Type: 'Over-ear', Battery: '32 hours', Connectivity: 'Bluetooth' },
@@ -63,7 +63,7 @@ const categories = [
     name: 'Cameras',
     description: 'Photo and video equipment with varied specs.',
     code: 'CAM',
-    count: 7,
+    count: 30,
     basePrice: 299,
     specSets: [
       { Sensor: 'APS-C', LensMount: 'MCK-X', Video: '4K' },
@@ -76,7 +76,7 @@ const categories = [
     name: 'Kitchen',
     description: 'Countertop appliances and cooking tools.',
     code: 'KIT',
-    count: 7,
+    count: 30,
     basePrice: 39,
     specSets: [
       { Capacity: '5 L', Material: 'Stainless steel', Power: '900 W' },
@@ -89,7 +89,7 @@ const categories = [
     name: 'Books',
     description: 'Fictional books for metadata and text extraction examples.',
     code: 'BOK',
-    count: 7,
+    count: 30,
     basePrice: 12,
     specSets: [
       { Format: 'Paperback', Pages: '320', Language: 'English' },
@@ -102,7 +102,7 @@ const categories = [
     name: 'Office',
     description: 'Desk accessories, printers, and productivity hardware.',
     code: 'OFF',
-    count: 7,
+    count: 30,
     basePrice: 29,
     specSets: [
       { Material: 'Aluminum', Dimensions: '60 x 30 cm', Color: 'Silver' },
@@ -115,7 +115,7 @@ const categories = [
     name: 'Gaming',
     description: 'Consoles, controllers, and streaming accessories.',
     code: 'GMG',
-    count: 7,
+    count: 30,
     basePrice: 59,
     specSets: [
       { Platform: 'PC', PollingRate: '1000 Hz', Lighting: 'RGB' },
@@ -128,7 +128,7 @@ const categories = [
     name: 'Smart Home',
     description: 'Connected devices for fake home automation demos.',
     code: 'SMH',
-    count: 7,
+    count: 30,
     basePrice: 34,
     specSets: [
       { Protocol: 'Matter', Power: 'Battery', HubRequired: 'No' },
@@ -141,7 +141,7 @@ const categories = [
     name: 'Fitness',
     description: 'Wearables and home training equipment.',
     code: 'FIT',
-    count: 7,
+    count: 30,
     basePrice: 24,
     specSets: [
       { Size: 'Medium', Material: 'Silicone', WaterResistance: '5 ATM' },
@@ -162,6 +162,59 @@ const titleTemplates = {
   gaming: ['Mechanical Keyboard', 'Wireless Controller', 'Gaming Console ++ Tournament Ready', 'Streaming Capture Card', 'RGB Mouse Pad XL', 'Arcade Stick Pro', 'Game Storage Tower'],
   'smart-home': ['Smart Bulb Pack', 'Door Sensor', 'Thermostat Mini', 'Security Camera Indoor', 'Voice Remote', 'Smart Plug Duo', 'Water Leak Sensor'],
   fitness: ['Fitness Tracker', 'Adjustable Dumbbell', 'Yoga Mat Pro', 'Resistance Band Set', 'Folding Exercise Bike', 'Smart Scale', 'Recovery Massage Roller'],
+};
+
+const generatedTitleStems = {
+  laptops: 'Laptop',
+  phones: 'Phone',
+  headphones: 'Headphones',
+  cameras: 'Camera',
+  kitchen: 'Kitchen Tool',
+  books: 'Mockery Handbook',
+  office: 'Office Kit',
+  gaming: 'Gaming Gear',
+  'smart-home': 'Smart Home Device',
+  fitness: 'Fitness Kit',
+};
+
+const generatedTitleModifiers = [
+  'Atlas',
+  'Beacon',
+  'Circuit',
+  'Delta',
+  'Ember',
+  'Foundry',
+  'Harbor',
+  'Ion',
+  'Juniper',
+  'Keystone',
+  'Lumina',
+  'Metro',
+  'Nova',
+  'Orbit',
+  'Pilot',
+  'Quartz',
+  'Relay',
+  'Summit',
+  'Tempo',
+  'Vector',
+  'Willow',
+  'Zenith',
+];
+
+const generatedTitleEditions = ['Series', 'Edition', 'Bundle', 'Select'];
+
+const titleFor = (category, index) => {
+  const provided = titleTemplates[category.id]?.[index - 1];
+
+  if (provided) {
+    return provided;
+  }
+
+  const modifier = generatedTitleModifiers[(index - 1) % generatedTitleModifiers.length];
+  const edition = generatedTitleEditions[(index - 1) % generatedTitleEditions.length];
+
+  return `${generatedTitleStems[category.id]} ${modifier} ${String(index).padStart(2, '0')} ${edition}`;
 };
 
 const tagTemplates = {
@@ -215,7 +268,7 @@ let globalIndex = 1;
 
 for (const category of categories) {
   for (let index = 1; index <= category.count; index += 1) {
-    const title = titleTemplates[category.id][index - 1];
+    const title = titleFor(category, index);
     const slug = index === 1 && category.id === 'laptops' ? 'laptop-pro-14' : makeSlug(title);
     const isCanonicalProduct = slug === 'laptop-pro-14';
     const price = isCanonicalProduct ? 1299 : sequencePrice(category, index, globalIndex);

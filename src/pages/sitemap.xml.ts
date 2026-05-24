@@ -1,16 +1,17 @@
-import { absoluteUrl, categories, categoryPath, productPath, products, scenarioPath, scenarios } from '../lib/site.js';
+import { absoluteUrl, categories, categoryPagePath, categoryPages, productPageSize, productPath, products, scenarioPath, scenarios } from '../lib/site.js';
 import { textResponse } from '../lib/responses.js';
+
+const productPageCount = Math.ceil(products.length / productPageSize);
 
 const urls = [
   '/',
   '/scenarios/',
   ...scenarios.map((scenario) => scenarioPath(scenario.slug)),
   '/scenarios/ecommerce/products/',
-  '/scenarios/ecommerce/products/page/2/',
-  '/scenarios/ecommerce/products/page/3/',
+  ...Array.from({ length: productPageCount - 1 }, (_, index) => `/scenarios/ecommerce/products/page/${index + 2}/`),
   '/scenarios/ecommerce/categories/',
   '/scenarios/ecommerce/search/',
-  ...categories.map(categoryPath),
+  ...categories.flatMap((category) => categoryPages(category).map((_, index) => categoryPagePath(category, index + 1))),
   ...products.map(productPath),
 ];
 

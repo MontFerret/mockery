@@ -8,6 +8,7 @@ export const siteName = 'Mockery';
 export const tagline = 'Mockery: fake web scenarios for real Ferret tests.';
 export const siteDescription = 'A safe playground of deterministic web scenarios for Ferret.';
 export const productPageSize = 24;
+export const categoryPageSize = 24;
 
 export const scenarios = [
   {
@@ -121,7 +122,9 @@ export const productSlug = (product) => product.slug || product.id;
 export const productPath = (product) => `/scenarios/ecommerce/products/${productSlug(product)}/`;
 export const productImagePath = (product) => `/assets/images/products/${productSlug(product)}.svg`;
 export const categoryPath = (category) => `/scenarios/ecommerce/categories/${category.id || category}/`;
-export const categoryProductCount = (category) => products.filter((product) => product.category === (category.id || category)).length;
+export const categoryPagePath = (category, page = 1) => page === 1 ? categoryPath(category) : `${categoryPath(category)}page/${page}/`;
+export const productsForCategory = (category) => products.filter((product) => product.category === (category.id || category));
+export const categoryProductCount = (category) => productsForCategory(category).length;
 
 export const publicCategory = (category) => ({
   ...category,
@@ -138,15 +141,18 @@ export const publicProduct = (product) => ({
 
 export const publicProducts = () => products.map(publicProduct);
 export const publicCategories = () => categories.map(publicCategory);
-export const productPages = () => {
+const paginate = (items, pageSize) => {
   const pages = [];
 
-  for (let i = 0; i < products.length; i += productPageSize) {
-    pages.push(products.slice(i, i + productPageSize));
+  for (let i = 0; i < items.length; i += pageSize) {
+    pages.push(items.slice(i, i + pageSize));
   }
 
   return pages;
 };
+
+export const productPages = () => paginate(products, productPageSize);
+export const categoryPages = (category) => paginate(productsForCategory(category), categoryPageSize);
 
 export const productPagePayload = (page) => {
   const items = productPages()[page - 1] || [];

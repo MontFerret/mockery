@@ -89,14 +89,17 @@ npm run validate
 ```
 
 Validation builds both the root site and a `/mockery/` subpath variant, then
-checks required pages, product detail pages, category pages, static API files,
-internal links, product selectors, scenario entries, generated SVG escaping, and
-accidental external dependencies.
+checks required pages, product detail pages, paginated category pages, static
+API files, internal links, product selectors, scenario entries, generated SVG
+escaping, and accidental external dependencies.
 
 ## Ferret examples
 
 Example scripts are in `examples/ferret/` and the e-commerce scenario examples
-are grouped under `examples/ferret/ecommerce/`. They use a configurable base URL:
+are grouped under `examples/ferret/ecommerce/`. The e-commerce catalog contains
+300 deterministic products, with 30 products in each category and static
+pagination for both product listings and category pages. Examples use a
+configurable base URL:
 
 ```fql
 LET baseUrl = @baseUrl
@@ -133,9 +136,7 @@ the local URL printed by `npm run dev` or `npm run preview`.
 The build generates deterministic static JSON under `dist/api`, including:
 
 - `api/products/index.json`
-- `api/products/page-1.json`
-- `api/products/page-2.json`
-- `api/products/page-3.json`
+- `api/products/page-1.json` through `api/products/page-13.json`
 - `api/categories/index.json`
 - `api/reviews/index.json`
 - `api/reviews/<product-id>.json`

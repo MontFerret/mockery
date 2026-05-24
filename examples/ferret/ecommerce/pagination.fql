@@ -1,10 +1,14 @@
 LET baseUrl = @baseUrl
 LET page1 = DOCUMENT(baseUrl + "/scenarios/ecommerce/products/")
 LET page2Href = ELEMENT(page1, "[data-testid='page-link'][href*='/page/2/']").attributes["href"]
+LET page13Href = ELEMENT(page1, "[data-testid='page-link'][href*='/page/13/']").attributes["href"]
 LET page2 = DOCUMENT(page2Href)
+LET page13 = DOCUMENT(page13Href)
 
 RETURN {
     page1Count: ELEMENTS_COUNT(page1, "[data-testid='product-card']"),
     page2Count: ELEMENTS_COUNT(page2, "[data-testid='product-card']"),
+    page13Count: ELEMENTS_COUNT(page13, "[data-testid='product-card']"),
+    pageLinkCount: ELEMENTS_COUNT(page1, "[data-testid='page-link']"),
     nextUrl: ELEMENT(page1, "[data-testid='page-next']").attributes["href"]
 }

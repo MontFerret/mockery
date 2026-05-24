@@ -1,0 +1,36 @@
+---
+import Pagination from '../../../../../../components/Pagination.astro';
+import ProductCard from '../../../../../../components/ProductCard.astro';
+import BaseLayout from '../../../../../../layouts/BaseLayout.astro';
+import { categories, categoryPagePath, categoryPages, categoryProductCount } from '../../../../../../lib/site.js';
+
+export function getStaticPaths() {
+  return categories.flatMap((category) => {
+    const pages = categoryPages(category);
+
+    return pages.slice(1).map((items, index) => ({
+      params: { category: category.id, page: String(index + 2) },
+      props: {
+        category,
+        items,
+        page: index + 2,
+        totalPages: pages.length,
+        totalProducts: categoryProductCount(category),
+      },
+    }));
+  });
+}
+
+const { category, items, page, totalPages, totalProducts } = Astro.props;
+---
+<BaseLayout title={`${category.name} Category Page ${page}`} description={`Category page ${page} for ${category.name}.`} canonicalPath={`/scenarios/ecommerce/categories/${category.id}/page/${page}/`}>
+  <section class="category-header" data-testid="category-header" data-category={category.id}>
+    <h1>{category.name}</h1>
+    <p>{category.description}</p>
+    <p data-testid="category-count">{totalProducts} products</p>
+  </section>
+  <div class="product-grid">
+    {items.map((product) => <ProductCard product={product} />)}
+  </div>
+  <Pagination currentPage={page} totalPages={totalPages} basePath={categoryPagePath(category)} ariaLabel={`${category.name} product pages`} />
+</BaseLayout>

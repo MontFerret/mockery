@@ -1,27 +1,35 @@
 ---
+import Pagination from '../../../../components/Pagination.astro';
 import ProductCard from '../../../../components/ProductCard.astro';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
-import { categories, products } from '../../../../lib/site.js';
+import { categories, categoryPagePath, categoryPages, categoryProductCount } from '../../../../lib/site.js';
 
 export function getStaticPaths() {
-  return categories.map((category) => ({
-    params: { category: category.id },
-    props: {
-      category,
-      items: products.filter((product) => product.category === category.id),
-    },
-  }));
+  return categories.map((category) => {
+    const pages = categoryPages(category);
+
+    return {
+      params: { category: category.id },
+      props: {
+        category,
+        items: pages[0],
+        totalPages: pages.length,
+        totalProducts: categoryProductCount(category),
+      },
+    };
+  });
 }
 
-const { category, items } = Astro.props;
+const { category, items, totalPages, totalProducts } = Astro.props;
 ---
 <BaseLayout title={`${category.name} Category`} description={`Category page for ${category.name}.`} canonicalPath={`/scenarios/ecommerce/categories/${category.id}/`}>
   <section class="category-header" data-testid="category-header" data-category={category.id}>
     <h1>{category.name}</h1>
     <p>{category.description}</p>
-    <p data-testid="category-count">{items.length} products</p>
+    <p data-testid="category-count">{totalProducts} products</p>
   </section>
   <div class="product-grid">
     {items.map((product) => <ProductCard product={product} />)}
   </div>
+  <Pagination currentPage={1} totalPages={totalPages} basePath={categoryPagePath(category)} ariaLabel={`${category.name} product pages`} />
 </BaseLayout>

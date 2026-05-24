@@ -35,14 +35,16 @@ const scenarioSlugs = [
   'iframes',
   'navigation',
 ];
+const productPageSize = 24;
+const categoryPageSize = 24;
+const expectedProductPageCount = Math.ceil(products.length / productPageSize);
 
 const requiredFiles = [
   'index.html',
   'scenarios/index.html',
   'scenarios/ecommerce/index.html',
   'scenarios/ecommerce/products/index.html',
-  'scenarios/ecommerce/products/page/2/index.html',
-  'scenarios/ecommerce/products/page/3/index.html',
+  ...Array.from({ length: expectedProductPageCount - 1 }, (_, index) => `scenarios/ecommerce/products/page/${index + 2}/index.html`),
   'scenarios/ecommerce/categories/index.html',
   'scenarios/ecommerce/search/index.html',
   'scenarios/dynamic-products/index.html',
@@ -64,9 +66,7 @@ const requiredFiles = [
   'scenarios/navigation/step-2/index.html',
   'scenarios/navigation/done/index.html',
   'api/products/index.json',
-  'api/products/page-1.json',
-  'api/products/page-2.json',
-  'api/products/page-3.json',
+  ...Array.from({ length: expectedProductPageCount }, (_, index) => `api/products/page-${index + 1}.json`),
   'api/categories/index.json',
   'api/reviews/index.json',
   'api/search/products.json',
@@ -111,7 +111,7 @@ const build = (outDir, basePath = '/') => {
 };
 
 const validateSourceFixtures = async () => {
-  assert.equal(products.length, 72, 'e-commerce product fixture count');
+  assert.equal(products.length, 300, 'e-commerce product fixture count');
   assert.equal(categories.length, 10, 'e-commerce category fixture count');
 
   const ids = new Set();
@@ -137,18 +137,7 @@ const validateSourceFixtures = async () => {
   }
 
   assert.deepEqual([...new Set(products.map((product) => product.brand))].sort(), [...expectedBrands].sort());
-  assert.deepEqual(categories.map((category) => [category.id, categoryCount(category.id)]), [
-    ['laptops', 8],
-    ['phones', 8],
-    ['headphones', 7],
-    ['cameras', 7],
-    ['kitchen', 7],
-    ['books', 7],
-    ['office', 7],
-    ['gaming', 7],
-    ['smart-home', 7],
-    ['fitness', 7],
-  ]);
+  assert.deepEqual(categories.map((category) => [category.id, categoryCount(category.id)]), categories.map((category) => [category.id, 30]));
   assert.ok(products.some((product) => product.rating === null), 'expected products with null ratings');
   assert.ok(products.some((product) => product.oldPrice === null), 'expected products with null oldPrice');
   assert.ok(products.some((product) => !product.inStock), 'expected out-of-stock products');
@@ -265,6 +254,7 @@ const validateOutput = async (outDir, basePath) => {
 
   for (const category of categories) {
     await exists(path.join(outDir, 'scenarios/ecommerce/categories', category.id, 'index.html'));
+    await exists(path.join(outDir, 'scenarios/ecommerce/categories', category.id, 'page/2/index.html'));
   }
 
   const listHtml = await fs.readFile(path.join(outDir, 'scenarios/ecommerce/products/index.html'), 'utf8');
@@ -277,9 +267,10 @@ const validateOutput = async (outDir, basePath) => {
   assert.match(listHtml, /data-testid="product-old-price"/);
   assert.match(listHtml, /No reviews yet/);
 
-  for (const page of [2, 3]) {
+  for (const page of Array.from({ length: expectedProductPageCount - 1 }, (_, index) => index + 2)) {
     const pageHtml = await fs.readFile(path.join(outDir, `scenarios/ecommerce/products/page/${page}/index.html`), 'utf8');
-    assert.equal(countMatches(pageHtml, /data-testid="product-card"/g), 24, `page ${page} should render 24 product cards`);
+    const expectedItems = products.slice((page - 1) * productPageSize, page * productPageSize).length;
+    assert.equal(countMatches(pageHtml, /data-testid="product-card"/g), expectedItems, `page ${page} should render ${expectedItems} product cards`);
     assert.match(pageHtml, /data-testid="pagination"/);
     assert.match(pageHtml, /data-testid="page-previous"/);
     assert.match(pageHtml, /data-testid="page-next"/);
@@ -303,9 +294,19 @@ const validateOutput = async (outDir, basePath) => {
   assert.equal(countMatches(categoryIndexHtml, /data-testid="category-card"/g), categories.length);
   for (const category of categories) {
     const categoryHtml = await fs.readFile(path.join(outDir, 'scenarios/ecommerce/categories', category.id, 'index.html'), 'utf8');
+    const categoryPage2Html = await fs.readFile(path.join(outDir, 'scenarios/ecommerce/categories', category.id, 'page/2/index.html'), 'utf8');
+    const totalCategoryProducts = categoryCount(category.id);
+    const page2Products = Math.max(0, totalCategoryProducts - categoryPageSize);
     assert.match(categoryHtml, new RegExp(`data-testid="category-header"[^>]*data-category="${category.id}"`));
-    assert.match(categoryHtml, new RegExp(`${categoryCount(category.id)} products`));
-    assert.equal(countMatches(categoryHtml, /data-testid="product-card"/g), categoryCount(category.id));
+    assert.match(categoryHtml, new RegExp(`${totalCategoryProducts} products`));
+    assert.equal(countMatches(categoryHtml, /data-testid="product-card"/g), categoryPageSize);
+    assert.match(categoryHtml, /data-testid="pagination"/);
+    assert.match(categoryHtml, /data-testid="page-next"/);
+    assert.match(categoryPage2Html, new RegExp(`data-testid="category-header"[^>]*data-category="${category.id}"`));
+    assert.match(categoryPage2Html, new RegExp(`${totalCategoryProducts} products`));
+    assert.equal(countMatches(categoryPage2Html, /data-testid="product-card"/g), page2Products);
+    assert.match(categoryPage2Html, /data-testid="pagination"/);
+    assert.match(categoryPage2Html, /data-testid="page-previous"/);
   }
 
   const detailHtml = await fs.readFile(path.join(outDir, productPageFile(products[0])), 'utf8');
@@ -358,12 +359,13 @@ const validateOutput = async (outDir, basePath) => {
   const expectedPrefix = normalizeBase(basePath) === '/' ? '/' : normalizeBase(basePath);
   const apiIndex = JSON.parse(await fs.readFile(path.join(outDir, 'api/products/index.json'), 'utf8'));
 
-  for (const page of [1, 2, 3]) {
+  for (const page of Array.from({ length: expectedProductPageCount }, (_, index) => index + 1)) {
     const apiPage = JSON.parse(await fs.readFile(path.join(outDir, `api/products/page-${page}.json`), 'utf8'));
+    const expectedItems = products.slice((page - 1) * productPageSize, page * productPageSize).length;
     assert.equal(apiPage.page, page);
-    assert.equal(apiPage.pageSize, 24);
+    assert.equal(apiPage.pageSize, productPageSize);
     assert.equal(apiPage.total, products.length);
-    assert.equal(apiPage.items.length, 24);
+    assert.equal(apiPage.items.length, expectedItems);
     assert.ok(apiPage.items[0].url.startsWith(`${expectedPrefix}scenarios/ecommerce/products/`));
     assert.ok(apiPage.items[0].image.startsWith(`${expectedPrefix}assets/images/products/`));
     for (const field of ['id', 'slug', 'sku', 'title', 'brand', 'category', 'price', 'oldPrice', 'currency', 'rating', 'reviewCount', 'inStock', 'stockCount', 'description', 'tags', 'specs', 'url', 'image']) {

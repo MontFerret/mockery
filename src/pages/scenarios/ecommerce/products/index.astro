@@ -12,5 +12,5 @@ const items = pages[0];
   <div class="product-grid">
     {items.map((product) => <ProductCard product={product} />)}
   </div>
-  <Pagination currentPage={1} totalPages={pages.length} />
+  <Pagination currentPage={1} totalPages={pages.length} basePath="/scenarios/ecommerce/products/" ariaLabel="Product pages" />
 </BaseLayout>
