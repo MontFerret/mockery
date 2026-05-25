@@ -5,6 +5,7 @@ const productPageCount = Math.ceil(products.length / productPageSize);
 const dynamicProductCasePaths = [
   '/scenarios/dynamic-products/basic/',
   '/scenarios/dynamic-products/load-more/',
+  '/scenarios/dynamic-products/infinite-scroll/',
   '/scenarios/dynamic-products/filtering/',
   '/scenarios/dynamic-products/error-state/',
   '/scenarios/dynamic-products/empty-state/',

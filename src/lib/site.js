@@ -24,8 +24,8 @@ export const scenarios = [
     slug: 'dynamic-products',
     title: 'Dynamic Products',
     description: 'Client-side rendered product listings from static JSON APIs.',
-    demonstrates: 'fetch(), WAIT_ELEMENT, delayed rendering, load-more pagination, filtering, DOM mutation',
-    examples: ['dynamic-products/basic.fql', 'dynamic-products/load-more.fql', 'dynamic-products/filtering.fql'],
+    demonstrates: 'fetch(), WAIT_ELEMENT, delayed rendering, load-more pagination, infinite scroll pagination, filtering, DOM mutation',
+    examples: ['dynamic-products/basic.fql', 'dynamic-products/load-more.fql', 'dynamic-products/infinite-scroll.fql', 'dynamic-products/filtering.fql'],
   },
   {
     slug: 'network',

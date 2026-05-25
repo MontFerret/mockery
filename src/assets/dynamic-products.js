@@ -57,6 +57,8 @@
     if (event === 'render-started') return page ? `Render started for page ${page}.` : 'Render started.';
     if (event === 'render-finished') return page ? `Render finished for page ${page}.` : 'Render finished.';
     if (event === 'load-more-clicked') return 'Load more clicked.';
+    if (event === 'infinite-scroll-ready') return 'Infinite scroll sentinel ready.';
+    if (event === 'infinite-scroll-triggered') return page ? `Infinite scroll triggered page ${page}.` : 'Infinite scroll triggered.';
     if (event === 'filter-changed') return 'Filter changed.';
     if (event === 'empty-result') return 'Empty result.';
     if (event === 'error-result') return 'Error result.';
@@ -447,6 +449,172 @@
     applyFilters();
   };
 
+  const initInfiniteScroll = async () => {
+    const sentinel = document.getElementById('dynamic-products-scroll-sentinel');
+    if (!sentinel) return;
+
+    let nextPage = 1;
+    let loading = false;
+    let complete = false;
+    let observer = null;
+
+    const setSentinel = (text, details = {}) => {
+      sentinel.textContent = text;
+
+      if (details.complete !== undefined) {
+        sentinel.dataset.complete = String(details.complete);
+      }
+
+      if (details.loading !== undefined) {
+        sentinel.dataset.loading = String(details.loading);
+      }
+
+      if (details.nextPage !== undefined) {
+        sentinel.dataset.nextPage = details.nextPage === null ? '' : String(details.nextPage);
+      }
+    };
+
+    const isSentinelNearViewport = () => {
+      const rect = sentinel.getBoundingClientRect();
+      return rect.top <= window.innerHeight + 300;
+    };
+
+    const cleanupFallback = () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+    };
+
+    const finish = (payload, loadedCount) => {
+      complete = true;
+      nextPage = null;
+      setState('complete', {
+        page: payload.page,
+        loadedCount,
+        totalCount: payload.total,
+      });
+      setStatus('All products loaded.', 'complete');
+      setSentinel('All products loaded.', {
+        complete: true,
+        loading: false,
+        nextPage: null,
+      });
+      logEvent('complete', { page: payload.page });
+
+      if (observer) {
+        observer.disconnect();
+      }
+
+      cleanupFallback();
+    };
+
+    const loadPage = async (page) => {
+      if (loading || complete || !page) return;
+
+      loading = true;
+      const loadingState = page === 1 ? 'loading' : 'loading-more';
+      setState(loadingState);
+      setStatus(page === 1 ? 'Loading products.' : `Loading page ${page}.`, loadingState);
+      setSentinel(page === 1 ? 'Loading initial products.' : `Loading page ${page}.`, {
+        loading: true,
+        complete: false,
+        nextPage: page,
+      });
+
+      try {
+        const payload = await fetchJson(`page-${page}`, { page });
+        if (!handlePayload(payload)) {
+          complete = true;
+          setSentinel('No more products to load.', {
+            loading: false,
+            complete: true,
+            nextPage: null,
+          });
+          return;
+        }
+
+        const loadedCount = renderProducts(payload.items, {
+          mode: page === 1 ? 'replace' : 'append',
+          page,
+        });
+        nextPage = payload.nextPage;
+
+        if (payload.hasNextPage) {
+          setState('loaded', {
+            page: payload.page,
+            loadedCount,
+            totalCount: payload.total,
+          });
+          setStatus(`Loaded ${loadedCount} of ${payload.total} products.`, 'loaded');
+          setSentinel(`Scroll to load page ${payload.nextPage}.`, {
+            loading: false,
+            complete: false,
+            nextPage: payload.nextPage,
+          });
+
+          requestAnimationFrame(() => {
+            if (isSentinelNearViewport()) {
+              maybeLoadNext();
+            }
+          });
+        } else {
+          finish(payload, loadedCount);
+        }
+      } catch {
+        complete = true;
+        showError({ code: 'MOCK_DYNAMIC_PRODUCTS_FETCH_ERROR', message: 'Failed to load dynamic products.' });
+        setState('error', { loadedCount: getLoadedCount() });
+        setStatus('Unable to load products.', 'error');
+        setSentinel('Unable to load more products.', {
+          loading: false,
+          complete: true,
+          nextPage: null,
+        });
+      } finally {
+        loading = false;
+
+        if (!complete) {
+          sentinel.dataset.loading = 'false';
+        }
+      }
+    };
+
+    const maybeLoadNext = () => {
+      if (loading || complete || !nextPage) return;
+      logEvent('infinite-scroll-triggered', { page: nextPage });
+      loadPage(nextPage);
+    };
+
+    function onScroll() {
+      if (isSentinelNearViewport()) {
+        maybeLoadNext();
+      }
+    }
+
+    const startScrollWatcher = () => {
+      logEvent('infinite-scroll-ready');
+
+      if ('IntersectionObserver' in window) {
+        observer = new IntersectionObserver((entries) => {
+          if (entries.some((entry) => entry.isIntersecting)) {
+            maybeLoadNext();
+          }
+        }, { rootMargin: '300px 0px' });
+        observer.observe(sentinel);
+        return;
+      }
+
+      window.addEventListener('scroll', onScroll, { passive: true });
+      window.addEventListener('resize', onScroll, { passive: true });
+      onScroll();
+    };
+
+    await loadPage(nextPage);
+
+    if (!complete) {
+      startScrollWatcher();
+    }
+  };
+
   const initErrorState = async () => {
     setState('loading');
     setStatus('Loading products.', 'loading');
@@ -558,6 +726,7 @@
   const initializers = {
     basic: initBasic,
     'load-more': initLoadMore,
+    'infinite-scroll': initInfiniteScroll,
     filtering: initFiltering,
     'error-state': initErrorState,
     'empty-state': initEmptyState,

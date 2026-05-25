@@ -46,6 +46,7 @@ const expectedDynamicProductPageCount = Math.ceil(dynamicProducts.length / dynam
 const dynamicProductCases = [
   'basic',
   'load-more',
+  'infinite-scroll',
   'filtering',
   'error-state',
   'empty-state',
@@ -153,6 +154,7 @@ const ecommerceExampleFiles = [
 const dynamicProductExampleFiles = [
   'examples/ferret/dynamic-products/basic.fql',
   'examples/ferret/dynamic-products/load-more.fql',
+  'examples/ferret/dynamic-products/infinite-scroll.fql',
   'examples/ferret/dynamic-products/filtering.fql',
   'examples/ferret/dynamic-products/error-state.fql',
   'examples/ferret/dynamic-products/empty-state.fql',
@@ -310,6 +312,15 @@ const validateSourceFixtures = async () => {
     .catch(() => false);
   assert.equal(dynamicNetworkEndpointExists, false, 'network JSON APIs should use explicit endpoint files');
 
+  const dynamicProductsEndpointExists = await fs.access(path.join(rootDir, 'src/pages/api/dynamic-products/[name].json.ts'))
+    .then(() => true)
+    .catch(() => false);
+  assert.equal(dynamicProductsEndpointExists, false, 'dynamic product JSON APIs should use explicit endpoint files');
+
+  for (const rel of dynamicProductApiFiles) {
+    await exists(path.join(rootDir, 'src/pages', `${rel}.ts`));
+  }
+
   for (const rel of networkApiFiles.filter((file) => file.endsWith('.json'))) {
     await exists(path.join(rootDir, 'src/pages', `${rel}.ts`));
   }
@@ -455,6 +466,11 @@ const validateOutput = async (outDir, basePath) => {
   const dynamicCaseSelectors = {
     basic: [],
     'load-more': ['data-testid="load-more-products"', 'data-testid="dynamic-products-log"'],
+    'infinite-scroll': [
+      'data-testid="dynamic-products-scroll-sentinel"',
+      'data-complete="false"',
+      'data-testid="dynamic-products-log"',
+    ],
     filtering: [
       'data-testid="dynamic-products-filter-form"',
       'data-testid="dynamic-search-query"',

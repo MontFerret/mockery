@@ -1,0 +1,14 @@
+LET baseUrl = @baseUrl
+LET page = DOCUMENT(baseUrl + "/scenarios/dynamic-products/infinite-scroll/", { driver: "cdp" })
+
+WAIT_ELEMENT(page, "[data-testid='dynamic-products-scenario'][data-page='1'][data-loaded-count='12']")
+SCROLL_ELEMENT(page, "[data-testid='dynamic-products-scroll-sentinel']")
+WAIT_ELEMENT(page, "[data-testid='dynamic-products-scenario'][data-page='2'][data-loaded-count='24']")
+SCROLL_ELEMENT(page, "[data-testid='dynamic-products-scroll-sentinel']")
+WAIT_ELEMENT(page, "[data-testid='dynamic-products-scenario'][data-state='complete'][data-loaded-count='36']")
+
+RETURN {
+    state: ELEMENT(page, "[data-testid='dynamic-products-scenario']").attributes["data-state"],
+    products: ELEMENTS_COUNT(page, "[data-testid='dynamic-product-card']"),
+    sentinelComplete: ELEMENT(page, "[data-testid='dynamic-products-scroll-sentinel']").attributes["data-complete"]
+}

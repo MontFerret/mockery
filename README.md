@@ -132,6 +132,10 @@ lab run examples/ferret/ecommerce/search.fql \
 lab run examples/ferret/dynamic-products/basic.fql \
   --serve ./dist@app \
   --param baseUrl=@lab.static.app
+
+lab run examples/ferret/dynamic-products/infinite-scroll.fql \
+  --serve ./dist@app \
+  --param baseUrl=@lab.static.app
 ```
 
 You can also point `baseUrl` to any ordinary static server URL, for example

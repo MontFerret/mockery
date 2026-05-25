@@ -13,6 +13,7 @@ and DOM mutation after user interaction.
 - `/scenarios/dynamic-products/`
 - `/scenarios/dynamic-products/basic/`
 - `/scenarios/dynamic-products/load-more/`
+- `/scenarios/dynamic-products/infinite-scroll/`
 - `/scenarios/dynamic-products/filtering/`
 - `/scenarios/dynamic-products/error-state/`
 - `/scenarios/dynamic-products/empty-state/`
@@ -69,6 +70,7 @@ Shared selectors:
 Case-specific selectors:
 
 - `[data-testid="load-more-products"]`
+- `[data-testid="dynamic-products-scroll-sentinel"]`
 - `[data-testid="dynamic-products-filter-form"]`
 - `[data-testid="dynamic-search-query"]`
 - `[data-testid="dynamic-category"]`
@@ -87,6 +89,8 @@ Case-specific selectors:
 - Basic: `idle -> loading -> loaded`, page 1, 12 rendered cards.
 - Load more: page 1 renders on load, page 2 and page 3 append after clicks,
   then the button becomes disabled and `data-state="complete"`.
+- Infinite scroll: page 1 renders on load, page 2 and page 3 append when the
+  scroll sentinel enters view, then the sentinel has `data-complete="true"`.
 - Filtering: search data loads once, then form input replaces the rendered
   list without page reload.
 - Error state: `ok: false` JSON renders a stable error panel and no product
