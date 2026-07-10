@@ -65,6 +65,7 @@
     if (event === 'complete') return 'All products loaded.';
     if (event === 'append-page') return 'Append page 2 requested.';
     if (event === 'replace-page') return 'Replace with page 2 requested.';
+    if (event === 'page-changed') return page ? `Page changed to ${page}.` : 'Page changed.';
     return event;
   };
 
@@ -254,19 +255,100 @@
   };
 
   const initBasic = async () => {
+    const PAGE_SIZE = 12;
+    const paginationNav = document.getElementById('dynamic-products-pagination');
+    let allProducts = [];
+    let currentPage = 1;
+    let totalPages = 1;
+
+    const renderPagination = () => {
+      if (!paginationNav) return;
+      paginationNav.replaceChildren();
+
+      const prev = document.createElement('a');
+      prev.className = 'page-link previous';
+      prev.dataset.testid = 'page-previous';
+      prev.href = '#';
+      prev.textContent = 'Previous';
+      if (currentPage <= 1) {
+        prev.setAttribute('aria-disabled', 'true');
+      }
+      prev.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (currentPage > 1) {
+          logEvent('page-changed', { page: currentPage - 1 });
+          showPage(currentPage - 1);
+        }
+      });
+      paginationNav.append(prev);
+
+      for (let p = 1; p <= totalPages; p++) {
+        const link = document.createElement('a');
+        link.className = 'page-link';
+        link.dataset.testid = 'page-link';
+        link.dataset.pagenum = String(p);
+        link.href = '#';
+        link.textContent = String(p);
+        if (p === currentPage) {
+          link.setAttribute('aria-current', 'page');
+        }
+        const pageNum = p;
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          if (pageNum !== currentPage) {
+            logEvent('page-changed', { page: pageNum });
+            showPage(pageNum);
+          }
+        });
+        paginationNav.append(link);
+      }
+
+      const next = document.createElement('a');
+      next.className = 'page-link next';
+      next.dataset.testid = 'page-next';
+      next.href = '#';
+      next.textContent = 'Next';
+      if (currentPage >= totalPages) {
+        next.setAttribute('aria-disabled', 'true');
+      }
+      next.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (currentPage < totalPages) {
+          logEvent('page-changed', { page: currentPage + 1 });
+          showPage(currentPage + 1);
+        }
+      });
+      paginationNav.append(next);
+    };
+
+    const showPage = (page) => {
+      currentPage = page;
+      const start = (page - 1) * PAGE_SIZE;
+      const pageItems = allProducts.slice(start, start + PAGE_SIZE);
+
+      const loadedCount = renderProducts(pageItems, { mode: 'replace', page });
+
+      setState('loaded', {
+        page,
+        loadedCount,
+        totalCount: allProducts.length,
+      });
+      setStatus(`Showing page ${page} of ${totalPages} (${allProducts.length} products).`, 'loaded');
+
+      renderPagination();
+    };
+
     try {
       setState('loading');
       setStatus('Loading products.', 'loading');
-      const payload = await fetchJson('page-1', { page: 1 });
+
+      const payload = await fetchJson('search');
       if (!handlePayload(payload)) return;
 
-      const loadedCount = renderProducts(payload.items, { mode: 'replace', page: 1 });
-      setState('loaded', {
-        page: payload.page,
-        loadedCount,
-        totalCount: payload.total,
-      });
-      setStatus(`Loaded ${loadedCount} of ${payload.total} products.`, 'loaded');
+      allProducts = payload.items;
+      totalPages = Math.ceil(allProducts.length / PAGE_SIZE);
+
+      showPage(1);
     } catch {
       showError({ code: 'MOCK_DYNAMIC_PRODUCTS_FETCH_ERROR', message: 'Failed to load dynamic products.' });
       setState('error', { loadedCount: 0 });

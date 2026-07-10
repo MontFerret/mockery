@@ -20,7 +20,7 @@ import BaseLayout from '../../../../layouts/BaseLayout.astro';
   }}
 >
   <h1>Basic Dynamic Products</h1>
-  <p class="lead">Fetches page-one product JSON and renders cards into an initially empty grid.</p>
+  <p class="lead">Fetches all product JSON on page load, stores it in memory, and paginates client-side without reloads.</p>
   <div
     id="dynamic-products-status"
     class="scenario-status"
@@ -36,4 +36,16 @@ import BaseLayout from '../../../../layouts/BaseLayout.astro';
     data-testid="dynamic-products-grid"
     aria-label="Dynamic products"
   ></section>
+  <nav
+    id="dynamic-products-pagination"
+    class="pagination"
+    data-testid="pagination"
+    aria-label="Product pages"
+  ></nav>
+  <ul
+    id="dynamic-products-log"
+    class="scenario-log"
+    data-testid="dynamic-products-log"
+    aria-label="Dynamic products event log"
+  ></ul>
 </BaseLayout>

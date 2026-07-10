@@ -48,6 +48,7 @@ pre.code { white-space:pre-wrap; background:#0f172a; color:#e2e8f0; padding:1rem
 .pagination { margin:1rem 0; }
 .page-link { border:1px solid var(--line); border-radius:.35rem; padding:.35rem .6rem; background:#fff; }
 .page-link[aria-current="page"] { border-color:var(--accent); font-weight:700; }
+.page-link[aria-disabled="true"] { opacity:.5; pointer-events:none; }
 .review { border-top:1px solid var(--line); padding:.75rem 0; }
 iframe { width:100%; min-height:260px; border:1px solid var(--line); background:#fff; margin:0 0 1rem; }
 @media (max-width:640px) { h1 { font-size:1.6rem; } .product-detail { grid-template-columns:1fr; } }
