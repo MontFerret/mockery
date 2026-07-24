@@ -1,0 +1,60 @@
+LET baseUrl = @baseUrl
+LET doc = DOCUMENT(baseUrl + "/scenarios/mouse/", { driver: "cdp" })
+
+HOVER(doc, "[data-testid='mouse-hover-target']")
+
+LET hoverCase = ELEMENT(doc, "[data-testid='mouse-hover-case']")
+LET hoverTarget = ELEMENT(doc, "[data-testid='mouse-hover-target']")
+LET hovered = hoverCase.attributes["data-hovered"]
+LET hoverColor = STYLE_GET(hoverTarget, "background-color")
+
+HOVER(doc, "[data-testid='mouse-hover-away-target']")
+
+CLICK(doc, "[data-testid='mouse-click-target']")
+
+LET doubleClickTarget = ELEMENT(doc, "[data-testid='mouse-double-click-target']")
+DISPATCH "dblclick" IN doubleClickTarget
+
+LET pressTarget = ELEMENT(doc, "[data-testid='mouse-press-target']")
+DISPATCH "mousedown" IN pressTarget
+LET pressedState = ELEMENT(doc, "[data-testid='mouse-press-case']").attributes["data-state"]
+DISPATCH "mouseup" IN pressTarget
+
+LET contextMenuTarget = ELEMENT(doc, "[data-testid='mouse-context-menu-target']")
+DISPATCH "click" IN contextMenuTarget WITH { button: "right" }
+
+MOUSE(doc, 32, 48)
+
+RETURN {
+  hover: {
+    active: hovered,
+    backgroundColor: hoverColor["background-color"],
+    left: ELEMENT(doc, "[data-testid='mouse-hover-case']").attributes["data-hovered"],
+    enterCount: TO_INT(ELEMENT(doc, "[data-testid='mouse-hover-case']").attributes["data-enter-count"]),
+    leaveCount: TO_INT(ELEMENT(doc, "[data-testid='mouse-hover-case']").attributes["data-leave-count"]),
+    overCount: TO_INT(ELEMENT(doc, "[data-testid='mouse-hover-case']").attributes["data-over-count"]),
+    outCount: TO_INT(ELEMENT(doc, "[data-testid='mouse-hover-case']").attributes["data-out-count"])
+  },
+  movement: {
+    x: TO_INT(ELEMENT(doc, "[data-testid='mouse-move-case']").attributes["data-x"]),
+    y: TO_INT(ELEMENT(doc, "[data-testid='mouse-move-case']").attributes["data-y"])
+  },
+  press: {
+    pressedState: pressedState,
+    releasedState: ELEMENT(doc, "[data-testid='mouse-press-case']").attributes["data-state"],
+    downCount: TO_INT(ELEMENT(doc, "[data-testid='mouse-press-case']").attributes["data-down-count"]),
+    upCount: TO_INT(ELEMENT(doc, "[data-testid='mouse-press-case']").attributes["data-up-count"])
+  },
+  clicks: {
+    single: TO_INT(ELEMENT(doc, "[data-testid='mouse-click-case']").attributes["data-click-count"]),
+    double: TO_INT(ELEMENT(doc, "[data-testid='mouse-double-click-case']").attributes["data-double-click-count"]),
+    context: TO_INT(ELEMENT(doc, "[data-testid='mouse-context-menu-case']").attributes["data-context-count"]),
+    contextButton: ELEMENT(doc, "[data-testid='mouse-context-menu-case']").attributes["data-last-button"]
+  },
+  events: {
+    total: TO_INT(ELEMENT(doc, "[data-testid='mouse-scenario']").attributes["data-event-count"]),
+    visible: TO_INT(ELEMENT(doc, "[data-testid='mouse-event-log']").attributes["data-entry-count"]),
+    lastEvent: ELEMENT(doc, "[data-testid='mouse-scenario']").attributes["data-last-event"],
+    lastTarget: ELEMENT(doc, "[data-testid='mouse-scenario']").attributes["data-last-target"]
+  }
+}

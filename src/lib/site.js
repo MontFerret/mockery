@@ -49,6 +49,13 @@ export const scenarios = [
     examples: ['forms-dispatch.fql'],
   },
   {
+    slug: 'mouse',
+    title: 'Mouse Actions',
+    description: 'Deterministic targets for mouse movement, hover, buttons, and clicks.',
+    demonstrates: 'hover, mouse movement, mouse down and up, single click, double click, context menu',
+    examples: ['mouse-actions.fql'],
+  },
+  {
     slug: 'tables',
     title: 'Tables',
     description: 'Clean and messy table extraction examples.',

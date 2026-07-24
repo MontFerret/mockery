@@ -29,6 +29,7 @@ const scenarioSlugs = [
   'network',
   'messy-markup',
   'forms',
+  'mouse',
   'tables',
   'infinite-scroll',
   'delayed-rendering',
@@ -39,7 +40,7 @@ const scenarioSlugs = [
 const productPageSize = 24;
 const categoryPageSize = 24;
 const dynamicProductPageSize = 12;
-const customDomain = 'mockery.montferret.dev';
+const customDomain = 'mockery.ferretlang.org';
 const expectedProductPageCount = Math.ceil(products.length / productPageSize);
 const expectedDynamicProductPageCount = Math.ceil(dynamicProducts.length / dynamicProductPageSize);
 
@@ -115,6 +116,7 @@ const requiredFiles = [
   ...networkCases.map((scenarioCase) => `scenarios/network/${scenarioCase}/index.html`),
   'scenarios/messy-markup/index.html',
   'scenarios/forms/index.html',
+  'scenarios/mouse/index.html',
   'scenarios/tables/index.html',
   'scenarios/tables/orders/index.html',
   'scenarios/tables/inventory/index.html',
@@ -173,6 +175,10 @@ const networkExampleFiles = [
   'examples/ferret/network/network-idle.fql',
   'examples/ferret/network/user-triggered.fql',
   'examples/ferret/network/mixed-content.fql',
+];
+
+const mouseExampleFiles = [
+  'examples/ferret/mouse-actions.fql',
 ];
 
 const productSlug = (product) => product.slug || product.id;
@@ -304,6 +310,10 @@ const validateSourceFixtures = async () => {
     await exists(path.join(rootDir, rel));
   }
 
+  for (const rel of mouseExampleFiles) {
+    await exists(path.join(rootDir, rel));
+  }
+
   await exists(path.join(rootDir, 'src/scenarios/dynamic-products/README.md'));
   await exists(path.join(rootDir, 'src/scenarios/network/README.md'));
 
@@ -338,6 +348,11 @@ const validateSourceFixtures = async () => {
   }
 
   assert.doesNotMatch(networkScript, /fetch\(\s*['"]\//, 'network script should not use root-relative fetch URLs');
+
+  const mouseActionsScript = await fs.readFile(path.join(rootDir, 'src/assets/mouse-actions.js'), 'utf8');
+  for (const pattern of [/Math\.random\(/, /crypto\.randomUUID\(/, /Date\.now\(/]) {
+    assert.doesNotMatch(mouseActionsScript, pattern, `forbidden mouse runtime randomness pattern ${pattern}`);
+  }
 };
 
 const exists = async (filePath) => {
@@ -454,6 +469,63 @@ const validateOutput = async (outDir, basePath) => {
   for (const slug of scenarioSlugs) {
     assert.match(scenariosHtml, new RegExp(`data-scenario="${slug}"`), `missing scenario ${slug}`);
   }
+
+  const mouseHtml = await fs.readFile(path.join(outDir, 'scenarios/mouse/index.html'), 'utf8');
+  for (const selector of [
+    'id="mouse-scenario"',
+    'data-testid="mouse-scenario"',
+    'data-scenario="mouse"',
+    'data-state="idle"',
+    'data-event-count="0"',
+    'data-last-event="none"',
+    'data-last-target="none"',
+    'data-mouse-x="0"',
+    'data-mouse-y="0"',
+    'data-testid="mouse-hover-case"',
+    'data-hovered="false"',
+    'data-enter-count="0"',
+    'data-leave-count="0"',
+    'data-over-count="0"',
+    'data-out-count="0"',
+    'data-testid="mouse-hover-target"',
+    'data-testid="mouse-hover-away-target"',
+    'data-testid="mouse-hover-status"',
+    'data-testid="mouse-move-case"',
+    'data-x="0"',
+    'data-y="0"',
+    'data-move-count="0"',
+    'data-testid="mouse-move-target"',
+    'data-testid="mouse-move-status"',
+    'data-testid="mouse-press-case"',
+    'data-down-count="0"',
+    'data-up-count="0"',
+    'data-last-button="none"',
+    'data-testid="mouse-press-target"',
+    'data-testid="mouse-press-status"',
+    'data-testid="mouse-click-case"',
+    'data-click-count="0"',
+    'data-testid="mouse-click-target"',
+    'data-testid="mouse-click-status"',
+    'data-testid="mouse-double-click-case"',
+    'data-double-click-count="0"',
+    'data-testid="mouse-double-click-target"',
+    'data-testid="mouse-double-click-status"',
+    'data-testid="mouse-context-menu-case"',
+    'data-context-count="0"',
+    'data-testid="mouse-context-menu-target"',
+    'data-testid="mouse-context-menu-status"',
+    'data-testid="mouse-reset"',
+    'data-testid="mouse-event-log"',
+    'data-entry-count="0"',
+    'data-testid="mouse-log-empty"',
+  ]) {
+    assert.match(mouseHtml, new RegExp(selector), `missing ${selector} on mouse scenario`);
+  }
+  assert.match(mouseHtml, /mouse-actions[^"]*\.js/, 'mouse actions script missing');
+  assert.match(scenariosHtml, /mouse-actions\.fql/, 'mouse actions example missing from scenario card');
+
+  const sitemapXml = await fs.readFile(path.join(outDir, 'sitemap.xml'), 'utf8');
+  assert.match(sitemapXml, /<loc>[^<]*\/scenarios\/mouse\/<\/loc>/, 'mouse scenario missing from sitemap');
 
   const dynamicLandingHtml = await fs.readFile(path.join(outDir, 'scenarios/dynamic-products/index.html'), 'utf8');
   assert.match(dynamicLandingHtml, /data-testid="dynamic-products-scenario"/);

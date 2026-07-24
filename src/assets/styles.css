@@ -51,4 +51,19 @@ pre.code { white-space:pre-wrap; background:#0f172a; color:#e2e8f0; padding:1rem
 .page-link[aria-disabled="true"] { opacity:.5; pointer-events:none; }
 .review { border-top:1px solid var(--line); padding:.75rem 0; }
 iframe { width:100%; min-height:260px; border:1px solid var(--line); background:#fff; margin:0 0 1rem; }
-@media (max-width:640px) { h1 { font-size:1.6rem; } .product-detail { grid-template-columns:1fr; } }
+.mouse-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1rem; }
+.mouse-case { display:flex; flex-direction:column; gap:.75rem; }
+.mouse-case h2,.mouse-case p { margin:0; }
+.mouse-target-row { display:flex; flex-wrap:wrap; gap:.75rem; }
+.mouse-action-target { min-height:3rem; font-weight:700; }
+.mouse-away-target { background:#fff; border-color:var(--line); color:var(--text); }
+.mouse-hover-case[data-hovered="true"] .mouse-hover-target { background:#15803d; border-color:#166534; transform:translateY(-2px); }
+.mouse-move-target { display:grid; min-height:8rem; place-items:center; border:2px dashed #60a5fa; border-radius:.5rem; padding:1rem; color:#1e3a8a; font-weight:700; text-align:center; background-color:#eff6ff; background-image:linear-gradient(#dbeafe 1px,transparent 1px),linear-gradient(90deg,#dbeafe 1px,transparent 1px); background-size:20px 20px; user-select:none; }
+.mouse-press-case[data-state="pressed"] .mouse-press-target { background:#b45309; border-color:#92400e; transform:translateY(2px); }
+.mouse-press-case[data-state="released"] .mouse-press-target { background:#15803d; border-color:#166534; }
+.mouse-status { min-height:1.5rem; color:var(--muted); }
+.mouse-event-panel { margin-top:1.5rem; }
+.mouse-event-heading { display:flex; align-items:end; justify-content:space-between; gap:1rem; }
+.mouse-event-heading h2,.mouse-event-heading p { margin:.25rem 0; }
+.mouse-event-log { max-height:20rem; overflow:auto; }
+@media (max-width:640px) { h1 { font-size:1.6rem; } .product-detail { grid-template-columns:1fr; } .mouse-event-heading { align-items:stretch; flex-direction:column; } }
