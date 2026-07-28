@@ -11,6 +11,6 @@
     "deploy": "./scripts/publish.sh"
   },
   "devDependencies": {
-    "astro": "^6.3.7"
+    "astro": "^7.1.4"
   }
 }
