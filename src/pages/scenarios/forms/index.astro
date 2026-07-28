@@ -1,35 +1,163 @@
 ---
 import formsScript from '../../../assets/forms.js?url';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const formEvents = [
+  'focus',
+  'focusin',
+  'focusout',
+  'blur',
+  'beforeinput',
+  'input',
+  'change',
+  'select',
+  'invalid',
+  'submit',
+  'reset',
+  'formdata',
+];
 ---
-<BaseLayout title="Forms Scenario" description="Form interactions with JS-intercepted submissions." canonicalPath="/scenarios/forms/" scripts={[formsScript]}>
-  <h1>Forms</h1>
-  <form id="search-form" data-testid="search-form">
-    <label for="query">Search</label>
-    <input id="query" name="query" />
-    <button type="submit">Submit</button>
-  </form>
-  <form id="newsletter-form" data-testid="newsletter-form">
-    <label for="email">Email</label>
-    <input id="email" name="email" type="email" required />
-    <label><input type="checkbox" name="weekly" value="yes" /> Weekly updates</label>
-    <button type="submit">Join</button>
-  </form>
-  <form id="checkout-form" data-testid="checkout-form">
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option>US</option>
-      <option>DE</option>
-      <option>CA</option>
-    </select>
-    <fieldset>
-      <legend>Delivery</legend>
-      <label><input type="radio" name="delivery" value="standard" checked /> Standard</label>
-      <label><input type="radio" name="delivery" value="express" /> Express</label>
-    </fieldset>
-    <label for="coupon">Coupon (disabled)</label>
-    <input id="coupon" name="coupon" disabled value="COMING-SOON" />
-    <button type="submit">Review order</button>
-  </form>
-  <section id="form-result" data-testid="form-result" hidden></section>
+<BaseLayout
+  title="Forms Scenario"
+  description="Deterministic form controls, native event tracking, and intercepted submissions."
+  canonicalPath="/scenarios/forms/"
+  scripts={[formsScript]}
+  mainId="forms-scenario"
+  mainClass="wrap scenario forms-scenario"
+  mainAttributes={{
+    'data-testid': 'forms-scenario',
+    'data-scenario': 'forms',
+    'data-state': 'idle',
+    'data-event-count': '0',
+    'data-last-event': 'none',
+    'data-last-target': 'none',
+  }}
+>
+  <header class="scenario-header">
+    <h1>Forms</h1>
+    <p class="lead">
+      Exercise form controls and assert which native events were observed.
+    </p>
+  </header>
+
+  <div class="forms-grid">
+    <form id="search-form" data-testid="search-form">
+      <h2>Search and text selection</h2>
+      <label for="query">Search</label>
+      <input id="query" data-testid="form-query" name="query" />
+      <div class="form-button-row">
+        <button type="submit">Submit</button>
+        <button id="select-query-text" data-testid="form-select-text" type="button">
+          Select query text
+        </button>
+        <button data-testid="form-reset-target" type="reset">Reset search</button>
+      </div>
+    </form>
+
+    <form id="newsletter-form" data-testid="newsletter-form">
+      <h2>Validation and controls</h2>
+      <label for="email">Email</label>
+      <input id="email" data-testid="form-email" name="email" type="email" required />
+      <label class="checkbox-row" for="weekly">
+        <input id="weekly" data-testid="form-weekly" type="checkbox" name="weekly" value="yes" />
+        Weekly updates
+      </label>
+      <button type="submit">Join</button>
+    </form>
+
+    <form id="checkout-form" data-testid="checkout-form">
+      <h2>Selection and submission</h2>
+      <label for="country">Country</label>
+      <select id="country" data-testid="form-country" name="country">
+        <option>US</option>
+        <option>DE</option>
+        <option>CA</option>
+      </select>
+      <fieldset>
+        <legend>Delivery</legend>
+        <label>
+          <input
+            id="delivery-standard"
+            data-testid="form-delivery-standard"
+            type="radio"
+            name="delivery"
+            value="standard"
+            checked
+          />
+          Standard
+        </label>
+        <label>
+          <input
+            id="delivery-express"
+            data-testid="form-delivery-express"
+            type="radio"
+            name="delivery"
+            value="express"
+          />
+          Express
+        </label>
+      </fieldset>
+      <label for="coupon">Coupon (disabled)</label>
+      <input
+        id="coupon"
+        data-testid="form-coupon"
+        name="coupon"
+        disabled
+        value="COMING-SOON"
+      />
+      <button type="submit">Review order</button>
+    </form>
+  </div>
+
+  <section
+    id="form-result"
+    class="form-result"
+    data-testid="form-result"
+    aria-live="polite"
+    hidden
+  ></section>
+
+  <section class="form-event-panel" aria-labelledby="form-event-heading">
+    <div class="form-event-heading">
+      <div>
+        <h2 id="form-event-heading">Event assertions</h2>
+        <p class="muted">
+          Each event exposes a seen flag, count, and last target. Counts are diagnostic; occurrence is the stable contract.
+        </p>
+      </div>
+      <button id="form-event-reset" data-testid="form-event-reset" type="button">
+        Reset fixture
+      </button>
+    </div>
+
+    <dl
+      id="form-event-statuses"
+      class="form-event-grid"
+      data-testid="form-event-statuses"
+    >
+      {formEvents.map((eventName) => (
+        <div
+          class="form-event-status"
+          data-testid="form-event-status"
+          data-event={eventName}
+          data-seen="false"
+          data-count="0"
+          data-last-target="none"
+        >
+          <dt>{eventName}</dt>
+          <dd>Not seen. Count: 0. Last target: none.</dd>
+        </div>
+      ))}
+    </dl>
+
+    <ol
+      id="form-event-log"
+      class="scenario-log form-event-log"
+      data-testid="form-event-log"
+      data-entry-count="0"
+      aria-label="Form event log"
+    >
+      <li data-testid="form-event-log-empty">No form events recorded.</li>
+    </ol>
+  </section>
 </BaseLayout>

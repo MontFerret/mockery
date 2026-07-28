@@ -51,6 +51,20 @@ pre.code { white-space:pre-wrap; background:#0f172a; color:#e2e8f0; padding:1rem
 .page-link[aria-disabled="true"] { opacity:.5; pointer-events:none; }
 .review { border-top:1px solid var(--line); padding:.75rem 0; }
 iframe { width:100%; min-height:260px; border:1px solid var(--line); background:#fff; margin:0 0 1rem; }
+.forms-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1rem; }
+.forms-grid form { max-width:none; margin:0; border-radius:.6rem; }
+.forms-grid h2 { margin:0; font-size:1.15rem; }
+.form-button-row { display:flex; flex-wrap:wrap; gap:.6rem; }
+.form-result { margin:1rem 0; padding:1rem; border:1px solid #86efac; border-radius:.5rem; background:#f0fdf4; }
+.form-event-panel { margin-top:1.5rem; }
+.form-event-heading { display:flex; align-items:end; justify-content:space-between; gap:1rem; }
+.form-event-heading h2,.form-event-heading p { margin:.25rem 0; }
+.form-event-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:.75rem; margin:1rem 0; }
+.form-event-status { padding:.75rem; border:1px solid var(--line); border-radius:.5rem; background:#fff; }
+.form-event-status[data-seen="true"] { border-color:#86efac; background:#f0fdf4; }
+.form-event-status dt { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-weight:700; }
+.form-event-status dd { margin:.25rem 0 0; color:var(--muted); font-size:.9rem; }
+.form-event-log { max-height:20rem; overflow:auto; }
 .mouse-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1rem; }
 .mouse-case { display:flex; flex-direction:column; gap:.75rem; }
 .mouse-case h2,.mouse-case p { margin:0; }
@@ -66,4 +80,4 @@ iframe { width:100%; min-height:260px; border:1px solid var(--line); background:
 .mouse-event-heading { display:flex; align-items:end; justify-content:space-between; gap:1rem; }
 .mouse-event-heading h2,.mouse-event-heading p { margin:.25rem 0; }
 .mouse-event-log { max-height:20rem; overflow:auto; }
-@media (max-width:640px) { h1 { font-size:1.6rem; } .product-detail { grid-template-columns:1fr; } .mouse-event-heading { align-items:stretch; flex-direction:column; } }
+@media (max-width:640px) { h1 { font-size:1.6rem; } .product-detail { grid-template-columns:1fr; } .form-event-heading,.mouse-event-heading { align-items:stretch; flex-direction:column; } }

@@ -1,0 +1,109 @@
+LET baseUrl = @baseUrl
+LET doc = DOCUMENT(baseUrl + "/scenarios/forms/", { driver: "cdp" })
+
+FOCUS(doc, "[data-testid='form-query']")
+INPUT(doc, "[data-testid='form-query']", "ferret")
+BLUR(doc, "[data-testid='form-query']")
+CLICK(doc, "[data-testid='form-select-text']")
+
+LET weekly = ELEMENT(doc, "[data-testid='form-weekly']")
+DISPATCH "check" IN weekly
+
+LET country = ELEMENT(doc, "[data-testid='form-country']")
+DISPATCH "select" IN country WITH { value: "DE" }
+
+LET newsletter = ELEMENT(doc, "[data-testid='newsletter-form']")
+DISPATCH "submit" IN newsletter
+
+LET email = ELEMENT(doc, "[data-testid='form-email']")
+DISPATCH "input" IN email WITH { value: "demo@example.com" }
+DISPATCH "change" IN email
+DISPATCH "submit" IN newsletter
+
+LET search = ELEMENT(doc, "[data-testid='search-form']")
+DISPATCH "reset" IN search
+
+LET focusStatus = ELEMENT(doc, "[data-testid='form-event-status'][data-event='focus']")
+LET focusInStatus = ELEMENT(doc, "[data-testid='form-event-status'][data-event='focusin']")
+LET focusOutStatus = ELEMENT(doc, "[data-testid='form-event-status'][data-event='focusout']")
+LET blurStatus = ELEMENT(doc, "[data-testid='form-event-status'][data-event='blur']")
+LET beforeInputStatus = ELEMENT(doc, "[data-testid='form-event-status'][data-event='beforeinput']")
+LET inputStatus = ELEMENT(doc, "[data-testid='form-event-status'][data-event='input']")
+LET changeStatus = ELEMENT(doc, "[data-testid='form-event-status'][data-event='change']")
+LET selectStatus = ELEMENT(doc, "[data-testid='form-event-status'][data-event='select']")
+LET invalidStatus = ELEMENT(doc, "[data-testid='form-event-status'][data-event='invalid']")
+LET submitStatus = ELEMENT(doc, "[data-testid='form-event-status'][data-event='submit']")
+LET resetStatus = ELEMENT(doc, "[data-testid='form-event-status'][data-event='reset']")
+LET formDataStatus = ELEMENT(doc, "[data-testid='form-event-status'][data-event='formdata']")
+
+RETURN {
+  events: {
+    focus: {
+      seen: focusStatus.attributes["data-seen"],
+      count: TO_INT(focusStatus.attributes["data-count"]),
+      lastTarget: focusStatus.attributes["data-last-target"]
+    },
+    focusin: {
+      seen: focusInStatus.attributes["data-seen"],
+      count: TO_INT(focusInStatus.attributes["data-count"]),
+      lastTarget: focusInStatus.attributes["data-last-target"]
+    },
+    focusout: {
+      seen: focusOutStatus.attributes["data-seen"],
+      count: TO_INT(focusOutStatus.attributes["data-count"]),
+      lastTarget: focusOutStatus.attributes["data-last-target"]
+    },
+    blur: {
+      seen: blurStatus.attributes["data-seen"],
+      count: TO_INT(blurStatus.attributes["data-count"]),
+      lastTarget: blurStatus.attributes["data-last-target"]
+    },
+    beforeinput: {
+      seen: beforeInputStatus.attributes["data-seen"],
+      count: TO_INT(beforeInputStatus.attributes["data-count"]),
+      lastTarget: beforeInputStatus.attributes["data-last-target"]
+    },
+    input: {
+      seen: inputStatus.attributes["data-seen"],
+      count: TO_INT(inputStatus.attributes["data-count"]),
+      lastTarget: inputStatus.attributes["data-last-target"]
+    },
+    change: {
+      seen: changeStatus.attributes["data-seen"],
+      count: TO_INT(changeStatus.attributes["data-count"]),
+      lastTarget: changeStatus.attributes["data-last-target"]
+    },
+    select: {
+      seen: selectStatus.attributes["data-seen"],
+      count: TO_INT(selectStatus.attributes["data-count"]),
+      lastTarget: selectStatus.attributes["data-last-target"]
+    },
+    invalid: {
+      seen: invalidStatus.attributes["data-seen"],
+      count: TO_INT(invalidStatus.attributes["data-count"]),
+      lastTarget: invalidStatus.attributes["data-last-target"]
+    },
+    submit: {
+      seen: submitStatus.attributes["data-seen"],
+      count: TO_INT(submitStatus.attributes["data-count"]),
+      lastTarget: submitStatus.attributes["data-last-target"]
+    },
+    reset: {
+      seen: resetStatus.attributes["data-seen"],
+      count: TO_INT(resetStatus.attributes["data-count"]),
+      lastTarget: resetStatus.attributes["data-last-target"]
+    },
+    formdata: {
+      seen: formDataStatus.attributes["data-seen"],
+      count: TO_INT(formDataStatus.attributes["data-count"]),
+      lastTarget: formDataStatus.attributes["data-last-target"]
+    }
+  },
+  state: {
+    total: TO_INT(ELEMENT(doc, "[data-testid='forms-scenario']").attributes["data-event-count"]),
+    visible: TO_INT(ELEMENT(doc, "[data-testid='form-event-log']").attributes["data-entry-count"]),
+    lastEvent: ELEMENT(doc, "[data-testid='forms-scenario']").attributes["data-last-event"],
+    lastTarget: ELEMENT(doc, "[data-testid='forms-scenario']").attributes["data-last-target"],
+    result: INNER_TEXT(ELEMENT(doc, "[data-testid='form-result']"))
+  }
+}

@@ -44,9 +44,9 @@ export const scenarios = [
   {
     slug: 'forms',
     title: 'Forms',
-    description: 'Interactive form controls with client-side result rendering.',
-    demonstrates: 'typing, checking, selecting, submit interception, event dispatch',
-    examples: ['forms-dispatch.fql'],
+    description: 'Interactive form controls with deterministic native-event tracking.',
+    demonstrates: 'focus lifecycle, typing, selection, validation, submit and reset events, event dispatch',
+    examples: ['forms-dispatch.fql', 'form-events.fql'],
   },
   {
     slug: 'mouse',

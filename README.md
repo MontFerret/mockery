@@ -101,6 +101,8 @@ Example scripts are in `examples/ferret/` and the e-commerce scenario examples
 are grouped under `examples/ferret/ecommerce/`. Dynamic product examples are
 grouped under `examples/ferret/dynamic-products/`. The mouse scenario includes
 `examples/ferret/mouse-actions.fql` for hover, movement, mouse-button, and click
+assertions. The forms scenario includes `examples/ferret/form-events.fql` for
+focus, input, change, selection, validation, submit, reset, and form-data event
 assertions. The e-commerce catalog contains 300 deterministic products, with 30
 products in each category and static pagination for both product listings and
 category pages. Examples use a configurable base URL:
@@ -140,6 +142,10 @@ lab run examples/ferret/dynamic-products/infinite-scroll.fql \
   --param baseUrl=@lab.static.app
 
 lab run examples/ferret/mouse-actions.fql \
+  --serve ./dist@app \
+  --param baseUrl=@lab.static.app
+
+lab run examples/ferret/form-events.fql \
   --serve ./dist@app \
   --param baseUrl=@lab.static.app
 ```

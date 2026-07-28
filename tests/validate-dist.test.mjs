@@ -177,6 +177,11 @@ const networkExampleFiles = [
   'examples/ferret/network/mixed-content.fql',
 ];
 
+const formsExampleFiles = [
+  'examples/ferret/forms-dispatch.fql',
+  'examples/ferret/form-events.fql',
+];
+
 const mouseExampleFiles = [
   'examples/ferret/mouse-actions.fql',
 ];
@@ -310,6 +315,10 @@ const validateSourceFixtures = async () => {
     await exists(path.join(rootDir, rel));
   }
 
+  for (const rel of formsExampleFiles) {
+    await exists(path.join(rootDir, rel));
+  }
+
   for (const rel of mouseExampleFiles) {
     await exists(path.join(rootDir, rel));
   }
@@ -348,6 +357,11 @@ const validateSourceFixtures = async () => {
   }
 
   assert.doesNotMatch(networkScript, /fetch\(\s*['"]\//, 'network script should not use root-relative fetch URLs');
+
+  const formsScript = await fs.readFile(path.join(rootDir, 'src/assets/forms.js'), 'utf8');
+  for (const pattern of [/Math\.random\(/, /crypto\.randomUUID\(/, /Date\.now\(/]) {
+    assert.doesNotMatch(formsScript, pattern, `forbidden forms runtime randomness pattern ${pattern}`);
+  }
 
   const mouseActionsScript = await fs.readFile(path.join(rootDir, 'src/assets/mouse-actions.js'), 'utf8');
   for (const pattern of [/Math\.random\(/, /crypto\.randomUUID\(/, /Date\.now\(/]) {
@@ -470,6 +484,64 @@ const validateOutput = async (outDir, basePath) => {
     assert.match(scenariosHtml, new RegExp(`data-scenario="${slug}"`), `missing scenario ${slug}`);
   }
 
+  const formsHtml = await fs.readFile(path.join(outDir, 'scenarios/forms/index.html'), 'utf8');
+  for (const selector of [
+    'id="forms-scenario"',
+    'data-testid="forms-scenario"',
+    'data-scenario="forms"',
+    'data-state="idle"',
+    'data-event-count="0"',
+    'data-last-event="none"',
+    'data-last-target="none"',
+    'data-testid="search-form"',
+    'data-testid="newsletter-form"',
+    'data-testid="checkout-form"',
+    'data-testid="form-query"',
+    'data-testid="form-select-text"',
+    'data-testid="form-reset-target"',
+    'data-testid="form-email"',
+    'data-testid="form-weekly"',
+    'data-testid="form-country"',
+    'data-testid="form-delivery-standard"',
+    'data-testid="form-delivery-express"',
+    'data-testid="form-coupon"',
+    'data-testid="form-result"',
+    'data-testid="form-event-statuses"',
+    'data-testid="form-event-status"',
+    'data-seen="false"',
+    'data-count="0"',
+    'data-last-target="none"',
+    'data-testid="form-event-reset"',
+    'data-testid="form-event-log"',
+    'data-entry-count="0"',
+    'data-testid="form-event-log-empty"',
+  ]) {
+    assert.match(formsHtml, new RegExp(selector), `missing ${selector} on forms scenario`);
+  }
+  for (const eventName of [
+    'focus',
+    'focusin',
+    'focusout',
+    'blur',
+    'beforeinput',
+    'input',
+    'change',
+    'select',
+    'invalid',
+    'submit',
+    'reset',
+    'formdata',
+  ]) {
+    assert.match(
+      formsHtml,
+      new RegExp(`data-event="${eventName}"[^>]*data-seen="false"[^>]*data-count="0"[^>]*data-last-target="none"`),
+      `missing initial ${eventName} event assertion state`,
+    );
+  }
+  assert.match(formsHtml, /forms[^"]*\.js/, 'forms script missing');
+  assert.match(scenariosHtml, /forms-dispatch\.fql/, 'forms dispatch example missing from scenario card');
+  assert.match(scenariosHtml, /form-events\.fql/, 'form events example missing from scenario card');
+
   const mouseHtml = await fs.readFile(path.join(outDir, 'scenarios/mouse/index.html'), 'utf8');
   for (const selector of [
     'id="mouse-scenario"',
@@ -525,6 +597,7 @@ const validateOutput = async (outDir, basePath) => {
   assert.match(scenariosHtml, /mouse-actions\.fql/, 'mouse actions example missing from scenario card');
 
   const sitemapXml = await fs.readFile(path.join(outDir, 'sitemap.xml'), 'utf8');
+  assert.match(sitemapXml, /<loc>[^<]*\/scenarios\/forms\/<\/loc>/, 'forms scenario missing from sitemap');
   assert.match(sitemapXml, /<loc>[^<]*\/scenarios\/mouse\/<\/loc>/, 'mouse scenario missing from sitemap');
 
   const dynamicLandingHtml = await fs.readFile(path.join(outDir, 'scenarios/dynamic-products/index.html'), 'utf8');
