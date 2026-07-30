@@ -6,38 +6,26 @@ INPUT(page, "[data-testid='search-query']", "laptop")
 CLICK(page, "[data-testid='search-in-stock']")
 CLICK(page, "[data-testid='search-submit']")
 
+WAIT_ELEMENT(page, "[data-testid='search-loader'][data-state='loading']:not([hidden])")
+WAIT_ELEMENT(page, "[data-testid='search-results'][data-state='loading'][hidden]")
+
+LET loadingStatus = TRIM(INNER_TEXT(page, "[data-testid='search-status']"))
+LET hiddenResults = ELEMENTS_COUNT(page, "[data-testid='search-results'][hidden]")
+
 WAITFOR (
     TRIM(INNER_TEXT(page, "[data-testid='search-status']")) == "27 products found"
 )
 TIMEOUT 10s
 
-LET hoverSelector = "[data-product-id='laptop-atlas-23-bundle']"
-
-HOVER(page, hoverSelector)
-
-LET loadingState = ELEMENT(page, hoverSelector).attributes["data-hover-state"]
-
-WAIT_ELEMENT(page, "[data-product-id='laptop-atlas-23-bundle'] [data-testid='product-hover-review']")
-
-LET reviewTitle = TRIM(INNER_TEXT(page, "[data-product-id='laptop-atlas-23-bundle'] [data-testid='product-hover-review'] h3"))
-LET requestsAfterLoad = TO_INT(ELEMENT(page, hoverSelector).attributes["data-hover-request-count"])
-
-HOVER(page, "[data-testid='search-submit']")
-LET left = ELEMENT(page, hoverSelector).attributes["data-hovered"]
-
-HOVER(page, hoverSelector)
-LET cachedState = ELEMENT(page, hoverSelector).attributes["data-hover-state"]
-LET requestsAfterRehover = TO_INT(ELEMENT(page, hoverSelector).attributes["data-hover-request-count"])
+WAIT_ELEMENT(page, "[data-testid='search-results'][data-state='ready']:not([hidden])")
 
 RETURN {
     status: TRIM(INNER_TEXT(page, "[data-testid='search-status']")),
     results: ELEMENTS_COUNT(page, "[data-testid='search-results'] [data-testid='product-card']"),
-    hover: {
-        loadingState: loadingState,
-        reviewTitle: reviewTitle,
-        requestsAfterLoad: requestsAfterLoad,
-        left: left,
-        cachedState: cachedState,
-        requestsAfterRehover: requestsAfterRehover
+    loading: {
+        status: loadingStatus,
+        hiddenResults: hiddenResults,
+        loaderState: ELEMENT(page, "[data-testid='search-loader']").attributes["data-state"],
+        resultsState: ELEMENT(page, "[data-testid='search-results']").attributes["data-state"]
     }
 }

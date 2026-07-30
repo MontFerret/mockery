@@ -781,33 +781,40 @@ const validateOutput = async (outDir, basePath) => {
     'data-testid="search-sort"',
     'data-testid="search-submit"',
     'data-testid="search-status"',
+    'data-testid="search-loader"',
     'data-testid="search-results"',
-    'data-testid="product-hover-preview"',
-    'data-testid="product-hover-loader"',
-    'data-testid="product-hover-status"',
-    'data-testid="product-hover-review"',
-    'data-hover-delay-ms="500"',
+    'data-delay-ms="500"',
+    'data-state="idle"',
+    'data-state="loading"',
   ]) {
     assert.match(searchHtml, new RegExp(control), `missing ${control} on search page`);
   }
+  assert.doesNotMatch(searchHtml, /product-hover/, 'search page still contains product hover previews');
 
-  const searchScriptSrc = searchHtml.match(/<script type="module" src="([^"]*search[^"]*\.js)"/)?.[1];
-  assert.ok(searchScriptSrc, 'missing search page client script');
+  const inlineSearchScript = searchHtml.match(/<script type="module">([\s\S]*?)<\/script>/)?.[1];
+  const searchScriptSrc = searchHtml.match(/<script type="module" src="([^"]+\.js)"/)?.[1];
+  assert.ok(inlineSearchScript || searchScriptSrc, 'missing search page client script');
 
-  const normalizedBasePath = normalizeBase(basePath).replace(/^\/+|\/+$/g, '');
-  let searchScriptPath = new URL(searchScriptSrc, 'https://mockery.test').pathname.replace(/^\/+/, '');
-  if (normalizedBasePath && searchScriptPath.startsWith(`${normalizedBasePath}/`)) {
-    searchScriptPath = searchScriptPath.slice(normalizedBasePath.length + 1);
+  let searchScript = inlineSearchScript;
+  if (!searchScript) {
+    const normalizedBasePath = normalizeBase(basePath).replace(/^\/+|\/+$/g, '');
+    let searchScriptPath = new URL(searchScriptSrc, 'https://mockery.test').pathname.replace(/^\/+/, '');
+    if (normalizedBasePath && searchScriptPath.startsWith(`${normalizedBasePath}/`)) {
+      searchScriptPath = searchScriptPath.slice(normalizedBasePath.length + 1);
+    }
+
+    searchScript = await fs.readFile(path.join(outDir, searchScriptPath), 'utf8');
   }
 
-  const searchScript = await fs.readFile(path.join(outDir, searchScriptPath), 'utf8');
   for (const marker of [
-    'hoverState',
-    'hoverRequestCount',
-    '/api/reviews/',
+    'delayMs',
+    'setTimeout',
+    'Loading products...',
   ]) {
-    assert.match(searchScript, new RegExp(marker), `missing ${marker} hover behavior in search script`);
+    assert.match(searchScript, new RegExp(marker), `missing ${marker} delayed search behavior in search script`);
   }
+  assert.doesNotMatch(searchScript, /\/api\/reviews\//, 'search script still fetches product reviews');
+  assert.doesNotMatch(searchScript, /mouseenter|mouseleave/, 'search script still contains hover listeners');
 
   const expectedPrefix = normalizeBase(basePath) === '/' ? '/' : normalizeBase(basePath);
   const apiIndex = JSON.parse(await fs.readFile(path.join(outDir, 'api/products/index.json'), 'utf8'));
