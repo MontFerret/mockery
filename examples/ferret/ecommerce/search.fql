@@ -4,7 +4,12 @@ LET page = DOCUMENT(baseUrl + "/scenarios/ecommerce/search/", { driver: "cdp" })
 WAIT_ELEMENT(page, "[data-testid='product-card']")
 INPUT(page, "[data-testid='search-query']", "laptop")
 CLICK(page, "[data-testid='search-in-stock']")
-WAIT_ELEMENT(page, "[data-testid='search-status']")
+CLICK(page, "[data-testid='search-submit']")
+
+WAITFOR VALUE (
+    TRIM(INNER_TEXT(page, "[data-testid='search-status']")) == "27 products found"
+)
+TIMEOUT 10s
 
 RETURN {
     status: TRIM(INNER_TEXT(page, "[data-testid='search-status']")),

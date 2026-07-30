@@ -779,6 +779,7 @@ const validateOutput = async (outDir, basePath) => {
     'data-testid="search-max-price"',
     'data-testid="search-in-stock"',
     'data-testid="search-sort"',
+    'data-testid="search-submit"',
     'data-testid="search-status"',
     'data-testid="search-results"',
   ]) {

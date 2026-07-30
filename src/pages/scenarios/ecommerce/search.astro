@@ -40,6 +40,8 @@ const brands = Array.from(new Set(products.map((product) => product.brand))).sor
       <option value="price-desc">Price descending</option>
       <option value="rating">Rating</option>
     </select>
+
+    <button data-testid="search-submit" type="submit">Search</button>
   </form>
 
   <div id="search-status" data-testid="search-status" aria-live="polite">Loading products...</div>
@@ -199,8 +201,6 @@ const brands = Array.from(new Set(products.map((product) => product.brand))).sor
       status.textContent = `${filtered.length} product${filtered.length === 1 ? '' : 's'} found`;
     };
 
-    form.addEventListener('input', render);
-    form.addEventListener('change', render);
     form.addEventListener('submit', (event) => {
       event.preventDefault();
       render();
