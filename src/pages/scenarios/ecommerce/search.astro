@@ -45,13 +45,50 @@ const brands = Array.from(new Set(products.map((product) => product.brand))).sor
   </form>
 
   <div id="search-status" data-testid="search-status" aria-live="polite">Loading products...</div>
-  <div id="search-results" class="product-grid" data-testid="search-results"></div>
+  <div
+    id="search-results"
+    class="product-grid"
+    data-testid="search-results"
+    data-hover-delay-ms="500"
+  ></div>
+
+  <template id="product-hover-preview-template">
+    <section
+      class="product-hover-preview"
+      data-testid="product-hover-preview"
+      data-state="idle"
+      data-review-count="0"
+      aria-live="polite"
+      hidden
+    >
+      <span
+        class="product-hover-loader"
+        data-testid="product-hover-loader"
+        aria-hidden="true"
+        hidden
+      ></span>
+      <p class="product-hover-status" data-testid="product-hover-status">Hover to load reviews.</p>
+      <div class="product-hover-content"></div>
+    </section>
+  </template>
+
+  <template id="product-hover-review-template">
+    <article class="product-hover-review" data-testid="product-hover-review">
+      <h3 class="product-hover-review-title"></h3>
+      <p class="product-hover-review-author"></p>
+      <p class="product-hover-review-stars"></p>
+    </article>
+  </template>
 
   <script>
     const form = document.getElementById('product-search-form');
     const status = document.getElementById('search-status');
     const results = document.getElementById('search-results');
+    const previewTemplate = document.getElementById('product-hover-preview-template');
+    const reviewTemplate = document.getElementById('product-hover-review-template');
     const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
+    const hoverDelayMs = Number(results.dataset.hoverDelayMs || 500);
+    const reviewStates = new Map();
     let products = [];
 
     const resolvePath = (pathname) => {
@@ -65,6 +102,7 @@ const brands = Array.from(new Set(products.map((product) => product.brand))).sor
     };
 
     const normalize = (value) => String(value ?? '').trim().toLowerCase();
+    const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     const numberOrNull = (value) => {
       if (String(value ?? '').trim() === '') {
         return null;
@@ -125,8 +163,71 @@ const brands = Array.from(new Set(products.map((product) => product.brand))).sor
       return sorted;
     };
 
+    const reviewState = (productId) => {
+      if (!reviewStates.has(productId)) {
+        reviewStates.set(productId, {
+          status: 'idle',
+          requestCount: 0,
+          payload: null,
+          promise: null,
+        });
+      }
+
+      return reviewStates.get(productId);
+    };
+
+    const loadReviews = (productId) => {
+      const state = reviewState(productId);
+
+      if (state.status === 'loaded') {
+        return Promise.resolve(state.payload);
+      }
+
+      if (state.promise) {
+        return state.promise;
+      }
+
+      state.status = 'loading';
+      state.requestCount += 1;
+
+      const request = fetch(resolvePath(`/api/reviews/${encodeURIComponent(productId)}.json`))
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(`Review request failed with status ${response.status}`);
+          }
+
+          return response.json();
+        })
+        .then(
+          (payload) => ({ payload }),
+          (error) => ({ error }),
+        );
+
+      state.promise = Promise.all([request, delay(hoverDelayMs)])
+        .then(([result]) => {
+          if (result.error) {
+            throw result.error;
+          }
+
+          state.status = 'loaded';
+          state.payload = result.payload;
+          return state.payload;
+        })
+        .catch((error) => {
+          state.status = 'error';
+          state.payload = null;
+          throw error;
+        })
+        .finally(() => {
+          state.promise = null;
+        });
+
+      return state.promise;
+    };
+
     const productCard = (product) => {
       const article = document.createElement('article');
+      const state = reviewState(product.id);
       article.className = 'product-card';
       article.dataset.testid = 'product-card';
       article.dataset.productId = product.id;
@@ -135,6 +236,9 @@ const brands = Array.from(new Set(products.map((product) => product.brand))).sor
       article.dataset.brand = product.brand;
       article.dataset.price = String(product.price);
       article.dataset.inStock = String(product.inStock);
+      article.dataset.hovered = 'false';
+      article.dataset.hoverState = state.status;
+      article.dataset.hoverRequestCount = String(state.requestCount);
 
       const link = document.createElement('a');
       link.className = 'product-link';
@@ -177,6 +281,11 @@ const brands = Array.from(new Set(products.map((product) => product.brand))).sor
       stock.dataset.stockCount = String(product.stockCount);
       stock.textContent = product.inStock ? 'In stock' : 'Out of stock';
 
+      const preview = previewTemplate.content.firstElementChild.cloneNode(true);
+      const hoverStatus = preview.querySelector('[data-testid="product-hover-status"]');
+      const loader = preview.querySelector('[data-testid="product-hover-loader"]');
+      const hoverContent = preview.querySelector('.product-hover-content');
+
       link.append(image, title);
       article.append(link, brand, price);
 
@@ -189,7 +298,87 @@ const brands = Array.from(new Set(products.map((product) => product.brand))).sor
         article.append(oldPrice);
       }
 
-      article.append(rating, stock);
+      const renderReviewState = () => {
+        article.dataset.hoverState = state.status;
+        article.dataset.hoverRequestCount = String(state.requestCount);
+        preview.dataset.state = state.status;
+        loader.hidden = state.status !== 'loading';
+        hoverContent.replaceChildren();
+
+        if (state.status === 'loading') {
+          hoverStatus.textContent = 'Loading reviews...';
+          preview.dataset.reviewCount = '0';
+          return;
+        }
+
+        if (state.status === 'error') {
+          hoverStatus.textContent = 'Reviews could not be loaded.';
+          preview.dataset.reviewCount = '0';
+          return;
+        }
+
+        if (state.status !== 'loaded') {
+          hoverStatus.textContent = 'Hover to load reviews.';
+          preview.dataset.reviewCount = '0';
+          return;
+        }
+
+        const reviews = state.payload?.items ?? [];
+        preview.dataset.reviewCount = String(reviews.length);
+
+        if (reviews.length === 0) {
+          hoverStatus.textContent = 'No reviews found.';
+          return;
+        }
+
+        hoverStatus.textContent = `${reviews.length} review${reviews.length === 1 ? '' : 's'} loaded.`;
+
+        const review = reviews[0];
+        const reviewArticle = reviewTemplate.content.firstElementChild.cloneNode(true);
+        reviewArticle.dataset.reviewId = review.id;
+        reviewArticle.dataset.stars = String(review.stars);
+
+        const reviewTitle = reviewArticle.querySelector('.product-hover-review-title');
+        reviewTitle.textContent = review.title;
+
+        const reviewAuthor = reviewArticle.querySelector('.product-hover-review-author');
+        reviewAuthor.textContent = review.author;
+
+        const reviewStars = reviewArticle.querySelector('.product-hover-review-stars');
+        reviewStars.textContent = `${review.stars} out of 5`;
+
+        hoverContent.append(reviewArticle);
+      };
+
+      article.append(rating, stock, preview);
+      renderReviewState();
+
+      article.addEventListener('mouseenter', async () => {
+        article.dataset.hovered = 'true';
+        preview.hidden = false;
+
+        if (state.status === 'loaded') {
+          renderReviewState();
+          return;
+        }
+
+        const request = loadReviews(product.id);
+        renderReviewState();
+
+        try {
+          await request;
+        } catch {
+          // The visible error state is retryable on the next hover.
+        }
+
+        renderReviewState();
+      });
+
+      article.addEventListener('mouseleave', () => {
+        article.dataset.hovered = 'false';
+        preview.hidden = true;
+      });
+
       return article;
     };
 

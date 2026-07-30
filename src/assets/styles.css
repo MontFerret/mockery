@@ -31,6 +31,12 @@ nav ul { display:flex; flex-wrap:wrap; gap:.75rem; list-style:none; padding:0; m
 .detail-section { grid-column:1 / -1; }
 .product-price,.old-price { font-weight:700; }
 .old-price { color:#6b7280; text-decoration:line-through; margin-right:.5rem; }
+.product-hover-preview { border-top:1px solid var(--line); margin-top:.75rem; padding-top:.75rem; }
+.product-hover-status { color:var(--muted); margin:.25rem 0; }
+.product-hover-loader { display:inline-block; width:1rem; height:1rem; margin-right:.4rem; border:.15rem solid #bfdbfe; border-top-color:var(--accent); border-radius:50%; vertical-align:-.15rem; animation:product-hover-spin .75s linear infinite; }
+.product-hover-loader[hidden] { display:none; }
+.product-hover-review h3,.product-hover-review p { margin:.25rem 0; }
+@keyframes product-hover-spin { to { transform:rotate(360deg); } }
 button,.button { border:1px solid #1d4ed8; background:var(--accent); color:#fff; border-radius:.4rem; padding:.45rem .75rem; cursor:pointer; }
 button[disabled] { opacity:.5; cursor:not-allowed; }
 form { display:grid; gap:.6rem; max-width:520px; margin:1rem 0; padding:1rem; border:1px solid var(--line); background:#fff; }

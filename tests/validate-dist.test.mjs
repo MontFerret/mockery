@@ -782,8 +782,31 @@ const validateOutput = async (outDir, basePath) => {
     'data-testid="search-submit"',
     'data-testid="search-status"',
     'data-testid="search-results"',
+    'data-testid="product-hover-preview"',
+    'data-testid="product-hover-loader"',
+    'data-testid="product-hover-status"',
+    'data-testid="product-hover-review"',
+    'data-hover-delay-ms="500"',
   ]) {
     assert.match(searchHtml, new RegExp(control), `missing ${control} on search page`);
+  }
+
+  const searchScriptSrc = searchHtml.match(/<script type="module" src="([^"]*search[^"]*\.js)"/)?.[1];
+  assert.ok(searchScriptSrc, 'missing search page client script');
+
+  const normalizedBasePath = normalizeBase(basePath).replace(/^\/+|\/+$/g, '');
+  let searchScriptPath = new URL(searchScriptSrc, 'https://mockery.test').pathname.replace(/^\/+/, '');
+  if (normalizedBasePath && searchScriptPath.startsWith(`${normalizedBasePath}/`)) {
+    searchScriptPath = searchScriptPath.slice(normalizedBasePath.length + 1);
+  }
+
+  const searchScript = await fs.readFile(path.join(outDir, searchScriptPath), 'utf8');
+  for (const marker of [
+    'hoverState',
+    'hoverRequestCount',
+    '/api/reviews/',
+  ]) {
+    assert.match(searchScript, new RegExp(marker), `missing ${marker} hover behavior in search script`);
   }
 
   const expectedPrefix = normalizeBase(basePath) === '/' ? '/' : normalizeBase(basePath);
