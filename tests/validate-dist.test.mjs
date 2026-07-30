@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import test from 'node:test';
+import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -484,6 +485,18 @@ const validateOutput = async (outDir, basePath) => {
     assert.match(scenariosHtml, new RegExp(`data-scenario="${slug}"`), `missing scenario ${slug}`);
   }
 
+  const infiniteScrollHtml = await fs.readFile(path.join(outDir, 'scenarios/infinite-scroll/index.html'), 'utf8');
+  for (const selector of [
+    'data-testid="infinite-scroll-status"',
+    'data-state="idle"',
+    'data-total-pages="10"',
+    'data-page="0"',
+    'data-loaded-count="0"',
+    'data-testid="infinite-products"',
+  ]) {
+    assert.match(infiniteScrollHtml, new RegExp(selector), `missing ${selector} on infinite scroll scenario`);
+  }
+
   const formsHtml = await fs.readFile(path.join(outDir, 'scenarios/forms/index.html'), 'utf8');
   for (const selector of [
     'id="forms-scenario"',
@@ -957,6 +970,88 @@ const validateOutput = async (outDir, basePath) => {
     await exists(path.join(outDir, ref));
   }
 };
+
+test('infinite scroll loads 10 pages and stops at 80 products', async () => {
+  const source = await fs.readFile(path.join(rootDir, 'src/assets/infinite-scroll.js'), 'utf8');
+  const requestedPages = [];
+  const scrollListeners = [];
+  const cards = [];
+  const status = {
+    dataset: {
+      state: 'idle',
+      totalPages: '10',
+      page: '0',
+      loadedCount: '0',
+    },
+    textContent: '',
+  };
+  const target = {
+    append: (...items) => cards.push(...items),
+  };
+  const createElement = (tagName) => ({
+    tagName,
+    dataset: {},
+    append(...items) {
+      this.children = [...(this.children || []), ...items];
+    },
+  });
+  const document = {
+    body: { offsetHeight: 1_000 },
+    createElement,
+    getElementById(id) {
+      if (id === 'infinite-scroll-status') return status;
+      if (id === 'infinite-products') return target;
+      return null;
+    },
+  };
+  const window = {
+    innerHeight: 800,
+    scrollY: 200,
+    Mockery: {
+      resolvePath: (value) => value,
+    },
+    addEventListener(event, listener) {
+      if (event === 'scroll') scrollListeners.push(listener);
+    },
+  };
+  const fetch = async (url) => {
+    const page = Number(url.match(/page-(\d+)\.json$/)?.[1]);
+    requestedPages.push(page);
+
+    return {
+      json: async () => ({
+        items: Array.from({ length: 24 }, (_, index) => ({
+          id: `product-${page}-${index + 1}`,
+          title: `Product ${page}-${index + 1}`,
+          price: page * 100 + index,
+          url: `/products/product-${page}-${index + 1}/`,
+        })),
+      }),
+    };
+  };
+  const flush = () => new Promise((resolve) => setImmediate(resolve));
+
+  vm.runInNewContext(source, { document, fetch, window });
+  await flush();
+
+  assert.equal(scrollListeners.length, 1);
+  assert.equal(cards.length, 8, 'initial load should append 8 products');
+  assert.equal(status.dataset.page, '1');
+  assert.equal(status.dataset.loadedCount, '8');
+
+  for (let index = 0; index < 12; index += 1) {
+    scrollListeners[0]();
+    await flush();
+  }
+
+  assert.deepEqual(requestedPages, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+  assert.equal(cards.length, 80);
+  assert.equal(new Set(cards.map((card) => card.dataset.productId)).size, 80);
+  assert.equal(status.dataset.page, '10');
+  assert.equal(status.dataset.loadedCount, '80');
+  assert.equal(status.dataset.state, 'done');
+  assert.equal(status.textContent, 'All batches loaded');
+});
 
 test('Mockery static output validates at root and subpath', async () => {
   await validateSourceFixtures();

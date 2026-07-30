@@ -4,7 +4,8 @@
   if (!status || !target) return;
 
   let page = 1;
-  const maxPage = 3;
+  const maxPage = Number(status.dataset.totalPages);
+  let loadedCount = 0;
   let loading = false;
 
   const add = (items) => {
@@ -38,7 +39,11 @@
     status.textContent = `Loading page ${page}...`;
     const response = await fetch(window.Mockery.resolvePath(`api/products/page-${page}.json`));
     const payload = await response.json();
-    add(payload.items.slice(0, 8));
+    const items = payload.items.slice(0, 8);
+    add(items);
+    loadedCount += items.length;
+    status.dataset.page = String(page);
+    status.dataset.loadedCount = String(loadedCount);
     status.dataset.state = page === maxPage ? 'done' : 'idle';
     status.textContent = page === maxPage ? 'All batches loaded' : `Loaded page ${page}`;
     page += 1;

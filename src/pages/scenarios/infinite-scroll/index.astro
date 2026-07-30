@@ -4,6 +4,13 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 ---
 <BaseLayout title="Infinite Scroll Scenario" description="Loads additional products when scrolling near the bottom." canonicalPath="/scenarios/infinite-scroll/" scripts={[infiniteScrollScript]}>
   <h1>Infinite scroll</h1>
-  <div id="infinite-scroll-status" data-testid="infinite-scroll-status" data-state="idle"></div>
+  <div
+    id="infinite-scroll-status"
+    data-testid="infinite-scroll-status"
+    data-state="idle"
+    data-total-pages="10"
+    data-page="0"
+    data-loaded-count="0"
+  ></div>
   <div id="infinite-products" data-testid="infinite-products"></div>
 </BaseLayout>
