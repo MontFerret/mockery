@@ -192,6 +192,11 @@ const dynamicProductSlug = (product) => product.slug || product.id;
 const productPageFile = (product) => path.join('scenarios/ecommerce/products', productSlug(product), 'index.html');
 const countMatches = (value, pattern) => [...value.matchAll(pattern)].length;
 const categoryCount = (categoryId) => products.filter((product) => product.category === categoryId).length;
+const paginationNextLink = (html, context) => {
+  const link = html.match(/<a\b[^>]*\bdata-testid="page-next"[^>]*>Next<\/a>/)?.[0];
+  assert.ok(link, `missing Next pagination link on ${context}`);
+  return link;
+};
 
 const build = (outDir, basePath = '/') => {
   const result = spawnSync('npm', ['run', 'build'], {
@@ -440,6 +445,8 @@ const assertNoExternalAssetRefs = (html, file) => {
 };
 
 const validateOutput = async (outDir, basePath) => {
+  const expectedPrefix = normalizeBase(basePath) === '/' ? '/' : normalizeBase(basePath);
+
   for (const rel of requiredFiles) {
     await exists(path.join(outDir, rel));
   }
@@ -470,6 +477,9 @@ const validateOutput = async (outDir, basePath) => {
   assert.match(listHtml, /data-testid="product-image"/);
   assert.match(listHtml, /data-testid="product-old-price"/);
   assert.match(listHtml, /No reviews yet/);
+  const listNextLink = paginationNextLink(listHtml, 'product page 1');
+  assert.doesNotMatch(listNextLink, /\baria-disabled=/);
+  assert.match(listNextLink, new RegExp(`\\shref="${expectedPrefix}scenarios/ecommerce/products/page/2/"`));
 
   for (const page of Array.from({ length: expectedProductPageCount - 1 }, (_, index) => index + 2)) {
     const pageHtml = await fs.readFile(path.join(outDir, `scenarios/ecommerce/products/page/${page}/index.html`), 'utf8');
@@ -478,6 +488,15 @@ const validateOutput = async (outDir, basePath) => {
     assert.match(pageHtml, /data-testid="pagination"/);
     assert.match(pageHtml, /data-testid="page-previous"/);
     assert.match(pageHtml, /data-testid="page-next"/);
+    const nextLink = paginationNextLink(pageHtml, `product page ${page}`);
+
+    if (page === expectedProductPageCount) {
+      assert.match(nextLink, /\baria-disabled="true"/);
+      assert.doesNotMatch(nextLink, /\shref=/);
+    } else {
+      assert.doesNotMatch(nextLink, /\baria-disabled=/);
+      assert.match(nextLink, new RegExp(`\\shref="${expectedPrefix}scenarios/ecommerce/products/page/${page + 1}/"`));
+    }
   }
 
   const scenariosHtml = await fs.readFile(path.join(outDir, 'scenarios/index.html'), 'utf8');
@@ -731,11 +750,17 @@ const validateOutput = async (outDir, basePath) => {
     assert.equal(countMatches(categoryHtml, /data-testid="product-card"/g), categoryPageSize);
     assert.match(categoryHtml, /data-testid="pagination"/);
     assert.match(categoryHtml, /data-testid="page-next"/);
+    const categoryNextLink = paginationNextLink(categoryHtml, `${category.id} category page 1`);
+    assert.doesNotMatch(categoryNextLink, /\baria-disabled=/);
+    assert.match(categoryNextLink, new RegExp(`\\shref="${expectedPrefix}scenarios/ecommerce/categories/${category.id}/page/2/"`));
     assert.match(categoryPage2Html, new RegExp(`data-testid="category-header"[^>]*data-category="${category.id}"`));
     assert.match(categoryPage2Html, new RegExp(`${totalCategoryProducts} products`));
     assert.equal(countMatches(categoryPage2Html, /data-testid="product-card"/g), page2Products);
     assert.match(categoryPage2Html, /data-testid="pagination"/);
     assert.match(categoryPage2Html, /data-testid="page-previous"/);
+    const categoryPage2NextLink = paginationNextLink(categoryPage2Html, `${category.id} category page 2`);
+    assert.match(categoryPage2NextLink, /\baria-disabled="true"/);
+    assert.doesNotMatch(categoryPage2NextLink, /\shref=/);
   }
 
   const detailHtml = await fs.readFile(path.join(outDir, productPageFile(products[0])), 'utf8');
@@ -816,7 +841,6 @@ const validateOutput = async (outDir, basePath) => {
   assert.doesNotMatch(searchScript, /\/api\/reviews\//, 'search script still fetches product reviews');
   assert.doesNotMatch(searchScript, /mouseenter|mouseleave/, 'search script still contains hover listeners');
 
-  const expectedPrefix = normalizeBase(basePath) === '/' ? '/' : normalizeBase(basePath);
   const apiIndex = JSON.parse(await fs.readFile(path.join(outDir, 'api/products/index.json'), 'utf8'));
 
   for (const page of Array.from({ length: expectedProductPageCount }, (_, index) => index + 1)) {
